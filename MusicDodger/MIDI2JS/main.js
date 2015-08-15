@@ -1,19 +1,16 @@
 
-	console.log(process.argv)
+	//console.log(process.argv)
 	
-	
-	var in_file_loc = '20150327.mid';
-	var out_file_loc = 'song.png';
+	var in_file_loc = '../Assets/Music/MIDI/demo1.mid';
+	//var out_file_loc = 'song.png';
 	if (process.argv.length > 2){
 		in_file_loc = process.argv[2];
 		out_file_loc = process.argv[3];
 	}
 
-
-
 	var track1;
 
-//exports.f = function() {
+	//exports.f = function() {
 
 	var _ = require('underscore');
 
@@ -26,21 +23,29 @@
 
 	var midiSong = fs.readFileSync(in_file_loc, 'binary');
 	var jsonSong = midiConverter.midiToJson(midiSong);
-	fs.writeFileSync('./njs_music_viz/tmp.json', JSON.stringify(jsonSong)); //save a copy
-	var o = require('./tmp.json');
+	fs.writeFileSync('./raw.json', JSON.stringify(jsonSong)); //save a copy
+	var o = require('./raw.json');
 
 	// extracting just notes on/off with velocity from main track 
 	/*
 	but what if we have more than one track??
 	I was creating songs with two tracks in the music_gen program
 	*/ 
-	var n = o.tracks[0]; 
+	var n = o.tracks[4]; 
 	var time_acc = 0;
 	var d = [];
 	var d_obj;
 	var on;
+
 	var min_note = 1000;
 	var max_note = -1000;
+	
+	var min_velocity = 1000;
+	var max_velocity = -1000;
+
+	var tempo = 140;
+
+
 	for (var i = 0; i < n.length; i++) {
 		time_acc += n[i].deltaTime;
 		if (n[i].subtype === "noteOn") {
@@ -51,20 +56,61 @@
 			on = -1;
 		}
 		if (on >= 0) {
+
+			// calculate extrema
 			min_note = _.min([min_note, n[i].noteNumber]);
 			max_note = _.max([max_note, n[i].noteNumber]);
-			d_obj = {
-				time: time_acc,
-				note: n[i].noteNumber,
-				velocity: n[i].velocity,
-				on: on
-			};
-			d.push(d_obj);
+
+			min_velocity = _.min([min_velocity, n[i].velocity]);
+			max_velocity = _.max([max_velocity, n[i].velocity]);
+
+			// let's just store the note_on portion of each note
+			if (on == 1){
+				d_obj = {
+					midi_time: time_acc,
+					actual_time: time_acc/(15360*2*tempo/120),
+
+					note: n[i].noteNumber,
+					normalized_note: n[i].noteNumber,
+
+					velocity: n[i].velocity,
+					normalized_velocity: n[i].velocity,
+					on: on
+				};
+				d.push(d_obj);
+			}
 		}
 	}
-	var track_end_time = _.last(d).time;
-	console.log(min_note + " " + max_note + " " + track_end_time);
+	//var track_end_time = _.last(d).time;
+	console.log(min_note + " " + max_note + " " + min_velocity + " " + max_velocity);
 
+
+	// calculate normalized values
+	for (var i = 0; i < d.length; i++) {
+		
+		console.log("here: " + d[i].note);
+
+		d[i].normalized_note = (d[i].note - min_note)/(max_note - min_note);
+		d[i].normalized_velocity = (d[i].velocity - min_velocity)/(max_velocity - min_velocity);
+
+
+
+	}
+
+
+
+
+	console.log(d);
+
+
+
+
+
+
+
+	// write new formatted js or json file here
+
+	/*
 
 	var Canvas = require('canvas')
   	Image = Canvas.Image
@@ -112,5 +158,7 @@
 		stream.on('data', function(chunk){
 		  out.write(chunk);
 		});
+
+	*/
 
 //};
