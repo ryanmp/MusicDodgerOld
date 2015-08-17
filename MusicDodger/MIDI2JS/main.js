@@ -4,8 +4,8 @@ var fs = require('fs');
 var midiConverter = require('midi-converter');
 
 var file_name = 'demo1';
-var in_file_loc = '../Assets/Music/MIDI/' + file_name + '.mid';
-var out_file_loc = '../Assets/Music/Levels/' + file_name + '.js';
+var in_file_loc = '../Assets/Resources/Music/MIDI/' + file_name + '.mid';
+var out_file_loc = '../Assets/Resources/Music/Levels/' + file_name + '.json';
 var tempo = 140; // can't read this from midifile... rats
 
 // input is a midi file... output is a js file containing one object with:
@@ -87,5 +87,5 @@ for (var t = 1; t < o.tracks.length; t++){ // skip track zero (it's the transpor
 }
 
 // okay "var song" is ready... let's write it to a file
-var as_js_file = "var o = " + JSON.stringify(song) + ";"
-fs.writeFileSync(out_file_loc, as_js_file); //save a copy
+//var as_js_file = "var o = " + JSON.stringify(song) + ";"
+fs.writeFileSync(out_file_loc, JSON.stringify(song)); //save a copy
