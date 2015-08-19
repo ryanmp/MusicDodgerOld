@@ -35,7 +35,14 @@ public class LevelSettings : MonoBehaviour {
 	private List<GameObject> clones = new List<GameObject>();
 	private List<float> fade_in_list = new List<float>();
 
+	public GameObject player;
+	private float player_movement_dir = 0; // 0 = no movement, -1 = left, 1 = right
 
+
+	void Awake() {
+		Application.targetFrameRate = 300;
+	}
+	
 	// Use this for initialization
 	void Start () {
 	
@@ -56,7 +63,7 @@ public class LevelSettings : MonoBehaviour {
 		//Vector3 bottom_left = main_camera.ScreenToWorldPoint(new Vector3(Screen.width,Screen.height,camera_distance));
 
 		bounds = new Vector2(upper_right.x,upper_right.y);
-
+	
 		main_camera.backgroundColor = bg_color;
 
 		audio_source = gameObject.AddComponent<AudioSource>();
@@ -88,7 +95,7 @@ public class LevelSettings : MonoBehaviour {
 		float x_vel = 0.0f;
 		float y_vel = initial_y_velocity;
 		Rigidbody2D rb = clone.GetComponent ("Rigidbody2D") as Rigidbody2D;
-		//rb.velocity = new Vector2(x_vel,y_vel);
+		rb.velocity = new Vector2(x_vel,y_vel);
 
 		// set color
 		SpriteRenderer sr = clone.GetComponent ("SpriteRenderer") as SpriteRenderer;
@@ -97,7 +104,7 @@ public class LevelSettings : MonoBehaviour {
 
 		//sr.color = Color.Lerp(new Color(0.0f,0.0f,0.0f), new Color(0.0f,0.0f,0.0f), 2.0f);
 		Color c = enemy_colors[color_idx];
-		sr.color = new Color(c.r,c.g,c.b,0.5f);
+		sr.color = new Color(c.r,c.g,c.b,0.9f);
 
 		return clone;
 	
@@ -131,24 +138,34 @@ public class LevelSettings : MonoBehaviour {
 
 
 		// phase 2 --- loop through all existant enemies
-
-
-
 		for (int i = 0; i < clones.Count; i++){
-
 			// destroy off screen ones
 			SpriteRenderer sr = clones[i].GetComponent ("SpriteRenderer") as SpriteRenderer;
 			if (!sr.isVisible) {
-
 				Destroy(clones[i]);
 				clones.RemoveAt(i);
-
-
 			}
-
 		}
 
 
+		// phase 3 -- get input and move player
+		for (var i = 0; i < Input.touchCount; ++i) {
+
+			if (Input.GetTouch(i).position.x < Screen.width/2.0f){
+				player_movement_dir = -1.0f;
+			} else {
+				player_movement_dir = 1.0f;
+			}
+
+			if (Input.GetTouch(i).phase == TouchPhase.Ended){
+				Debug.Log ("ended at: " + Input.GetTouch(i).position);
+				player_movement_dir = 0;
+			}
+		}
+
+		Debug.Log (player_movement_dir);
+
+		//Debug.Log (Input.GetAxis("Horizontal"));
 
 
 
