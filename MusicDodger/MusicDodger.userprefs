@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelSettings.cs">
     <Files>
-      <File FileName="Assets/Scripts/LevelSettings.cs" Line="44" Column="3" />
+      <File FileName="Assets/Scripts/LevelSettings.cs" Line="205" Column="3" />
       <File FileName="Assets/Player.cs" Line="15" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
