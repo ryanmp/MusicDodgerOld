@@ -4,6 +4,22 @@ using System.Collections.Generic;
 using SimpleJSON;
 using System.Linq;
 
+/*
+ * todo:
+ * 
+ * add bullet shape and hexagon (so every track can have a unique shape!)
+ * each enemy has a torque param (just apply to squares and hexagons!)
+ * add in the x_vel param for each enemy
+ * add in possibility of collision of walls for some enemy types (probably just the circle!)
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+
+
 public class LevelSettings : MonoBehaviour {
 
 	public GameObject[] enemy_prefabs;
@@ -38,7 +54,13 @@ public class LevelSettings : MonoBehaviour {
 	public GameObject player;
 	private float player_movement_dir = 0; // 0 = no movement, -1 = left, 1 = right
 
+	public GameObject bg_container;
 
+	public GameObject[] bgs;
+	
+	public float[] transition_times = {5.0f,10.0f,20.0f};
+	public float transition_duration = 1.0f;
+	
 	void Awake() {
 		Application.targetFrameRate = 300;
 	}
@@ -63,6 +85,8 @@ public class LevelSettings : MonoBehaviour {
 		//Vector3 bottom_left = main_camera.ScreenToWorldPoint(new Vector3(Screen.width,Screen.height,camera_distance));
 
 		bounds = new Vector2(upper_right.x,upper_right.y);
+
+		Debug.Log (bounds);
 	
 		main_camera.backgroundColor = bg_color;
 
@@ -70,6 +94,11 @@ public class LevelSettings : MonoBehaviour {
 		audio_source.clip = song_audio;
 		audio_source.volume = 0.1f;
 		audio_source.PlayScheduled(AudioSettings.dspTime + initial_delay); // 2 second delay
+
+
+		// set background size to fill screen
+
+		bg_container.transform.localScale = new Vector3(bounds.x/5.6f,bounds.y/5.6f,1.0f);
 
 
 
@@ -97,24 +126,33 @@ public class LevelSettings : MonoBehaviour {
 		Rigidbody2D rb = clone.GetComponent ("Rigidbody2D") as Rigidbody2D;
 		rb.velocity = new Vector2(x_vel,y_vel);
 
+		rb.angularVelocity = (note-0.5f)*100f;
+
 		// set color
 		SpriteRenderer sr = clone.GetComponent ("SpriteRenderer") as SpriteRenderer;
-		int color_idx = i%enemy_colors.Length;
+		//int color_idx = i%enemy_colors.Length;
+		int color_idx = 0;
 		//sr.color = enemy_colors[color_idx];
 
 		//sr.color = Color.Lerp(new Color(0.0f,0.0f,0.0f), new Color(0.0f,0.0f,0.0f), 2.0f);
 		Color c = enemy_colors[color_idx];
-		sr.color = new Color(c.r,c.g,c.b,0.9f);
+		sr.color = new Color(c.r,c.g,c.b,0.7f);
 
 		return clone;
 	
 
 	}
-	
+
+
+
+
 
 	void Update () {
 
-		//Debug.Log (clones.Count);
+		ColorFades();
+
+
+
 
 
 		// phase 1 --- spawn enemies
@@ -140,11 +178,13 @@ public class LevelSettings : MonoBehaviour {
 		// phase 2 --- loop through all existant enemies
 		for (int i = 0; i < clones.Count; i++){
 			// destroy off screen ones
+			/*
 			SpriteRenderer sr = clones[i].GetComponent ("SpriteRenderer") as SpriteRenderer;
 			if (!sr.isVisible) {
 				Destroy(clones[i]);
 				clones.RemoveAt(i);
 			}
+			*/
 		}
 
 
@@ -158,21 +198,47 @@ public class LevelSettings : MonoBehaviour {
 			}
 
 			if (Input.GetTouch(i).phase == TouchPhase.Ended){
-				Debug.Log ("ended at: " + Input.GetTouch(i).position);
+				//Debug.Log ("ended at: " + Input.GetTouch(i).position);
 				player_movement_dir = 0;
 			}
 		}
 
-		Debug.Log (player_movement_dir);
-
+		//Debug.Log (player_movement_dir);
 		//Debug.Log (Input.GetAxis("Horizontal"));
 
-
-
-
-
-
-
-
 	}
+
+
+
+
+	void ColorFades(){
+
+		SpriteRenderer bg2_sr = bgs[1].GetComponent ("SpriteRenderer") as SpriteRenderer;
+		float start_fade_at = transition_times[0] + initial_delay;
+		float end_fade_at = transition_times[0] + initial_delay + transition_duration;
+		if (Time.timeSinceLevelLoad > start_fade_at && Time.timeSinceLevelLoad < end_fade_at){
+			float this_t = (Time.timeSinceLevelLoad-start_fade_at)/transition_duration;
+			Debug.Log (this_t);
+			// fade in bg2
+			float alpha = Mathf.Lerp(0,1,this_t);
+			bg2_sr.color = new Color(1.0f, 1.0f, 1.0f, alpha);
+		}
+
+
+		SpriteRenderer bg3_sr = bgs[2].GetComponent ("SpriteRenderer") as SpriteRenderer;
+		start_fade_at = transition_times[1] + initial_delay;
+		end_fade_at = transition_times[1] + initial_delay + transition_duration;
+		if (Time.timeSinceLevelLoad > start_fade_at && Time.timeSinceLevelLoad < end_fade_at){
+			float this_t = (Time.timeSinceLevelLoad-start_fade_at)/transition_duration;
+			Debug.Log (this_t);
+			// fade in bg2
+			float alpha = Mathf.Lerp(0,1,this_t);
+			bg3_sr.color = new Color(1.0f, 1.0f, 1.0f, alpha);
+		}
+		
+		
+	}
+
+
+
 }
