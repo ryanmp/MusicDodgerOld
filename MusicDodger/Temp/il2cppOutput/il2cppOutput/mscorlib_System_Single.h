@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Single
-struct  Single_t75 
+struct  Single_t78 
 {
 	// System.Single System.Single::m_value
 	float ___m_value_7;

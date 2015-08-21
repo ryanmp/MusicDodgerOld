@@ -3,6 +3,6 @@
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.GameObject
-struct  GameObject_t61  : public Object_t66
+struct  GameObject_t58  : public Object_t71
 {
 };

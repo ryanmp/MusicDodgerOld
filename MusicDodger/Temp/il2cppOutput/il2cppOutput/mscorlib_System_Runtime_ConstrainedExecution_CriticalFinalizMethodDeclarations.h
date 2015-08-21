@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-struct CriticalFinalizerObject_t1094;
+struct CriticalFinalizerObject_t1096;
 
 // System.Void System.Runtime.ConstrainedExecution.CriticalFinalizerObject::.ctor()
-extern "C" void CriticalFinalizerObject__ctor_m6361 (CriticalFinalizerObject_t1094 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CriticalFinalizerObject__ctor_m6372 (CriticalFinalizerObject_t1096 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.ConstrainedExecution.CriticalFinalizerObject::Finalize()
-extern "C" void CriticalFinalizerObject_Finalize_m6362 (CriticalFinalizerObject_t1094 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CriticalFinalizerObject_Finalize_m6373 (CriticalFinalizerObject_t1096 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

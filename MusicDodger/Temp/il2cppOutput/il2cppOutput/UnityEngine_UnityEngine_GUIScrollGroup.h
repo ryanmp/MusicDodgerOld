@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.GUIStyle
-struct GUIStyle_t130;
+struct GUIStyle_t134;
 // UnityEngine.GUILayoutGroup
 #include "UnityEngine_UnityEngine_GUILayoutGroup.h"
 // UnityEngine.GUIScrollGroup
-struct  GUIScrollGroup_t135  : public GUILayoutGroup_t127
+struct  GUIScrollGroup_t139  : public GUILayoutGroup_t131
 {
 	// System.Single UnityEngine.GUIScrollGroup::calcMinWidth
 	float ___calcMinWidth_27;
@@ -28,7 +28,7 @@ struct  GUIScrollGroup_t135  : public GUILayoutGroup_t127
 	// System.Boolean UnityEngine.GUIScrollGroup::needsVerticalScrollbar
 	bool ___needsVerticalScrollbar_36;
 	// UnityEngine.GUIStyle UnityEngine.GUIScrollGroup::horizontalScrollbar
-	GUIStyle_t130 * ___horizontalScrollbar_37;
+	GUIStyle_t134 * ___horizontalScrollbar_37;
 	// UnityEngine.GUIStyle UnityEngine.GUIScrollGroup::verticalScrollbar
-	GUIStyle_t130 * ___verticalScrollbar_38;
+	GUIStyle_t134 * ___verticalScrollbar_38;
 };

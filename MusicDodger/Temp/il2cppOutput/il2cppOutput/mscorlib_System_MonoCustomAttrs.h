@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.Assembly
-struct Assembly_t638;
+struct Assembly_t640;
 // System.Type
 struct Type_t;
 // System.AttributeUsageAttribute
-struct AttributeUsageAttribute_t817;
+struct AttributeUsageAttribute_t819;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.MonoCustomAttrs
-struct  MonoCustomAttrs_t1391  : public Object_t
+struct  MonoCustomAttrs_t1393  : public Object_t
 {
 };
-struct MonoCustomAttrs_t1391_StaticFields{
+struct MonoCustomAttrs_t1393_StaticFields{
 	// System.Reflection.Assembly System.MonoCustomAttrs::corlib
-	Assembly_t638 * ___corlib_0;
+	Assembly_t640 * ___corlib_0;
 	// System.Type System.MonoCustomAttrs::AttributeUsageType
 	Type_t * ___AttributeUsageType_1;
 	// System.AttributeUsageAttribute System.MonoCustomAttrs::DefaultAttributeUsage
-	AttributeUsageAttribute_t817 * ___DefaultAttributeUsage_2;
+	AttributeUsageAttribute_t819 * ___DefaultAttributeUsage_2;
 };

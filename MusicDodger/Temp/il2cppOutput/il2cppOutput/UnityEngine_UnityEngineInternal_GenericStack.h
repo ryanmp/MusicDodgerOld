@@ -3,6 +3,6 @@
 // System.Collections.Stack
 #include "mscorlib_System_Collections_Stack.h"
 // UnityEngineInternal.GenericStack
-struct  GenericStack_t123  : public Stack_t339
+struct  GenericStack_t127  : public Stack_t341
 {
 };

@@ -5,7 +5,7 @@
 // UnityEngine.TextureFormat
 #include "UnityEngine_UnityEngine_TextureFormat.h"
 // UnityEngine.TextureFormat
-struct  TextureFormat_t297 
+struct  TextureFormat_t299 
 {
 	// System.Int32 UnityEngine.TextureFormat::value__
 	int32_t ___value___1;

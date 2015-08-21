@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.RectTransform
-struct RectTransform_t161;
+struct RectTransform_t164;
 // System.IAsyncResult
-struct IAsyncResult_t118;
+struct IAsyncResult_t122;
 // System.AsyncCallback
-struct AsyncCallback_t119;
+struct AsyncCallback_t123;
 // System.Object
 struct Object_t;
 // System.Void
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.RectTransform/ReapplyDrivenProperties
-struct  ReapplyDrivenProperties_t162  : public MulticastDelegate_t121
+struct  ReapplyDrivenProperties_t165  : public MulticastDelegate_t125
 {
 };

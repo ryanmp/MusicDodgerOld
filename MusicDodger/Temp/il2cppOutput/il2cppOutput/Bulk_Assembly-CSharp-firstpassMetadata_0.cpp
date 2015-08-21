@@ -110,29 +110,29 @@ static const EncodedMethodIndex JSONBinaryTag_t1_VTable[23] =
 	168,
 	169,
 };
-extern const Il2CppType IFormattable_t1462_0_0_0;
-extern const Il2CppType IConvertible_t1465_0_0_0;
-extern const Il2CppType IComparable_t1464_0_0_0;
+extern const Il2CppType IFormattable_t1464_0_0_0;
+extern const Il2CppType IConvertible_t1467_0_0_0;
+extern const Il2CppType IComparable_t1466_0_0_0;
 static Il2CppInterfaceOffsetPair JSONBinaryTag_t1_InterfacesOffsets[] = 
 {
-	{ &IFormattable_t1462_0_0_0, 4},
-	{ &IConvertible_t1465_0_0_0, 5},
-	{ &IComparable_t1464_0_0_0, 21},
+	{ &IFormattable_t1464_0_0_0, 4},
+	{ &IConvertible_t1467_0_0_0, 5},
+	{ &IComparable_t1466_0_0_0, 21},
 };
 extern Il2CppImage g_AssemblyU2DCSharpU2Dfirstpass_dll_Image;
 extern const Il2CppType JSONBinaryTag_t1_0_0_0;
 extern const Il2CppType JSONBinaryTag_t1_1_0_0;
-extern const Il2CppType Enum_t372_0_0_0;
+extern const Il2CppType Enum_t374_0_0_0;
 // System.Int32
 #include "mscorlib_System_Int32.h"
-extern TypeInfo Int32_t67_il2cpp_TypeInfo;
+extern TypeInfo Int32_t72_il2cpp_TypeInfo;
 const Il2CppTypeDefinitionMetadata JSONBinaryTag_t1_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, JSONBinaryTag_t1_InterfacesOffsets/* interfaceOffsets */
-	, &Enum_t372_0_0_0/* parent */
+	, &Enum_t374_0_0_0/* parent */
 	, JSONBinaryTag_t1_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, 0/* fieldStart */
@@ -148,7 +148,7 @@ TypeInfo JSONBinaryTag_t1_il2cpp_TypeInfo =
 	, "JSONBinaryTag"/* name */
 	, "SimpleJSON"/* namespaze */
 	, NULL/* methods */
-	, &Int32_t67_il2cpp_TypeInfo/* element_class */
+	, &Int32_t72_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
 	, &JSONBinaryTag_t1_0_0_0/* byval_arg */
@@ -334,14 +334,14 @@ extern const Il2CppType IEnumerable_1_t22_0_0_0;
 extern const Il2CppType IEnumerator_1_t4_0_0_0;
 extern const Il2CppType IDisposable_t28_0_0_0;
 extern const Il2CppType IEnumerator_t21_0_0_0;
-extern const Il2CppType IEnumerable_t369_0_0_0;
+extern const Il2CppType IEnumerable_t371_0_0_0;
 static const Il2CppType* U3CU3Ec__Iterator0_t3_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_1_t22_0_0_0,
 	&IEnumerator_1_t4_0_0_0,
 	&IDisposable_t28_0_0_0,
 	&IEnumerator_t21_0_0_0,
-	&IEnumerable_t369_0_0_0,
+	&IEnumerable_t371_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CU3Ec__Iterator0_t3_InterfacesOffsets[] = 
 {
@@ -349,7 +349,7 @@ static Il2CppInterfaceOffsetPair U3CU3Ec__Iterator0_t3_InterfacesOffsets[] =
 	{ &IEnumerator_1_t4_0_0_0, 5},
 	{ &IDisposable_t28_0_0_0, 6},
 	{ &IEnumerator_t21_0_0_0, 7},
-	{ &IEnumerable_t369_0_0_0, 9},
+	{ &IEnumerable_t371_0_0_0, 9},
 };
 extern Il2CppImage g_AssemblyU2DCSharpU2Dfirstpass_dll_Image;
 extern const Il2CppType U3CU3Ec__Iterator0_t3_1_0_0;
@@ -447,7 +447,7 @@ static const Il2CppType* U3CU3Ec__Iterator1_t5_InterfacesTypeInfos[] =
 	&IEnumerator_1_t4_0_0_0,
 	&IDisposable_t28_0_0_0,
 	&IEnumerator_t21_0_0_0,
-	&IEnumerable_t369_0_0_0,
+	&IEnumerable_t371_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CU3Ec__Iterator1_t5_InterfacesOffsets[] = 
 {
@@ -455,7 +455,7 @@ static Il2CppInterfaceOffsetPair U3CU3Ec__Iterator1_t5_InterfacesOffsets[] =
 	{ &IEnumerator_1_t4_0_0_0, 5},
 	{ &IDisposable_t28_0_0_0, 6},
 	{ &IEnumerator_t21_0_0_0, 7},
-	{ &IEnumerable_t369_0_0_0, 9},
+	{ &IEnumerable_t371_0_0_0, 9},
 };
 extern Il2CppImage g_AssemblyU2DCSharpU2Dfirstpass_dll_Image;
 extern const Il2CppType U3CU3Ec__Iterator1_t5_1_0_0;
@@ -575,11 +575,11 @@ static const EncodedMethodIndex JSONArray_t6_VTable[30] =
 };
 static const Il2CppType* JSONArray_t6_InterfacesTypeInfos[] = 
 {
-	&IEnumerable_t369_0_0_0,
+	&IEnumerable_t371_0_0_0,
 };
 static Il2CppInterfaceOffsetPair JSONArray_t6_InterfacesOffsets[] = 
 {
-	{ &IEnumerable_t369_0_0_0, 29},
+	{ &IEnumerable_t371_0_0_0, 29},
 };
 extern Il2CppImage g_AssemblyU2DCSharpU2Dfirstpass_dll_Image;
 extern const Il2CppType JSONArray_t6_0_0_0;
@@ -678,7 +678,7 @@ static const Il2CppType* U3CU3Ec__Iterator2_t7_InterfacesTypeInfos[] =
 	&IEnumerator_1_t4_0_0_0,
 	&IDisposable_t28_0_0_0,
 	&IEnumerator_t21_0_0_0,
-	&IEnumerable_t369_0_0_0,
+	&IEnumerable_t371_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CU3Ec__Iterator2_t7_InterfacesOffsets[] = 
 {
@@ -686,7 +686,7 @@ static Il2CppInterfaceOffsetPair U3CU3Ec__Iterator2_t7_InterfacesOffsets[] =
 	{ &IEnumerator_1_t4_0_0_0, 5},
 	{ &IDisposable_t28_0_0_0, 6},
 	{ &IEnumerator_t21_0_0_0, 7},
-	{ &IEnumerable_t369_0_0_0, 9},
+	{ &IEnumerable_t371_0_0_0, 9},
 };
 extern Il2CppImage g_AssemblyU2DCSharpU2Dfirstpass_dll_Image;
 extern const Il2CppType U3CU3Ec__Iterator2_t7_1_0_0;
@@ -776,16 +776,16 @@ static const EncodedMethodIndex U3CGetEnumeratorU3Ec__Iterator3_t9_VTable[9] =
 	238,
 	239,
 };
-extern const Il2CppType IEnumerator_1_t1802_0_0_0;
+extern const Il2CppType IEnumerator_1_t1804_0_0_0;
 static const Il2CppType* U3CGetEnumeratorU3Ec__Iterator3_t9_InterfacesTypeInfos[] = 
 {
-	&IEnumerator_1_t1802_0_0_0,
+	&IEnumerator_1_t1804_0_0_0,
 	&IDisposable_t28_0_0_0,
 	&IEnumerator_t21_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CGetEnumeratorU3Ec__Iterator3_t9_InterfacesOffsets[] = 
 {
-	{ &IEnumerator_1_t1802_0_0_0, 4},
+	{ &IEnumerator_1_t1804_0_0_0, 4},
 	{ &IDisposable_t28_0_0_0, 5},
 	{ &IEnumerator_t21_0_0_0, 6},
 };
@@ -909,11 +909,11 @@ static const EncodedMethodIndex JSONClass_t11_VTable[30] =
 };
 static const Il2CppType* JSONClass_t11_InterfacesTypeInfos[] = 
 {
-	&IEnumerable_t369_0_0_0,
+	&IEnumerable_t371_0_0_0,
 };
 static Il2CppInterfaceOffsetPair JSONClass_t11_InterfacesOffsets[] = 
 {
-	{ &IEnumerable_t369_0_0_0, 29},
+	{ &IEnumerable_t371_0_0_0, 29},
 };
 extern Il2CppImage g_AssemblyU2DCSharpU2Dfirstpass_dll_Image;
 extern const Il2CppType JSONClass_t11_0_0_0;
@@ -1012,7 +1012,7 @@ static const Il2CppType* U3CU3Ec__Iterator4_t12_InterfacesTypeInfos[] =
 	&IEnumerator_1_t4_0_0_0,
 	&IDisposable_t28_0_0_0,
 	&IEnumerator_t21_0_0_0,
-	&IEnumerable_t369_0_0_0,
+	&IEnumerable_t371_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CU3Ec__Iterator4_t12_InterfacesOffsets[] = 
 {
@@ -1020,7 +1020,7 @@ static Il2CppInterfaceOffsetPair U3CU3Ec__Iterator4_t12_InterfacesOffsets[] =
 	{ &IEnumerator_1_t4_0_0_0, 5},
 	{ &IDisposable_t28_0_0_0, 6},
 	{ &IEnumerator_t21_0_0_0, 7},
-	{ &IEnumerable_t369_0_0_0, 9},
+	{ &IEnumerable_t371_0_0_0, 9},
 };
 extern Il2CppImage g_AssemblyU2DCSharpU2Dfirstpass_dll_Image;
 extern const Il2CppType U3CU3Ec__Iterator4_t12_1_0_0;
@@ -1112,13 +1112,13 @@ static const EncodedMethodIndex U3CGetEnumeratorU3Ec__Iterator5_t15_VTable[9] =
 };
 static const Il2CppType* U3CGetEnumeratorU3Ec__Iterator5_t15_InterfacesTypeInfos[] = 
 {
-	&IEnumerator_1_t1802_0_0_0,
+	&IEnumerator_1_t1804_0_0_0,
 	&IDisposable_t28_0_0_0,
 	&IEnumerator_t21_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CGetEnumeratorU3Ec__Iterator5_t15_InterfacesOffsets[] = 
 {
-	{ &IEnumerator_1_t1802_0_0_0, 4},
+	{ &IEnumerator_1_t1804_0_0_0, 4},
 	{ &IDisposable_t28_0_0_0, 5},
 	{ &IEnumerator_t21_0_0_0, 6},
 };

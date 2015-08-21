@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Globalization.Unicode.SimpleCollator/ExtenderType
-struct ExtenderType_t869;
+struct ExtenderType_t871;
 

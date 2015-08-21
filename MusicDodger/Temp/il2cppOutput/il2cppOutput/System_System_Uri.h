@@ -5,15 +5,15 @@ struct String_t;
 // System.String[]
 struct StringU5BU5D_t45;
 // System.Uri/UriScheme[]
-struct UriSchemeU5BU5D_t609;
+struct UriSchemeU5BU5D_t611;
 // System.UriParser
-struct UriParser_t606;
+struct UriParser_t608;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t150;
+struct Dictionary_2_t154;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Uri
-struct  Uri_t253  : public Object_t
+struct  Uri_t255  : public Object_t
 {
 	// System.Boolean System.Uri::isUnixFilePath
 	bool ___isUnixFilePath_1;
@@ -52,9 +52,9 @@ struct  Uri_t253  : public Object_t
 	// System.Int32 System.Uri::cachedHashCode
 	int32_t ___cachedHashCode_18;
 	// System.UriParser System.Uri::parser
-	UriParser_t606 * ___parser_32;
+	UriParser_t608 * ___parser_32;
 };
-struct Uri_t253_StaticFields{
+struct Uri_t255_StaticFields{
 	// System.String System.Uri::hexUpperChars
 	String_t* ___hexUpperChars_19;
 	// System.String System.Uri::SchemeDelimiter
@@ -80,15 +80,15 @@ struct Uri_t253_StaticFields{
 	// System.String System.Uri::UriSchemeNetTcp
 	String_t* ___UriSchemeNetTcp_30;
 	// System.Uri/UriScheme[] System.Uri::schemes
-	UriSchemeU5BU5D_t609* ___schemes_31;
+	UriSchemeU5BU5D_t611* ___schemes_31;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map12
-	Dictionary_2_t150 * ___U3CU3Ef__switchU24map12_33;
+	Dictionary_2_t154 * ___U3CU3Ef__switchU24map12_33;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map13
-	Dictionary_2_t150 * ___U3CU3Ef__switchU24map13_34;
+	Dictionary_2_t154 * ___U3CU3Ef__switchU24map13_34;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map14
-	Dictionary_2_t150 * ___U3CU3Ef__switchU24map14_35;
+	Dictionary_2_t154 * ___U3CU3Ef__switchU24map14_35;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map15
-	Dictionary_2_t150 * ___U3CU3Ef__switchU24map15_36;
+	Dictionary_2_t154 * ___U3CU3Ef__switchU24map15_36;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map16
-	Dictionary_2_t150 * ___U3CU3Ef__switchU24map16_37;
+	Dictionary_2_t154 * ___U3CU3Ef__switchU24map16_37;
 };

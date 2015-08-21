@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Permissions.StrongNamePublicKeyBlob
-struct StrongNamePublicKeyBlob_t1277;
+struct StrongNamePublicKeyBlob_t1279;
 // System.String
 struct String_t;
 // System.Version
-struct Version_t478;
+struct Version_t480;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Policy.StrongName
-struct  StrongName_t1282  : public Object_t
+struct  StrongName_t1284  : public Object_t
 {
 	// System.Security.Permissions.StrongNamePublicKeyBlob System.Security.Policy.StrongName::publickey
-	StrongNamePublicKeyBlob_t1277 * ___publickey_0;
+	StrongNamePublicKeyBlob_t1279 * ___publickey_0;
 	// System.String System.Security.Policy.StrongName::name
 	String_t* ___name_1;
 	// System.Version System.Security.Policy.StrongName::version
-	Version_t478 * ___version_2;
+	Version_t480 * ___version_2;
 };

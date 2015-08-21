@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Emit.OpCode
-struct OpCode_t1028;
+struct OpCode_t1030;
 // System.String
 struct String_t;
 // System.Object
@@ -14,18 +14,18 @@ struct Object_t;
 #include "mscorlib_System_Reflection_Emit_StackBehaviour.h"
 
 // System.Void System.Reflection.Emit.OpCode::.ctor(System.Int32,System.Int32)
-extern "C" void OpCode__ctor_m5961 (OpCode_t1028 * __this, int32_t ___p, int32_t ___q, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OpCode__ctor_m5972 (OpCode_t1030 * __this, int32_t ___p, int32_t ___q, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.Emit.OpCode::GetHashCode()
-extern "C" int32_t OpCode_GetHashCode_m5962 (OpCode_t1028 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t OpCode_GetHashCode_m5973 (OpCode_t1030 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.OpCode::Equals(System.Object)
-extern "C" bool OpCode_Equals_m5963 (OpCode_t1028 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool OpCode_Equals_m5974 (OpCode_t1030 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.Emit.OpCode::ToString()
-extern "C" String_t* OpCode_ToString_m5964 (OpCode_t1028 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* OpCode_ToString_m5975 (OpCode_t1030 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.Emit.OpCode::get_Name()
-extern "C" String_t* OpCode_get_Name_m5965 (OpCode_t1028 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* OpCode_get_Name_m5976 (OpCode_t1030 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.Emit.OpCode::get_Size()
-extern "C" int32_t OpCode_get_Size_m5966 (OpCode_t1028 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t OpCode_get_Size_m5977 (OpCode_t1030 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Emit.StackBehaviour System.Reflection.Emit.OpCode::get_StackBehaviourPop()
-extern "C" int32_t OpCode_get_StackBehaviourPop_m5967 (OpCode_t1028 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t OpCode_get_StackBehaviourPop_m5978 (OpCode_t1030 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Emit.StackBehaviour System.Reflection.Emit.OpCode::get_StackBehaviourPush()
-extern "C" int32_t OpCode_get_StackBehaviourPush_m5968 (OpCode_t1028 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t OpCode_get_StackBehaviourPush_m5979 (OpCode_t1030 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

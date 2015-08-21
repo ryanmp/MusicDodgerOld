@@ -5,7 +5,7 @@
 // System.Security.Permissions.SecurityPermissionFlag
 #include "mscorlib_System_Security_Permissions_SecurityPermissionFlag.h"
 // System.Security.Permissions.SecurityPermission
-struct  SecurityPermission_t1274  : public CodeAccessPermission_t1275
+struct  SecurityPermission_t1276  : public CodeAccessPermission_t1277
 {
 	// System.Security.Permissions.SecurityPermissionFlag System.Security.Permissions.SecurityPermission::flags
 	int32_t ___flags_0;

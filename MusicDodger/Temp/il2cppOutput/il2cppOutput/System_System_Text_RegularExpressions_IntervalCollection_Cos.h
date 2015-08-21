@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IAsyncResult
-struct IAsyncResult_t118;
+struct IAsyncResult_t122;
 // System.AsyncCallback
-struct AsyncCallback_t119;
+struct AsyncCallback_t123;
 // System.Object
 struct Object_t;
 // System.Text.RegularExpressions.Interval
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Text.RegularExpressions.IntervalCollection/CostDelegate
-struct  CostDelegate_t581  : public MulticastDelegate_t121
+struct  CostDelegate_t583  : public MulticastDelegate_t125
 {
 };

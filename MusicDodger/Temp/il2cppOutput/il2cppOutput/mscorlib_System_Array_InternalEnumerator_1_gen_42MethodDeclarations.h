@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<UnityEngine.DisallowMultipleComponent>
-struct InternalEnumerator_1_t1718;
+struct InternalEnumerator_1_t1720;
 // System.Object
 struct Object_t;
 // UnityEngine.DisallowMultipleComponent
-struct DisallowMultipleComponent_t283;
+struct DisallowMultipleComponent_t285;
 // System.Array
 struct Array_t;
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.DisallowMultipleComponent>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m11428(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1718 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m8591_gshared)(__this, ___array, method)
+#define InternalEnumerator_1__ctor_m11439(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1720 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m8602_gshared)(__this, ___array, method)
 // System.Object System.Array/InternalEnumerator`1<UnityEngine.DisallowMultipleComponent>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11429(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1718 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m8592_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11440(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1720 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m8603_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.DisallowMultipleComponent>::Dispose()
-#define InternalEnumerator_1_Dispose_m11430(__this, method) (( void (*) (InternalEnumerator_1_t1718 *, const MethodInfo*))InternalEnumerator_1_Dispose_m8593_gshared)(__this, method)
+#define InternalEnumerator_1_Dispose_m11441(__this, method) (( void (*) (InternalEnumerator_1_t1720 *, const MethodInfo*))InternalEnumerator_1_Dispose_m8604_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<UnityEngine.DisallowMultipleComponent>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m11431(__this, method) (( bool (*) (InternalEnumerator_1_t1718 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m8594_gshared)(__this, method)
+#define InternalEnumerator_1_MoveNext_m11442(__this, method) (( bool (*) (InternalEnumerator_1_t1720 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m8605_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<UnityEngine.DisallowMultipleComponent>::get_Current()
-#define InternalEnumerator_1_get_Current_m11432(__this, method) (( DisallowMultipleComponent_t283 * (*) (InternalEnumerator_1_t1718 *, const MethodInfo*))InternalEnumerator_1_get_Current_m8595_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m11443(__this, method) (( DisallowMultipleComponent_t285 * (*) (InternalEnumerator_1_t1720 *, const MethodInfo*))InternalEnumerator_1_get_Current_m8606_gshared)(__this, method)

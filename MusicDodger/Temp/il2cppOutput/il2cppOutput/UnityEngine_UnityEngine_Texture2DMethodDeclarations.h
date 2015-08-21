@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Texture2D
-struct Texture2D_t107;
+struct Texture2D_t111;
 // UnityEngine.TextureFormat
 #include "UnityEngine_UnityEngine_TextureFormat.h"
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.Texture2D::.ctor(System.Int32,System.Int32)
-extern "C" void Texture2D__ctor_m396 (Texture2D_t107 * __this, int32_t ___width, int32_t ___height, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Texture2D__ctor_m406 (Texture2D_t111 * __this, int32_t ___width, int32_t ___height, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Texture2D::Internal_Create(UnityEngine.Texture2D,System.Int32,System.Int32,UnityEngine.TextureFormat,System.Boolean,System.Boolean,System.IntPtr)
-extern "C" void Texture2D_Internal_Create_m397 (Object_t * __this /* static, unused */, Texture2D_t107 * ___mono, int32_t ___width, int32_t ___height, int32_t ___format, bool ___mipmap, bool ___linear, IntPtr_t ___nativeTex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Texture2D_Internal_Create_m407 (Object_t * __this /* static, unused */, Texture2D_t111 * ___mono, int32_t ___width, int32_t ___height, int32_t ___format, bool ___mipmap, bool ___linear, IntPtr_t ___nativeTex, const MethodInfo* method) IL2CPP_METHOD_ATTR;

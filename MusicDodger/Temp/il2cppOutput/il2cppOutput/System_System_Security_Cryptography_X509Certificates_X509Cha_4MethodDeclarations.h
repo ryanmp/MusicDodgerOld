@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.X509ChainPolicy
-struct X509ChainPolicy_t515;
+struct X509ChainPolicy_t517;
 // System.Security.Cryptography.X509Certificates.X509Certificate2Collection
-struct X509Certificate2Collection_t510;
+struct X509Certificate2Collection_t512;
 // System.Security.Cryptography.X509Certificates.X509RevocationFlag
 #include "System_System_Security_Cryptography_X509Certificates_X509Rev.h"
 // System.Security.Cryptography.X509Certificates.X509RevocationMode
@@ -18,16 +18,16 @@ struct X509Certificate2Collection_t510;
 #include "mscorlib_System_DateTime.h"
 
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainPolicy::.ctor()
-extern "C" void X509ChainPolicy__ctor_m1941 (X509ChainPolicy_t515 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainPolicy__ctor_m1952 (X509ChainPolicy_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate2Collection System.Security.Cryptography.X509Certificates.X509ChainPolicy::get_ExtraStore()
-extern "C" X509Certificate2Collection_t510 * X509ChainPolicy_get_ExtraStore_m1942 (X509ChainPolicy_t515 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate2Collection_t512 * X509ChainPolicy_get_ExtraStore_m1953 (X509ChainPolicy_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509RevocationFlag System.Security.Cryptography.X509Certificates.X509ChainPolicy::get_RevocationFlag()
-extern "C" int32_t X509ChainPolicy_get_RevocationFlag_m1943 (X509ChainPolicy_t515 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509ChainPolicy_get_RevocationFlag_m1954 (X509ChainPolicy_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509RevocationMode System.Security.Cryptography.X509Certificates.X509ChainPolicy::get_RevocationMode()
-extern "C" int32_t X509ChainPolicy_get_RevocationMode_m1944 (X509ChainPolicy_t515 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509ChainPolicy_get_RevocationMode_m1955 (X509ChainPolicy_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509VerificationFlags System.Security.Cryptography.X509Certificates.X509ChainPolicy::get_VerificationFlags()
-extern "C" int32_t X509ChainPolicy_get_VerificationFlags_m1945 (X509ChainPolicy_t515 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509ChainPolicy_get_VerificationFlags_m1956 (X509ChainPolicy_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.Security.Cryptography.X509Certificates.X509ChainPolicy::get_VerificationTime()
-extern "C" DateTime_t125  X509ChainPolicy_get_VerificationTime_m1946 (X509ChainPolicy_t515 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t129  X509ChainPolicy_get_VerificationTime_m1957 (X509ChainPolicy_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainPolicy::Reset()
-extern "C" void X509ChainPolicy_Reset_m1947 (X509ChainPolicy_t515 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainPolicy_Reset_m1958 (X509ChainPolicy_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

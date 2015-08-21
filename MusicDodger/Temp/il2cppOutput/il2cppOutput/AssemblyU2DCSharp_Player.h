@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // Player
-struct  Player_t49  : public MonoBehaviour_t50
+struct  Player_t67  : public MonoBehaviour_t52
 {
 };

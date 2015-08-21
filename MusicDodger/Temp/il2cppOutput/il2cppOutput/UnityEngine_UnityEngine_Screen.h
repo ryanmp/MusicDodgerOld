@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Screen
-struct  Screen_t105  : public Object_t
+struct  Screen_t109  : public Object_t
 {
 };

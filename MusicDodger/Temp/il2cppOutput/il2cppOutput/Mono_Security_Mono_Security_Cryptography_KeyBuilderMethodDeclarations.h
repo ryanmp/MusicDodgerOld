@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Cryptography.KeyBuilder
-struct KeyBuilder_t700;
+struct KeyBuilder_t702;
 // System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t662;
+struct RandomNumberGenerator_t664;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 
 // System.Security.Cryptography.RandomNumberGenerator Mono.Security.Cryptography.KeyBuilder::get_Rng()
-extern "C" RandomNumberGenerator_t662 * KeyBuilder_get_Rng_m2848 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RandomNumberGenerator_t664 * KeyBuilder_get_Rng_m2859 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Cryptography.KeyBuilder::Key(System.Int32)
-extern "C" ByteU5BU5D_t36* KeyBuilder_Key_m2849 (Object_t * __this /* static, unused */, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* KeyBuilder_Key_m2860 (Object_t * __this /* static, unused */, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;

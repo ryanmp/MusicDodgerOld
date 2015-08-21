@@ -3,7 +3,7 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.InteropServices.FieldOffsetAttribute
-struct  FieldOffsetAttribute_t843  : public Attribute_t166
+struct  FieldOffsetAttribute_t845  : public Attribute_t169
 {
 	// System.Int32 System.Runtime.InteropServices.FieldOffsetAttribute::val
 	int32_t ___val_0;

@@ -3,6 +3,6 @@
 // System.Text.RegularExpressions.Syntax.CompositeExpression
 #include "System_System_Text_RegularExpressions_Syntax_CompositeExpres.h"
 // System.Text.RegularExpressions.Syntax.Assertion
-struct  Assertion_t594  : public CompositeExpression_t587
+struct  Assertion_t596  : public CompositeExpression_t589
 {
 };

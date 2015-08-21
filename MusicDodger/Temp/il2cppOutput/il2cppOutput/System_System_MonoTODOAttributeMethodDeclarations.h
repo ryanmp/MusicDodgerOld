@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.MonoTODOAttribute
-struct MonoTODOAttribute_t443;
+struct MonoTODOAttribute_t445;
 // System.String
 struct String_t;
 
 // System.Void System.MonoTODOAttribute::.ctor()
-extern "C" void MonoTODOAttribute__ctor_m1604 (MonoTODOAttribute_t443 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoTODOAttribute__ctor_m1615 (MonoTODOAttribute_t445 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MonoTODOAttribute::.ctor(System.String)
-extern "C" void MonoTODOAttribute__ctor_m1605 (MonoTODOAttribute_t443 * __this, String_t* ___comment, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoTODOAttribute__ctor_m1616 (MonoTODOAttribute_t445 * __this, String_t* ___comment, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Reflection.Emit.OpCode
-struct  OpCode_t1028 
+struct  OpCode_t1030 
 {
 	// System.Byte System.Reflection.Emit.OpCode::op1
 	uint8_t ___op1_0;

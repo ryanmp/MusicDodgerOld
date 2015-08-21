@@ -3,6 +3,6 @@
 // System.Threading.WaitHandle
 #include "mscorlib_System_Threading_WaitHandle.h"
 // System.Threading.EventWaitHandle
-struct  EventWaitHandle_t1326  : public WaitHandle_t797
+struct  EventWaitHandle_t1328  : public WaitHandle_t799
 {
 };

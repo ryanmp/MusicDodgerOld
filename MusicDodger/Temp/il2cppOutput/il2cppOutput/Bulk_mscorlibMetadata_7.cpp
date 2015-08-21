@@ -4,58 +4,58 @@
 // System.Threading.Thread
 #include "mscorlib_System_Threading_Thread.h"
 // Metadata Definition System.Threading.Thread
-extern TypeInfo Thread_t1130_il2cpp_TypeInfo;
+extern TypeInfo Thread_t1132_il2cpp_TypeInfo;
 // System.Threading.Thread
 #include "mscorlib_System_Threading_ThreadMethodDeclarations.h"
-static const EncodedMethodIndex Thread_t1130_VTable[4] = 
+static const EncodedMethodIndex Thread_t1132_VTable[4] = 
 {
 	198,
 	3154,
 	3155,
 	200,
 };
-extern const Il2CppType _Thread_t2192_0_0_0;
-static const Il2CppType* Thread_t1130_InterfacesTypeInfos[] = 
+extern const Il2CppType _Thread_t2194_0_0_0;
+static const Il2CppType* Thread_t1132_InterfacesTypeInfos[] = 
 {
-	&_Thread_t2192_0_0_0,
+	&_Thread_t2194_0_0_0,
 };
-static Il2CppInterfaceOffsetPair Thread_t1130_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair Thread_t1132_InterfacesOffsets[] = 
 {
-	{ &_Thread_t2192_0_0_0, 4},
+	{ &_Thread_t2194_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType Thread_t1130_0_0_0;
-extern const Il2CppType Thread_t1130_1_0_0;
-extern const Il2CppType CriticalFinalizerObject_t1094_0_0_0;
-struct Thread_t1130;
-const Il2CppTypeDefinitionMetadata Thread_t1130_DefinitionMetadata = 
+extern const Il2CppType Thread_t1132_0_0_0;
+extern const Il2CppType Thread_t1132_1_0_0;
+extern const Il2CppType CriticalFinalizerObject_t1096_0_0_0;
+struct Thread_t1132;
+const Il2CppTypeDefinitionMetadata Thread_t1132_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, Thread_t1130_InterfacesTypeInfos/* implementedInterfaces */
-	, Thread_t1130_InterfacesOffsets/* interfaceOffsets */
-	, &CriticalFinalizerObject_t1094_0_0_0/* parent */
-	, Thread_t1130_VTable/* vtableMethods */
+	, Thread_t1132_InterfacesTypeInfos/* implementedInterfaces */
+	, Thread_t1132_InterfacesOffsets/* interfaceOffsets */
+	, &CriticalFinalizerObject_t1096_0_0_0/* parent */
+	, Thread_t1132_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5160/* fieldStart */
-	, 8227/* methodStart */
+	, 5172/* fieldStart */
+	, 8238/* methodStart */
 	, -1/* eventStart */
-	, 1655/* propertyStart */
+	, 1656/* propertyStart */
 
 };
-TypeInfo Thread_t1130_il2cpp_TypeInfo = 
+TypeInfo Thread_t1132_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Thread"/* name */
 	, "System.Threading"/* namespaze */
 	, NULL/* methods */
-	, &Thread_t1130_il2cpp_TypeInfo/* element_class */
+	, &Thread_t1132_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1414/* custom_attributes_cache */
-	, &Thread_t1130_0_0_0/* byval_arg */
-	, &Thread_t1130_1_0_0/* this_arg */
-	, &Thread_t1130_DefinitionMetadata/* definitionMetadata */
+	, 1416/* custom_attributes_cache */
+	, &Thread_t1132_0_0_0/* byval_arg */
+	, &Thread_t1132_1_0_0/* this_arg */
+	, &Thread_t1132_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -65,12 +65,12 @@ TypeInfo Thread_t1130_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Thread_t1130)/* instance_size */
-	, sizeof (Thread_t1130)/* actualSize */
+	, sizeof (Thread_t1132)/* instance_size */
+	, sizeof (Thread_t1132)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(Thread_t1130_StaticFields)/* static_fields_size */
-	, sizeof(Thread_t1130_ThreadStaticFields)/* thread_static_fields_size */
+	, sizeof(Thread_t1132_StaticFields)/* static_fields_size */
+	, sizeof(Thread_t1132_ThreadStaticFields)/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048833/* flags */
 	, 0/* rank */
@@ -98,10 +98,10 @@ TypeInfo Thread_t1130_il2cpp_TypeInfo =
 // System.Threading.ThreadAbortException
 #include "mscorlib_System_Threading_ThreadAbortException.h"
 // Metadata Definition System.Threading.ThreadAbortException
-extern TypeInfo ThreadAbortException_t1332_il2cpp_TypeInfo;
+extern TypeInfo ThreadAbortException_t1334_il2cpp_TypeInfo;
 // System.Threading.ThreadAbortException
 #include "mscorlib_System_Threading_ThreadAbortExceptionMethodDeclarations.h"
-static const EncodedMethodIndex ThreadAbortException_t1332_VTable[11] = 
+static const EncodedMethodIndex ThreadAbortException_t1334_VTable[11] = 
 {
 	198,
 	148,
@@ -115,46 +115,46 @@ static const EncodedMethodIndex ThreadAbortException_t1332_VTable[11] =
 	349,
 	354,
 };
-extern const Il2CppType ISerializable_t1482_0_0_0;
-extern const Il2CppType _Exception_t2148_0_0_0;
-static Il2CppInterfaceOffsetPair ThreadAbortException_t1332_InterfacesOffsets[] = 
+extern const Il2CppType ISerializable_t1484_0_0_0;
+extern const Il2CppType _Exception_t2150_0_0_0;
+static Il2CppInterfaceOffsetPair ThreadAbortException_t1334_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ThreadAbortException_t1332_0_0_0;
-extern const Il2CppType ThreadAbortException_t1332_1_0_0;
-extern const Il2CppType SystemException_t655_0_0_0;
-struct ThreadAbortException_t1332;
-const Il2CppTypeDefinitionMetadata ThreadAbortException_t1332_DefinitionMetadata = 
+extern const Il2CppType ThreadAbortException_t1334_0_0_0;
+extern const Il2CppType ThreadAbortException_t1334_1_0_0;
+extern const Il2CppType SystemException_t657_0_0_0;
+struct ThreadAbortException_t1334;
+const Il2CppTypeDefinitionMetadata ThreadAbortException_t1334_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ThreadAbortException_t1332_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, ThreadAbortException_t1332_VTable/* vtableMethods */
+	, ThreadAbortException_t1334_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, ThreadAbortException_t1334_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8257/* methodStart */
+	, 8268/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ThreadAbortException_t1332_il2cpp_TypeInfo = 
+TypeInfo ThreadAbortException_t1334_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ThreadAbortException"/* name */
 	, "System.Threading"/* namespaze */
 	, NULL/* methods */
-	, &ThreadAbortException_t1332_il2cpp_TypeInfo/* element_class */
+	, &ThreadAbortException_t1334_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1424/* custom_attributes_cache */
-	, &ThreadAbortException_t1332_0_0_0/* byval_arg */
-	, &ThreadAbortException_t1332_1_0_0/* this_arg */
-	, &ThreadAbortException_t1332_DefinitionMetadata/* definitionMetadata */
+	, 1426/* custom_attributes_cache */
+	, &ThreadAbortException_t1334_0_0_0/* byval_arg */
+	, &ThreadAbortException_t1334_1_0_0/* this_arg */
+	, &ThreadAbortException_t1334_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -164,8 +164,8 @@ TypeInfo ThreadAbortException_t1332_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ThreadAbortException_t1332)/* instance_size */
-	, sizeof (ThreadAbortException_t1332)/* actualSize */
+	, sizeof (ThreadAbortException_t1334)/* instance_size */
+	, sizeof (ThreadAbortException_t1334)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -197,10 +197,10 @@ TypeInfo ThreadAbortException_t1332_il2cpp_TypeInfo =
 // System.Threading.ThreadInterruptedException
 #include "mscorlib_System_Threading_ThreadInterruptedException.h"
 // Metadata Definition System.Threading.ThreadInterruptedException
-extern TypeInfo ThreadInterruptedException_t1333_il2cpp_TypeInfo;
+extern TypeInfo ThreadInterruptedException_t1335_il2cpp_TypeInfo;
 // System.Threading.ThreadInterruptedException
 #include "mscorlib_System_Threading_ThreadInterruptedExceptionMethodDeclarations.h"
-static const EncodedMethodIndex ThreadInterruptedException_t1333_VTable[11] = 
+static const EncodedMethodIndex ThreadInterruptedException_t1335_VTable[11] = 
 {
 	198,
 	148,
@@ -214,43 +214,43 @@ static const EncodedMethodIndex ThreadInterruptedException_t1333_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair ThreadInterruptedException_t1333_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ThreadInterruptedException_t1335_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ThreadInterruptedException_t1333_0_0_0;
-extern const Il2CppType ThreadInterruptedException_t1333_1_0_0;
-struct ThreadInterruptedException_t1333;
-const Il2CppTypeDefinitionMetadata ThreadInterruptedException_t1333_DefinitionMetadata = 
+extern const Il2CppType ThreadInterruptedException_t1335_0_0_0;
+extern const Il2CppType ThreadInterruptedException_t1335_1_0_0;
+struct ThreadInterruptedException_t1335;
+const Il2CppTypeDefinitionMetadata ThreadInterruptedException_t1335_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ThreadInterruptedException_t1333_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, ThreadInterruptedException_t1333_VTable/* vtableMethods */
+	, ThreadInterruptedException_t1335_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, ThreadInterruptedException_t1335_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8259/* methodStart */
+	, 8270/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ThreadInterruptedException_t1333_il2cpp_TypeInfo = 
+TypeInfo ThreadInterruptedException_t1335_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ThreadInterruptedException"/* name */
 	, "System.Threading"/* namespaze */
 	, NULL/* methods */
-	, &ThreadInterruptedException_t1333_il2cpp_TypeInfo/* element_class */
+	, &ThreadInterruptedException_t1335_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1425/* custom_attributes_cache */
-	, &ThreadInterruptedException_t1333_0_0_0/* byval_arg */
-	, &ThreadInterruptedException_t1333_1_0_0/* this_arg */
-	, &ThreadInterruptedException_t1333_DefinitionMetadata/* definitionMetadata */
+	, 1427/* custom_attributes_cache */
+	, &ThreadInterruptedException_t1335_0_0_0/* byval_arg */
+	, &ThreadInterruptedException_t1335_1_0_0/* this_arg */
+	, &ThreadInterruptedException_t1335_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -260,8 +260,8 @@ TypeInfo ThreadInterruptedException_t1333_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ThreadInterruptedException_t1333)/* instance_size */
-	, sizeof (ThreadInterruptedException_t1333)/* actualSize */
+	, sizeof (ThreadInterruptedException_t1335)/* instance_size */
+	, sizeof (ThreadInterruptedException_t1335)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -293,10 +293,10 @@ TypeInfo ThreadInterruptedException_t1333_il2cpp_TypeInfo =
 // System.Threading.ThreadPool
 #include "mscorlib_System_Threading_ThreadPool.h"
 // Metadata Definition System.Threading.ThreadPool
-extern TypeInfo ThreadPool_t1334_il2cpp_TypeInfo;
+extern TypeInfo ThreadPool_t1336_il2cpp_TypeInfo;
 // System.Threading.ThreadPool
 #include "mscorlib_System_Threading_ThreadPoolMethodDeclarations.h"
-static const EncodedMethodIndex ThreadPool_t1334_VTable[4] = 
+static const EncodedMethodIndex ThreadPool_t1336_VTable[4] = 
 {
 	198,
 	148,
@@ -304,38 +304,38 @@ static const EncodedMethodIndex ThreadPool_t1334_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ThreadPool_t1334_0_0_0;
-extern const Il2CppType ThreadPool_t1334_1_0_0;
+extern const Il2CppType ThreadPool_t1336_0_0_0;
+extern const Il2CppType ThreadPool_t1336_1_0_0;
 extern const Il2CppType Object_t_0_0_0;
-struct ThreadPool_t1334;
-const Il2CppTypeDefinitionMetadata ThreadPool_t1334_DefinitionMetadata = 
+struct ThreadPool_t1336;
+const Il2CppTypeDefinitionMetadata ThreadPool_t1336_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ThreadPool_t1334_VTable/* vtableMethods */
+	, ThreadPool_t1336_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8261/* methodStart */
+	, 8272/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ThreadPool_t1334_il2cpp_TypeInfo = 
+TypeInfo ThreadPool_t1336_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ThreadPool"/* name */
 	, "System.Threading"/* namespaze */
 	, NULL/* methods */
-	, &ThreadPool_t1334_il2cpp_TypeInfo/* element_class */
+	, &ThreadPool_t1336_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ThreadPool_t1334_0_0_0/* byval_arg */
-	, &ThreadPool_t1334_1_0_0/* this_arg */
-	, &ThreadPool_t1334_DefinitionMetadata/* definitionMetadata */
+	, &ThreadPool_t1336_0_0_0/* byval_arg */
+	, &ThreadPool_t1336_1_0_0/* this_arg */
+	, &ThreadPool_t1336_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -345,8 +345,8 @@ TypeInfo ThreadPool_t1334_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ThreadPool_t1334)/* instance_size */
-	, sizeof (ThreadPool_t1334)/* actualSize */
+	, sizeof (ThreadPool_t1336)/* instance_size */
+	, sizeof (ThreadPool_t1336)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -378,10 +378,10 @@ TypeInfo ThreadPool_t1334_il2cpp_TypeInfo =
 // System.Threading.ThreadState
 #include "mscorlib_System_Threading_ThreadState.h"
 // Metadata Definition System.Threading.ThreadState
-extern TypeInfo ThreadState_t1335_il2cpp_TypeInfo;
+extern TypeInfo ThreadState_t1337_il2cpp_TypeInfo;
 // System.Threading.ThreadState
 #include "mscorlib_System_Threading_ThreadStateMethodDeclarations.h"
-static const EncodedMethodIndex ThreadState_t1335_VTable[23] = 
+static const EncodedMethodIndex ThreadState_t1337_VTable[23] = 
 {
 	147,
 	148,
@@ -407,50 +407,50 @@ static const EncodedMethodIndex ThreadState_t1335_VTable[23] =
 	168,
 	169,
 };
-extern const Il2CppType IFormattable_t1462_0_0_0;
-extern const Il2CppType IConvertible_t1465_0_0_0;
-extern const Il2CppType IComparable_t1464_0_0_0;
-static Il2CppInterfaceOffsetPair ThreadState_t1335_InterfacesOffsets[] = 
+extern const Il2CppType IFormattable_t1464_0_0_0;
+extern const Il2CppType IConvertible_t1467_0_0_0;
+extern const Il2CppType IComparable_t1466_0_0_0;
+static Il2CppInterfaceOffsetPair ThreadState_t1337_InterfacesOffsets[] = 
 {
-	{ &IFormattable_t1462_0_0_0, 4},
-	{ &IConvertible_t1465_0_0_0, 5},
-	{ &IComparable_t1464_0_0_0, 21},
+	{ &IFormattable_t1464_0_0_0, 4},
+	{ &IConvertible_t1467_0_0_0, 5},
+	{ &IComparable_t1466_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ThreadState_t1335_0_0_0;
-extern const Il2CppType ThreadState_t1335_1_0_0;
-extern const Il2CppType Enum_t372_0_0_0;
+extern const Il2CppType ThreadState_t1337_0_0_0;
+extern const Il2CppType ThreadState_t1337_1_0_0;
+extern const Il2CppType Enum_t374_0_0_0;
 // System.Int32
 #include "mscorlib_System_Int32.h"
-extern TypeInfo Int32_t67_il2cpp_TypeInfo;
-const Il2CppTypeDefinitionMetadata ThreadState_t1335_DefinitionMetadata = 
+extern TypeInfo Int32_t72_il2cpp_TypeInfo;
+const Il2CppTypeDefinitionMetadata ThreadState_t1337_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ThreadState_t1335_InterfacesOffsets/* interfaceOffsets */
-	, &Enum_t372_0_0_0/* parent */
-	, ThreadState_t1335_VTable/* vtableMethods */
+	, ThreadState_t1337_InterfacesOffsets/* interfaceOffsets */
+	, &Enum_t374_0_0_0/* parent */
+	, ThreadState_t1337_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5212/* fieldStart */
+	, 5224/* fieldStart */
 	, -1/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ThreadState_t1335_il2cpp_TypeInfo = 
+TypeInfo ThreadState_t1337_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ThreadState"/* name */
 	, "System.Threading"/* namespaze */
 	, NULL/* methods */
-	, &Int32_t67_il2cpp_TypeInfo/* element_class */
+	, &Int32_t72_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1426/* custom_attributes_cache */
-	, &ThreadState_t1335_0_0_0/* byval_arg */
-	, &ThreadState_t1335_1_0_0/* this_arg */
-	, &ThreadState_t1335_DefinitionMetadata/* definitionMetadata */
+	, 1428/* custom_attributes_cache */
+	, &ThreadState_t1337_0_0_0/* byval_arg */
+	, &ThreadState_t1337_1_0_0/* this_arg */
+	, &ThreadState_t1337_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -460,8 +460,8 @@ TypeInfo ThreadState_t1335_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ThreadState_t1335)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (ThreadState_t1335)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (ThreadState_t1337)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (ThreadState_t1337)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -493,10 +493,10 @@ TypeInfo ThreadState_t1335_il2cpp_TypeInfo =
 // System.Threading.ThreadStateException
 #include "mscorlib_System_Threading_ThreadStateException.h"
 // Metadata Definition System.Threading.ThreadStateException
-extern TypeInfo ThreadStateException_t1336_il2cpp_TypeInfo;
+extern TypeInfo ThreadStateException_t1338_il2cpp_TypeInfo;
 // System.Threading.ThreadStateException
 #include "mscorlib_System_Threading_ThreadStateExceptionMethodDeclarations.h"
-static const EncodedMethodIndex ThreadStateException_t1336_VTable[11] = 
+static const EncodedMethodIndex ThreadStateException_t1338_VTable[11] = 
 {
 	198,
 	148,
@@ -510,43 +510,43 @@ static const EncodedMethodIndex ThreadStateException_t1336_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair ThreadStateException_t1336_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ThreadStateException_t1338_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ThreadStateException_t1336_0_0_0;
-extern const Il2CppType ThreadStateException_t1336_1_0_0;
-struct ThreadStateException_t1336;
-const Il2CppTypeDefinitionMetadata ThreadStateException_t1336_DefinitionMetadata = 
+extern const Il2CppType ThreadStateException_t1338_0_0_0;
+extern const Il2CppType ThreadStateException_t1338_1_0_0;
+struct ThreadStateException_t1338;
+const Il2CppTypeDefinitionMetadata ThreadStateException_t1338_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ThreadStateException_t1336_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, ThreadStateException_t1336_VTable/* vtableMethods */
+	, ThreadStateException_t1338_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, ThreadStateException_t1338_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8262/* methodStart */
+	, 8273/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ThreadStateException_t1336_il2cpp_TypeInfo = 
+TypeInfo ThreadStateException_t1338_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ThreadStateException"/* name */
 	, "System.Threading"/* namespaze */
 	, NULL/* methods */
-	, &ThreadStateException_t1336_il2cpp_TypeInfo/* element_class */
+	, &ThreadStateException_t1338_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1427/* custom_attributes_cache */
-	, &ThreadStateException_t1336_0_0_0/* byval_arg */
-	, &ThreadStateException_t1336_1_0_0/* this_arg */
-	, &ThreadStateException_t1336_DefinitionMetadata/* definitionMetadata */
+	, 1429/* custom_attributes_cache */
+	, &ThreadStateException_t1338_0_0_0/* byval_arg */
+	, &ThreadStateException_t1338_1_0_0/* this_arg */
+	, &ThreadStateException_t1338_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -556,8 +556,8 @@ TypeInfo ThreadStateException_t1336_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ThreadStateException_t1336)/* instance_size */
-	, sizeof (ThreadStateException_t1336)/* actualSize */
+	, sizeof (ThreadStateException_t1338)/* instance_size */
+	, sizeof (ThreadStateException_t1338)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -589,17 +589,17 @@ TypeInfo ThreadStateException_t1336_il2cpp_TypeInfo =
 // System.Threading.Timer
 #include "mscorlib_System_Threading_Timer.h"
 // Metadata Definition System.Threading.Timer
-extern TypeInfo Timer_t1132_il2cpp_TypeInfo;
+extern TypeInfo Timer_t1134_il2cpp_TypeInfo;
 // System.Threading.Timer
 #include "mscorlib_System_Threading_TimerMethodDeclarations.h"
-extern const Il2CppType TimerComparer_t1337_0_0_0;
-extern const Il2CppType Scheduler_t1338_0_0_0;
-static const Il2CppType* Timer_t1132_il2cpp_TypeInfo__nestedTypes[2] =
+extern const Il2CppType TimerComparer_t1339_0_0_0;
+extern const Il2CppType Scheduler_t1340_0_0_0;
+static const Il2CppType* Timer_t1134_il2cpp_TypeInfo__nestedTypes[2] =
 {
-	&TimerComparer_t1337_0_0_0,
-	&Scheduler_t1338_0_0_0,
+	&TimerComparer_t1339_0_0_0,
+	&Scheduler_t1340_0_0_0,
 };
-static const EncodedMethodIndex Timer_t1132_VTable[5] = 
+static const EncodedMethodIndex Timer_t1134_VTable[5] = 
 {
 	198,
 	148,
@@ -608,47 +608,47 @@ static const EncodedMethodIndex Timer_t1132_VTable[5] =
 	3156,
 };
 extern const Il2CppType IDisposable_t28_0_0_0;
-static const Il2CppType* Timer_t1132_InterfacesTypeInfos[] = 
+static const Il2CppType* Timer_t1134_InterfacesTypeInfos[] = 
 {
 	&IDisposable_t28_0_0_0,
 };
-static Il2CppInterfaceOffsetPair Timer_t1132_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair Timer_t1134_InterfacesOffsets[] = 
 {
 	{ &IDisposable_t28_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType Timer_t1132_0_0_0;
-extern const Il2CppType Timer_t1132_1_0_0;
-extern const Il2CppType MarshalByRefObject_t494_0_0_0;
-struct Timer_t1132;
-const Il2CppTypeDefinitionMetadata Timer_t1132_DefinitionMetadata = 
+extern const Il2CppType Timer_t1134_0_0_0;
+extern const Il2CppType Timer_t1134_1_0_0;
+extern const Il2CppType MarshalByRefObject_t496_0_0_0;
+struct Timer_t1134;
+const Il2CppTypeDefinitionMetadata Timer_t1134_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, Timer_t1132_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
-	, Timer_t1132_InterfacesTypeInfos/* implementedInterfaces */
-	, Timer_t1132_InterfacesOffsets/* interfaceOffsets */
-	, &MarshalByRefObject_t494_0_0_0/* parent */
-	, Timer_t1132_VTable/* vtableMethods */
+	, Timer_t1134_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, Timer_t1134_InterfacesTypeInfos/* implementedInterfaces */
+	, Timer_t1134_InterfacesOffsets/* interfaceOffsets */
+	, &MarshalByRefObject_t496_0_0_0/* parent */
+	, Timer_t1134_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5223/* fieldStart */
-	, 8264/* methodStart */
+	, 5235/* fieldStart */
+	, 8275/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo Timer_t1132_il2cpp_TypeInfo = 
+TypeInfo Timer_t1134_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Timer"/* name */
 	, "System.Threading"/* namespaze */
 	, NULL/* methods */
-	, &Timer_t1132_il2cpp_TypeInfo/* element_class */
+	, &Timer_t1134_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1428/* custom_attributes_cache */
-	, &Timer_t1132_0_0_0/* byval_arg */
-	, &Timer_t1132_1_0_0/* this_arg */
-	, &Timer_t1132_DefinitionMetadata/* definitionMetadata */
+	, 1430/* custom_attributes_cache */
+	, &Timer_t1134_0_0_0/* byval_arg */
+	, &Timer_t1134_1_0_0/* this_arg */
+	, &Timer_t1134_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -658,11 +658,11 @@ TypeInfo Timer_t1132_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Timer_t1132)/* instance_size */
-	, sizeof (Timer_t1132)/* actualSize */
+	, sizeof (Timer_t1134)/* instance_size */
+	, sizeof (Timer_t1134)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(Timer_t1132_StaticFields)/* static_fields_size */
+	, sizeof(Timer_t1134_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048833/* flags */
@@ -691,10 +691,10 @@ TypeInfo Timer_t1132_il2cpp_TypeInfo =
 // System.Threading.Timer/TimerComparer
 #include "mscorlib_System_Threading_Timer_TimerComparer.h"
 // Metadata Definition System.Threading.Timer/TimerComparer
-extern TypeInfo TimerComparer_t1337_il2cpp_TypeInfo;
+extern TypeInfo TimerComparer_t1339_il2cpp_TypeInfo;
 // System.Threading.Timer/TimerComparer
 #include "mscorlib_System_Threading_Timer_TimerComparerMethodDeclarations.h"
-static const EncodedMethodIndex TimerComparer_t1337_VTable[5] = 
+static const EncodedMethodIndex TimerComparer_t1339_VTable[5] = 
 {
 	198,
 	148,
@@ -702,46 +702,46 @@ static const EncodedMethodIndex TimerComparer_t1337_VTable[5] =
 	200,
 	3157,
 };
-extern const Il2CppType IComparer_t450_0_0_0;
-static const Il2CppType* TimerComparer_t1337_InterfacesTypeInfos[] = 
+extern const Il2CppType IComparer_t452_0_0_0;
+static const Il2CppType* TimerComparer_t1339_InterfacesTypeInfos[] = 
 {
-	&IComparer_t450_0_0_0,
+	&IComparer_t452_0_0_0,
 };
-static Il2CppInterfaceOffsetPair TimerComparer_t1337_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair TimerComparer_t1339_InterfacesOffsets[] = 
 {
-	{ &IComparer_t450_0_0_0, 4},
+	{ &IComparer_t452_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType TimerComparer_t1337_1_0_0;
-struct TimerComparer_t1337;
-const Il2CppTypeDefinitionMetadata TimerComparer_t1337_DefinitionMetadata = 
+extern const Il2CppType TimerComparer_t1339_1_0_0;
+struct TimerComparer_t1339;
+const Il2CppTypeDefinitionMetadata TimerComparer_t1339_DefinitionMetadata = 
 {
-	&Timer_t1132_0_0_0/* declaringType */
+	&Timer_t1134_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
-	, TimerComparer_t1337_InterfacesTypeInfos/* implementedInterfaces */
-	, TimerComparer_t1337_InterfacesOffsets/* interfaceOffsets */
+	, TimerComparer_t1339_InterfacesTypeInfos/* implementedInterfaces */
+	, TimerComparer_t1339_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, TimerComparer_t1337_VTable/* vtableMethods */
+	, TimerComparer_t1339_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8268/* methodStart */
+	, 8279/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo TimerComparer_t1337_il2cpp_TypeInfo = 
+TypeInfo TimerComparer_t1339_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "TimerComparer"/* name */
 	, ""/* namespaze */
 	, NULL/* methods */
-	, &TimerComparer_t1337_il2cpp_TypeInfo/* element_class */
+	, &TimerComparer_t1339_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &TimerComparer_t1337_0_0_0/* byval_arg */
-	, &TimerComparer_t1337_1_0_0/* this_arg */
-	, &TimerComparer_t1337_DefinitionMetadata/* definitionMetadata */
+	, &TimerComparer_t1339_0_0_0/* byval_arg */
+	, &TimerComparer_t1339_1_0_0/* this_arg */
+	, &TimerComparer_t1339_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -751,8 +751,8 @@ TypeInfo TimerComparer_t1337_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (TimerComparer_t1337)/* instance_size */
-	, sizeof (TimerComparer_t1337)/* actualSize */
+	, sizeof (TimerComparer_t1339)/* instance_size */
+	, sizeof (TimerComparer_t1339)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -784,10 +784,10 @@ TypeInfo TimerComparer_t1337_il2cpp_TypeInfo =
 // System.Threading.Timer/Scheduler
 #include "mscorlib_System_Threading_Timer_Scheduler.h"
 // Metadata Definition System.Threading.Timer/Scheduler
-extern TypeInfo Scheduler_t1338_il2cpp_TypeInfo;
+extern TypeInfo Scheduler_t1340_il2cpp_TypeInfo;
 // System.Threading.Timer/Scheduler
 #include "mscorlib_System_Threading_Timer_SchedulerMethodDeclarations.h"
-static const EncodedMethodIndex Scheduler_t1338_VTable[4] = 
+static const EncodedMethodIndex Scheduler_t1340_VTable[4] = 
 {
 	198,
 	148,
@@ -795,36 +795,36 @@ static const EncodedMethodIndex Scheduler_t1338_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType Scheduler_t1338_1_0_0;
-struct Scheduler_t1338;
-const Il2CppTypeDefinitionMetadata Scheduler_t1338_DefinitionMetadata = 
+extern const Il2CppType Scheduler_t1340_1_0_0;
+struct Scheduler_t1340;
+const Il2CppTypeDefinitionMetadata Scheduler_t1340_DefinitionMetadata = 
 {
-	&Timer_t1132_0_0_0/* declaringType */
+	&Timer_t1134_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, Scheduler_t1338_VTable/* vtableMethods */
+	, Scheduler_t1340_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5230/* fieldStart */
-	, 8270/* methodStart */
+	, 5242/* fieldStart */
+	, 8281/* methodStart */
 	, -1/* eventStart */
-	, 1663/* propertyStart */
+	, 1664/* propertyStart */
 
 };
-TypeInfo Scheduler_t1338_il2cpp_TypeInfo = 
+TypeInfo Scheduler_t1340_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Scheduler"/* name */
 	, ""/* namespaze */
 	, NULL/* methods */
-	, &Scheduler_t1338_il2cpp_TypeInfo/* element_class */
+	, &Scheduler_t1340_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &Scheduler_t1338_0_0_0/* byval_arg */
-	, &Scheduler_t1338_1_0_0/* this_arg */
-	, &Scheduler_t1338_DefinitionMetadata/* definitionMetadata */
+	, &Scheduler_t1340_0_0_0/* byval_arg */
+	, &Scheduler_t1340_1_0_0/* this_arg */
+	, &Scheduler_t1340_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -834,11 +834,11 @@ TypeInfo Scheduler_t1338_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Scheduler_t1338)/* instance_size */
-	, sizeof (Scheduler_t1338)/* actualSize */
+	, sizeof (Scheduler_t1340)/* instance_size */
+	, sizeof (Scheduler_t1340)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(Scheduler_t1338_StaticFields)/* static_fields_size */
+	, sizeof(Scheduler_t1340_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 259/* flags */
@@ -867,10 +867,10 @@ TypeInfo Scheduler_t1338_il2cpp_TypeInfo =
 // System.Threading.WaitHandle
 #include "mscorlib_System_Threading_WaitHandle.h"
 // Metadata Definition System.Threading.WaitHandle
-extern TypeInfo WaitHandle_t797_il2cpp_TypeInfo;
+extern TypeInfo WaitHandle_t799_il2cpp_TypeInfo;
 // System.Threading.WaitHandle
 #include "mscorlib_System_Threading_WaitHandleMethodDeclarations.h"
-static const EncodedMethodIndex WaitHandle_t797_VTable[10] = 
+static const EncodedMethodIndex WaitHandle_t799_VTable[10] = 
 {
 	198,
 	3146,
@@ -883,46 +883,46 @@ static const EncodedMethodIndex WaitHandle_t797_VTable[10] =
 	3151,
 	3152,
 };
-static const Il2CppType* WaitHandle_t797_InterfacesTypeInfos[] = 
+static const Il2CppType* WaitHandle_t799_InterfacesTypeInfos[] = 
 {
 	&IDisposable_t28_0_0_0,
 };
-static Il2CppInterfaceOffsetPair WaitHandle_t797_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair WaitHandle_t799_InterfacesOffsets[] = 
 {
 	{ &IDisposable_t28_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType WaitHandle_t797_0_0_0;
-extern const Il2CppType WaitHandle_t797_1_0_0;
-struct WaitHandle_t797;
-const Il2CppTypeDefinitionMetadata WaitHandle_t797_DefinitionMetadata = 
+extern const Il2CppType WaitHandle_t799_0_0_0;
+extern const Il2CppType WaitHandle_t799_1_0_0;
+struct WaitHandle_t799;
+const Il2CppTypeDefinitionMetadata WaitHandle_t799_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, WaitHandle_t797_InterfacesTypeInfos/* implementedInterfaces */
-	, WaitHandle_t797_InterfacesOffsets/* interfaceOffsets */
-	, &MarshalByRefObject_t494_0_0_0/* parent */
-	, WaitHandle_t797_VTable/* vtableMethods */
+	, WaitHandle_t799_InterfacesTypeInfos/* implementedInterfaces */
+	, WaitHandle_t799_InterfacesOffsets/* interfaceOffsets */
+	, &MarshalByRefObject_t496_0_0_0/* parent */
+	, WaitHandle_t799_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5232/* fieldStart */
-	, 8279/* methodStart */
+	, 5244/* fieldStart */
+	, 8290/* methodStart */
 	, -1/* eventStart */
-	, 1664/* propertyStart */
+	, 1665/* propertyStart */
 
 };
-TypeInfo WaitHandle_t797_il2cpp_TypeInfo = 
+TypeInfo WaitHandle_t799_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "WaitHandle"/* name */
 	, "System.Threading"/* namespaze */
 	, NULL/* methods */
-	, &WaitHandle_t797_il2cpp_TypeInfo/* element_class */
+	, &WaitHandle_t799_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1429/* custom_attributes_cache */
-	, &WaitHandle_t797_0_0_0/* byval_arg */
-	, &WaitHandle_t797_1_0_0/* this_arg */
-	, &WaitHandle_t797_DefinitionMetadata/* definitionMetadata */
+	, 1431/* custom_attributes_cache */
+	, &WaitHandle_t799_0_0_0/* byval_arg */
+	, &WaitHandle_t799_1_0_0/* this_arg */
+	, &WaitHandle_t799_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -932,11 +932,11 @@ TypeInfo WaitHandle_t797_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (WaitHandle_t797)/* instance_size */
-	, sizeof (WaitHandle_t797)/* actualSize */
+	, sizeof (WaitHandle_t799)/* instance_size */
+	, sizeof (WaitHandle_t799)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(WaitHandle_t797_StaticFields)/* static_fields_size */
+	, sizeof(WaitHandle_t799_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048705/* flags */
@@ -965,10 +965,10 @@ TypeInfo WaitHandle_t797_il2cpp_TypeInfo =
 // System.AccessViolationException
 #include "mscorlib_System_AccessViolationException.h"
 // Metadata Definition System.AccessViolationException
-extern TypeInfo AccessViolationException_t1340_il2cpp_TypeInfo;
+extern TypeInfo AccessViolationException_t1342_il2cpp_TypeInfo;
 // System.AccessViolationException
 #include "mscorlib_System_AccessViolationExceptionMethodDeclarations.h"
-static const EncodedMethodIndex AccessViolationException_t1340_VTable[11] = 
+static const EncodedMethodIndex AccessViolationException_t1342_VTable[11] = 
 {
 	198,
 	148,
@@ -982,43 +982,43 @@ static const EncodedMethodIndex AccessViolationException_t1340_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair AccessViolationException_t1340_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair AccessViolationException_t1342_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType AccessViolationException_t1340_0_0_0;
-extern const Il2CppType AccessViolationException_t1340_1_0_0;
-struct AccessViolationException_t1340;
-const Il2CppTypeDefinitionMetadata AccessViolationException_t1340_DefinitionMetadata = 
+extern const Il2CppType AccessViolationException_t1342_0_0_0;
+extern const Il2CppType AccessViolationException_t1342_1_0_0;
+struct AccessViolationException_t1342;
+const Il2CppTypeDefinitionMetadata AccessViolationException_t1342_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, AccessViolationException_t1340_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, AccessViolationException_t1340_VTable/* vtableMethods */
+	, AccessViolationException_t1342_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, AccessViolationException_t1342_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8290/* methodStart */
+	, 8301/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo AccessViolationException_t1340_il2cpp_TypeInfo = 
+TypeInfo AccessViolationException_t1342_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "AccessViolationException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &AccessViolationException_t1340_il2cpp_TypeInfo/* element_class */
+	, &AccessViolationException_t1342_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1431/* custom_attributes_cache */
-	, &AccessViolationException_t1340_0_0_0/* byval_arg */
-	, &AccessViolationException_t1340_1_0_0/* this_arg */
-	, &AccessViolationException_t1340_DefinitionMetadata/* definitionMetadata */
+	, 1433/* custom_attributes_cache */
+	, &AccessViolationException_t1342_0_0_0/* byval_arg */
+	, &AccessViolationException_t1342_1_0_0/* this_arg */
+	, &AccessViolationException_t1342_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -1028,8 +1028,8 @@ TypeInfo AccessViolationException_t1340_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (AccessViolationException_t1340)/* instance_size */
-	, sizeof (AccessViolationException_t1340)/* actualSize */
+	, sizeof (AccessViolationException_t1342)/* instance_size */
+	, sizeof (AccessViolationException_t1342)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1061,10 +1061,10 @@ TypeInfo AccessViolationException_t1340_il2cpp_TypeInfo =
 // System.ActivationContext
 #include "mscorlib_System_ActivationContext.h"
 // Metadata Definition System.ActivationContext
-extern TypeInfo ActivationContext_t1341_il2cpp_TypeInfo;
+extern TypeInfo ActivationContext_t1343_il2cpp_TypeInfo;
 // System.ActivationContext
 #include "mscorlib_System_ActivationContextMethodDeclarations.h"
-static const EncodedMethodIndex ActivationContext_t1341_VTable[6] = 
+static const EncodedMethodIndex ActivationContext_t1343_VTable[6] = 
 {
 	198,
 	3158,
@@ -1073,48 +1073,48 @@ static const EncodedMethodIndex ActivationContext_t1341_VTable[6] =
 	3159,
 	3160,
 };
-static const Il2CppType* ActivationContext_t1341_InterfacesTypeInfos[] = 
+static const Il2CppType* ActivationContext_t1343_InterfacesTypeInfos[] = 
 {
 	&IDisposable_t28_0_0_0,
-	&ISerializable_t1482_0_0_0,
+	&ISerializable_t1484_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ActivationContext_t1341_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ActivationContext_t1343_InterfacesOffsets[] = 
 {
 	{ &IDisposable_t28_0_0_0, 4},
-	{ &ISerializable_t1482_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ActivationContext_t1341_0_0_0;
-extern const Il2CppType ActivationContext_t1341_1_0_0;
-struct ActivationContext_t1341;
-const Il2CppTypeDefinitionMetadata ActivationContext_t1341_DefinitionMetadata = 
+extern const Il2CppType ActivationContext_t1343_0_0_0;
+extern const Il2CppType ActivationContext_t1343_1_0_0;
+struct ActivationContext_t1343;
+const Il2CppTypeDefinitionMetadata ActivationContext_t1343_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ActivationContext_t1341_InterfacesTypeInfos/* implementedInterfaces */
-	, ActivationContext_t1341_InterfacesOffsets/* interfaceOffsets */
+	, ActivationContext_t1343_InterfacesTypeInfos/* implementedInterfaces */
+	, ActivationContext_t1343_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ActivationContext_t1341_VTable/* vtableMethods */
+	, ActivationContext_t1343_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5236/* fieldStart */
-	, 8292/* methodStart */
+	, 5248/* fieldStart */
+	, 8303/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ActivationContext_t1341_il2cpp_TypeInfo = 
+TypeInfo ActivationContext_t1343_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ActivationContext"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &ActivationContext_t1341_il2cpp_TypeInfo/* element_class */
+	, &ActivationContext_t1343_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1432/* custom_attributes_cache */
-	, &ActivationContext_t1341_0_0_0/* byval_arg */
-	, &ActivationContext_t1341_1_0_0/* this_arg */
-	, &ActivationContext_t1341_DefinitionMetadata/* definitionMetadata */
+	, 1434/* custom_attributes_cache */
+	, &ActivationContext_t1343_0_0_0/* byval_arg */
+	, &ActivationContext_t1343_1_0_0/* this_arg */
+	, &ActivationContext_t1343_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -1124,8 +1124,8 @@ TypeInfo ActivationContext_t1341_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ActivationContext_t1341)/* instance_size */
-	, sizeof (ActivationContext_t1341)/* actualSize */
+	, sizeof (ActivationContext_t1343)/* instance_size */
+	, sizeof (ActivationContext_t1343)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1157,64 +1157,64 @@ TypeInfo ActivationContext_t1341_il2cpp_TypeInfo =
 // System.Activator
 #include "mscorlib_System_Activator.h"
 // Metadata Definition System.Activator
-extern TypeInfo Activator_t1342_il2cpp_TypeInfo;
+extern TypeInfo Activator_t1344_il2cpp_TypeInfo;
 // System.Activator
 #include "mscorlib_System_ActivatorMethodDeclarations.h"
-extern const Il2CppType Activator_CreateInstance_m14110_gp_0_0_0_0;
-extern const Il2CppRGCTXDefinition Activator_CreateInstance_m14110_RGCTXData[3] = 
+extern const Il2CppType Activator_CreateInstance_m14121_gp_0_0_0_0;
+extern const Il2CppRGCTXDefinition Activator_CreateInstance_m14121_RGCTXData[3] = 
 {
-	{ IL2CPP_RGCTX_DATA_TYPE, 3761 }/* Type */,
-	{ IL2CPP_RGCTX_DATA_CLASS, 3761 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_TYPE, 3767 }/* Type */,
+	{ IL2CPP_RGCTX_DATA_CLASS, 3767 }/* Class */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
-static const EncodedMethodIndex Activator_t1342_VTable[4] = 
+static const EncodedMethodIndex Activator_t1344_VTable[4] = 
 {
 	198,
 	148,
 	199,
 	200,
 };
-extern const Il2CppType _Activator_t2191_0_0_0;
-static const Il2CppType* Activator_t1342_InterfacesTypeInfos[] = 
+extern const Il2CppType _Activator_t2193_0_0_0;
+static const Il2CppType* Activator_t1344_InterfacesTypeInfos[] = 
 {
-	&_Activator_t2191_0_0_0,
+	&_Activator_t2193_0_0_0,
 };
-static Il2CppInterfaceOffsetPair Activator_t1342_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair Activator_t1344_InterfacesOffsets[] = 
 {
-	{ &_Activator_t2191_0_0_0, 4},
+	{ &_Activator_t2193_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType Activator_t1342_0_0_0;
-extern const Il2CppType Activator_t1342_1_0_0;
-struct Activator_t1342;
-const Il2CppTypeDefinitionMetadata Activator_t1342_DefinitionMetadata = 
+extern const Il2CppType Activator_t1344_0_0_0;
+extern const Il2CppType Activator_t1344_1_0_0;
+struct Activator_t1344;
+const Il2CppTypeDefinitionMetadata Activator_t1344_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, Activator_t1342_InterfacesTypeInfos/* implementedInterfaces */
-	, Activator_t1342_InterfacesOffsets/* interfaceOffsets */
+	, Activator_t1344_InterfacesTypeInfos/* implementedInterfaces */
+	, Activator_t1344_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, Activator_t1342_VTable/* vtableMethods */
+	, Activator_t1344_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8296/* methodStart */
+	, 8307/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo Activator_t1342_il2cpp_TypeInfo = 
+TypeInfo Activator_t1344_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Activator"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &Activator_t1342_il2cpp_TypeInfo/* element_class */
+	, &Activator_t1344_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1434/* custom_attributes_cache */
-	, &Activator_t1342_0_0_0/* byval_arg */
-	, &Activator_t1342_1_0_0/* this_arg */
-	, &Activator_t1342_DefinitionMetadata/* definitionMetadata */
+	, 1436/* custom_attributes_cache */
+	, &Activator_t1344_0_0_0/* byval_arg */
+	, &Activator_t1344_1_0_0/* this_arg */
+	, &Activator_t1344_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -1224,8 +1224,8 @@ TypeInfo Activator_t1342_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Activator_t1342)/* instance_size */
-	, sizeof (Activator_t1342)/* actualSize */
+	, sizeof (Activator_t1344)/* instance_size */
+	, sizeof (Activator_t1344)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1257,10 +1257,10 @@ TypeInfo Activator_t1342_il2cpp_TypeInfo =
 // System.AppDomain
 #include "mscorlib_System_AppDomain.h"
 // Metadata Definition System.AppDomain
-extern TypeInfo AppDomain_t1292_il2cpp_TypeInfo;
+extern TypeInfo AppDomain_t1294_il2cpp_TypeInfo;
 // System.AppDomain
 #include "mscorlib_System_AppDomainMethodDeclarations.h"
-static const EncodedMethodIndex AppDomain_t1292_VTable[4] = 
+static const EncodedMethodIndex AppDomain_t1294_VTable[4] = 
 {
 	198,
 	148,
@@ -1268,37 +1268,37 @@ static const EncodedMethodIndex AppDomain_t1292_VTable[4] =
 	3161,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType AppDomain_t1292_0_0_0;
-extern const Il2CppType AppDomain_t1292_1_0_0;
-struct AppDomain_t1292;
-const Il2CppTypeDefinitionMetadata AppDomain_t1292_DefinitionMetadata = 
+extern const Il2CppType AppDomain_t1294_0_0_0;
+extern const Il2CppType AppDomain_t1294_1_0_0;
+struct AppDomain_t1294;
+const Il2CppTypeDefinitionMetadata AppDomain_t1294_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &MarshalByRefObject_t494_0_0_0/* parent */
-	, AppDomain_t1292_VTable/* vtableMethods */
+	, &MarshalByRefObject_t496_0_0_0/* parent */
+	, AppDomain_t1294_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5237/* fieldStart */
-	, 8305/* methodStart */
+	, 5249/* fieldStart */
+	, 8316/* methodStart */
 	, -1/* eventStart */
-	, 1665/* propertyStart */
+	, 1666/* propertyStart */
 
 };
-TypeInfo AppDomain_t1292_il2cpp_TypeInfo = 
+TypeInfo AppDomain_t1294_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "AppDomain"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &AppDomain_t1292_il2cpp_TypeInfo/* element_class */
+	, &AppDomain_t1294_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1436/* custom_attributes_cache */
-	, &AppDomain_t1292_0_0_0/* byval_arg */
-	, &AppDomain_t1292_1_0_0/* this_arg */
-	, &AppDomain_t1292_DefinitionMetadata/* definitionMetadata */
+	, 1438/* custom_attributes_cache */
+	, &AppDomain_t1294_0_0_0/* byval_arg */
+	, &AppDomain_t1294_1_0_0/* this_arg */
+	, &AppDomain_t1294_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -1308,12 +1308,12 @@ TypeInfo AppDomain_t1292_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (AppDomain_t1292)/* instance_size */
-	, sizeof (AppDomain_t1292)/* actualSize */
+	, sizeof (AppDomain_t1294)/* instance_size */
+	, sizeof (AppDomain_t1294)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(AppDomain_t1292_StaticFields)/* static_fields_size */
-	, sizeof(AppDomain_t1292_ThreadStaticFields)/* thread_static_fields_size */
+	, sizeof(AppDomain_t1294_StaticFields)/* static_fields_size */
+	, sizeof(AppDomain_t1294_ThreadStaticFields)/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048833/* flags */
 	, 0/* rank */
@@ -1341,10 +1341,10 @@ TypeInfo AppDomain_t1292_il2cpp_TypeInfo =
 // System.AppDomainManager
 #include "mscorlib_System_AppDomainManager.h"
 // Metadata Definition System.AppDomainManager
-extern TypeInfo AppDomainManager_t1343_il2cpp_TypeInfo;
+extern TypeInfo AppDomainManager_t1345_il2cpp_TypeInfo;
 // System.AppDomainManager
 #include "mscorlib_System_AppDomainManagerMethodDeclarations.h"
-static const EncodedMethodIndex AppDomainManager_t1343_VTable[4] = 
+static const EncodedMethodIndex AppDomainManager_t1345_VTable[4] = 
 {
 	198,
 	148,
@@ -1352,17 +1352,17 @@ static const EncodedMethodIndex AppDomainManager_t1343_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType AppDomainManager_t1343_0_0_0;
-extern const Il2CppType AppDomainManager_t1343_1_0_0;
-struct AppDomainManager_t1343;
-const Il2CppTypeDefinitionMetadata AppDomainManager_t1343_DefinitionMetadata = 
+extern const Il2CppType AppDomainManager_t1345_0_0_0;
+extern const Il2CppType AppDomainManager_t1345_1_0_0;
+struct AppDomainManager_t1345;
+const Il2CppTypeDefinitionMetadata AppDomainManager_t1345_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &MarshalByRefObject_t494_0_0_0/* parent */
-	, AppDomainManager_t1343_VTable/* vtableMethods */
+	, &MarshalByRefObject_t496_0_0_0/* parent */
+	, AppDomainManager_t1345_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 	, -1/* methodStart */
@@ -1370,19 +1370,19 @@ const Il2CppTypeDefinitionMetadata AppDomainManager_t1343_DefinitionMetadata =
 	, -1/* propertyStart */
 
 };
-TypeInfo AppDomainManager_t1343_il2cpp_TypeInfo = 
+TypeInfo AppDomainManager_t1345_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "AppDomainManager"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &AppDomainManager_t1343_il2cpp_TypeInfo/* element_class */
+	, &AppDomainManager_t1345_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1441/* custom_attributes_cache */
-	, &AppDomainManager_t1343_0_0_0/* byval_arg */
-	, &AppDomainManager_t1343_1_0_0/* this_arg */
-	, &AppDomainManager_t1343_DefinitionMetadata/* definitionMetadata */
+	, 1443/* custom_attributes_cache */
+	, &AppDomainManager_t1345_0_0_0/* byval_arg */
+	, &AppDomainManager_t1345_1_0_0/* this_arg */
+	, &AppDomainManager_t1345_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -1392,8 +1392,8 @@ TypeInfo AppDomainManager_t1343_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (AppDomainManager_t1343)/* instance_size */
-	, sizeof (AppDomainManager_t1343)/* actualSize */
+	, sizeof (AppDomainManager_t1345)/* instance_size */
+	, sizeof (AppDomainManager_t1345)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1425,10 +1425,10 @@ TypeInfo AppDomainManager_t1343_il2cpp_TypeInfo =
 // System.AppDomainSetup
 #include "mscorlib_System_AppDomainSetup.h"
 // Metadata Definition System.AppDomainSetup
-extern TypeInfo AppDomainSetup_t1350_il2cpp_TypeInfo;
+extern TypeInfo AppDomainSetup_t1352_il2cpp_TypeInfo;
 // System.AppDomainSetup
 #include "mscorlib_System_AppDomainSetupMethodDeclarations.h"
-static const EncodedMethodIndex AppDomainSetup_t1350_VTable[4] = 
+static const EncodedMethodIndex AppDomainSetup_t1352_VTable[4] = 
 {
 	198,
 	148,
@@ -1436,37 +1436,37 @@ static const EncodedMethodIndex AppDomainSetup_t1350_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType AppDomainSetup_t1350_0_0_0;
-extern const Il2CppType AppDomainSetup_t1350_1_0_0;
-struct AppDomainSetup_t1350;
-const Il2CppTypeDefinitionMetadata AppDomainSetup_t1350_DefinitionMetadata = 
+extern const Il2CppType AppDomainSetup_t1352_0_0_0;
+extern const Il2CppType AppDomainSetup_t1352_1_0_0;
+struct AppDomainSetup_t1352;
+const Il2CppTypeDefinitionMetadata AppDomainSetup_t1352_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, AppDomainSetup_t1350_VTable/* vtableMethods */
+	, AppDomainSetup_t1352_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5258/* fieldStart */
-	, 8317/* methodStart */
+	, 5270/* fieldStart */
+	, 8328/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo AppDomainSetup_t1350_il2cpp_TypeInfo = 
+TypeInfo AppDomainSetup_t1352_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "AppDomainSetup"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &AppDomainSetup_t1350_il2cpp_TypeInfo/* element_class */
+	, &AppDomainSetup_t1352_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1442/* custom_attributes_cache */
-	, &AppDomainSetup_t1350_0_0_0/* byval_arg */
-	, &AppDomainSetup_t1350_1_0_0/* this_arg */
-	, &AppDomainSetup_t1350_DefinitionMetadata/* definitionMetadata */
+	, 1444/* custom_attributes_cache */
+	, &AppDomainSetup_t1352_0_0_0/* byval_arg */
+	, &AppDomainSetup_t1352_1_0_0/* this_arg */
+	, &AppDomainSetup_t1352_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -1476,8 +1476,8 @@ TypeInfo AppDomainSetup_t1350_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (AppDomainSetup_t1350)/* instance_size */
-	, sizeof (AppDomainSetup_t1350)/* actualSize */
+	, sizeof (AppDomainSetup_t1352)/* instance_size */
+	, sizeof (AppDomainSetup_t1352)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1509,10 +1509,10 @@ TypeInfo AppDomainSetup_t1350_il2cpp_TypeInfo =
 // System.ApplicationException
 #include "mscorlib_System_ApplicationException.h"
 // Metadata Definition System.ApplicationException
-extern TypeInfo ApplicationException_t1351_il2cpp_TypeInfo;
+extern TypeInfo ApplicationException_t1353_il2cpp_TypeInfo;
 // System.ApplicationException
 #include "mscorlib_System_ApplicationExceptionMethodDeclarations.h"
-static const EncodedMethodIndex ApplicationException_t1351_VTable[11] = 
+static const EncodedMethodIndex ApplicationException_t1353_VTable[11] = 
 {
 	198,
 	148,
@@ -1526,44 +1526,44 @@ static const EncodedMethodIndex ApplicationException_t1351_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair ApplicationException_t1351_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ApplicationException_t1353_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ApplicationException_t1351_0_0_0;
-extern const Il2CppType ApplicationException_t1351_1_0_0;
+extern const Il2CppType ApplicationException_t1353_0_0_0;
+extern const Il2CppType ApplicationException_t1353_1_0_0;
 extern const Il2CppType Exception_t27_0_0_0;
-struct ApplicationException_t1351;
-const Il2CppTypeDefinitionMetadata ApplicationException_t1351_DefinitionMetadata = 
+struct ApplicationException_t1353;
+const Il2CppTypeDefinitionMetadata ApplicationException_t1353_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ApplicationException_t1351_InterfacesOffsets/* interfaceOffsets */
+	, ApplicationException_t1353_InterfacesOffsets/* interfaceOffsets */
 	, &Exception_t27_0_0_0/* parent */
-	, ApplicationException_t1351_VTable/* vtableMethods */
+	, ApplicationException_t1353_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8318/* methodStart */
+	, 8329/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ApplicationException_t1351_il2cpp_TypeInfo = 
+TypeInfo ApplicationException_t1353_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ApplicationException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &ApplicationException_t1351_il2cpp_TypeInfo/* element_class */
+	, &ApplicationException_t1353_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1443/* custom_attributes_cache */
-	, &ApplicationException_t1351_0_0_0/* byval_arg */
-	, &ApplicationException_t1351_1_0_0/* this_arg */
-	, &ApplicationException_t1351_DefinitionMetadata/* definitionMetadata */
+	, 1445/* custom_attributes_cache */
+	, &ApplicationException_t1353_0_0_0/* byval_arg */
+	, &ApplicationException_t1353_1_0_0/* this_arg */
+	, &ApplicationException_t1353_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -1573,8 +1573,8 @@ TypeInfo ApplicationException_t1351_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ApplicationException_t1351)/* instance_size */
-	, sizeof (ApplicationException_t1351)/* actualSize */
+	, sizeof (ApplicationException_t1353)/* instance_size */
+	, sizeof (ApplicationException_t1353)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1606,10 +1606,10 @@ TypeInfo ApplicationException_t1351_il2cpp_TypeInfo =
 // System.ApplicationIdentity
 #include "mscorlib_System_ApplicationIdentity.h"
 // Metadata Definition System.ApplicationIdentity
-extern TypeInfo ApplicationIdentity_t1344_il2cpp_TypeInfo;
+extern TypeInfo ApplicationIdentity_t1346_il2cpp_TypeInfo;
 // System.ApplicationIdentity
 #include "mscorlib_System_ApplicationIdentityMethodDeclarations.h"
-static const EncodedMethodIndex ApplicationIdentity_t1344_VTable[5] = 
+static const EncodedMethodIndex ApplicationIdentity_t1346_VTable[5] = 
 {
 	198,
 	148,
@@ -1617,46 +1617,46 @@ static const EncodedMethodIndex ApplicationIdentity_t1344_VTable[5] =
 	3162,
 	3163,
 };
-static const Il2CppType* ApplicationIdentity_t1344_InterfacesTypeInfos[] = 
+static const Il2CppType* ApplicationIdentity_t1346_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t1482_0_0_0,
+	&ISerializable_t1484_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ApplicationIdentity_t1344_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ApplicationIdentity_t1346_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
+	{ &ISerializable_t1484_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ApplicationIdentity_t1344_0_0_0;
-extern const Il2CppType ApplicationIdentity_t1344_1_0_0;
-struct ApplicationIdentity_t1344;
-const Il2CppTypeDefinitionMetadata ApplicationIdentity_t1344_DefinitionMetadata = 
+extern const Il2CppType ApplicationIdentity_t1346_0_0_0;
+extern const Il2CppType ApplicationIdentity_t1346_1_0_0;
+struct ApplicationIdentity_t1346;
+const Il2CppTypeDefinitionMetadata ApplicationIdentity_t1346_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ApplicationIdentity_t1344_InterfacesTypeInfos/* implementedInterfaces */
-	, ApplicationIdentity_t1344_InterfacesOffsets/* interfaceOffsets */
+	, ApplicationIdentity_t1346_InterfacesTypeInfos/* implementedInterfaces */
+	, ApplicationIdentity_t1346_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ApplicationIdentity_t1344_VTable/* vtableMethods */
+	, ApplicationIdentity_t1346_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5280/* fieldStart */
-	, 8321/* methodStart */
+	, 5292/* fieldStart */
+	, 8332/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ApplicationIdentity_t1344_il2cpp_TypeInfo = 
+TypeInfo ApplicationIdentity_t1346_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ApplicationIdentity"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &ApplicationIdentity_t1344_il2cpp_TypeInfo/* element_class */
+	, &ApplicationIdentity_t1346_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1444/* custom_attributes_cache */
-	, &ApplicationIdentity_t1344_0_0_0/* byval_arg */
-	, &ApplicationIdentity_t1344_1_0_0/* this_arg */
-	, &ApplicationIdentity_t1344_DefinitionMetadata/* definitionMetadata */
+	, 1446/* custom_attributes_cache */
+	, &ApplicationIdentity_t1346_0_0_0/* byval_arg */
+	, &ApplicationIdentity_t1346_1_0_0/* this_arg */
+	, &ApplicationIdentity_t1346_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -1666,8 +1666,8 @@ TypeInfo ApplicationIdentity_t1344_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ApplicationIdentity_t1344)/* instance_size */
-	, sizeof (ApplicationIdentity_t1344)/* actualSize */
+	, sizeof (ApplicationIdentity_t1346)/* instance_size */
+	, sizeof (ApplicationIdentity_t1346)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1699,10 +1699,10 @@ TypeInfo ApplicationIdentity_t1344_il2cpp_TypeInfo =
 // System.ArgumentException
 #include "mscorlib_System_ArgumentException.h"
 // Metadata Definition System.ArgumentException
-extern TypeInfo ArgumentException_t380_il2cpp_TypeInfo;
+extern TypeInfo ArgumentException_t382_il2cpp_TypeInfo;
 // System.ArgumentException
 #include "mscorlib_System_ArgumentExceptionMethodDeclarations.h"
-static const EncodedMethodIndex ArgumentException_t380_VTable[12] = 
+static const EncodedMethodIndex ArgumentException_t382_VTable[12] = 
 {
 	198,
 	148,
@@ -1717,43 +1717,43 @@ static const EncodedMethodIndex ArgumentException_t380_VTable[12] =
 	354,
 	3039,
 };
-static Il2CppInterfaceOffsetPair ArgumentException_t380_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ArgumentException_t382_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ArgumentException_t380_0_0_0;
-extern const Il2CppType ArgumentException_t380_1_0_0;
-struct ArgumentException_t380;
-const Il2CppTypeDefinitionMetadata ArgumentException_t380_DefinitionMetadata = 
+extern const Il2CppType ArgumentException_t382_0_0_0;
+extern const Il2CppType ArgumentException_t382_1_0_0;
+struct ArgumentException_t382;
+const Il2CppTypeDefinitionMetadata ArgumentException_t382_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ArgumentException_t380_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, ArgumentException_t380_VTable/* vtableMethods */
+	, ArgumentException_t382_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, ArgumentException_t382_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5281/* fieldStart */
-	, 8323/* methodStart */
+	, 5293/* fieldStart */
+	, 8334/* methodStart */
 	, -1/* eventStart */
-	, 1666/* propertyStart */
+	, 1667/* propertyStart */
 
 };
-TypeInfo ArgumentException_t380_il2cpp_TypeInfo = 
+TypeInfo ArgumentException_t382_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ArgumentException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &ArgumentException_t380_il2cpp_TypeInfo/* element_class */
+	, &ArgumentException_t382_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1446/* custom_attributes_cache */
-	, &ArgumentException_t380_0_0_0/* byval_arg */
-	, &ArgumentException_t380_1_0_0/* this_arg */
-	, &ArgumentException_t380_DefinitionMetadata/* definitionMetadata */
+	, 1448/* custom_attributes_cache */
+	, &ArgumentException_t382_0_0_0/* byval_arg */
+	, &ArgumentException_t382_1_0_0/* this_arg */
+	, &ArgumentException_t382_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -1763,8 +1763,8 @@ TypeInfo ArgumentException_t380_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ArgumentException_t380)/* instance_size */
-	, sizeof (ArgumentException_t380)/* actualSize */
+	, sizeof (ArgumentException_t382)/* instance_size */
+	, sizeof (ArgumentException_t382)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1796,10 +1796,10 @@ TypeInfo ArgumentException_t380_il2cpp_TypeInfo =
 // System.ArgumentNullException
 #include "mscorlib_System_ArgumentNullException.h"
 // Metadata Definition System.ArgumentNullException
-extern TypeInfo ArgumentNullException_t402_il2cpp_TypeInfo;
+extern TypeInfo ArgumentNullException_t404_il2cpp_TypeInfo;
 // System.ArgumentNullException
 #include "mscorlib_System_ArgumentNullExceptionMethodDeclarations.h"
-static const EncodedMethodIndex ArgumentNullException_t402_VTable[12] = 
+static const EncodedMethodIndex ArgumentNullException_t404_VTable[12] = 
 {
 	198,
 	148,
@@ -1814,43 +1814,43 @@ static const EncodedMethodIndex ArgumentNullException_t402_VTable[12] =
 	354,
 	3039,
 };
-static Il2CppInterfaceOffsetPair ArgumentNullException_t402_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ArgumentNullException_t404_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ArgumentNullException_t402_0_0_0;
-extern const Il2CppType ArgumentNullException_t402_1_0_0;
-struct ArgumentNullException_t402;
-const Il2CppTypeDefinitionMetadata ArgumentNullException_t402_DefinitionMetadata = 
+extern const Il2CppType ArgumentNullException_t404_0_0_0;
+extern const Il2CppType ArgumentNullException_t404_1_0_0;
+struct ArgumentNullException_t404;
+const Il2CppTypeDefinitionMetadata ArgumentNullException_t404_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ArgumentNullException_t402_InterfacesOffsets/* interfaceOffsets */
-	, &ArgumentException_t380_0_0_0/* parent */
-	, ArgumentNullException_t402_VTable/* vtableMethods */
+	, ArgumentNullException_t404_InterfacesOffsets/* interfaceOffsets */
+	, &ArgumentException_t382_0_0_0/* parent */
+	, ArgumentNullException_t404_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5283/* fieldStart */
-	, 8332/* methodStart */
+	, 5295/* fieldStart */
+	, 8343/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ArgumentNullException_t402_il2cpp_TypeInfo = 
+TypeInfo ArgumentNullException_t404_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ArgumentNullException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &ArgumentNullException_t402_il2cpp_TypeInfo/* element_class */
+	, &ArgumentNullException_t404_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1447/* custom_attributes_cache */
-	, &ArgumentNullException_t402_0_0_0/* byval_arg */
-	, &ArgumentNullException_t402_1_0_0/* this_arg */
-	, &ArgumentNullException_t402_DefinitionMetadata/* definitionMetadata */
+	, 1449/* custom_attributes_cache */
+	, &ArgumentNullException_t404_0_0_0/* byval_arg */
+	, &ArgumentNullException_t404_1_0_0/* this_arg */
+	, &ArgumentNullException_t404_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -1860,8 +1860,8 @@ TypeInfo ArgumentNullException_t402_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ArgumentNullException_t402)/* instance_size */
-	, sizeof (ArgumentNullException_t402)/* actualSize */
+	, sizeof (ArgumentNullException_t404)/* instance_size */
+	, sizeof (ArgumentNullException_t404)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1893,10 +1893,10 @@ TypeInfo ArgumentNullException_t402_il2cpp_TypeInfo =
 // System.ArgumentOutOfRangeException
 #include "mscorlib_System_ArgumentOutOfRangeException.h"
 // Metadata Definition System.ArgumentOutOfRangeException
-extern TypeInfo ArgumentOutOfRangeException_t404_il2cpp_TypeInfo;
+extern TypeInfo ArgumentOutOfRangeException_t406_il2cpp_TypeInfo;
 // System.ArgumentOutOfRangeException
 #include "mscorlib_System_ArgumentOutOfRangeExceptionMethodDeclarations.h"
-static const EncodedMethodIndex ArgumentOutOfRangeException_t404_VTable[12] = 
+static const EncodedMethodIndex ArgumentOutOfRangeException_t406_VTable[12] = 
 {
 	198,
 	148,
@@ -1911,43 +1911,43 @@ static const EncodedMethodIndex ArgumentOutOfRangeException_t404_VTable[12] =
 	354,
 	3039,
 };
-static Il2CppInterfaceOffsetPair ArgumentOutOfRangeException_t404_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ArgumentOutOfRangeException_t406_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ArgumentOutOfRangeException_t404_0_0_0;
-extern const Il2CppType ArgumentOutOfRangeException_t404_1_0_0;
-struct ArgumentOutOfRangeException_t404;
-const Il2CppTypeDefinitionMetadata ArgumentOutOfRangeException_t404_DefinitionMetadata = 
+extern const Il2CppType ArgumentOutOfRangeException_t406_0_0_0;
+extern const Il2CppType ArgumentOutOfRangeException_t406_1_0_0;
+struct ArgumentOutOfRangeException_t406;
+const Il2CppTypeDefinitionMetadata ArgumentOutOfRangeException_t406_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ArgumentOutOfRangeException_t404_InterfacesOffsets/* interfaceOffsets */
-	, &ArgumentException_t380_0_0_0/* parent */
-	, ArgumentOutOfRangeException_t404_VTable/* vtableMethods */
+	, ArgumentOutOfRangeException_t406_InterfacesOffsets/* interfaceOffsets */
+	, &ArgumentException_t382_0_0_0/* parent */
+	, ArgumentOutOfRangeException_t406_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5284/* fieldStart */
-	, 8336/* methodStart */
+	, 5296/* fieldStart */
+	, 8347/* methodStart */
 	, -1/* eventStart */
-	, 1668/* propertyStart */
+	, 1669/* propertyStart */
 
 };
-TypeInfo ArgumentOutOfRangeException_t404_il2cpp_TypeInfo = 
+TypeInfo ArgumentOutOfRangeException_t406_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ArgumentOutOfRangeException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &ArgumentOutOfRangeException_t404_il2cpp_TypeInfo/* element_class */
+	, &ArgumentOutOfRangeException_t406_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1448/* custom_attributes_cache */
-	, &ArgumentOutOfRangeException_t404_0_0_0/* byval_arg */
-	, &ArgumentOutOfRangeException_t404_1_0_0/* this_arg */
-	, &ArgumentOutOfRangeException_t404_DefinitionMetadata/* definitionMetadata */
+	, 1450/* custom_attributes_cache */
+	, &ArgumentOutOfRangeException_t406_0_0_0/* byval_arg */
+	, &ArgumentOutOfRangeException_t406_1_0_0/* this_arg */
+	, &ArgumentOutOfRangeException_t406_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -1957,8 +1957,8 @@ TypeInfo ArgumentOutOfRangeException_t404_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ArgumentOutOfRangeException_t404)/* instance_size */
-	, sizeof (ArgumentOutOfRangeException_t404)/* actualSize */
+	, sizeof (ArgumentOutOfRangeException_t406)/* instance_size */
+	, sizeof (ArgumentOutOfRangeException_t406)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1990,10 +1990,10 @@ TypeInfo ArgumentOutOfRangeException_t404_il2cpp_TypeInfo =
 // System.ArithmeticException
 #include "mscorlib_System_ArithmeticException.h"
 // Metadata Definition System.ArithmeticException
-extern TypeInfo ArithmeticException_t798_il2cpp_TypeInfo;
+extern TypeInfo ArithmeticException_t800_il2cpp_TypeInfo;
 // System.ArithmeticException
 #include "mscorlib_System_ArithmeticExceptionMethodDeclarations.h"
-static const EncodedMethodIndex ArithmeticException_t798_VTable[11] = 
+static const EncodedMethodIndex ArithmeticException_t800_VTable[11] = 
 {
 	198,
 	148,
@@ -2007,43 +2007,43 @@ static const EncodedMethodIndex ArithmeticException_t798_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair ArithmeticException_t798_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ArithmeticException_t800_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ArithmeticException_t798_0_0_0;
-extern const Il2CppType ArithmeticException_t798_1_0_0;
-struct ArithmeticException_t798;
-const Il2CppTypeDefinitionMetadata ArithmeticException_t798_DefinitionMetadata = 
+extern const Il2CppType ArithmeticException_t800_0_0_0;
+extern const Il2CppType ArithmeticException_t800_1_0_0;
+struct ArithmeticException_t800;
+const Il2CppTypeDefinitionMetadata ArithmeticException_t800_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ArithmeticException_t798_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, ArithmeticException_t798_VTable/* vtableMethods */
+	, ArithmeticException_t800_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, ArithmeticException_t800_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8343/* methodStart */
+	, 8354/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ArithmeticException_t798_il2cpp_TypeInfo = 
+TypeInfo ArithmeticException_t800_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ArithmeticException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &ArithmeticException_t798_il2cpp_TypeInfo/* element_class */
+	, &ArithmeticException_t800_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1449/* custom_attributes_cache */
-	, &ArithmeticException_t798_0_0_0/* byval_arg */
-	, &ArithmeticException_t798_1_0_0/* this_arg */
-	, &ArithmeticException_t798_DefinitionMetadata/* definitionMetadata */
+	, 1451/* custom_attributes_cache */
+	, &ArithmeticException_t800_0_0_0/* byval_arg */
+	, &ArithmeticException_t800_1_0_0/* this_arg */
+	, &ArithmeticException_t800_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -2053,8 +2053,8 @@ TypeInfo ArithmeticException_t798_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ArithmeticException_t798)/* instance_size */
-	, sizeof (ArithmeticException_t798)/* actualSize */
+	, sizeof (ArithmeticException_t800)/* instance_size */
+	, sizeof (ArithmeticException_t800)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2086,10 +2086,10 @@ TypeInfo ArithmeticException_t798_il2cpp_TypeInfo =
 // System.ArrayTypeMismatchException
 #include "mscorlib_System_ArrayTypeMismatchException.h"
 // Metadata Definition System.ArrayTypeMismatchException
-extern TypeInfo ArrayTypeMismatchException_t1352_il2cpp_TypeInfo;
+extern TypeInfo ArrayTypeMismatchException_t1354_il2cpp_TypeInfo;
 // System.ArrayTypeMismatchException
 #include "mscorlib_System_ArrayTypeMismatchExceptionMethodDeclarations.h"
-static const EncodedMethodIndex ArrayTypeMismatchException_t1352_VTable[11] = 
+static const EncodedMethodIndex ArrayTypeMismatchException_t1354_VTable[11] = 
 {
 	198,
 	148,
@@ -2103,43 +2103,43 @@ static const EncodedMethodIndex ArrayTypeMismatchException_t1352_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair ArrayTypeMismatchException_t1352_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ArrayTypeMismatchException_t1354_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ArrayTypeMismatchException_t1352_0_0_0;
-extern const Il2CppType ArrayTypeMismatchException_t1352_1_0_0;
-struct ArrayTypeMismatchException_t1352;
-const Il2CppTypeDefinitionMetadata ArrayTypeMismatchException_t1352_DefinitionMetadata = 
+extern const Il2CppType ArrayTypeMismatchException_t1354_0_0_0;
+extern const Il2CppType ArrayTypeMismatchException_t1354_1_0_0;
+struct ArrayTypeMismatchException_t1354;
+const Il2CppTypeDefinitionMetadata ArrayTypeMismatchException_t1354_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ArrayTypeMismatchException_t1352_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, ArrayTypeMismatchException_t1352_VTable/* vtableMethods */
+	, ArrayTypeMismatchException_t1354_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, ArrayTypeMismatchException_t1354_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5285/* fieldStart */
-	, 8346/* methodStart */
+	, 5297/* fieldStart */
+	, 8357/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ArrayTypeMismatchException_t1352_il2cpp_TypeInfo = 
+TypeInfo ArrayTypeMismatchException_t1354_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ArrayTypeMismatchException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &ArrayTypeMismatchException_t1352_il2cpp_TypeInfo/* element_class */
+	, &ArrayTypeMismatchException_t1354_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1450/* custom_attributes_cache */
-	, &ArrayTypeMismatchException_t1352_0_0_0/* byval_arg */
-	, &ArrayTypeMismatchException_t1352_1_0_0/* this_arg */
-	, &ArrayTypeMismatchException_t1352_DefinitionMetadata/* definitionMetadata */
+	, 1452/* custom_attributes_cache */
+	, &ArrayTypeMismatchException_t1354_0_0_0/* byval_arg */
+	, &ArrayTypeMismatchException_t1354_1_0_0/* this_arg */
+	, &ArrayTypeMismatchException_t1354_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -2149,8 +2149,8 @@ TypeInfo ArrayTypeMismatchException_t1352_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ArrayTypeMismatchException_t1352)/* instance_size */
-	, sizeof (ArrayTypeMismatchException_t1352)/* actualSize */
+	, sizeof (ArrayTypeMismatchException_t1354)/* instance_size */
+	, sizeof (ArrayTypeMismatchException_t1354)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2182,10 +2182,10 @@ TypeInfo ArrayTypeMismatchException_t1352_il2cpp_TypeInfo =
 // System.AssemblyLoadEventArgs
 #include "mscorlib_System_AssemblyLoadEventArgs.h"
 // Metadata Definition System.AssemblyLoadEventArgs
-extern TypeInfo AssemblyLoadEventArgs_t1353_il2cpp_TypeInfo;
+extern TypeInfo AssemblyLoadEventArgs_t1355_il2cpp_TypeInfo;
 // System.AssemblyLoadEventArgs
 #include "mscorlib_System_AssemblyLoadEventArgsMethodDeclarations.h"
-static const EncodedMethodIndex AssemblyLoadEventArgs_t1353_VTable[4] = 
+static const EncodedMethodIndex AssemblyLoadEventArgs_t1355_VTable[4] = 
 {
 	198,
 	148,
@@ -2193,18 +2193,18 @@ static const EncodedMethodIndex AssemblyLoadEventArgs_t1353_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType AssemblyLoadEventArgs_t1353_0_0_0;
-extern const Il2CppType AssemblyLoadEventArgs_t1353_1_0_0;
-extern const Il2CppType EventArgs_t708_0_0_0;
-struct AssemblyLoadEventArgs_t1353;
-const Il2CppTypeDefinitionMetadata AssemblyLoadEventArgs_t1353_DefinitionMetadata = 
+extern const Il2CppType AssemblyLoadEventArgs_t1355_0_0_0;
+extern const Il2CppType AssemblyLoadEventArgs_t1355_1_0_0;
+extern const Il2CppType EventArgs_t710_0_0_0;
+struct AssemblyLoadEventArgs_t1355;
+const Il2CppTypeDefinitionMetadata AssemblyLoadEventArgs_t1355_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &EventArgs_t708_0_0_0/* parent */
-	, AssemblyLoadEventArgs_t1353_VTable/* vtableMethods */
+	, &EventArgs_t710_0_0_0/* parent */
+	, AssemblyLoadEventArgs_t1355_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 	, -1/* methodStart */
@@ -2212,19 +2212,19 @@ const Il2CppTypeDefinitionMetadata AssemblyLoadEventArgs_t1353_DefinitionMetadat
 	, -1/* propertyStart */
 
 };
-TypeInfo AssemblyLoadEventArgs_t1353_il2cpp_TypeInfo = 
+TypeInfo AssemblyLoadEventArgs_t1355_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "AssemblyLoadEventArgs"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &AssemblyLoadEventArgs_t1353_il2cpp_TypeInfo/* element_class */
+	, &AssemblyLoadEventArgs_t1355_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1451/* custom_attributes_cache */
-	, &AssemblyLoadEventArgs_t1353_0_0_0/* byval_arg */
-	, &AssemblyLoadEventArgs_t1353_1_0_0/* this_arg */
-	, &AssemblyLoadEventArgs_t1353_DefinitionMetadata/* definitionMetadata */
+	, 1453/* custom_attributes_cache */
+	, &AssemblyLoadEventArgs_t1355_0_0_0/* byval_arg */
+	, &AssemblyLoadEventArgs_t1355_1_0_0/* this_arg */
+	, &AssemblyLoadEventArgs_t1355_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -2234,8 +2234,8 @@ TypeInfo AssemblyLoadEventArgs_t1353_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (AssemblyLoadEventArgs_t1353)/* instance_size */
-	, sizeof (AssemblyLoadEventArgs_t1353)/* actualSize */
+	, sizeof (AssemblyLoadEventArgs_t1355)/* instance_size */
+	, sizeof (AssemblyLoadEventArgs_t1355)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2267,10 +2267,10 @@ TypeInfo AssemblyLoadEventArgs_t1353_il2cpp_TypeInfo =
 // System.AttributeTargets
 #include "mscorlib_System_AttributeTargets.h"
 // Metadata Definition System.AttributeTargets
-extern TypeInfo AttributeTargets_t1354_il2cpp_TypeInfo;
+extern TypeInfo AttributeTargets_t1356_il2cpp_TypeInfo;
 // System.AttributeTargets
 #include "mscorlib_System_AttributeTargetsMethodDeclarations.h"
-static const EncodedMethodIndex AttributeTargets_t1354_VTable[23] = 
+static const EncodedMethodIndex AttributeTargets_t1356_VTable[23] = 
 {
 	147,
 	148,
@@ -2296,43 +2296,43 @@ static const EncodedMethodIndex AttributeTargets_t1354_VTable[23] =
 	168,
 	169,
 };
-static Il2CppInterfaceOffsetPair AttributeTargets_t1354_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair AttributeTargets_t1356_InterfacesOffsets[] = 
 {
-	{ &IFormattable_t1462_0_0_0, 4},
-	{ &IConvertible_t1465_0_0_0, 5},
-	{ &IComparable_t1464_0_0_0, 21},
+	{ &IFormattable_t1464_0_0_0, 4},
+	{ &IConvertible_t1467_0_0_0, 5},
+	{ &IComparable_t1466_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType AttributeTargets_t1354_0_0_0;
-extern const Il2CppType AttributeTargets_t1354_1_0_0;
-const Il2CppTypeDefinitionMetadata AttributeTargets_t1354_DefinitionMetadata = 
+extern const Il2CppType AttributeTargets_t1356_0_0_0;
+extern const Il2CppType AttributeTargets_t1356_1_0_0;
+const Il2CppTypeDefinitionMetadata AttributeTargets_t1356_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, AttributeTargets_t1354_InterfacesOffsets/* interfaceOffsets */
-	, &Enum_t372_0_0_0/* parent */
-	, AttributeTargets_t1354_VTable/* vtableMethods */
+	, AttributeTargets_t1356_InterfacesOffsets/* interfaceOffsets */
+	, &Enum_t374_0_0_0/* parent */
+	, AttributeTargets_t1356_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5286/* fieldStart */
+	, 5298/* fieldStart */
 	, -1/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo AttributeTargets_t1354_il2cpp_TypeInfo = 
+TypeInfo AttributeTargets_t1356_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "AttributeTargets"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &Int32_t67_il2cpp_TypeInfo/* element_class */
+	, &Int32_t72_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1452/* custom_attributes_cache */
-	, &AttributeTargets_t1354_0_0_0/* byval_arg */
-	, &AttributeTargets_t1354_1_0_0/* this_arg */
-	, &AttributeTargets_t1354_DefinitionMetadata/* definitionMetadata */
+	, 1454/* custom_attributes_cache */
+	, &AttributeTargets_t1356_0_0_0/* byval_arg */
+	, &AttributeTargets_t1356_1_0_0/* this_arg */
+	, &AttributeTargets_t1356_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -2342,8 +2342,8 @@ TypeInfo AttributeTargets_t1354_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (AttributeTargets_t1354)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (AttributeTargets_t1354)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (AttributeTargets_t1356)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (AttributeTargets_t1356)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -2375,10 +2375,10 @@ TypeInfo AttributeTargets_t1354_il2cpp_TypeInfo =
 // System.BitConverter
 #include "mscorlib_System_BitConverter.h"
 // Metadata Definition System.BitConverter
-extern TypeInfo BitConverter_t636_il2cpp_TypeInfo;
+extern TypeInfo BitConverter_t638_il2cpp_TypeInfo;
 // System.BitConverter
 #include "mscorlib_System_BitConverterMethodDeclarations.h"
-static const EncodedMethodIndex BitConverter_t636_VTable[4] = 
+static const EncodedMethodIndex BitConverter_t638_VTable[4] = 
 {
 	198,
 	148,
@@ -2386,37 +2386,37 @@ static const EncodedMethodIndex BitConverter_t636_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType BitConverter_t636_0_0_0;
-extern const Il2CppType BitConverter_t636_1_0_0;
-struct BitConverter_t636;
-const Il2CppTypeDefinitionMetadata BitConverter_t636_DefinitionMetadata = 
+extern const Il2CppType BitConverter_t638_0_0_0;
+extern const Il2CppType BitConverter_t638_1_0_0;
+struct BitConverter_t638;
+const Il2CppTypeDefinitionMetadata BitConverter_t638_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, BitConverter_t636_VTable/* vtableMethods */
+	, BitConverter_t638_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5303/* fieldStart */
-	, 8349/* methodStart */
+	, 5315/* fieldStart */
+	, 8360/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo BitConverter_t636_il2cpp_TypeInfo = 
+TypeInfo BitConverter_t638_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "BitConverter"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &BitConverter_t636_il2cpp_TypeInfo/* element_class */
+	, &BitConverter_t638_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &BitConverter_t636_0_0_0/* byval_arg */
-	, &BitConverter_t636_1_0_0/* this_arg */
-	, &BitConverter_t636_DefinitionMetadata/* definitionMetadata */
+	, &BitConverter_t638_0_0_0/* byval_arg */
+	, &BitConverter_t638_1_0_0/* this_arg */
+	, &BitConverter_t638_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -2426,11 +2426,11 @@ TypeInfo BitConverter_t636_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (BitConverter_t636)/* instance_size */
-	, sizeof (BitConverter_t636)/* actualSize */
+	, sizeof (BitConverter_t638)/* instance_size */
+	, sizeof (BitConverter_t638)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(BitConverter_t636_StaticFields)/* static_fields_size */
+	, sizeof(BitConverter_t638_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048961/* flags */
@@ -2459,10 +2459,10 @@ TypeInfo BitConverter_t636_il2cpp_TypeInfo =
 // System.Buffer
 #include "mscorlib_System_Buffer.h"
 // Metadata Definition System.Buffer
-extern TypeInfo Buffer_t1355_il2cpp_TypeInfo;
+extern TypeInfo Buffer_t1357_il2cpp_TypeInfo;
 // System.Buffer
 #include "mscorlib_System_BufferMethodDeclarations.h"
-static const EncodedMethodIndex Buffer_t1355_VTable[4] = 
+static const EncodedMethodIndex Buffer_t1357_VTable[4] = 
 {
 	198,
 	148,
@@ -2470,37 +2470,37 @@ static const EncodedMethodIndex Buffer_t1355_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType Buffer_t1355_0_0_0;
-extern const Il2CppType Buffer_t1355_1_0_0;
-struct Buffer_t1355;
-const Il2CppTypeDefinitionMetadata Buffer_t1355_DefinitionMetadata = 
+extern const Il2CppType Buffer_t1357_0_0_0;
+extern const Il2CppType Buffer_t1357_1_0_0;
+struct Buffer_t1357;
+const Il2CppTypeDefinitionMetadata Buffer_t1357_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, Buffer_t1355_VTable/* vtableMethods */
+	, Buffer_t1357_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8359/* methodStart */
+	, 8370/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo Buffer_t1355_il2cpp_TypeInfo = 
+TypeInfo Buffer_t1357_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Buffer"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &Buffer_t1355_il2cpp_TypeInfo/* element_class */
+	, &Buffer_t1357_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1453/* custom_attributes_cache */
-	, &Buffer_t1355_0_0_0/* byval_arg */
-	, &Buffer_t1355_1_0_0/* this_arg */
-	, &Buffer_t1355_DefinitionMetadata/* definitionMetadata */
+	, 1455/* custom_attributes_cache */
+	, &Buffer_t1357_0_0_0/* byval_arg */
+	, &Buffer_t1357_1_0_0/* this_arg */
+	, &Buffer_t1357_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -2510,8 +2510,8 @@ TypeInfo Buffer_t1355_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Buffer_t1355)/* instance_size */
-	, sizeof (Buffer_t1355)/* actualSize */
+	, sizeof (Buffer_t1357)/* instance_size */
+	, sizeof (Buffer_t1357)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2543,10 +2543,10 @@ TypeInfo Buffer_t1355_il2cpp_TypeInfo =
 // System.CharEnumerator
 #include "mscorlib_System_CharEnumerator.h"
 // Metadata Definition System.CharEnumerator
-extern TypeInfo CharEnumerator_t1356_il2cpp_TypeInfo;
+extern TypeInfo CharEnumerator_t1358_il2cpp_TypeInfo;
 // System.CharEnumerator
 #include "mscorlib_System_CharEnumeratorMethodDeclarations.h"
-static const EncodedMethodIndex CharEnumerator_t1356_VTable[8] = 
+static const EncodedMethodIndex CharEnumerator_t1358_VTable[8] = 
 {
 	198,
 	148,
@@ -2558,54 +2558,54 @@ static const EncodedMethodIndex CharEnumerator_t1356_VTable[8] =
 	3169,
 };
 extern const Il2CppType IEnumerator_t21_0_0_0;
-extern const Il2CppType ICloneable_t2138_0_0_0;
-extern const Il2CppType IEnumerator_1_t1445_0_0_0;
-static const Il2CppType* CharEnumerator_t1356_InterfacesTypeInfos[] = 
+extern const Il2CppType ICloneable_t2140_0_0_0;
+extern const Il2CppType IEnumerator_1_t1447_0_0_0;
+static const Il2CppType* CharEnumerator_t1358_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t21_0_0_0,
 	&IDisposable_t28_0_0_0,
-	&ICloneable_t2138_0_0_0,
-	&IEnumerator_1_t1445_0_0_0,
+	&ICloneable_t2140_0_0_0,
+	&IEnumerator_1_t1447_0_0_0,
 };
-static Il2CppInterfaceOffsetPair CharEnumerator_t1356_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair CharEnumerator_t1358_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t21_0_0_0, 4},
 	{ &IDisposable_t28_0_0_0, 6},
-	{ &ICloneable_t2138_0_0_0, 7},
-	{ &IEnumerator_1_t1445_0_0_0, 7},
+	{ &ICloneable_t2140_0_0_0, 7},
+	{ &IEnumerator_1_t1447_0_0_0, 7},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType CharEnumerator_t1356_0_0_0;
-extern const Il2CppType CharEnumerator_t1356_1_0_0;
-struct CharEnumerator_t1356;
-const Il2CppTypeDefinitionMetadata CharEnumerator_t1356_DefinitionMetadata = 
+extern const Il2CppType CharEnumerator_t1358_0_0_0;
+extern const Il2CppType CharEnumerator_t1358_1_0_0;
+struct CharEnumerator_t1358;
+const Il2CppTypeDefinitionMetadata CharEnumerator_t1358_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, CharEnumerator_t1356_InterfacesTypeInfos/* implementedInterfaces */
-	, CharEnumerator_t1356_InterfacesOffsets/* interfaceOffsets */
+	, CharEnumerator_t1358_InterfacesTypeInfos/* implementedInterfaces */
+	, CharEnumerator_t1358_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, CharEnumerator_t1356_VTable/* vtableMethods */
+	, CharEnumerator_t1358_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5305/* fieldStart */
-	, 8363/* methodStart */
+	, 5317/* fieldStart */
+	, 8374/* methodStart */
 	, -1/* eventStart */
-	, 1669/* propertyStart */
+	, 1670/* propertyStart */
 
 };
-TypeInfo CharEnumerator_t1356_il2cpp_TypeInfo = 
+TypeInfo CharEnumerator_t1358_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "CharEnumerator"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &CharEnumerator_t1356_il2cpp_TypeInfo/* element_class */
+	, &CharEnumerator_t1358_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1454/* custom_attributes_cache */
-	, &CharEnumerator_t1356_0_0_0/* byval_arg */
-	, &CharEnumerator_t1356_1_0_0/* this_arg */
-	, &CharEnumerator_t1356_DefinitionMetadata/* definitionMetadata */
+	, 1456/* custom_attributes_cache */
+	, &CharEnumerator_t1358_0_0_0/* byval_arg */
+	, &CharEnumerator_t1358_1_0_0/* this_arg */
+	, &CharEnumerator_t1358_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -2615,8 +2615,8 @@ TypeInfo CharEnumerator_t1356_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (CharEnumerator_t1356)/* instance_size */
-	, sizeof (CharEnumerator_t1356)/* actualSize */
+	, sizeof (CharEnumerator_t1358)/* instance_size */
+	, sizeof (CharEnumerator_t1358)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2648,10 +2648,10 @@ TypeInfo CharEnumerator_t1356_il2cpp_TypeInfo =
 // System.Console
 #include "mscorlib_System_Console.h"
 // Metadata Definition System.Console
-extern TypeInfo Console_t656_il2cpp_TypeInfo;
+extern TypeInfo Console_t658_il2cpp_TypeInfo;
 // System.Console
 #include "mscorlib_System_ConsoleMethodDeclarations.h"
-static const EncodedMethodIndex Console_t656_VTable[4] = 
+static const EncodedMethodIndex Console_t658_VTable[4] = 
 {
 	198,
 	148,
@@ -2659,37 +2659,37 @@ static const EncodedMethodIndex Console_t656_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType Console_t656_0_0_0;
-extern const Il2CppType Console_t656_1_0_0;
-struct Console_t656;
-const Il2CppTypeDefinitionMetadata Console_t656_DefinitionMetadata = 
+extern const Il2CppType Console_t658_0_0_0;
+extern const Il2CppType Console_t658_1_0_0;
+struct Console_t658;
+const Il2CppTypeDefinitionMetadata Console_t658_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, Console_t656_VTable/* vtableMethods */
+	, Console_t658_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5308/* fieldStart */
-	, 8368/* methodStart */
+	, 5320/* fieldStart */
+	, 8379/* methodStart */
 	, -1/* eventStart */
-	, 1671/* propertyStart */
+	, 1672/* propertyStart */
 
 };
-TypeInfo Console_t656_il2cpp_TypeInfo = 
+TypeInfo Console_t658_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Console"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &Console_t656_il2cpp_TypeInfo/* element_class */
+	, &Console_t658_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &Console_t656_0_0_0/* byval_arg */
-	, &Console_t656_1_0_0/* this_arg */
-	, &Console_t656_DefinitionMetadata/* definitionMetadata */
+	, &Console_t658_0_0_0/* byval_arg */
+	, &Console_t658_1_0_0/* this_arg */
+	, &Console_t658_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -2699,11 +2699,11 @@ TypeInfo Console_t656_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Console_t656)/* instance_size */
-	, sizeof (Console_t656)/* actualSize */
+	, sizeof (Console_t658)/* instance_size */
+	, sizeof (Console_t658)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(Console_t656_StaticFields)/* static_fields_size */
+	, sizeof(Console_t658_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 385/* flags */
@@ -2732,10 +2732,10 @@ TypeInfo Console_t656_il2cpp_TypeInfo =
 // System.ContextBoundObject
 #include "mscorlib_System_ContextBoundObject.h"
 // Metadata Definition System.ContextBoundObject
-extern TypeInfo ContextBoundObject_t1357_il2cpp_TypeInfo;
+extern TypeInfo ContextBoundObject_t1359_il2cpp_TypeInfo;
 // System.ContextBoundObject
 #include "mscorlib_System_ContextBoundObjectMethodDeclarations.h"
-static const EncodedMethodIndex ContextBoundObject_t1357_VTable[4] = 
+static const EncodedMethodIndex ContextBoundObject_t1359_VTable[4] = 
 {
 	198,
 	148,
@@ -2743,37 +2743,37 @@ static const EncodedMethodIndex ContextBoundObject_t1357_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ContextBoundObject_t1357_0_0_0;
-extern const Il2CppType ContextBoundObject_t1357_1_0_0;
-struct ContextBoundObject_t1357;
-const Il2CppTypeDefinitionMetadata ContextBoundObject_t1357_DefinitionMetadata = 
+extern const Il2CppType ContextBoundObject_t1359_0_0_0;
+extern const Il2CppType ContextBoundObject_t1359_1_0_0;
+struct ContextBoundObject_t1359;
+const Il2CppTypeDefinitionMetadata ContextBoundObject_t1359_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &MarshalByRefObject_t494_0_0_0/* parent */
-	, ContextBoundObject_t1357_VTable/* vtableMethods */
+	, &MarshalByRefObject_t496_0_0_0/* parent */
+	, ContextBoundObject_t1359_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8375/* methodStart */
+	, 8386/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ContextBoundObject_t1357_il2cpp_TypeInfo = 
+TypeInfo ContextBoundObject_t1359_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ContextBoundObject"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &ContextBoundObject_t1357_il2cpp_TypeInfo/* element_class */
+	, &ContextBoundObject_t1359_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1455/* custom_attributes_cache */
-	, &ContextBoundObject_t1357_0_0_0/* byval_arg */
-	, &ContextBoundObject_t1357_1_0_0/* this_arg */
-	, &ContextBoundObject_t1357_DefinitionMetadata/* definitionMetadata */
+	, 1457/* custom_attributes_cache */
+	, &ContextBoundObject_t1359_0_0_0/* byval_arg */
+	, &ContextBoundObject_t1359_1_0_0/* this_arg */
+	, &ContextBoundObject_t1359_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -2783,8 +2783,8 @@ TypeInfo ContextBoundObject_t1357_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ContextBoundObject_t1357)/* instance_size */
-	, sizeof (ContextBoundObject_t1357)/* actualSize */
+	, sizeof (ContextBoundObject_t1359)/* instance_size */
+	, sizeof (ContextBoundObject_t1359)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2839,8 +2839,8 @@ const Il2CppTypeDefinitionMetadata Convert_t37_DefinitionMetadata =
 	, &Object_t_0_0_0/* parent */
 	, Convert_t37_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5313/* fieldStart */
-	, 8376/* methodStart */
+	, 5325/* fieldStart */
+	, 8387/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
@@ -2900,10 +2900,10 @@ TypeInfo Convert_t37_il2cpp_TypeInfo =
 // System.DBNull
 #include "mscorlib_System_DBNull.h"
 // Metadata Definition System.DBNull
-extern TypeInfo DBNull_t1358_il2cpp_TypeInfo;
+extern TypeInfo DBNull_t1360_il2cpp_TypeInfo;
 // System.DBNull
 #include "mscorlib_System_DBNullMethodDeclarations.h"
-static const EncodedMethodIndex DBNull_t1358_VTable[21] = 
+static const EncodedMethodIndex DBNull_t1360_VTable[21] = 
 {
 	198,
 	148,
@@ -2927,48 +2927,48 @@ static const EncodedMethodIndex DBNull_t1358_VTable[21] =
 	3186,
 	3187,
 };
-static const Il2CppType* DBNull_t1358_InterfacesTypeInfos[] = 
+static const Il2CppType* DBNull_t1360_InterfacesTypeInfos[] = 
 {
-	&IConvertible_t1465_0_0_0,
-	&ISerializable_t1482_0_0_0,
+	&IConvertible_t1467_0_0_0,
+	&ISerializable_t1484_0_0_0,
 };
-static Il2CppInterfaceOffsetPair DBNull_t1358_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair DBNull_t1360_InterfacesOffsets[] = 
 {
-	{ &IConvertible_t1465_0_0_0, 4},
-	{ &ISerializable_t1482_0_0_0, 20},
+	{ &IConvertible_t1467_0_0_0, 4},
+	{ &ISerializable_t1484_0_0_0, 20},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType DBNull_t1358_0_0_0;
-extern const Il2CppType DBNull_t1358_1_0_0;
-struct DBNull_t1358;
-const Il2CppTypeDefinitionMetadata DBNull_t1358_DefinitionMetadata = 
+extern const Il2CppType DBNull_t1360_0_0_0;
+extern const Il2CppType DBNull_t1360_1_0_0;
+struct DBNull_t1360;
+const Il2CppTypeDefinitionMetadata DBNull_t1360_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, DBNull_t1358_InterfacesTypeInfos/* implementedInterfaces */
-	, DBNull_t1358_InterfacesOffsets/* interfaceOffsets */
+	, DBNull_t1360_InterfacesTypeInfos/* implementedInterfaces */
+	, DBNull_t1360_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, DBNull_t1358_VTable/* vtableMethods */
+	, DBNull_t1360_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5315/* fieldStart */
-	, 8582/* methodStart */
+	, 5327/* fieldStart */
+	, 8593/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo DBNull_t1358_il2cpp_TypeInfo = 
+TypeInfo DBNull_t1360_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DBNull"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &DBNull_t1358_il2cpp_TypeInfo/* element_class */
+	, &DBNull_t1360_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1554/* custom_attributes_cache */
-	, &DBNull_t1358_0_0_0/* byval_arg */
-	, &DBNull_t1358_1_0_0/* this_arg */
-	, &DBNull_t1358_DefinitionMetadata/* definitionMetadata */
+	, 1556/* custom_attributes_cache */
+	, &DBNull_t1360_0_0_0/* byval_arg */
+	, &DBNull_t1360_1_0_0/* this_arg */
+	, &DBNull_t1360_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -2978,11 +2978,11 @@ TypeInfo DBNull_t1358_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DBNull_t1358)/* instance_size */
-	, sizeof (DBNull_t1358)/* actualSize */
+	, sizeof (DBNull_t1360)/* instance_size */
+	, sizeof (DBNull_t1360)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(DBNull_t1358_StaticFields)/* static_fields_size */
+	, sizeof(DBNull_t1360_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1057025/* flags */
@@ -3011,15 +3011,15 @@ TypeInfo DBNull_t1358_il2cpp_TypeInfo =
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // Metadata Definition System.DateTime
-extern TypeInfo DateTime_t125_il2cpp_TypeInfo;
+extern TypeInfo DateTime_t129_il2cpp_TypeInfo;
 // System.DateTime
 #include "mscorlib_System_DateTimeMethodDeclarations.h"
-extern const Il2CppType Which_t1359_0_0_0;
-static const Il2CppType* DateTime_t125_il2cpp_TypeInfo__nestedTypes[1] =
+extern const Il2CppType Which_t1361_0_0_0;
+static const Il2CppType* DateTime_t129_il2cpp_TypeInfo__nestedTypes[1] =
 {
-	&Which_t1359_0_0_0,
+	&Which_t1361_0_0_0,
 };
-static const EncodedMethodIndex DateTime_t125_VTable[24] = 
+static const EncodedMethodIndex DateTime_t129_VTable[24] = 
 {
 	3188,
 	148,
@@ -3046,56 +3046,56 @@ static const EncodedMethodIndex DateTime_t125_VTable[24] =
 	3209,
 	3210,
 };
-extern const Il2CppType IComparable_1_t2472_0_0_0;
-extern const Il2CppType IEquatable_1_t2473_0_0_0;
-static const Il2CppType* DateTime_t125_InterfacesTypeInfos[] = 
+extern const Il2CppType IComparable_1_t2474_0_0_0;
+extern const Il2CppType IEquatable_1_t2475_0_0_0;
+static const Il2CppType* DateTime_t129_InterfacesTypeInfos[] = 
 {
-	&IFormattable_t1462_0_0_0,
-	&IConvertible_t1465_0_0_0,
-	&IComparable_t1464_0_0_0,
-	&IComparable_1_t2472_0_0_0,
-	&IEquatable_1_t2473_0_0_0,
+	&IFormattable_t1464_0_0_0,
+	&IConvertible_t1467_0_0_0,
+	&IComparable_t1466_0_0_0,
+	&IComparable_1_t2474_0_0_0,
+	&IEquatable_1_t2475_0_0_0,
 };
-static Il2CppInterfaceOffsetPair DateTime_t125_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair DateTime_t129_InterfacesOffsets[] = 
 {
-	{ &IFormattable_t1462_0_0_0, 4},
-	{ &IConvertible_t1465_0_0_0, 5},
-	{ &IComparable_t1464_0_0_0, 21},
-	{ &IComparable_1_t2472_0_0_0, 22},
-	{ &IEquatable_1_t2473_0_0_0, 23},
+	{ &IFormattable_t1464_0_0_0, 4},
+	{ &IConvertible_t1467_0_0_0, 5},
+	{ &IComparable_t1466_0_0_0, 21},
+	{ &IComparable_1_t2474_0_0_0, 22},
+	{ &IEquatable_1_t2475_0_0_0, 23},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType DateTime_t125_0_0_0;
-extern const Il2CppType DateTime_t125_1_0_0;
-extern const Il2CppType ValueType_t815_0_0_0;
-const Il2CppTypeDefinitionMetadata DateTime_t125_DefinitionMetadata = 
+extern const Il2CppType DateTime_t129_0_0_0;
+extern const Il2CppType DateTime_t129_1_0_0;
+extern const Il2CppType ValueType_t817_0_0_0;
+const Il2CppTypeDefinitionMetadata DateTime_t129_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, DateTime_t125_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
-	, DateTime_t125_InterfacesTypeInfos/* implementedInterfaces */
-	, DateTime_t125_InterfacesOffsets/* interfaceOffsets */
-	, &ValueType_t815_0_0_0/* parent */
-	, DateTime_t125_VTable/* vtableMethods */
+	, DateTime_t129_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, DateTime_t129_InterfacesTypeInfos/* implementedInterfaces */
+	, DateTime_t129_InterfacesOffsets/* interfaceOffsets */
+	, &ValueType_t817_0_0_0/* parent */
+	, DateTime_t129_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5316/* fieldStart */
-	, 8603/* methodStart */
+	, 5328/* fieldStart */
+	, 8614/* methodStart */
 	, -1/* eventStart */
-	, 1672/* propertyStart */
+	, 1673/* propertyStart */
 
 };
-TypeInfo DateTime_t125_il2cpp_TypeInfo = 
+TypeInfo DateTime_t129_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DateTime"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &DateTime_t125_il2cpp_TypeInfo/* element_class */
+	, &DateTime_t129_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &DateTime_t125_0_0_0/* byval_arg */
-	, &DateTime_t125_1_0_0/* this_arg */
-	, &DateTime_t125_DefinitionMetadata/* definitionMetadata */
+	, &DateTime_t129_0_0_0/* byval_arg */
+	, &DateTime_t129_1_0_0/* this_arg */
+	, &DateTime_t129_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -3105,11 +3105,11 @@ TypeInfo DateTime_t125_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DateTime_t125)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (DateTime_t125)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (DateTime_t129)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (DateTime_t129)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(DateTime_t125_StaticFields)/* static_fields_size */
+	, sizeof(DateTime_t129_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 8449/* flags */
@@ -3138,10 +3138,10 @@ TypeInfo DateTime_t125_il2cpp_TypeInfo =
 // System.DateTime/Which
 #include "mscorlib_System_DateTime_Which.h"
 // Metadata Definition System.DateTime/Which
-extern TypeInfo Which_t1359_il2cpp_TypeInfo;
+extern TypeInfo Which_t1361_il2cpp_TypeInfo;
 // System.DateTime/Which
 #include "mscorlib_System_DateTime_WhichMethodDeclarations.h"
-static const EncodedMethodIndex Which_t1359_VTable[23] = 
+static const EncodedMethodIndex Which_t1361_VTable[23] = 
 {
 	147,
 	148,
@@ -3167,42 +3167,42 @@ static const EncodedMethodIndex Which_t1359_VTable[23] =
 	168,
 	169,
 };
-static Il2CppInterfaceOffsetPair Which_t1359_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair Which_t1361_InterfacesOffsets[] = 
 {
-	{ &IFormattable_t1462_0_0_0, 4},
-	{ &IConvertible_t1465_0_0_0, 5},
-	{ &IComparable_t1464_0_0_0, 21},
+	{ &IFormattable_t1464_0_0_0, 4},
+	{ &IConvertible_t1467_0_0_0, 5},
+	{ &IComparable_t1466_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType Which_t1359_1_0_0;
-const Il2CppTypeDefinitionMetadata Which_t1359_DefinitionMetadata = 
+extern const Il2CppType Which_t1361_1_0_0;
+const Il2CppTypeDefinitionMetadata Which_t1361_DefinitionMetadata = 
 {
-	&DateTime_t125_0_0_0/* declaringType */
+	&DateTime_t129_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, Which_t1359_InterfacesOffsets/* interfaceOffsets */
-	, &Enum_t372_0_0_0/* parent */
-	, Which_t1359_VTable/* vtableMethods */
+	, Which_t1361_InterfacesOffsets/* interfaceOffsets */
+	, &Enum_t374_0_0_0/* parent */
+	, Which_t1361_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5331/* fieldStart */
+	, 5343/* fieldStart */
 	, -1/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo Which_t1359_il2cpp_TypeInfo = 
+TypeInfo Which_t1361_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Which"/* name */
 	, ""/* namespaze */
 	, NULL/* methods */
-	, &Int32_t67_il2cpp_TypeInfo/* element_class */
+	, &Int32_t72_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &Which_t1359_0_0_0/* byval_arg */
-	, &Which_t1359_1_0_0/* this_arg */
-	, &Which_t1359_DefinitionMetadata/* definitionMetadata */
+	, &Which_t1361_0_0_0/* byval_arg */
+	, &Which_t1361_1_0_0/* this_arg */
+	, &Which_t1361_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -3212,8 +3212,8 @@ TypeInfo Which_t1359_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Which_t1359)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (Which_t1359)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (Which_t1361)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (Which_t1361)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -3245,10 +3245,10 @@ TypeInfo Which_t1359_il2cpp_TypeInfo =
 // System.DateTimeKind
 #include "mscorlib_System_DateTimeKind.h"
 // Metadata Definition System.DateTimeKind
-extern TypeInfo DateTimeKind_t1360_il2cpp_TypeInfo;
+extern TypeInfo DateTimeKind_t1362_il2cpp_TypeInfo;
 // System.DateTimeKind
 #include "mscorlib_System_DateTimeKindMethodDeclarations.h"
-static const EncodedMethodIndex DateTimeKind_t1360_VTable[23] = 
+static const EncodedMethodIndex DateTimeKind_t1362_VTable[23] = 
 {
 	147,
 	148,
@@ -3274,43 +3274,43 @@ static const EncodedMethodIndex DateTimeKind_t1360_VTable[23] =
 	168,
 	169,
 };
-static Il2CppInterfaceOffsetPair DateTimeKind_t1360_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair DateTimeKind_t1362_InterfacesOffsets[] = 
 {
-	{ &IFormattable_t1462_0_0_0, 4},
-	{ &IConvertible_t1465_0_0_0, 5},
-	{ &IComparable_t1464_0_0_0, 21},
+	{ &IFormattable_t1464_0_0_0, 4},
+	{ &IConvertible_t1467_0_0_0, 5},
+	{ &IComparable_t1466_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType DateTimeKind_t1360_0_0_0;
-extern const Il2CppType DateTimeKind_t1360_1_0_0;
-const Il2CppTypeDefinitionMetadata DateTimeKind_t1360_DefinitionMetadata = 
+extern const Il2CppType DateTimeKind_t1362_0_0_0;
+extern const Il2CppType DateTimeKind_t1362_1_0_0;
+const Il2CppTypeDefinitionMetadata DateTimeKind_t1362_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, DateTimeKind_t1360_InterfacesOffsets/* interfaceOffsets */
-	, &Enum_t372_0_0_0/* parent */
-	, DateTimeKind_t1360_VTable/* vtableMethods */
+	, DateTimeKind_t1362_InterfacesOffsets/* interfaceOffsets */
+	, &Enum_t374_0_0_0/* parent */
+	, DateTimeKind_t1362_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5336/* fieldStart */
+	, 5348/* fieldStart */
 	, -1/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo DateTimeKind_t1360_il2cpp_TypeInfo = 
+TypeInfo DateTimeKind_t1362_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DateTimeKind"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &Int32_t67_il2cpp_TypeInfo/* element_class */
+	, &Int32_t72_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1555/* custom_attributes_cache */
-	, &DateTimeKind_t1360_0_0_0/* byval_arg */
-	, &DateTimeKind_t1360_1_0_0/* this_arg */
-	, &DateTimeKind_t1360_DefinitionMetadata/* definitionMetadata */
+	, 1557/* custom_attributes_cache */
+	, &DateTimeKind_t1362_0_0_0/* byval_arg */
+	, &DateTimeKind_t1362_1_0_0/* this_arg */
+	, &DateTimeKind_t1362_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -3320,8 +3320,8 @@ TypeInfo DateTimeKind_t1360_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DateTimeKind_t1360)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (DateTimeKind_t1360)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (DateTimeKind_t1362)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (DateTimeKind_t1362)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -3353,10 +3353,10 @@ TypeInfo DateTimeKind_t1360_il2cpp_TypeInfo =
 // System.DateTimeOffset
 #include "mscorlib_System_DateTimeOffset.h"
 // Metadata Definition System.DateTimeOffset
-extern TypeInfo DateTimeOffset_t424_il2cpp_TypeInfo;
+extern TypeInfo DateTimeOffset_t426_il2cpp_TypeInfo;
 // System.DateTimeOffset
 #include "mscorlib_System_DateTimeOffsetMethodDeclarations.h"
-static const EncodedMethodIndex DateTimeOffset_t424_VTable[10] = 
+static const EncodedMethodIndex DateTimeOffset_t426_VTable[10] = 
 {
 	3211,
 	148,
@@ -3369,58 +3369,58 @@ static const EncodedMethodIndex DateTimeOffset_t424_VTable[10] =
 	3218,
 	3219,
 };
-extern const Il2CppType IComparable_1_t2474_0_0_0;
-extern const Il2CppType IEquatable_1_t2475_0_0_0;
-extern const Il2CppType IDeserializationCallback_t1485_0_0_0;
-static const Il2CppType* DateTimeOffset_t424_InterfacesTypeInfos[] = 
+extern const Il2CppType IComparable_1_t2476_0_0_0;
+extern const Il2CppType IEquatable_1_t2477_0_0_0;
+extern const Il2CppType IDeserializationCallback_t1487_0_0_0;
+static const Il2CppType* DateTimeOffset_t426_InterfacesTypeInfos[] = 
 {
-	&IFormattable_t1462_0_0_0,
-	&IComparable_t1464_0_0_0,
-	&ISerializable_t1482_0_0_0,
-	&IComparable_1_t2474_0_0_0,
-	&IEquatable_1_t2475_0_0_0,
-	&IDeserializationCallback_t1485_0_0_0,
+	&IFormattable_t1464_0_0_0,
+	&IComparable_t1466_0_0_0,
+	&ISerializable_t1484_0_0_0,
+	&IComparable_1_t2476_0_0_0,
+	&IEquatable_1_t2477_0_0_0,
+	&IDeserializationCallback_t1487_0_0_0,
 };
-static Il2CppInterfaceOffsetPair DateTimeOffset_t424_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair DateTimeOffset_t426_InterfacesOffsets[] = 
 {
-	{ &IFormattable_t1462_0_0_0, 4},
-	{ &IComparable_t1464_0_0_0, 5},
-	{ &ISerializable_t1482_0_0_0, 6},
-	{ &IComparable_1_t2474_0_0_0, 7},
-	{ &IEquatable_1_t2475_0_0_0, 8},
-	{ &IDeserializationCallback_t1485_0_0_0, 9},
+	{ &IFormattable_t1464_0_0_0, 4},
+	{ &IComparable_t1466_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 6},
+	{ &IComparable_1_t2476_0_0_0, 7},
+	{ &IEquatable_1_t2477_0_0_0, 8},
+	{ &IDeserializationCallback_t1487_0_0_0, 9},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType DateTimeOffset_t424_0_0_0;
-extern const Il2CppType DateTimeOffset_t424_1_0_0;
-const Il2CppTypeDefinitionMetadata DateTimeOffset_t424_DefinitionMetadata = 
+extern const Il2CppType DateTimeOffset_t426_0_0_0;
+extern const Il2CppType DateTimeOffset_t426_1_0_0;
+const Il2CppTypeDefinitionMetadata DateTimeOffset_t426_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, DateTimeOffset_t424_InterfacesTypeInfos/* implementedInterfaces */
-	, DateTimeOffset_t424_InterfacesOffsets/* interfaceOffsets */
-	, &ValueType_t815_0_0_0/* parent */
-	, DateTimeOffset_t424_VTable/* vtableMethods */
+	, DateTimeOffset_t426_InterfacesTypeInfos/* implementedInterfaces */
+	, DateTimeOffset_t426_InterfacesOffsets/* interfaceOffsets */
+	, &ValueType_t817_0_0_0/* parent */
+	, DateTimeOffset_t426_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5340/* fieldStart */
-	, 8685/* methodStart */
+	, 5352/* fieldStart */
+	, 8696/* methodStart */
 	, -1/* eventStart */
-	, 1684/* propertyStart */
+	, 1685/* propertyStart */
 
 };
-TypeInfo DateTimeOffset_t424_il2cpp_TypeInfo = 
+TypeInfo DateTimeOffset_t426_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DateTimeOffset"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &DateTimeOffset_t424_il2cpp_TypeInfo/* element_class */
+	, &DateTimeOffset_t426_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &DateTimeOffset_t424_0_0_0/* byval_arg */
-	, &DateTimeOffset_t424_1_0_0/* this_arg */
-	, &DateTimeOffset_t424_DefinitionMetadata/* definitionMetadata */
+	, &DateTimeOffset_t426_0_0_0/* byval_arg */
+	, &DateTimeOffset_t426_1_0_0/* this_arg */
+	, &DateTimeOffset_t426_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -3430,11 +3430,11 @@ TypeInfo DateTimeOffset_t424_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DateTimeOffset_t424)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (DateTimeOffset_t424)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (DateTimeOffset_t426)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (DateTimeOffset_t426)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(DateTimeOffset_t424_StaticFields)/* static_fields_size */
+	, sizeof(DateTimeOffset_t426_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 8449/* flags */
@@ -3463,10 +3463,10 @@ TypeInfo DateTimeOffset_t424_il2cpp_TypeInfo =
 // System.DateTimeUtils
 #include "mscorlib_System_DateTimeUtils.h"
 // Metadata Definition System.DateTimeUtils
-extern TypeInfo DateTimeUtils_t1361_il2cpp_TypeInfo;
+extern TypeInfo DateTimeUtils_t1363_il2cpp_TypeInfo;
 // System.DateTimeUtils
 #include "mscorlib_System_DateTimeUtilsMethodDeclarations.h"
-static const EncodedMethodIndex DateTimeUtils_t1361_VTable[4] = 
+static const EncodedMethodIndex DateTimeUtils_t1363_VTable[4] = 
 {
 	198,
 	148,
@@ -3474,37 +3474,37 @@ static const EncodedMethodIndex DateTimeUtils_t1361_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType DateTimeUtils_t1361_0_0_0;
-extern const Il2CppType DateTimeUtils_t1361_1_0_0;
-struct DateTimeUtils_t1361;
-const Il2CppTypeDefinitionMetadata DateTimeUtils_t1361_DefinitionMetadata = 
+extern const Il2CppType DateTimeUtils_t1363_0_0_0;
+extern const Il2CppType DateTimeUtils_t1363_1_0_0;
+struct DateTimeUtils_t1363;
+const Il2CppTypeDefinitionMetadata DateTimeUtils_t1363_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, DateTimeUtils_t1361_VTable/* vtableMethods */
+	, DateTimeUtils_t1363_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8703/* methodStart */
+	, 8714/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo DateTimeUtils_t1361_il2cpp_TypeInfo = 
+TypeInfo DateTimeUtils_t1363_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DateTimeUtils"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &DateTimeUtils_t1361_il2cpp_TypeInfo/* element_class */
+	, &DateTimeUtils_t1363_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &DateTimeUtils_t1361_0_0_0/* byval_arg */
-	, &DateTimeUtils_t1361_1_0_0/* this_arg */
-	, &DateTimeUtils_t1361_DefinitionMetadata/* definitionMetadata */
+	, &DateTimeUtils_t1363_0_0_0/* byval_arg */
+	, &DateTimeUtils_t1363_1_0_0/* this_arg */
+	, &DateTimeUtils_t1363_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -3514,8 +3514,8 @@ TypeInfo DateTimeUtils_t1361_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DateTimeUtils_t1361)/* instance_size */
-	, sizeof (DateTimeUtils_t1361)/* actualSize */
+	, sizeof (DateTimeUtils_t1363)/* instance_size */
+	, sizeof (DateTimeUtils_t1363)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3547,10 +3547,10 @@ TypeInfo DateTimeUtils_t1361_il2cpp_TypeInfo =
 // System.DayOfWeek
 #include "mscorlib_System_DayOfWeek.h"
 // Metadata Definition System.DayOfWeek
-extern TypeInfo DayOfWeek_t1362_il2cpp_TypeInfo;
+extern TypeInfo DayOfWeek_t1364_il2cpp_TypeInfo;
 // System.DayOfWeek
 #include "mscorlib_System_DayOfWeekMethodDeclarations.h"
-static const EncodedMethodIndex DayOfWeek_t1362_VTable[23] = 
+static const EncodedMethodIndex DayOfWeek_t1364_VTable[23] = 
 {
 	147,
 	148,
@@ -3576,43 +3576,43 @@ static const EncodedMethodIndex DayOfWeek_t1362_VTable[23] =
 	168,
 	169,
 };
-static Il2CppInterfaceOffsetPair DayOfWeek_t1362_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair DayOfWeek_t1364_InterfacesOffsets[] = 
 {
-	{ &IFormattable_t1462_0_0_0, 4},
-	{ &IConvertible_t1465_0_0_0, 5},
-	{ &IComparable_t1464_0_0_0, 21},
+	{ &IFormattable_t1464_0_0_0, 4},
+	{ &IConvertible_t1467_0_0_0, 5},
+	{ &IComparable_t1466_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType DayOfWeek_t1362_0_0_0;
-extern const Il2CppType DayOfWeek_t1362_1_0_0;
-const Il2CppTypeDefinitionMetadata DayOfWeek_t1362_DefinitionMetadata = 
+extern const Il2CppType DayOfWeek_t1364_0_0_0;
+extern const Il2CppType DayOfWeek_t1364_1_0_0;
+const Il2CppTypeDefinitionMetadata DayOfWeek_t1364_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, DayOfWeek_t1362_InterfacesOffsets/* interfaceOffsets */
-	, &Enum_t372_0_0_0/* parent */
-	, DayOfWeek_t1362_VTable/* vtableMethods */
+	, DayOfWeek_t1364_InterfacesOffsets/* interfaceOffsets */
+	, &Enum_t374_0_0_0/* parent */
+	, DayOfWeek_t1364_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5344/* fieldStart */
+	, 5356/* fieldStart */
 	, -1/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo DayOfWeek_t1362_il2cpp_TypeInfo = 
+TypeInfo DayOfWeek_t1364_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DayOfWeek"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &Int32_t67_il2cpp_TypeInfo/* element_class */
+	, &Int32_t72_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1557/* custom_attributes_cache */
-	, &DayOfWeek_t1362_0_0_0/* byval_arg */
-	, &DayOfWeek_t1362_1_0_0/* this_arg */
-	, &DayOfWeek_t1362_DefinitionMetadata/* definitionMetadata */
+	, 1559/* custom_attributes_cache */
+	, &DayOfWeek_t1364_0_0_0/* byval_arg */
+	, &DayOfWeek_t1364_1_0_0/* this_arg */
+	, &DayOfWeek_t1364_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -3622,8 +3622,8 @@ TypeInfo DayOfWeek_t1362_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DayOfWeek_t1362)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (DayOfWeek_t1362)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (DayOfWeek_t1364)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (DayOfWeek_t1364)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -3655,10 +3655,10 @@ TypeInfo DayOfWeek_t1362_il2cpp_TypeInfo =
 // System.DelegateData
 #include "mscorlib_System_DelegateData.h"
 // Metadata Definition System.DelegateData
-extern TypeInfo DelegateData_t820_il2cpp_TypeInfo;
+extern TypeInfo DelegateData_t822_il2cpp_TypeInfo;
 // System.DelegateData
 #include "mscorlib_System_DelegateDataMethodDeclarations.h"
-static const EncodedMethodIndex DelegateData_t820_VTable[4] = 
+static const EncodedMethodIndex DelegateData_t822_VTable[4] = 
 {
 	198,
 	148,
@@ -3666,37 +3666,37 @@ static const EncodedMethodIndex DelegateData_t820_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType DelegateData_t820_0_0_0;
-extern const Il2CppType DelegateData_t820_1_0_0;
-struct DelegateData_t820;
-const Il2CppTypeDefinitionMetadata DelegateData_t820_DefinitionMetadata = 
+extern const Il2CppType DelegateData_t822_0_0_0;
+extern const Il2CppType DelegateData_t822_1_0_0;
+struct DelegateData_t822;
+const Il2CppTypeDefinitionMetadata DelegateData_t822_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, DelegateData_t820_VTable/* vtableMethods */
+	, DelegateData_t822_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5352/* fieldStart */
+	, 5364/* fieldStart */
 	, -1/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo DelegateData_t820_il2cpp_TypeInfo = 
+TypeInfo DelegateData_t822_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DelegateData"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &DelegateData_t820_il2cpp_TypeInfo/* element_class */
+	, &DelegateData_t822_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &DelegateData_t820_0_0_0/* byval_arg */
-	, &DelegateData_t820_1_0_0/* this_arg */
-	, &DelegateData_t820_DefinitionMetadata/* definitionMetadata */
+	, &DelegateData_t822_0_0_0/* byval_arg */
+	, &DelegateData_t822_1_0_0/* this_arg */
+	, &DelegateData_t822_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -3706,8 +3706,8 @@ TypeInfo DelegateData_t820_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DelegateData_t820)/* instance_size */
-	, sizeof (DelegateData_t820)/* actualSize */
+	, sizeof (DelegateData_t822)/* instance_size */
+	, sizeof (DelegateData_t822)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3739,15 +3739,15 @@ TypeInfo DelegateData_t820_il2cpp_TypeInfo =
 // System.DelegateSerializationHolder
 #include "mscorlib_System_DelegateSerializationHolder.h"
 // Metadata Definition System.DelegateSerializationHolder
-extern TypeInfo DelegateSerializationHolder_t1364_il2cpp_TypeInfo;
+extern TypeInfo DelegateSerializationHolder_t1366_il2cpp_TypeInfo;
 // System.DelegateSerializationHolder
 #include "mscorlib_System_DelegateSerializationHolderMethodDeclarations.h"
-extern const Il2CppType DelegateEntry_t1363_0_0_0;
-static const Il2CppType* DelegateSerializationHolder_t1364_il2cpp_TypeInfo__nestedTypes[1] =
+extern const Il2CppType DelegateEntry_t1365_0_0_0;
+static const Il2CppType* DelegateSerializationHolder_t1366_il2cpp_TypeInfo__nestedTypes[1] =
 {
-	&DelegateEntry_t1363_0_0_0,
+	&DelegateEntry_t1365_0_0_0,
 };
-static const EncodedMethodIndex DelegateSerializationHolder_t1364_VTable[6] = 
+static const EncodedMethodIndex DelegateSerializationHolder_t1366_VTable[6] = 
 {
 	198,
 	148,
@@ -3756,49 +3756,49 @@ static const EncodedMethodIndex DelegateSerializationHolder_t1364_VTable[6] =
 	3220,
 	3221,
 };
-extern const Il2CppType IObjectReference_t1483_0_0_0;
-static const Il2CppType* DelegateSerializationHolder_t1364_InterfacesTypeInfos[] = 
+extern const Il2CppType IObjectReference_t1485_0_0_0;
+static const Il2CppType* DelegateSerializationHolder_t1366_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t1482_0_0_0,
-	&IObjectReference_t1483_0_0_0,
+	&ISerializable_t1484_0_0_0,
+	&IObjectReference_t1485_0_0_0,
 };
-static Il2CppInterfaceOffsetPair DelegateSerializationHolder_t1364_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair DelegateSerializationHolder_t1366_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &IObjectReference_t1483_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &IObjectReference_t1485_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType DelegateSerializationHolder_t1364_0_0_0;
-extern const Il2CppType DelegateSerializationHolder_t1364_1_0_0;
-struct DelegateSerializationHolder_t1364;
-const Il2CppTypeDefinitionMetadata DelegateSerializationHolder_t1364_DefinitionMetadata = 
+extern const Il2CppType DelegateSerializationHolder_t1366_0_0_0;
+extern const Il2CppType DelegateSerializationHolder_t1366_1_0_0;
+struct DelegateSerializationHolder_t1366;
+const Il2CppTypeDefinitionMetadata DelegateSerializationHolder_t1366_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, DelegateSerializationHolder_t1364_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
-	, DelegateSerializationHolder_t1364_InterfacesTypeInfos/* implementedInterfaces */
-	, DelegateSerializationHolder_t1364_InterfacesOffsets/* interfaceOffsets */
+	, DelegateSerializationHolder_t1366_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, DelegateSerializationHolder_t1366_InterfacesTypeInfos/* implementedInterfaces */
+	, DelegateSerializationHolder_t1366_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, DelegateSerializationHolder_t1364_VTable/* vtableMethods */
+	, DelegateSerializationHolder_t1366_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5354/* fieldStart */
-	, 8710/* methodStart */
+	, 5366/* fieldStart */
+	, 8721/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo DelegateSerializationHolder_t1364_il2cpp_TypeInfo = 
+TypeInfo DelegateSerializationHolder_t1366_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DelegateSerializationHolder"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &DelegateSerializationHolder_t1364_il2cpp_TypeInfo/* element_class */
+	, &DelegateSerializationHolder_t1366_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &DelegateSerializationHolder_t1364_0_0_0/* byval_arg */
-	, &DelegateSerializationHolder_t1364_1_0_0/* this_arg */
-	, &DelegateSerializationHolder_t1364_DefinitionMetadata/* definitionMetadata */
+	, &DelegateSerializationHolder_t1366_0_0_0/* byval_arg */
+	, &DelegateSerializationHolder_t1366_1_0_0/* this_arg */
+	, &DelegateSerializationHolder_t1366_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -3808,8 +3808,8 @@ TypeInfo DelegateSerializationHolder_t1364_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DelegateSerializationHolder_t1364)/* instance_size */
-	, sizeof (DelegateSerializationHolder_t1364)/* actualSize */
+	, sizeof (DelegateSerializationHolder_t1366)/* instance_size */
+	, sizeof (DelegateSerializationHolder_t1366)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3841,10 +3841,10 @@ TypeInfo DelegateSerializationHolder_t1364_il2cpp_TypeInfo =
 // System.DelegateSerializationHolder/DelegateEntry
 #include "mscorlib_System_DelegateSerializationHolder_DelegateEntry.h"
 // Metadata Definition System.DelegateSerializationHolder/DelegateEntry
-extern TypeInfo DelegateEntry_t1363_il2cpp_TypeInfo;
+extern TypeInfo DelegateEntry_t1365_il2cpp_TypeInfo;
 // System.DelegateSerializationHolder/DelegateEntry
 #include "mscorlib_System_DelegateSerializationHolder_DelegateEntryMethodDeclarations.h"
-static const EncodedMethodIndex DelegateEntry_t1363_VTable[4] = 
+static const EncodedMethodIndex DelegateEntry_t1365_VTable[4] = 
 {
 	198,
 	148,
@@ -3852,36 +3852,36 @@ static const EncodedMethodIndex DelegateEntry_t1363_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType DelegateEntry_t1363_1_0_0;
-struct DelegateEntry_t1363;
-const Il2CppTypeDefinitionMetadata DelegateEntry_t1363_DefinitionMetadata = 
+extern const Il2CppType DelegateEntry_t1365_1_0_0;
+struct DelegateEntry_t1365;
+const Il2CppTypeDefinitionMetadata DelegateEntry_t1365_DefinitionMetadata = 
 {
-	&DelegateSerializationHolder_t1364_0_0_0/* declaringType */
+	&DelegateSerializationHolder_t1366_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, DelegateEntry_t1363_VTable/* vtableMethods */
+	, DelegateEntry_t1365_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5355/* fieldStart */
-	, 8714/* methodStart */
+	, 5367/* fieldStart */
+	, 8725/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo DelegateEntry_t1363_il2cpp_TypeInfo = 
+TypeInfo DelegateEntry_t1365_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DelegateEntry"/* name */
 	, ""/* namespaze */
 	, NULL/* methods */
-	, &DelegateEntry_t1363_il2cpp_TypeInfo/* element_class */
+	, &DelegateEntry_t1365_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &DelegateEntry_t1363_0_0_0/* byval_arg */
-	, &DelegateEntry_t1363_1_0_0/* this_arg */
-	, &DelegateEntry_t1363_DefinitionMetadata/* definitionMetadata */
+	, &DelegateEntry_t1365_0_0_0/* byval_arg */
+	, &DelegateEntry_t1365_1_0_0/* this_arg */
+	, &DelegateEntry_t1365_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -3891,8 +3891,8 @@ TypeInfo DelegateEntry_t1363_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DelegateEntry_t1363)/* instance_size */
-	, sizeof (DelegateEntry_t1363)/* actualSize */
+	, sizeof (DelegateEntry_t1365)/* instance_size */
+	, sizeof (DelegateEntry_t1365)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3924,10 +3924,10 @@ TypeInfo DelegateEntry_t1363_il2cpp_TypeInfo =
 // System.DivideByZeroException
 #include "mscorlib_System_DivideByZeroException.h"
 // Metadata Definition System.DivideByZeroException
-extern TypeInfo DivideByZeroException_t1365_il2cpp_TypeInfo;
+extern TypeInfo DivideByZeroException_t1367_il2cpp_TypeInfo;
 // System.DivideByZeroException
 #include "mscorlib_System_DivideByZeroExceptionMethodDeclarations.h"
-static const EncodedMethodIndex DivideByZeroException_t1365_VTable[11] = 
+static const EncodedMethodIndex DivideByZeroException_t1367_VTable[11] = 
 {
 	198,
 	148,
@@ -3941,43 +3941,43 @@ static const EncodedMethodIndex DivideByZeroException_t1365_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair DivideByZeroException_t1365_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair DivideByZeroException_t1367_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType DivideByZeroException_t1365_0_0_0;
-extern const Il2CppType DivideByZeroException_t1365_1_0_0;
-struct DivideByZeroException_t1365;
-const Il2CppTypeDefinitionMetadata DivideByZeroException_t1365_DefinitionMetadata = 
+extern const Il2CppType DivideByZeroException_t1367_0_0_0;
+extern const Il2CppType DivideByZeroException_t1367_1_0_0;
+struct DivideByZeroException_t1367;
+const Il2CppTypeDefinitionMetadata DivideByZeroException_t1367_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, DivideByZeroException_t1365_InterfacesOffsets/* interfaceOffsets */
-	, &ArithmeticException_t798_0_0_0/* parent */
-	, DivideByZeroException_t1365_VTable/* vtableMethods */
+	, DivideByZeroException_t1367_InterfacesOffsets/* interfaceOffsets */
+	, &ArithmeticException_t800_0_0_0/* parent */
+	, DivideByZeroException_t1367_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8716/* methodStart */
+	, 8727/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo DivideByZeroException_t1365_il2cpp_TypeInfo = 
+TypeInfo DivideByZeroException_t1367_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DivideByZeroException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &DivideByZeroException_t1365_il2cpp_TypeInfo/* element_class */
+	, &DivideByZeroException_t1367_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1558/* custom_attributes_cache */
-	, &DivideByZeroException_t1365_0_0_0/* byval_arg */
-	, &DivideByZeroException_t1365_1_0_0/* this_arg */
-	, &DivideByZeroException_t1365_DefinitionMetadata/* definitionMetadata */
+	, 1560/* custom_attributes_cache */
+	, &DivideByZeroException_t1367_0_0_0/* byval_arg */
+	, &DivideByZeroException_t1367_1_0_0/* this_arg */
+	, &DivideByZeroException_t1367_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -3987,8 +3987,8 @@ TypeInfo DivideByZeroException_t1365_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DivideByZeroException_t1365)/* instance_size */
-	, sizeof (DivideByZeroException_t1365)/* actualSize */
+	, sizeof (DivideByZeroException_t1367)/* instance_size */
+	, sizeof (DivideByZeroException_t1367)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4020,10 +4020,10 @@ TypeInfo DivideByZeroException_t1365_il2cpp_TypeInfo =
 // System.DllNotFoundException
 #include "mscorlib_System_DllNotFoundException.h"
 // Metadata Definition System.DllNotFoundException
-extern TypeInfo DllNotFoundException_t1366_il2cpp_TypeInfo;
+extern TypeInfo DllNotFoundException_t1368_il2cpp_TypeInfo;
 // System.DllNotFoundException
 #include "mscorlib_System_DllNotFoundExceptionMethodDeclarations.h"
-static const EncodedMethodIndex DllNotFoundException_t1366_VTable[11] = 
+static const EncodedMethodIndex DllNotFoundException_t1368_VTable[11] = 
 {
 	198,
 	148,
@@ -4037,44 +4037,44 @@ static const EncodedMethodIndex DllNotFoundException_t1366_VTable[11] =
 	3222,
 	354,
 };
-static Il2CppInterfaceOffsetPair DllNotFoundException_t1366_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair DllNotFoundException_t1368_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType DllNotFoundException_t1366_0_0_0;
-extern const Il2CppType DllNotFoundException_t1366_1_0_0;
-extern const Il2CppType TypeLoadException_t1367_0_0_0;
-struct DllNotFoundException_t1366;
-const Il2CppTypeDefinitionMetadata DllNotFoundException_t1366_DefinitionMetadata = 
+extern const Il2CppType DllNotFoundException_t1368_0_0_0;
+extern const Il2CppType DllNotFoundException_t1368_1_0_0;
+extern const Il2CppType TypeLoadException_t1369_0_0_0;
+struct DllNotFoundException_t1368;
+const Il2CppTypeDefinitionMetadata DllNotFoundException_t1368_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, DllNotFoundException_t1366_InterfacesOffsets/* interfaceOffsets */
-	, &TypeLoadException_t1367_0_0_0/* parent */
-	, DllNotFoundException_t1366_VTable/* vtableMethods */
+	, DllNotFoundException_t1368_InterfacesOffsets/* interfaceOffsets */
+	, &TypeLoadException_t1369_0_0_0/* parent */
+	, DllNotFoundException_t1368_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5362/* fieldStart */
-	, 8718/* methodStart */
+	, 5374/* fieldStart */
+	, 8729/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo DllNotFoundException_t1366_il2cpp_TypeInfo = 
+TypeInfo DllNotFoundException_t1368_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DllNotFoundException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &DllNotFoundException_t1366_il2cpp_TypeInfo/* element_class */
+	, &DllNotFoundException_t1368_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1559/* custom_attributes_cache */
-	, &DllNotFoundException_t1366_0_0_0/* byval_arg */
-	, &DllNotFoundException_t1366_1_0_0/* this_arg */
-	, &DllNotFoundException_t1366_DefinitionMetadata/* definitionMetadata */
+	, 1561/* custom_attributes_cache */
+	, &DllNotFoundException_t1368_0_0_0/* byval_arg */
+	, &DllNotFoundException_t1368_1_0_0/* this_arg */
+	, &DllNotFoundException_t1368_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -4084,8 +4084,8 @@ TypeInfo DllNotFoundException_t1366_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DllNotFoundException_t1366)/* instance_size */
-	, sizeof (DllNotFoundException_t1366)/* actualSize */
+	, sizeof (DllNotFoundException_t1368)/* instance_size */
+	, sizeof (DllNotFoundException_t1368)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4117,10 +4117,10 @@ TypeInfo DllNotFoundException_t1366_il2cpp_TypeInfo =
 // System.EntryPointNotFoundException
 #include "mscorlib_System_EntryPointNotFoundException.h"
 // Metadata Definition System.EntryPointNotFoundException
-extern TypeInfo EntryPointNotFoundException_t1368_il2cpp_TypeInfo;
+extern TypeInfo EntryPointNotFoundException_t1370_il2cpp_TypeInfo;
 // System.EntryPointNotFoundException
 #include "mscorlib_System_EntryPointNotFoundExceptionMethodDeclarations.h"
-static const EncodedMethodIndex EntryPointNotFoundException_t1368_VTable[11] = 
+static const EncodedMethodIndex EntryPointNotFoundException_t1370_VTable[11] = 
 {
 	198,
 	148,
@@ -4134,43 +4134,43 @@ static const EncodedMethodIndex EntryPointNotFoundException_t1368_VTable[11] =
 	3222,
 	354,
 };
-static Il2CppInterfaceOffsetPair EntryPointNotFoundException_t1368_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair EntryPointNotFoundException_t1370_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType EntryPointNotFoundException_t1368_0_0_0;
-extern const Il2CppType EntryPointNotFoundException_t1368_1_0_0;
-struct EntryPointNotFoundException_t1368;
-const Il2CppTypeDefinitionMetadata EntryPointNotFoundException_t1368_DefinitionMetadata = 
+extern const Il2CppType EntryPointNotFoundException_t1370_0_0_0;
+extern const Il2CppType EntryPointNotFoundException_t1370_1_0_0;
+struct EntryPointNotFoundException_t1370;
+const Il2CppTypeDefinitionMetadata EntryPointNotFoundException_t1370_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, EntryPointNotFoundException_t1368_InterfacesOffsets/* interfaceOffsets */
-	, &TypeLoadException_t1367_0_0_0/* parent */
-	, EntryPointNotFoundException_t1368_VTable/* vtableMethods */
+	, EntryPointNotFoundException_t1370_InterfacesOffsets/* interfaceOffsets */
+	, &TypeLoadException_t1369_0_0_0/* parent */
+	, EntryPointNotFoundException_t1370_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5363/* fieldStart */
-	, 8720/* methodStart */
+	, 5375/* fieldStart */
+	, 8731/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo EntryPointNotFoundException_t1368_il2cpp_TypeInfo = 
+TypeInfo EntryPointNotFoundException_t1370_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "EntryPointNotFoundException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &EntryPointNotFoundException_t1368_il2cpp_TypeInfo/* element_class */
+	, &EntryPointNotFoundException_t1370_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1560/* custom_attributes_cache */
-	, &EntryPointNotFoundException_t1368_0_0_0/* byval_arg */
-	, &EntryPointNotFoundException_t1368_1_0_0/* this_arg */
-	, &EntryPointNotFoundException_t1368_DefinitionMetadata/* definitionMetadata */
+	, 1562/* custom_attributes_cache */
+	, &EntryPointNotFoundException_t1370_0_0_0/* byval_arg */
+	, &EntryPointNotFoundException_t1370_1_0_0/* this_arg */
+	, &EntryPointNotFoundException_t1370_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -4180,8 +4180,8 @@ TypeInfo EntryPointNotFoundException_t1368_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (EntryPointNotFoundException_t1368)/* instance_size */
-	, sizeof (EntryPointNotFoundException_t1368)/* actualSize */
+	, sizeof (EntryPointNotFoundException_t1370)/* instance_size */
+	, sizeof (EntryPointNotFoundException_t1370)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4213,21 +4213,21 @@ TypeInfo EntryPointNotFoundException_t1368_il2cpp_TypeInfo =
 // System.MonoEnumInfo
 #include "mscorlib_System_MonoEnumInfo.h"
 // Metadata Definition System.MonoEnumInfo
-extern TypeInfo MonoEnumInfo_t1373_il2cpp_TypeInfo;
+extern TypeInfo MonoEnumInfo_t1375_il2cpp_TypeInfo;
 // System.MonoEnumInfo
 #include "mscorlib_System_MonoEnumInfoMethodDeclarations.h"
-extern const Il2CppType SByteComparer_t1369_0_0_0;
-extern const Il2CppType ShortComparer_t1370_0_0_0;
-extern const Il2CppType IntComparer_t1371_0_0_0;
-extern const Il2CppType LongComparer_t1372_0_0_0;
-static const Il2CppType* MonoEnumInfo_t1373_il2cpp_TypeInfo__nestedTypes[4] =
+extern const Il2CppType SByteComparer_t1371_0_0_0;
+extern const Il2CppType ShortComparer_t1372_0_0_0;
+extern const Il2CppType IntComparer_t1373_0_0_0;
+extern const Il2CppType LongComparer_t1374_0_0_0;
+static const Il2CppType* MonoEnumInfo_t1375_il2cpp_TypeInfo__nestedTypes[4] =
 {
-	&SByteComparer_t1369_0_0_0,
-	&ShortComparer_t1370_0_0_0,
-	&IntComparer_t1371_0_0_0,
-	&LongComparer_t1372_0_0_0,
+	&SByteComparer_t1371_0_0_0,
+	&ShortComparer_t1372_0_0_0,
+	&IntComparer_t1373_0_0_0,
+	&LongComparer_t1374_0_0_0,
 };
-static const EncodedMethodIndex MonoEnumInfo_t1373_VTable[4] = 
+static const EncodedMethodIndex MonoEnumInfo_t1375_VTable[4] = 
 {
 	295,
 	148,
@@ -4235,36 +4235,36 @@ static const EncodedMethodIndex MonoEnumInfo_t1373_VTable[4] =
 	297,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MonoEnumInfo_t1373_0_0_0;
-extern const Il2CppType MonoEnumInfo_t1373_1_0_0;
-const Il2CppTypeDefinitionMetadata MonoEnumInfo_t1373_DefinitionMetadata = 
+extern const Il2CppType MonoEnumInfo_t1375_0_0_0;
+extern const Il2CppType MonoEnumInfo_t1375_1_0_0;
+const Il2CppTypeDefinitionMetadata MonoEnumInfo_t1375_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, MonoEnumInfo_t1373_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, MonoEnumInfo_t1375_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ValueType_t815_0_0_0/* parent */
-	, MonoEnumInfo_t1373_VTable/* vtableMethods */
+	, &ValueType_t817_0_0_0/* parent */
+	, MonoEnumInfo_t1375_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5364/* fieldStart */
-	, 8722/* methodStart */
+	, 5376/* fieldStart */
+	, 8733/* methodStart */
 	, -1/* eventStart */
-	, 1687/* propertyStart */
+	, 1688/* propertyStart */
 
 };
-TypeInfo MonoEnumInfo_t1373_il2cpp_TypeInfo = 
+TypeInfo MonoEnumInfo_t1375_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MonoEnumInfo"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &MonoEnumInfo_t1373_il2cpp_TypeInfo/* element_class */
+	, &MonoEnumInfo_t1375_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &MonoEnumInfo_t1373_0_0_0/* byval_arg */
-	, &MonoEnumInfo_t1373_1_0_0/* this_arg */
-	, &MonoEnumInfo_t1373_DefinitionMetadata/* definitionMetadata */
+	, &MonoEnumInfo_t1375_0_0_0/* byval_arg */
+	, &MonoEnumInfo_t1375_1_0_0/* this_arg */
+	, &MonoEnumInfo_t1375_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -4274,12 +4274,12 @@ TypeInfo MonoEnumInfo_t1373_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MonoEnumInfo_t1373)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (MonoEnumInfo_t1373)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (MonoEnumInfo_t1375)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (MonoEnumInfo_t1375)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(MonoEnumInfo_t1373_StaticFields)/* static_fields_size */
-	, sizeof(MonoEnumInfo_t1373_ThreadStaticFields)/* thread_static_fields_size */
+	, sizeof(MonoEnumInfo_t1375_StaticFields)/* static_fields_size */
+	, sizeof(MonoEnumInfo_t1375_ThreadStaticFields)/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 264/* flags */
 	, 0/* rank */
@@ -4307,10 +4307,10 @@ TypeInfo MonoEnumInfo_t1373_il2cpp_TypeInfo =
 // System.MonoEnumInfo/SByteComparer
 #include "mscorlib_System_MonoEnumInfo_SByteComparer.h"
 // Metadata Definition System.MonoEnumInfo/SByteComparer
-extern TypeInfo SByteComparer_t1369_il2cpp_TypeInfo;
+extern TypeInfo SByteComparer_t1371_il2cpp_TypeInfo;
 // System.MonoEnumInfo/SByteComparer
 #include "mscorlib_System_MonoEnumInfo_SByteComparerMethodDeclarations.h"
-static const EncodedMethodIndex SByteComparer_t1369_VTable[6] = 
+static const EncodedMethodIndex SByteComparer_t1371_VTable[6] = 
 {
 	198,
 	148,
@@ -4319,48 +4319,48 @@ static const EncodedMethodIndex SByteComparer_t1369_VTable[6] =
 	3224,
 	3225,
 };
-extern const Il2CppType IComparer_1_t2476_0_0_0;
-static const Il2CppType* SByteComparer_t1369_InterfacesTypeInfos[] = 
+extern const Il2CppType IComparer_1_t2478_0_0_0;
+static const Il2CppType* SByteComparer_t1371_InterfacesTypeInfos[] = 
 {
-	&IComparer_1_t2476_0_0_0,
-	&IComparer_t450_0_0_0,
+	&IComparer_1_t2478_0_0_0,
+	&IComparer_t452_0_0_0,
 };
-static Il2CppInterfaceOffsetPair SByteComparer_t1369_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair SByteComparer_t1371_InterfacesOffsets[] = 
 {
-	{ &IComparer_1_t2476_0_0_0, 4},
-	{ &IComparer_t450_0_0_0, 5},
+	{ &IComparer_1_t2478_0_0_0, 4},
+	{ &IComparer_t452_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType SByteComparer_t1369_1_0_0;
-struct SByteComparer_t1369;
-const Il2CppTypeDefinitionMetadata SByteComparer_t1369_DefinitionMetadata = 
+extern const Il2CppType SByteComparer_t1371_1_0_0;
+struct SByteComparer_t1371;
+const Il2CppTypeDefinitionMetadata SByteComparer_t1371_DefinitionMetadata = 
 {
-	&MonoEnumInfo_t1373_0_0_0/* declaringType */
+	&MonoEnumInfo_t1375_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
-	, SByteComparer_t1369_InterfacesTypeInfos/* implementedInterfaces */
-	, SByteComparer_t1369_InterfacesOffsets/* interfaceOffsets */
+	, SByteComparer_t1371_InterfacesTypeInfos/* implementedInterfaces */
+	, SByteComparer_t1371_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, SByteComparer_t1369_VTable/* vtableMethods */
+	, SByteComparer_t1371_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8727/* methodStart */
+	, 8738/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo SByteComparer_t1369_il2cpp_TypeInfo = 
+TypeInfo SByteComparer_t1371_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "SByteComparer"/* name */
 	, ""/* namespaze */
 	, NULL/* methods */
-	, &SByteComparer_t1369_il2cpp_TypeInfo/* element_class */
+	, &SByteComparer_t1371_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &SByteComparer_t1369_0_0_0/* byval_arg */
-	, &SByteComparer_t1369_1_0_0/* this_arg */
-	, &SByteComparer_t1369_DefinitionMetadata/* definitionMetadata */
+	, &SByteComparer_t1371_0_0_0/* byval_arg */
+	, &SByteComparer_t1371_1_0_0/* this_arg */
+	, &SByteComparer_t1371_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -4370,8 +4370,8 @@ TypeInfo SByteComparer_t1369_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (SByteComparer_t1369)/* instance_size */
-	, sizeof (SByteComparer_t1369)/* actualSize */
+	, sizeof (SByteComparer_t1371)/* instance_size */
+	, sizeof (SByteComparer_t1371)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4403,10 +4403,10 @@ TypeInfo SByteComparer_t1369_il2cpp_TypeInfo =
 // System.MonoEnumInfo/ShortComparer
 #include "mscorlib_System_MonoEnumInfo_ShortComparer.h"
 // Metadata Definition System.MonoEnumInfo/ShortComparer
-extern TypeInfo ShortComparer_t1370_il2cpp_TypeInfo;
+extern TypeInfo ShortComparer_t1372_il2cpp_TypeInfo;
 // System.MonoEnumInfo/ShortComparer
 #include "mscorlib_System_MonoEnumInfo_ShortComparerMethodDeclarations.h"
-static const EncodedMethodIndex ShortComparer_t1370_VTable[6] = 
+static const EncodedMethodIndex ShortComparer_t1372_VTable[6] = 
 {
 	198,
 	148,
@@ -4415,48 +4415,48 @@ static const EncodedMethodIndex ShortComparer_t1370_VTable[6] =
 	3226,
 	3227,
 };
-extern const Il2CppType IComparer_1_t2477_0_0_0;
-static const Il2CppType* ShortComparer_t1370_InterfacesTypeInfos[] = 
+extern const Il2CppType IComparer_1_t2479_0_0_0;
+static const Il2CppType* ShortComparer_t1372_InterfacesTypeInfos[] = 
 {
-	&IComparer_1_t2477_0_0_0,
-	&IComparer_t450_0_0_0,
+	&IComparer_1_t2479_0_0_0,
+	&IComparer_t452_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ShortComparer_t1370_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ShortComparer_t1372_InterfacesOffsets[] = 
 {
-	{ &IComparer_1_t2477_0_0_0, 4},
-	{ &IComparer_t450_0_0_0, 5},
+	{ &IComparer_1_t2479_0_0_0, 4},
+	{ &IComparer_t452_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ShortComparer_t1370_1_0_0;
-struct ShortComparer_t1370;
-const Il2CppTypeDefinitionMetadata ShortComparer_t1370_DefinitionMetadata = 
+extern const Il2CppType ShortComparer_t1372_1_0_0;
+struct ShortComparer_t1372;
+const Il2CppTypeDefinitionMetadata ShortComparer_t1372_DefinitionMetadata = 
 {
-	&MonoEnumInfo_t1373_0_0_0/* declaringType */
+	&MonoEnumInfo_t1375_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
-	, ShortComparer_t1370_InterfacesTypeInfos/* implementedInterfaces */
-	, ShortComparer_t1370_InterfacesOffsets/* interfaceOffsets */
+	, ShortComparer_t1372_InterfacesTypeInfos/* implementedInterfaces */
+	, ShortComparer_t1372_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ShortComparer_t1370_VTable/* vtableMethods */
+	, ShortComparer_t1372_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8730/* methodStart */
+	, 8741/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ShortComparer_t1370_il2cpp_TypeInfo = 
+TypeInfo ShortComparer_t1372_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ShortComparer"/* name */
 	, ""/* namespaze */
 	, NULL/* methods */
-	, &ShortComparer_t1370_il2cpp_TypeInfo/* element_class */
+	, &ShortComparer_t1372_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ShortComparer_t1370_0_0_0/* byval_arg */
-	, &ShortComparer_t1370_1_0_0/* this_arg */
-	, &ShortComparer_t1370_DefinitionMetadata/* definitionMetadata */
+	, &ShortComparer_t1372_0_0_0/* byval_arg */
+	, &ShortComparer_t1372_1_0_0/* this_arg */
+	, &ShortComparer_t1372_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -4466,8 +4466,8 @@ TypeInfo ShortComparer_t1370_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ShortComparer_t1370)/* instance_size */
-	, sizeof (ShortComparer_t1370)/* actualSize */
+	, sizeof (ShortComparer_t1372)/* instance_size */
+	, sizeof (ShortComparer_t1372)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4499,10 +4499,10 @@ TypeInfo ShortComparer_t1370_il2cpp_TypeInfo =
 // System.MonoEnumInfo/IntComparer
 #include "mscorlib_System_MonoEnumInfo_IntComparer.h"
 // Metadata Definition System.MonoEnumInfo/IntComparer
-extern TypeInfo IntComparer_t1371_il2cpp_TypeInfo;
+extern TypeInfo IntComparer_t1373_il2cpp_TypeInfo;
 // System.MonoEnumInfo/IntComparer
 #include "mscorlib_System_MonoEnumInfo_IntComparerMethodDeclarations.h"
-static const EncodedMethodIndex IntComparer_t1371_VTable[6] = 
+static const EncodedMethodIndex IntComparer_t1373_VTable[6] = 
 {
 	198,
 	148,
@@ -4511,48 +4511,48 @@ static const EncodedMethodIndex IntComparer_t1371_VTable[6] =
 	3228,
 	3229,
 };
-extern const Il2CppType IComparer_1_t2095_0_0_0;
-static const Il2CppType* IntComparer_t1371_InterfacesTypeInfos[] = 
+extern const Il2CppType IComparer_1_t2097_0_0_0;
+static const Il2CppType* IntComparer_t1373_InterfacesTypeInfos[] = 
 {
-	&IComparer_1_t2095_0_0_0,
-	&IComparer_t450_0_0_0,
+	&IComparer_1_t2097_0_0_0,
+	&IComparer_t452_0_0_0,
 };
-static Il2CppInterfaceOffsetPair IntComparer_t1371_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair IntComparer_t1373_InterfacesOffsets[] = 
 {
-	{ &IComparer_1_t2095_0_0_0, 4},
-	{ &IComparer_t450_0_0_0, 5},
+	{ &IComparer_1_t2097_0_0_0, 4},
+	{ &IComparer_t452_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IntComparer_t1371_1_0_0;
-struct IntComparer_t1371;
-const Il2CppTypeDefinitionMetadata IntComparer_t1371_DefinitionMetadata = 
+extern const Il2CppType IntComparer_t1373_1_0_0;
+struct IntComparer_t1373;
+const Il2CppTypeDefinitionMetadata IntComparer_t1373_DefinitionMetadata = 
 {
-	&MonoEnumInfo_t1373_0_0_0/* declaringType */
+	&MonoEnumInfo_t1375_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
-	, IntComparer_t1371_InterfacesTypeInfos/* implementedInterfaces */
-	, IntComparer_t1371_InterfacesOffsets/* interfaceOffsets */
+	, IntComparer_t1373_InterfacesTypeInfos/* implementedInterfaces */
+	, IntComparer_t1373_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, IntComparer_t1371_VTable/* vtableMethods */
+	, IntComparer_t1373_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8733/* methodStart */
+	, 8744/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo IntComparer_t1371_il2cpp_TypeInfo = 
+TypeInfo IntComparer_t1373_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IntComparer"/* name */
 	, ""/* namespaze */
 	, NULL/* methods */
-	, &IntComparer_t1371_il2cpp_TypeInfo/* element_class */
+	, &IntComparer_t1373_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &IntComparer_t1371_0_0_0/* byval_arg */
-	, &IntComparer_t1371_1_0_0/* this_arg */
-	, &IntComparer_t1371_DefinitionMetadata/* definitionMetadata */
+	, &IntComparer_t1373_0_0_0/* byval_arg */
+	, &IntComparer_t1373_1_0_0/* this_arg */
+	, &IntComparer_t1373_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -4562,8 +4562,8 @@ TypeInfo IntComparer_t1371_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (IntComparer_t1371)/* instance_size */
-	, sizeof (IntComparer_t1371)/* actualSize */
+	, sizeof (IntComparer_t1373)/* instance_size */
+	, sizeof (IntComparer_t1373)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4595,10 +4595,10 @@ TypeInfo IntComparer_t1371_il2cpp_TypeInfo =
 // System.MonoEnumInfo/LongComparer
 #include "mscorlib_System_MonoEnumInfo_LongComparer.h"
 // Metadata Definition System.MonoEnumInfo/LongComparer
-extern TypeInfo LongComparer_t1372_il2cpp_TypeInfo;
+extern TypeInfo LongComparer_t1374_il2cpp_TypeInfo;
 // System.MonoEnumInfo/LongComparer
 #include "mscorlib_System_MonoEnumInfo_LongComparerMethodDeclarations.h"
-static const EncodedMethodIndex LongComparer_t1372_VTable[6] = 
+static const EncodedMethodIndex LongComparer_t1374_VTable[6] = 
 {
 	198,
 	148,
@@ -4607,48 +4607,48 @@ static const EncodedMethodIndex LongComparer_t1372_VTable[6] =
 	3230,
 	3231,
 };
-extern const Il2CppType IComparer_1_t2478_0_0_0;
-static const Il2CppType* LongComparer_t1372_InterfacesTypeInfos[] = 
+extern const Il2CppType IComparer_1_t2480_0_0_0;
+static const Il2CppType* LongComparer_t1374_InterfacesTypeInfos[] = 
 {
-	&IComparer_1_t2478_0_0_0,
-	&IComparer_t450_0_0_0,
+	&IComparer_1_t2480_0_0_0,
+	&IComparer_t452_0_0_0,
 };
-static Il2CppInterfaceOffsetPair LongComparer_t1372_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair LongComparer_t1374_InterfacesOffsets[] = 
 {
-	{ &IComparer_1_t2478_0_0_0, 4},
-	{ &IComparer_t450_0_0_0, 5},
+	{ &IComparer_1_t2480_0_0_0, 4},
+	{ &IComparer_t452_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType LongComparer_t1372_1_0_0;
-struct LongComparer_t1372;
-const Il2CppTypeDefinitionMetadata LongComparer_t1372_DefinitionMetadata = 
+extern const Il2CppType LongComparer_t1374_1_0_0;
+struct LongComparer_t1374;
+const Il2CppTypeDefinitionMetadata LongComparer_t1374_DefinitionMetadata = 
 {
-	&MonoEnumInfo_t1373_0_0_0/* declaringType */
+	&MonoEnumInfo_t1375_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
-	, LongComparer_t1372_InterfacesTypeInfos/* implementedInterfaces */
-	, LongComparer_t1372_InterfacesOffsets/* interfaceOffsets */
+	, LongComparer_t1374_InterfacesTypeInfos/* implementedInterfaces */
+	, LongComparer_t1374_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, LongComparer_t1372_VTable/* vtableMethods */
+	, LongComparer_t1374_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8736/* methodStart */
+	, 8747/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo LongComparer_t1372_il2cpp_TypeInfo = 
+TypeInfo LongComparer_t1374_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "LongComparer"/* name */
 	, ""/* namespaze */
 	, NULL/* methods */
-	, &LongComparer_t1372_il2cpp_TypeInfo/* element_class */
+	, &LongComparer_t1374_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &LongComparer_t1372_0_0_0/* byval_arg */
-	, &LongComparer_t1372_1_0_0/* this_arg */
-	, &LongComparer_t1372_DefinitionMetadata/* definitionMetadata */
+	, &LongComparer_t1374_0_0_0/* byval_arg */
+	, &LongComparer_t1374_1_0_0/* this_arg */
+	, &LongComparer_t1374_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -4658,8 +4658,8 @@ TypeInfo LongComparer_t1372_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (LongComparer_t1372)/* instance_size */
-	, sizeof (LongComparer_t1372)/* actualSize */
+	, sizeof (LongComparer_t1374)/* instance_size */
+	, sizeof (LongComparer_t1374)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4691,15 +4691,15 @@ TypeInfo LongComparer_t1372_il2cpp_TypeInfo =
 // System.Environment
 #include "mscorlib_System_Environment.h"
 // Metadata Definition System.Environment
-extern TypeInfo Environment_t1376_il2cpp_TypeInfo;
+extern TypeInfo Environment_t1378_il2cpp_TypeInfo;
 // System.Environment
 #include "mscorlib_System_EnvironmentMethodDeclarations.h"
-extern const Il2CppType SpecialFolder_t1374_0_0_0;
-static const Il2CppType* Environment_t1376_il2cpp_TypeInfo__nestedTypes[1] =
+extern const Il2CppType SpecialFolder_t1376_0_0_0;
+static const Il2CppType* Environment_t1378_il2cpp_TypeInfo__nestedTypes[1] =
 {
-	&SpecialFolder_t1374_0_0_0,
+	&SpecialFolder_t1376_0_0_0,
 };
-static const EncodedMethodIndex Environment_t1376_VTable[4] = 
+static const EncodedMethodIndex Environment_t1378_VTable[4] = 
 {
 	198,
 	148,
@@ -4707,37 +4707,37 @@ static const EncodedMethodIndex Environment_t1376_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType Environment_t1376_0_0_0;
-extern const Il2CppType Environment_t1376_1_0_0;
-struct Environment_t1376;
-const Il2CppTypeDefinitionMetadata Environment_t1376_DefinitionMetadata = 
+extern const Il2CppType Environment_t1378_0_0_0;
+extern const Il2CppType Environment_t1378_1_0_0;
+struct Environment_t1378;
+const Il2CppTypeDefinitionMetadata Environment_t1378_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, Environment_t1376_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, Environment_t1378_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, Environment_t1376_VTable/* vtableMethods */
+	, Environment_t1378_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5375/* fieldStart */
-	, 8739/* methodStart */
+	, 5387/* fieldStart */
+	, 8750/* methodStart */
 	, -1/* eventStart */
-	, 1688/* propertyStart */
+	, 1689/* propertyStart */
 
 };
-TypeInfo Environment_t1376_il2cpp_TypeInfo = 
+TypeInfo Environment_t1378_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Environment"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &Environment_t1376_il2cpp_TypeInfo/* element_class */
+	, &Environment_t1378_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1562/* custom_attributes_cache */
-	, &Environment_t1376_0_0_0/* byval_arg */
-	, &Environment_t1376_1_0_0/* this_arg */
-	, &Environment_t1376_DefinitionMetadata/* definitionMetadata */
+	, 1564/* custom_attributes_cache */
+	, &Environment_t1378_0_0_0/* byval_arg */
+	, &Environment_t1378_1_0_0/* this_arg */
+	, &Environment_t1378_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -4747,11 +4747,11 @@ TypeInfo Environment_t1376_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Environment_t1376)/* instance_size */
-	, sizeof (Environment_t1376)/* actualSize */
+	, sizeof (Environment_t1378)/* instance_size */
+	, sizeof (Environment_t1378)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(Environment_t1376_StaticFields)/* static_fields_size */
+	, sizeof(Environment_t1378_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048961/* flags */
@@ -4780,10 +4780,10 @@ TypeInfo Environment_t1376_il2cpp_TypeInfo =
 // System.Environment/SpecialFolder
 #include "mscorlib_System_Environment_SpecialFolder.h"
 // Metadata Definition System.Environment/SpecialFolder
-extern TypeInfo SpecialFolder_t1374_il2cpp_TypeInfo;
+extern TypeInfo SpecialFolder_t1376_il2cpp_TypeInfo;
 // System.Environment/SpecialFolder
 #include "mscorlib_System_Environment_SpecialFolderMethodDeclarations.h"
-static const EncodedMethodIndex SpecialFolder_t1374_VTable[23] = 
+static const EncodedMethodIndex SpecialFolder_t1376_VTable[23] = 
 {
 	147,
 	148,
@@ -4809,42 +4809,42 @@ static const EncodedMethodIndex SpecialFolder_t1374_VTable[23] =
 	168,
 	169,
 };
-static Il2CppInterfaceOffsetPair SpecialFolder_t1374_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair SpecialFolder_t1376_InterfacesOffsets[] = 
 {
-	{ &IFormattable_t1462_0_0_0, 4},
-	{ &IConvertible_t1465_0_0_0, 5},
-	{ &IComparable_t1464_0_0_0, 21},
+	{ &IFormattable_t1464_0_0_0, 4},
+	{ &IConvertible_t1467_0_0_0, 5},
+	{ &IComparable_t1466_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType SpecialFolder_t1374_1_0_0;
-const Il2CppTypeDefinitionMetadata SpecialFolder_t1374_DefinitionMetadata = 
+extern const Il2CppType SpecialFolder_t1376_1_0_0;
+const Il2CppTypeDefinitionMetadata SpecialFolder_t1376_DefinitionMetadata = 
 {
-	&Environment_t1376_0_0_0/* declaringType */
+	&Environment_t1378_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, SpecialFolder_t1374_InterfacesOffsets/* interfaceOffsets */
-	, &Enum_t372_0_0_0/* parent */
-	, SpecialFolder_t1374_VTable/* vtableMethods */
+	, SpecialFolder_t1376_InterfacesOffsets/* interfaceOffsets */
+	, &Enum_t374_0_0_0/* parent */
+	, SpecialFolder_t1376_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5376/* fieldStart */
+	, 5388/* fieldStart */
 	, -1/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo SpecialFolder_t1374_il2cpp_TypeInfo = 
+TypeInfo SpecialFolder_t1376_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "SpecialFolder"/* name */
 	, ""/* namespaze */
 	, NULL/* methods */
-	, &Int32_t67_il2cpp_TypeInfo/* element_class */
+	, &Int32_t72_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1563/* custom_attributes_cache */
-	, &SpecialFolder_t1374_0_0_0/* byval_arg */
-	, &SpecialFolder_t1374_1_0_0/* this_arg */
-	, &SpecialFolder_t1374_DefinitionMetadata/* definitionMetadata */
+	, 1565/* custom_attributes_cache */
+	, &SpecialFolder_t1376_0_0_0/* byval_arg */
+	, &SpecialFolder_t1376_1_0_0/* this_arg */
+	, &SpecialFolder_t1376_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -4854,8 +4854,8 @@ TypeInfo SpecialFolder_t1374_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (SpecialFolder_t1374)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (SpecialFolder_t1374)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (SpecialFolder_t1376)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (SpecialFolder_t1376)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -4887,10 +4887,10 @@ TypeInfo SpecialFolder_t1374_il2cpp_TypeInfo =
 // System.EventArgs
 #include "mscorlib_System_EventArgs.h"
 // Metadata Definition System.EventArgs
-extern TypeInfo EventArgs_t708_il2cpp_TypeInfo;
+extern TypeInfo EventArgs_t710_il2cpp_TypeInfo;
 // System.EventArgs
 #include "mscorlib_System_EventArgsMethodDeclarations.h"
-static const EncodedMethodIndex EventArgs_t708_VTable[4] = 
+static const EncodedMethodIndex EventArgs_t710_VTable[4] = 
 {
 	198,
 	148,
@@ -4898,36 +4898,36 @@ static const EncodedMethodIndex EventArgs_t708_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType EventArgs_t708_1_0_0;
-struct EventArgs_t708;
-const Il2CppTypeDefinitionMetadata EventArgs_t708_DefinitionMetadata = 
+extern const Il2CppType EventArgs_t710_1_0_0;
+struct EventArgs_t710;
+const Il2CppTypeDefinitionMetadata EventArgs_t710_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, EventArgs_t708_VTable/* vtableMethods */
+	, EventArgs_t710_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5400/* fieldStart */
-	, 8754/* methodStart */
+	, 5412/* fieldStart */
+	, 8765/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo EventArgs_t708_il2cpp_TypeInfo = 
+TypeInfo EventArgs_t710_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "EventArgs"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &EventArgs_t708_il2cpp_TypeInfo/* element_class */
+	, &EventArgs_t710_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1564/* custom_attributes_cache */
-	, &EventArgs_t708_0_0_0/* byval_arg */
-	, &EventArgs_t708_1_0_0/* this_arg */
-	, &EventArgs_t708_DefinitionMetadata/* definitionMetadata */
+	, 1566/* custom_attributes_cache */
+	, &EventArgs_t710_0_0_0/* byval_arg */
+	, &EventArgs_t710_1_0_0/* this_arg */
+	, &EventArgs_t710_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -4937,11 +4937,11 @@ TypeInfo EventArgs_t708_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (EventArgs_t708)/* instance_size */
-	, sizeof (EventArgs_t708)/* actualSize */
+	, sizeof (EventArgs_t710)/* instance_size */
+	, sizeof (EventArgs_t710)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(EventArgs_t708_StaticFields)/* static_fields_size */
+	, sizeof(EventArgs_t710_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1056769/* flags */
@@ -4970,10 +4970,10 @@ TypeInfo EventArgs_t708_il2cpp_TypeInfo =
 // System.ExecutionEngineException
 #include "mscorlib_System_ExecutionEngineException.h"
 // Metadata Definition System.ExecutionEngineException
-extern TypeInfo ExecutionEngineException_t1377_il2cpp_TypeInfo;
+extern TypeInfo ExecutionEngineException_t1379_il2cpp_TypeInfo;
 // System.ExecutionEngineException
 #include "mscorlib_System_ExecutionEngineExceptionMethodDeclarations.h"
-static const EncodedMethodIndex ExecutionEngineException_t1377_VTable[11] = 
+static const EncodedMethodIndex ExecutionEngineException_t1379_VTable[11] = 
 {
 	198,
 	148,
@@ -4987,43 +4987,43 @@ static const EncodedMethodIndex ExecutionEngineException_t1377_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair ExecutionEngineException_t1377_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ExecutionEngineException_t1379_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ExecutionEngineException_t1377_0_0_0;
-extern const Il2CppType ExecutionEngineException_t1377_1_0_0;
-struct ExecutionEngineException_t1377;
-const Il2CppTypeDefinitionMetadata ExecutionEngineException_t1377_DefinitionMetadata = 
+extern const Il2CppType ExecutionEngineException_t1379_0_0_0;
+extern const Il2CppType ExecutionEngineException_t1379_1_0_0;
+struct ExecutionEngineException_t1379;
+const Il2CppTypeDefinitionMetadata ExecutionEngineException_t1379_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ExecutionEngineException_t1377_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, ExecutionEngineException_t1377_VTable/* vtableMethods */
+	, ExecutionEngineException_t1379_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, ExecutionEngineException_t1379_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8756/* methodStart */
+	, 8767/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ExecutionEngineException_t1377_il2cpp_TypeInfo = 
+TypeInfo ExecutionEngineException_t1379_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ExecutionEngineException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &ExecutionEngineException_t1377_il2cpp_TypeInfo/* element_class */
+	, &ExecutionEngineException_t1379_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1565/* custom_attributes_cache */
-	, &ExecutionEngineException_t1377_0_0_0/* byval_arg */
-	, &ExecutionEngineException_t1377_1_0_0/* this_arg */
-	, &ExecutionEngineException_t1377_DefinitionMetadata/* definitionMetadata */
+	, 1567/* custom_attributes_cache */
+	, &ExecutionEngineException_t1379_0_0_0/* byval_arg */
+	, &ExecutionEngineException_t1379_1_0_0/* this_arg */
+	, &ExecutionEngineException_t1379_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -5033,8 +5033,8 @@ TypeInfo ExecutionEngineException_t1377_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ExecutionEngineException_t1377)/* instance_size */
-	, sizeof (ExecutionEngineException_t1377)/* actualSize */
+	, sizeof (ExecutionEngineException_t1379)/* instance_size */
+	, sizeof (ExecutionEngineException_t1379)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5066,10 +5066,10 @@ TypeInfo ExecutionEngineException_t1377_il2cpp_TypeInfo =
 // System.FieldAccessException
 #include "mscorlib_System_FieldAccessException.h"
 // Metadata Definition System.FieldAccessException
-extern TypeInfo FieldAccessException_t1378_il2cpp_TypeInfo;
+extern TypeInfo FieldAccessException_t1380_il2cpp_TypeInfo;
 // System.FieldAccessException
 #include "mscorlib_System_FieldAccessExceptionMethodDeclarations.h"
-static const EncodedMethodIndex FieldAccessException_t1378_VTable[11] = 
+static const EncodedMethodIndex FieldAccessException_t1380_VTable[11] = 
 {
 	198,
 	148,
@@ -5083,44 +5083,44 @@ static const EncodedMethodIndex FieldAccessException_t1378_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair FieldAccessException_t1378_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair FieldAccessException_t1380_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType FieldAccessException_t1378_0_0_0;
-extern const Il2CppType FieldAccessException_t1378_1_0_0;
-extern const Il2CppType MemberAccessException_t1379_0_0_0;
-struct FieldAccessException_t1378;
-const Il2CppTypeDefinitionMetadata FieldAccessException_t1378_DefinitionMetadata = 
+extern const Il2CppType FieldAccessException_t1380_0_0_0;
+extern const Il2CppType FieldAccessException_t1380_1_0_0;
+extern const Il2CppType MemberAccessException_t1381_0_0_0;
+struct FieldAccessException_t1380;
+const Il2CppTypeDefinitionMetadata FieldAccessException_t1380_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, FieldAccessException_t1378_InterfacesOffsets/* interfaceOffsets */
-	, &MemberAccessException_t1379_0_0_0/* parent */
-	, FieldAccessException_t1378_VTable/* vtableMethods */
+	, FieldAccessException_t1380_InterfacesOffsets/* interfaceOffsets */
+	, &MemberAccessException_t1381_0_0_0/* parent */
+	, FieldAccessException_t1380_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8758/* methodStart */
+	, 8769/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo FieldAccessException_t1378_il2cpp_TypeInfo = 
+TypeInfo FieldAccessException_t1380_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "FieldAccessException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &FieldAccessException_t1378_il2cpp_TypeInfo/* element_class */
+	, &FieldAccessException_t1380_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1566/* custom_attributes_cache */
-	, &FieldAccessException_t1378_0_0_0/* byval_arg */
-	, &FieldAccessException_t1378_1_0_0/* this_arg */
-	, &FieldAccessException_t1378_DefinitionMetadata/* definitionMetadata */
+	, 1568/* custom_attributes_cache */
+	, &FieldAccessException_t1380_0_0_0/* byval_arg */
+	, &FieldAccessException_t1380_1_0_0/* this_arg */
+	, &FieldAccessException_t1380_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -5130,8 +5130,8 @@ TypeInfo FieldAccessException_t1378_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (FieldAccessException_t1378)/* instance_size */
-	, sizeof (FieldAccessException_t1378)/* actualSize */
+	, sizeof (FieldAccessException_t1380)/* instance_size */
+	, sizeof (FieldAccessException_t1380)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5163,54 +5163,54 @@ TypeInfo FieldAccessException_t1378_il2cpp_TypeInfo =
 // System.FlagsAttribute
 #include "mscorlib_System_FlagsAttribute.h"
 // Metadata Definition System.FlagsAttribute
-extern TypeInfo FlagsAttribute_t1380_il2cpp_TypeInfo;
+extern TypeInfo FlagsAttribute_t1382_il2cpp_TypeInfo;
 // System.FlagsAttribute
 #include "mscorlib_System_FlagsAttributeMethodDeclarations.h"
-static const EncodedMethodIndex FlagsAttribute_t1380_VTable[4] = 
+static const EncodedMethodIndex FlagsAttribute_t1382_VTable[4] = 
 {
 	399,
 	148,
 	400,
 	200,
 };
-extern const Il2CppType _Attribute_t2134_0_0_0;
-static Il2CppInterfaceOffsetPair FlagsAttribute_t1380_InterfacesOffsets[] = 
+extern const Il2CppType _Attribute_t2136_0_0_0;
+static Il2CppInterfaceOffsetPair FlagsAttribute_t1382_InterfacesOffsets[] = 
 {
-	{ &_Attribute_t2134_0_0_0, 4},
+	{ &_Attribute_t2136_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType FlagsAttribute_t1380_0_0_0;
-extern const Il2CppType FlagsAttribute_t1380_1_0_0;
-extern const Il2CppType Attribute_t166_0_0_0;
-struct FlagsAttribute_t1380;
-const Il2CppTypeDefinitionMetadata FlagsAttribute_t1380_DefinitionMetadata = 
+extern const Il2CppType FlagsAttribute_t1382_0_0_0;
+extern const Il2CppType FlagsAttribute_t1382_1_0_0;
+extern const Il2CppType Attribute_t169_0_0_0;
+struct FlagsAttribute_t1382;
+const Il2CppTypeDefinitionMetadata FlagsAttribute_t1382_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, FlagsAttribute_t1380_InterfacesOffsets/* interfaceOffsets */
-	, &Attribute_t166_0_0_0/* parent */
-	, FlagsAttribute_t1380_VTable/* vtableMethods */
+	, FlagsAttribute_t1382_InterfacesOffsets/* interfaceOffsets */
+	, &Attribute_t169_0_0_0/* parent */
+	, FlagsAttribute_t1382_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8761/* methodStart */
+	, 8772/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo FlagsAttribute_t1380_il2cpp_TypeInfo = 
+TypeInfo FlagsAttribute_t1382_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "FlagsAttribute"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &FlagsAttribute_t1380_il2cpp_TypeInfo/* element_class */
+	, &FlagsAttribute_t1382_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1567/* custom_attributes_cache */
-	, &FlagsAttribute_t1380_0_0_0/* byval_arg */
-	, &FlagsAttribute_t1380_1_0_0/* this_arg */
-	, &FlagsAttribute_t1380_DefinitionMetadata/* definitionMetadata */
+	, 1569/* custom_attributes_cache */
+	, &FlagsAttribute_t1382_0_0_0/* byval_arg */
+	, &FlagsAttribute_t1382_1_0_0/* this_arg */
+	, &FlagsAttribute_t1382_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -5220,8 +5220,8 @@ TypeInfo FlagsAttribute_t1380_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (FlagsAttribute_t1380)/* instance_size */
-	, sizeof (FlagsAttribute_t1380)/* actualSize */
+	, sizeof (FlagsAttribute_t1382)/* instance_size */
+	, sizeof (FlagsAttribute_t1382)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5253,10 +5253,10 @@ TypeInfo FlagsAttribute_t1380_il2cpp_TypeInfo =
 // System.FormatException
 #include "mscorlib_System_FormatException.h"
 // Metadata Definition System.FormatException
-extern TypeInfo FormatException_t396_il2cpp_TypeInfo;
+extern TypeInfo FormatException_t398_il2cpp_TypeInfo;
 // System.FormatException
 #include "mscorlib_System_FormatExceptionMethodDeclarations.h"
-static const EncodedMethodIndex FormatException_t396_VTable[11] = 
+static const EncodedMethodIndex FormatException_t398_VTable[11] = 
 {
 	198,
 	148,
@@ -5270,43 +5270,43 @@ static const EncodedMethodIndex FormatException_t396_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair FormatException_t396_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair FormatException_t398_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType FormatException_t396_0_0_0;
-extern const Il2CppType FormatException_t396_1_0_0;
-struct FormatException_t396;
-const Il2CppTypeDefinitionMetadata FormatException_t396_DefinitionMetadata = 
+extern const Il2CppType FormatException_t398_0_0_0;
+extern const Il2CppType FormatException_t398_1_0_0;
+struct FormatException_t398;
+const Il2CppTypeDefinitionMetadata FormatException_t398_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, FormatException_t396_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, FormatException_t396_VTable/* vtableMethods */
+	, FormatException_t398_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, FormatException_t398_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5401/* fieldStart */
-	, 8762/* methodStart */
+	, 5413/* fieldStart */
+	, 8773/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo FormatException_t396_il2cpp_TypeInfo = 
+TypeInfo FormatException_t398_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "FormatException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &FormatException_t396_il2cpp_TypeInfo/* element_class */
+	, &FormatException_t398_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1568/* custom_attributes_cache */
-	, &FormatException_t396_0_0_0/* byval_arg */
-	, &FormatException_t396_1_0_0/* this_arg */
-	, &FormatException_t396_DefinitionMetadata/* definitionMetadata */
+	, 1570/* custom_attributes_cache */
+	, &FormatException_t398_0_0_0/* byval_arg */
+	, &FormatException_t398_1_0_0/* this_arg */
+	, &FormatException_t398_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -5316,8 +5316,8 @@ TypeInfo FormatException_t396_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (FormatException_t396)/* instance_size */
-	, sizeof (FormatException_t396)/* actualSize */
+	, sizeof (FormatException_t398)/* instance_size */
+	, sizeof (FormatException_t398)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5349,10 +5349,10 @@ TypeInfo FormatException_t396_il2cpp_TypeInfo =
 // System.GC
 #include "mscorlib_System_GC.h"
 // Metadata Definition System.GC
-extern TypeInfo GC_t1381_il2cpp_TypeInfo;
+extern TypeInfo GC_t1383_il2cpp_TypeInfo;
 // System.GC
 #include "mscorlib_System_GCMethodDeclarations.h"
-static const EncodedMethodIndex GC_t1381_VTable[4] = 
+static const EncodedMethodIndex GC_t1383_VTable[4] = 
 {
 	198,
 	148,
@@ -5360,37 +5360,37 @@ static const EncodedMethodIndex GC_t1381_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType GC_t1381_0_0_0;
-extern const Il2CppType GC_t1381_1_0_0;
-struct GC_t1381;
-const Il2CppTypeDefinitionMetadata GC_t1381_DefinitionMetadata = 
+extern const Il2CppType GC_t1383_0_0_0;
+extern const Il2CppType GC_t1383_1_0_0;
+struct GC_t1383;
+const Il2CppTypeDefinitionMetadata GC_t1383_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, GC_t1381_VTable/* vtableMethods */
+	, GC_t1383_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8765/* methodStart */
+	, 8776/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo GC_t1381_il2cpp_TypeInfo = 
+TypeInfo GC_t1383_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "GC"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &GC_t1381_il2cpp_TypeInfo/* element_class */
+	, &GC_t1383_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &GC_t1381_0_0_0/* byval_arg */
-	, &GC_t1381_1_0_0/* this_arg */
-	, &GC_t1381_DefinitionMetadata/* definitionMetadata */
+	, &GC_t1383_0_0_0/* byval_arg */
+	, &GC_t1383_1_0_0/* this_arg */
+	, &GC_t1383_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -5400,8 +5400,8 @@ TypeInfo GC_t1381_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (GC_t1381)/* instance_size */
-	, sizeof (GC_t1381)/* actualSize */
+	, sizeof (GC_t1383)/* instance_size */
+	, sizeof (GC_t1383)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5447,21 +5447,21 @@ static const EncodedMethodIndex Guid_t44_VTable[8] =
 	3237,
 	3238,
 };
-extern const Il2CppType IComparable_1_t2479_0_0_0;
-extern const Il2CppType IEquatable_1_t2480_0_0_0;
+extern const Il2CppType IComparable_1_t2481_0_0_0;
+extern const Il2CppType IEquatable_1_t2482_0_0_0;
 static const Il2CppType* Guid_t44_InterfacesTypeInfos[] = 
 {
-	&IFormattable_t1462_0_0_0,
-	&IComparable_t1464_0_0_0,
-	&IComparable_1_t2479_0_0_0,
-	&IEquatable_1_t2480_0_0_0,
+	&IFormattable_t1464_0_0_0,
+	&IComparable_t1466_0_0_0,
+	&IComparable_1_t2481_0_0_0,
+	&IEquatable_1_t2482_0_0_0,
 };
 static Il2CppInterfaceOffsetPair Guid_t44_InterfacesOffsets[] = 
 {
-	{ &IFormattable_t1462_0_0_0, 4},
-	{ &IComparable_t1464_0_0_0, 5},
-	{ &IComparable_1_t2479_0_0_0, 6},
-	{ &IEquatable_1_t2480_0_0_0, 7},
+	{ &IFormattable_t1464_0_0_0, 4},
+	{ &IComparable_t1466_0_0_0, 5},
+	{ &IComparable_1_t2481_0_0_0, 6},
+	{ &IEquatable_1_t2482_0_0_0, 7},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType Guid_t44_0_0_0;
@@ -5472,11 +5472,11 @@ const Il2CppTypeDefinitionMetadata Guid_t44_DefinitionMetadata =
 	, NULL/* nestedTypes */
 	, Guid_t44_InterfacesTypeInfos/* implementedInterfaces */
 	, Guid_t44_InterfacesOffsets/* interfaceOffsets */
-	, &ValueType_t815_0_0_0/* parent */
+	, &ValueType_t817_0_0_0/* parent */
 	, Guid_t44_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5402/* fieldStart */
-	, 8766/* methodStart */
+	, 5414/* fieldStart */
+	, 8777/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
@@ -5490,7 +5490,7 @@ TypeInfo Guid_t44_il2cpp_TypeInfo =
 	, NULL/* methods */
 	, &Guid_t44_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1570/* custom_attributes_cache */
+	, 1572/* custom_attributes_cache */
 	, &Guid_t44_0_0_0/* byval_arg */
 	, &Guid_t44_1_0_0/* this_arg */
 	, &Guid_t44_DefinitionMetadata/* definitionMetadata */
@@ -5534,12 +5534,12 @@ TypeInfo Guid_t44_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.ICustomFormatter
-extern TypeInfo ICustomFormatter_t1461_il2cpp_TypeInfo;
+extern TypeInfo ICustomFormatter_t1463_il2cpp_TypeInfo;
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ICustomFormatter_t1461_0_0_0;
-extern const Il2CppType ICustomFormatter_t1461_1_0_0;
-struct ICustomFormatter_t1461;
-const Il2CppTypeDefinitionMetadata ICustomFormatter_t1461_DefinitionMetadata = 
+extern const Il2CppType ICustomFormatter_t1463_0_0_0;
+extern const Il2CppType ICustomFormatter_t1463_1_0_0;
+struct ICustomFormatter_t1463;
+const Il2CppTypeDefinitionMetadata ICustomFormatter_t1463_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -5549,24 +5549,24 @@ const Il2CppTypeDefinitionMetadata ICustomFormatter_t1461_DefinitionMetadata =
 	, NULL/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8787/* methodStart */
+	, 8798/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ICustomFormatter_t1461_il2cpp_TypeInfo = 
+TypeInfo ICustomFormatter_t1463_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ICustomFormatter"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &ICustomFormatter_t1461_il2cpp_TypeInfo/* element_class */
+	, &ICustomFormatter_t1463_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1571/* custom_attributes_cache */
-	, &ICustomFormatter_t1461_0_0_0/* byval_arg */
-	, &ICustomFormatter_t1461_1_0_0/* this_arg */
-	, &ICustomFormatter_t1461_DefinitionMetadata/* definitionMetadata */
+	, 1573/* custom_attributes_cache */
+	, &ICustomFormatter_t1463_0_0_0/* byval_arg */
+	, &ICustomFormatter_t1463_1_0_0/* this_arg */
+	, &ICustomFormatter_t1463_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -5607,12 +5607,12 @@ TypeInfo ICustomFormatter_t1461_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.IFormatProvider
-extern TypeInfo IFormatProvider_t1444_il2cpp_TypeInfo;
+extern TypeInfo IFormatProvider_t1446_il2cpp_TypeInfo;
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IFormatProvider_t1444_0_0_0;
-extern const Il2CppType IFormatProvider_t1444_1_0_0;
-struct IFormatProvider_t1444;
-const Il2CppTypeDefinitionMetadata IFormatProvider_t1444_DefinitionMetadata = 
+extern const Il2CppType IFormatProvider_t1446_0_0_0;
+extern const Il2CppType IFormatProvider_t1446_1_0_0;
+struct IFormatProvider_t1446;
+const Il2CppTypeDefinitionMetadata IFormatProvider_t1446_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -5622,24 +5622,24 @@ const Il2CppTypeDefinitionMetadata IFormatProvider_t1444_DefinitionMetadata =
 	, NULL/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8788/* methodStart */
+	, 8799/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo IFormatProvider_t1444_il2cpp_TypeInfo = 
+TypeInfo IFormatProvider_t1446_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IFormatProvider"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &IFormatProvider_t1444_il2cpp_TypeInfo/* element_class */
+	, &IFormatProvider_t1446_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1572/* custom_attributes_cache */
-	, &IFormatProvider_t1444_0_0_0/* byval_arg */
-	, &IFormatProvider_t1444_1_0_0/* this_arg */
-	, &IFormatProvider_t1444_DefinitionMetadata/* definitionMetadata */
+	, 1574/* custom_attributes_cache */
+	, &IFormatProvider_t1446_0_0_0/* byval_arg */
+	, &IFormatProvider_t1446_1_0_0/* this_arg */
+	, &IFormatProvider_t1446_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -5682,10 +5682,10 @@ TypeInfo IFormatProvider_t1444_il2cpp_TypeInfo =
 // System.IndexOutOfRangeException
 #include "mscorlib_System_IndexOutOfRangeException.h"
 // Metadata Definition System.IndexOutOfRangeException
-extern TypeInfo IndexOutOfRangeException_t391_il2cpp_TypeInfo;
+extern TypeInfo IndexOutOfRangeException_t393_il2cpp_TypeInfo;
 // System.IndexOutOfRangeException
 #include "mscorlib_System_IndexOutOfRangeExceptionMethodDeclarations.h"
-static const EncodedMethodIndex IndexOutOfRangeException_t391_VTable[11] = 
+static const EncodedMethodIndex IndexOutOfRangeException_t393_VTable[11] = 
 {
 	198,
 	148,
@@ -5699,43 +5699,43 @@ static const EncodedMethodIndex IndexOutOfRangeException_t391_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair IndexOutOfRangeException_t391_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair IndexOutOfRangeException_t393_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IndexOutOfRangeException_t391_0_0_0;
-extern const Il2CppType IndexOutOfRangeException_t391_1_0_0;
-struct IndexOutOfRangeException_t391;
-const Il2CppTypeDefinitionMetadata IndexOutOfRangeException_t391_DefinitionMetadata = 
+extern const Il2CppType IndexOutOfRangeException_t393_0_0_0;
+extern const Il2CppType IndexOutOfRangeException_t393_1_0_0;
+struct IndexOutOfRangeException_t393;
+const Il2CppTypeDefinitionMetadata IndexOutOfRangeException_t393_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, IndexOutOfRangeException_t391_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, IndexOutOfRangeException_t391_VTable/* vtableMethods */
+	, IndexOutOfRangeException_t393_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, IndexOutOfRangeException_t393_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8789/* methodStart */
+	, 8800/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo IndexOutOfRangeException_t391_il2cpp_TypeInfo = 
+TypeInfo IndexOutOfRangeException_t393_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IndexOutOfRangeException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &IndexOutOfRangeException_t391_il2cpp_TypeInfo/* element_class */
+	, &IndexOutOfRangeException_t393_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1573/* custom_attributes_cache */
-	, &IndexOutOfRangeException_t391_0_0_0/* byval_arg */
-	, &IndexOutOfRangeException_t391_1_0_0/* this_arg */
-	, &IndexOutOfRangeException_t391_DefinitionMetadata/* definitionMetadata */
+	, 1575/* custom_attributes_cache */
+	, &IndexOutOfRangeException_t393_0_0_0/* byval_arg */
+	, &IndexOutOfRangeException_t393_1_0_0/* this_arg */
+	, &IndexOutOfRangeException_t393_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -5745,8 +5745,8 @@ TypeInfo IndexOutOfRangeException_t391_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (IndexOutOfRangeException_t391)/* instance_size */
-	, sizeof (IndexOutOfRangeException_t391)/* actualSize */
+	, sizeof (IndexOutOfRangeException_t393)/* instance_size */
+	, sizeof (IndexOutOfRangeException_t393)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5778,10 +5778,10 @@ TypeInfo IndexOutOfRangeException_t391_il2cpp_TypeInfo =
 // System.InvalidCastException
 #include "mscorlib_System_InvalidCastException.h"
 // Metadata Definition System.InvalidCastException
-extern TypeInfo InvalidCastException_t1382_il2cpp_TypeInfo;
+extern TypeInfo InvalidCastException_t1384_il2cpp_TypeInfo;
 // System.InvalidCastException
 #include "mscorlib_System_InvalidCastExceptionMethodDeclarations.h"
-static const EncodedMethodIndex InvalidCastException_t1382_VTable[11] = 
+static const EncodedMethodIndex InvalidCastException_t1384_VTable[11] = 
 {
 	198,
 	148,
@@ -5795,43 +5795,43 @@ static const EncodedMethodIndex InvalidCastException_t1382_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair InvalidCastException_t1382_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair InvalidCastException_t1384_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType InvalidCastException_t1382_0_0_0;
-extern const Il2CppType InvalidCastException_t1382_1_0_0;
-struct InvalidCastException_t1382;
-const Il2CppTypeDefinitionMetadata InvalidCastException_t1382_DefinitionMetadata = 
+extern const Il2CppType InvalidCastException_t1384_0_0_0;
+extern const Il2CppType InvalidCastException_t1384_1_0_0;
+struct InvalidCastException_t1384;
+const Il2CppTypeDefinitionMetadata InvalidCastException_t1384_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, InvalidCastException_t1382_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, InvalidCastException_t1382_VTable/* vtableMethods */
+	, InvalidCastException_t1384_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, InvalidCastException_t1384_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5416/* fieldStart */
-	, 8792/* methodStart */
+	, 5428/* fieldStart */
+	, 8803/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo InvalidCastException_t1382_il2cpp_TypeInfo = 
+TypeInfo InvalidCastException_t1384_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "InvalidCastException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &InvalidCastException_t1382_il2cpp_TypeInfo/* element_class */
+	, &InvalidCastException_t1384_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1574/* custom_attributes_cache */
-	, &InvalidCastException_t1382_0_0_0/* byval_arg */
-	, &InvalidCastException_t1382_1_0_0/* this_arg */
-	, &InvalidCastException_t1382_DefinitionMetadata/* definitionMetadata */
+	, 1576/* custom_attributes_cache */
+	, &InvalidCastException_t1384_0_0_0/* byval_arg */
+	, &InvalidCastException_t1384_1_0_0/* this_arg */
+	, &InvalidCastException_t1384_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -5841,8 +5841,8 @@ TypeInfo InvalidCastException_t1382_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (InvalidCastException_t1382)/* instance_size */
-	, sizeof (InvalidCastException_t1382)/* actualSize */
+	, sizeof (InvalidCastException_t1384)/* instance_size */
+	, sizeof (InvalidCastException_t1384)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5874,10 +5874,10 @@ TypeInfo InvalidCastException_t1382_il2cpp_TypeInfo =
 // System.InvalidOperationException
 #include "mscorlib_System_InvalidOperationException.h"
 // Metadata Definition System.InvalidOperationException
-extern TypeInfo InvalidOperationException_t633_il2cpp_TypeInfo;
+extern TypeInfo InvalidOperationException_t635_il2cpp_TypeInfo;
 // System.InvalidOperationException
 #include "mscorlib_System_InvalidOperationExceptionMethodDeclarations.h"
-static const EncodedMethodIndex InvalidOperationException_t633_VTable[11] = 
+static const EncodedMethodIndex InvalidOperationException_t635_VTable[11] = 
 {
 	198,
 	148,
@@ -5891,43 +5891,43 @@ static const EncodedMethodIndex InvalidOperationException_t633_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair InvalidOperationException_t633_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair InvalidOperationException_t635_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType InvalidOperationException_t633_0_0_0;
-extern const Il2CppType InvalidOperationException_t633_1_0_0;
-struct InvalidOperationException_t633;
-const Il2CppTypeDefinitionMetadata InvalidOperationException_t633_DefinitionMetadata = 
+extern const Il2CppType InvalidOperationException_t635_0_0_0;
+extern const Il2CppType InvalidOperationException_t635_1_0_0;
+struct InvalidOperationException_t635;
+const Il2CppTypeDefinitionMetadata InvalidOperationException_t635_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, InvalidOperationException_t633_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, InvalidOperationException_t633_VTable/* vtableMethods */
+	, InvalidOperationException_t635_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, InvalidOperationException_t635_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5417/* fieldStart */
-	, 8795/* methodStart */
+	, 5429/* fieldStart */
+	, 8806/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo InvalidOperationException_t633_il2cpp_TypeInfo = 
+TypeInfo InvalidOperationException_t635_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "InvalidOperationException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &InvalidOperationException_t633_il2cpp_TypeInfo/* element_class */
+	, &InvalidOperationException_t635_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1575/* custom_attributes_cache */
-	, &InvalidOperationException_t633_0_0_0/* byval_arg */
-	, &InvalidOperationException_t633_1_0_0/* this_arg */
-	, &InvalidOperationException_t633_DefinitionMetadata/* definitionMetadata */
+	, 1577/* custom_attributes_cache */
+	, &InvalidOperationException_t635_0_0_0/* byval_arg */
+	, &InvalidOperationException_t635_1_0_0/* this_arg */
+	, &InvalidOperationException_t635_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -5937,8 +5937,8 @@ TypeInfo InvalidOperationException_t633_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (InvalidOperationException_t633)/* instance_size */
-	, sizeof (InvalidOperationException_t633)/* actualSize */
+	, sizeof (InvalidOperationException_t635)/* instance_size */
+	, sizeof (InvalidOperationException_t635)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5970,10 +5970,10 @@ TypeInfo InvalidOperationException_t633_il2cpp_TypeInfo =
 // System.LoaderOptimization
 #include "mscorlib_System_LoaderOptimization.h"
 // Metadata Definition System.LoaderOptimization
-extern TypeInfo LoaderOptimization_t1383_il2cpp_TypeInfo;
+extern TypeInfo LoaderOptimization_t1385_il2cpp_TypeInfo;
 // System.LoaderOptimization
 #include "mscorlib_System_LoaderOptimizationMethodDeclarations.h"
-static const EncodedMethodIndex LoaderOptimization_t1383_VTable[23] = 
+static const EncodedMethodIndex LoaderOptimization_t1385_VTable[23] = 
 {
 	147,
 	148,
@@ -5999,43 +5999,43 @@ static const EncodedMethodIndex LoaderOptimization_t1383_VTable[23] =
 	168,
 	169,
 };
-static Il2CppInterfaceOffsetPair LoaderOptimization_t1383_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair LoaderOptimization_t1385_InterfacesOffsets[] = 
 {
-	{ &IFormattable_t1462_0_0_0, 4},
-	{ &IConvertible_t1465_0_0_0, 5},
-	{ &IComparable_t1464_0_0_0, 21},
+	{ &IFormattable_t1464_0_0_0, 4},
+	{ &IConvertible_t1467_0_0_0, 5},
+	{ &IComparable_t1466_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType LoaderOptimization_t1383_0_0_0;
-extern const Il2CppType LoaderOptimization_t1383_1_0_0;
-const Il2CppTypeDefinitionMetadata LoaderOptimization_t1383_DefinitionMetadata = 
+extern const Il2CppType LoaderOptimization_t1385_0_0_0;
+extern const Il2CppType LoaderOptimization_t1385_1_0_0;
+const Il2CppTypeDefinitionMetadata LoaderOptimization_t1385_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, LoaderOptimization_t1383_InterfacesOffsets/* interfaceOffsets */
-	, &Enum_t372_0_0_0/* parent */
-	, LoaderOptimization_t1383_VTable/* vtableMethods */
+	, LoaderOptimization_t1385_InterfacesOffsets/* interfaceOffsets */
+	, &Enum_t374_0_0_0/* parent */
+	, LoaderOptimization_t1385_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5418/* fieldStart */
+	, 5430/* fieldStart */
 	, -1/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo LoaderOptimization_t1383_il2cpp_TypeInfo = 
+TypeInfo LoaderOptimization_t1385_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "LoaderOptimization"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &Int32_t67_il2cpp_TypeInfo/* element_class */
+	, &Int32_t72_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1576/* custom_attributes_cache */
-	, &LoaderOptimization_t1383_0_0_0/* byval_arg */
-	, &LoaderOptimization_t1383_1_0_0/* this_arg */
-	, &LoaderOptimization_t1383_DefinitionMetadata/* definitionMetadata */
+	, 1578/* custom_attributes_cache */
+	, &LoaderOptimization_t1385_0_0_0/* byval_arg */
+	, &LoaderOptimization_t1385_1_0_0/* this_arg */
+	, &LoaderOptimization_t1385_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -6045,8 +6045,8 @@ TypeInfo LoaderOptimization_t1383_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (LoaderOptimization_t1383)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (LoaderOptimization_t1383)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (LoaderOptimization_t1385)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (LoaderOptimization_t1385)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -6078,10 +6078,10 @@ TypeInfo LoaderOptimization_t1383_il2cpp_TypeInfo =
 // System.Math
 #include "mscorlib_System_Math.h"
 // Metadata Definition System.Math
-extern TypeInfo Math_t1384_il2cpp_TypeInfo;
+extern TypeInfo Math_t1386_il2cpp_TypeInfo;
 // System.Math
 #include "mscorlib_System_MathMethodDeclarations.h"
-static const EncodedMethodIndex Math_t1384_VTable[4] = 
+static const EncodedMethodIndex Math_t1386_VTable[4] = 
 {
 	198,
 	148,
@@ -6089,37 +6089,37 @@ static const EncodedMethodIndex Math_t1384_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType Math_t1384_0_0_0;
-extern const Il2CppType Math_t1384_1_0_0;
-struct Math_t1384;
-const Il2CppTypeDefinitionMetadata Math_t1384_DefinitionMetadata = 
+extern const Il2CppType Math_t1386_0_0_0;
+extern const Il2CppType Math_t1386_1_0_0;
+struct Math_t1386;
+const Il2CppTypeDefinitionMetadata Math_t1386_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, Math_t1384_VTable/* vtableMethods */
+	, Math_t1386_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8799/* methodStart */
+	, 8810/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo Math_t1384_il2cpp_TypeInfo = 
+TypeInfo Math_t1386_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Math"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &Math_t1384_il2cpp_TypeInfo/* element_class */
+	, &Math_t1386_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &Math_t1384_0_0_0/* byval_arg */
-	, &Math_t1384_1_0_0/* this_arg */
-	, &Math_t1384_DefinitionMetadata/* definitionMetadata */
+	, &Math_t1386_0_0_0/* byval_arg */
+	, &Math_t1386_1_0_0/* this_arg */
+	, &Math_t1386_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -6129,8 +6129,8 @@ TypeInfo Math_t1384_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Math_t1384)/* instance_size */
-	, sizeof (Math_t1384)/* actualSize */
+	, sizeof (Math_t1386)/* instance_size */
+	, sizeof (Math_t1386)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6162,10 +6162,10 @@ TypeInfo Math_t1384_il2cpp_TypeInfo =
 // System.MemberAccessException
 #include "mscorlib_System_MemberAccessException.h"
 // Metadata Definition System.MemberAccessException
-extern TypeInfo MemberAccessException_t1379_il2cpp_TypeInfo;
+extern TypeInfo MemberAccessException_t1381_il2cpp_TypeInfo;
 // System.MemberAccessException
 #include "mscorlib_System_MemberAccessExceptionMethodDeclarations.h"
-static const EncodedMethodIndex MemberAccessException_t1379_VTable[11] = 
+static const EncodedMethodIndex MemberAccessException_t1381_VTable[11] = 
 {
 	198,
 	148,
@@ -6179,42 +6179,42 @@ static const EncodedMethodIndex MemberAccessException_t1379_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair MemberAccessException_t1379_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair MemberAccessException_t1381_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MemberAccessException_t1379_1_0_0;
-struct MemberAccessException_t1379;
-const Il2CppTypeDefinitionMetadata MemberAccessException_t1379_DefinitionMetadata = 
+extern const Il2CppType MemberAccessException_t1381_1_0_0;
+struct MemberAccessException_t1381;
+const Il2CppTypeDefinitionMetadata MemberAccessException_t1381_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, MemberAccessException_t1379_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, MemberAccessException_t1379_VTable/* vtableMethods */
+	, MemberAccessException_t1381_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, MemberAccessException_t1381_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8809/* methodStart */
+	, 8820/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo MemberAccessException_t1379_il2cpp_TypeInfo = 
+TypeInfo MemberAccessException_t1381_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MemberAccessException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &MemberAccessException_t1379_il2cpp_TypeInfo/* element_class */
+	, &MemberAccessException_t1381_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1582/* custom_attributes_cache */
-	, &MemberAccessException_t1379_0_0_0/* byval_arg */
-	, &MemberAccessException_t1379_1_0_0/* this_arg */
-	, &MemberAccessException_t1379_DefinitionMetadata/* definitionMetadata */
+	, 1584/* custom_attributes_cache */
+	, &MemberAccessException_t1381_0_0_0/* byval_arg */
+	, &MemberAccessException_t1381_1_0_0/* this_arg */
+	, &MemberAccessException_t1381_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -6224,8 +6224,8 @@ TypeInfo MemberAccessException_t1379_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MemberAccessException_t1379)/* instance_size */
-	, sizeof (MemberAccessException_t1379)/* actualSize */
+	, sizeof (MemberAccessException_t1381)/* instance_size */
+	, sizeof (MemberAccessException_t1381)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6257,10 +6257,10 @@ TypeInfo MemberAccessException_t1379_il2cpp_TypeInfo =
 // System.MethodAccessException
 #include "mscorlib_System_MethodAccessException.h"
 // Metadata Definition System.MethodAccessException
-extern TypeInfo MethodAccessException_t1385_il2cpp_TypeInfo;
+extern TypeInfo MethodAccessException_t1387_il2cpp_TypeInfo;
 // System.MethodAccessException
 #include "mscorlib_System_MethodAccessExceptionMethodDeclarations.h"
-static const EncodedMethodIndex MethodAccessException_t1385_VTable[11] = 
+static const EncodedMethodIndex MethodAccessException_t1387_VTable[11] = 
 {
 	198,
 	148,
@@ -6274,43 +6274,43 @@ static const EncodedMethodIndex MethodAccessException_t1385_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair MethodAccessException_t1385_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair MethodAccessException_t1387_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MethodAccessException_t1385_0_0_0;
-extern const Il2CppType MethodAccessException_t1385_1_0_0;
-struct MethodAccessException_t1385;
-const Il2CppTypeDefinitionMetadata MethodAccessException_t1385_DefinitionMetadata = 
+extern const Il2CppType MethodAccessException_t1387_0_0_0;
+extern const Il2CppType MethodAccessException_t1387_1_0_0;
+struct MethodAccessException_t1387;
+const Il2CppTypeDefinitionMetadata MethodAccessException_t1387_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, MethodAccessException_t1385_InterfacesOffsets/* interfaceOffsets */
-	, &MemberAccessException_t1379_0_0_0/* parent */
-	, MethodAccessException_t1385_VTable/* vtableMethods */
+	, MethodAccessException_t1387_InterfacesOffsets/* interfaceOffsets */
+	, &MemberAccessException_t1381_0_0_0/* parent */
+	, MethodAccessException_t1387_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8812/* methodStart */
+	, 8823/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo MethodAccessException_t1385_il2cpp_TypeInfo = 
+TypeInfo MethodAccessException_t1387_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MethodAccessException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &MethodAccessException_t1385_il2cpp_TypeInfo/* element_class */
+	, &MethodAccessException_t1387_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1583/* custom_attributes_cache */
-	, &MethodAccessException_t1385_0_0_0/* byval_arg */
-	, &MethodAccessException_t1385_1_0_0/* this_arg */
-	, &MethodAccessException_t1385_DefinitionMetadata/* definitionMetadata */
+	, 1585/* custom_attributes_cache */
+	, &MethodAccessException_t1387_0_0_0/* byval_arg */
+	, &MethodAccessException_t1387_1_0_0/* this_arg */
+	, &MethodAccessException_t1387_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -6320,8 +6320,8 @@ TypeInfo MethodAccessException_t1385_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MethodAccessException_t1385)/* instance_size */
-	, sizeof (MethodAccessException_t1385)/* actualSize */
+	, sizeof (MethodAccessException_t1387)/* instance_size */
+	, sizeof (MethodAccessException_t1387)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6353,10 +6353,10 @@ TypeInfo MethodAccessException_t1385_il2cpp_TypeInfo =
 // System.MissingFieldException
 #include "mscorlib_System_MissingFieldException.h"
 // Metadata Definition System.MissingFieldException
-extern TypeInfo MissingFieldException_t1386_il2cpp_TypeInfo;
+extern TypeInfo MissingFieldException_t1388_il2cpp_TypeInfo;
 // System.MissingFieldException
 #include "mscorlib_System_MissingFieldExceptionMethodDeclarations.h"
-static const EncodedMethodIndex MissingFieldException_t1386_VTable[11] = 
+static const EncodedMethodIndex MissingFieldException_t1388_VTable[11] = 
 {
 	198,
 	148,
@@ -6370,44 +6370,44 @@ static const EncodedMethodIndex MissingFieldException_t1386_VTable[11] =
 	3239,
 	354,
 };
-static Il2CppInterfaceOffsetPair MissingFieldException_t1386_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair MissingFieldException_t1388_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MissingFieldException_t1386_0_0_0;
-extern const Il2CppType MissingFieldException_t1386_1_0_0;
-extern const Il2CppType MissingMemberException_t1387_0_0_0;
-struct MissingFieldException_t1386;
-const Il2CppTypeDefinitionMetadata MissingFieldException_t1386_DefinitionMetadata = 
+extern const Il2CppType MissingFieldException_t1388_0_0_0;
+extern const Il2CppType MissingFieldException_t1388_1_0_0;
+extern const Il2CppType MissingMemberException_t1389_0_0_0;
+struct MissingFieldException_t1388;
+const Il2CppTypeDefinitionMetadata MissingFieldException_t1388_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, MissingFieldException_t1386_InterfacesOffsets/* interfaceOffsets */
-	, &MissingMemberException_t1387_0_0_0/* parent */
-	, MissingFieldException_t1386_VTable/* vtableMethods */
+	, MissingFieldException_t1388_InterfacesOffsets/* interfaceOffsets */
+	, &MissingMemberException_t1389_0_0_0/* parent */
+	, MissingFieldException_t1388_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8814/* methodStart */
+	, 8825/* methodStart */
 	, -1/* eventStart */
-	, 1694/* propertyStart */
+	, 1695/* propertyStart */
 
 };
-TypeInfo MissingFieldException_t1386_il2cpp_TypeInfo = 
+TypeInfo MissingFieldException_t1388_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MissingFieldException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &MissingFieldException_t1386_il2cpp_TypeInfo/* element_class */
+	, &MissingFieldException_t1388_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1584/* custom_attributes_cache */
-	, &MissingFieldException_t1386_0_0_0/* byval_arg */
-	, &MissingFieldException_t1386_1_0_0/* this_arg */
-	, &MissingFieldException_t1386_DefinitionMetadata/* definitionMetadata */
+	, 1586/* custom_attributes_cache */
+	, &MissingFieldException_t1388_0_0_0/* byval_arg */
+	, &MissingFieldException_t1388_1_0_0/* this_arg */
+	, &MissingFieldException_t1388_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -6417,8 +6417,8 @@ TypeInfo MissingFieldException_t1386_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MissingFieldException_t1386)/* instance_size */
-	, sizeof (MissingFieldException_t1386)/* actualSize */
+	, sizeof (MissingFieldException_t1388)/* instance_size */
+	, sizeof (MissingFieldException_t1388)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6450,10 +6450,10 @@ TypeInfo MissingFieldException_t1386_il2cpp_TypeInfo =
 // System.MissingMemberException
 #include "mscorlib_System_MissingMemberException.h"
 // Metadata Definition System.MissingMemberException
-extern TypeInfo MissingMemberException_t1387_il2cpp_TypeInfo;
+extern TypeInfo MissingMemberException_t1389_il2cpp_TypeInfo;
 // System.MissingMemberException
 #include "mscorlib_System_MissingMemberExceptionMethodDeclarations.h"
-static const EncodedMethodIndex MissingMemberException_t1387_VTable[11] = 
+static const EncodedMethodIndex MissingMemberException_t1389_VTable[11] = 
 {
 	198,
 	148,
@@ -6467,42 +6467,42 @@ static const EncodedMethodIndex MissingMemberException_t1387_VTable[11] =
 	3239,
 	354,
 };
-static Il2CppInterfaceOffsetPair MissingMemberException_t1387_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair MissingMemberException_t1389_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MissingMemberException_t1387_1_0_0;
-struct MissingMemberException_t1387;
-const Il2CppTypeDefinitionMetadata MissingMemberException_t1387_DefinitionMetadata = 
+extern const Il2CppType MissingMemberException_t1389_1_0_0;
+struct MissingMemberException_t1389;
+const Il2CppTypeDefinitionMetadata MissingMemberException_t1389_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, MissingMemberException_t1387_InterfacesOffsets/* interfaceOffsets */
-	, &MemberAccessException_t1379_0_0_0/* parent */
-	, MissingMemberException_t1387_VTable/* vtableMethods */
+	, MissingMemberException_t1389_InterfacesOffsets/* interfaceOffsets */
+	, &MemberAccessException_t1381_0_0_0/* parent */
+	, MissingMemberException_t1389_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5425/* fieldStart */
-	, 8818/* methodStart */
+	, 5437/* fieldStart */
+	, 8829/* methodStart */
 	, -1/* eventStart */
-	, 1695/* propertyStart */
+	, 1696/* propertyStart */
 
 };
-TypeInfo MissingMemberException_t1387_il2cpp_TypeInfo = 
+TypeInfo MissingMemberException_t1389_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MissingMemberException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &MissingMemberException_t1387_il2cpp_TypeInfo/* element_class */
+	, &MissingMemberException_t1389_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1585/* custom_attributes_cache */
-	, &MissingMemberException_t1387_0_0_0/* byval_arg */
-	, &MissingMemberException_t1387_1_0_0/* this_arg */
-	, &MissingMemberException_t1387_DefinitionMetadata/* definitionMetadata */
+	, 1587/* custom_attributes_cache */
+	, &MissingMemberException_t1389_0_0_0/* byval_arg */
+	, &MissingMemberException_t1389_1_0_0/* this_arg */
+	, &MissingMemberException_t1389_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -6512,8 +6512,8 @@ TypeInfo MissingMemberException_t1387_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MissingMemberException_t1387)/* instance_size */
-	, sizeof (MissingMemberException_t1387)/* actualSize */
+	, sizeof (MissingMemberException_t1389)/* instance_size */
+	, sizeof (MissingMemberException_t1389)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6545,10 +6545,10 @@ TypeInfo MissingMemberException_t1387_il2cpp_TypeInfo =
 // System.MissingMethodException
 #include "mscorlib_System_MissingMethodException.h"
 // Metadata Definition System.MissingMethodException
-extern TypeInfo MissingMethodException_t1388_il2cpp_TypeInfo;
+extern TypeInfo MissingMethodException_t1390_il2cpp_TypeInfo;
 // System.MissingMethodException
 #include "mscorlib_System_MissingMethodExceptionMethodDeclarations.h"
-static const EncodedMethodIndex MissingMethodException_t1388_VTable[11] = 
+static const EncodedMethodIndex MissingMethodException_t1390_VTable[11] = 
 {
 	198,
 	148,
@@ -6562,43 +6562,43 @@ static const EncodedMethodIndex MissingMethodException_t1388_VTable[11] =
 	3239,
 	354,
 };
-static Il2CppInterfaceOffsetPair MissingMethodException_t1388_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair MissingMethodException_t1390_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MissingMethodException_t1388_0_0_0;
-extern const Il2CppType MissingMethodException_t1388_1_0_0;
-struct MissingMethodException_t1388;
-const Il2CppTypeDefinitionMetadata MissingMethodException_t1388_DefinitionMetadata = 
+extern const Il2CppType MissingMethodException_t1390_0_0_0;
+extern const Il2CppType MissingMethodException_t1390_1_0_0;
+struct MissingMethodException_t1390;
+const Il2CppTypeDefinitionMetadata MissingMethodException_t1390_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, MissingMethodException_t1388_InterfacesOffsets/* interfaceOffsets */
-	, &MissingMemberException_t1387_0_0_0/* parent */
-	, MissingMethodException_t1388_VTable/* vtableMethods */
+	, MissingMethodException_t1390_InterfacesOffsets/* interfaceOffsets */
+	, &MissingMemberException_t1389_0_0_0/* parent */
+	, MissingMethodException_t1390_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5428/* fieldStart */
-	, 8824/* methodStart */
+	, 5440/* fieldStart */
+	, 8835/* methodStart */
 	, -1/* eventStart */
-	, 1696/* propertyStart */
+	, 1697/* propertyStart */
 
 };
-TypeInfo MissingMethodException_t1388_il2cpp_TypeInfo = 
+TypeInfo MissingMethodException_t1390_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MissingMethodException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &MissingMethodException_t1388_il2cpp_TypeInfo/* element_class */
+	, &MissingMethodException_t1390_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1586/* custom_attributes_cache */
-	, &MissingMethodException_t1388_0_0_0/* byval_arg */
-	, &MissingMethodException_t1388_1_0_0/* this_arg */
-	, &MissingMethodException_t1388_DefinitionMetadata/* definitionMetadata */
+	, 1588/* custom_attributes_cache */
+	, &MissingMethodException_t1390_0_0_0/* byval_arg */
+	, &MissingMethodException_t1390_1_0_0/* this_arg */
+	, &MissingMethodException_t1390_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -6608,8 +6608,8 @@ TypeInfo MissingMethodException_t1388_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MissingMethodException_t1388)/* instance_size */
-	, sizeof (MissingMethodException_t1388)/* actualSize */
+	, sizeof (MissingMethodException_t1390)/* instance_size */
+	, sizeof (MissingMethodException_t1390)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6641,10 +6641,10 @@ TypeInfo MissingMethodException_t1388_il2cpp_TypeInfo =
 // System.MonoAsyncCall
 #include "mscorlib_System_MonoAsyncCall.h"
 // Metadata Definition System.MonoAsyncCall
-extern TypeInfo MonoAsyncCall_t1389_il2cpp_TypeInfo;
+extern TypeInfo MonoAsyncCall_t1391_il2cpp_TypeInfo;
 // System.MonoAsyncCall
 #include "mscorlib_System_MonoAsyncCallMethodDeclarations.h"
-static const EncodedMethodIndex MonoAsyncCall_t1389_VTable[4] = 
+static const EncodedMethodIndex MonoAsyncCall_t1391_VTable[4] = 
 {
 	198,
 	148,
@@ -6652,37 +6652,37 @@ static const EncodedMethodIndex MonoAsyncCall_t1389_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MonoAsyncCall_t1389_0_0_0;
-extern const Il2CppType MonoAsyncCall_t1389_1_0_0;
-struct MonoAsyncCall_t1389;
-const Il2CppTypeDefinitionMetadata MonoAsyncCall_t1389_DefinitionMetadata = 
+extern const Il2CppType MonoAsyncCall_t1391_0_0_0;
+extern const Il2CppType MonoAsyncCall_t1391_1_0_0;
+struct MonoAsyncCall_t1391;
+const Il2CppTypeDefinitionMetadata MonoAsyncCall_t1391_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, MonoAsyncCall_t1389_VTable/* vtableMethods */
+	, MonoAsyncCall_t1391_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5429/* fieldStart */
-	, 8829/* methodStart */
+	, 5441/* fieldStart */
+	, 8840/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo MonoAsyncCall_t1389_il2cpp_TypeInfo = 
+TypeInfo MonoAsyncCall_t1391_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MonoAsyncCall"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &MonoAsyncCall_t1389_il2cpp_TypeInfo/* element_class */
+	, &MonoAsyncCall_t1391_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &MonoAsyncCall_t1389_0_0_0/* byval_arg */
-	, &MonoAsyncCall_t1389_1_0_0/* this_arg */
-	, &MonoAsyncCall_t1389_DefinitionMetadata/* definitionMetadata */
+	, &MonoAsyncCall_t1391_0_0_0/* byval_arg */
+	, &MonoAsyncCall_t1391_1_0_0/* this_arg */
+	, &MonoAsyncCall_t1391_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -6692,8 +6692,8 @@ TypeInfo MonoAsyncCall_t1389_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MonoAsyncCall_t1389)/* instance_size */
-	, sizeof (MonoAsyncCall_t1389)/* actualSize */
+	, sizeof (MonoAsyncCall_t1391)/* instance_size */
+	, sizeof (MonoAsyncCall_t1391)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6725,15 +6725,15 @@ TypeInfo MonoAsyncCall_t1389_il2cpp_TypeInfo =
 // System.MonoCustomAttrs
 #include "mscorlib_System_MonoCustomAttrs.h"
 // Metadata Definition System.MonoCustomAttrs
-extern TypeInfo MonoCustomAttrs_t1391_il2cpp_TypeInfo;
+extern TypeInfo MonoCustomAttrs_t1393_il2cpp_TypeInfo;
 // System.MonoCustomAttrs
 #include "mscorlib_System_MonoCustomAttrsMethodDeclarations.h"
-extern const Il2CppType AttributeInfo_t1390_0_0_0;
-static const Il2CppType* MonoCustomAttrs_t1391_il2cpp_TypeInfo__nestedTypes[1] =
+extern const Il2CppType AttributeInfo_t1392_0_0_0;
+static const Il2CppType* MonoCustomAttrs_t1393_il2cpp_TypeInfo__nestedTypes[1] =
 {
-	&AttributeInfo_t1390_0_0_0,
+	&AttributeInfo_t1392_0_0_0,
 };
-static const EncodedMethodIndex MonoCustomAttrs_t1391_VTable[4] = 
+static const EncodedMethodIndex MonoCustomAttrs_t1393_VTable[4] = 
 {
 	198,
 	148,
@@ -6741,37 +6741,37 @@ static const EncodedMethodIndex MonoCustomAttrs_t1391_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MonoCustomAttrs_t1391_0_0_0;
-extern const Il2CppType MonoCustomAttrs_t1391_1_0_0;
-struct MonoCustomAttrs_t1391;
-const Il2CppTypeDefinitionMetadata MonoCustomAttrs_t1391_DefinitionMetadata = 
+extern const Il2CppType MonoCustomAttrs_t1393_0_0_0;
+extern const Il2CppType MonoCustomAttrs_t1393_1_0_0;
+struct MonoCustomAttrs_t1393;
+const Il2CppTypeDefinitionMetadata MonoCustomAttrs_t1393_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, MonoCustomAttrs_t1391_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, MonoCustomAttrs_t1393_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, MonoCustomAttrs_t1391_VTable/* vtableMethods */
+	, MonoCustomAttrs_t1393_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5436/* fieldStart */
-	, 8830/* methodStart */
+	, 5448/* fieldStart */
+	, 8841/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo MonoCustomAttrs_t1391_il2cpp_TypeInfo = 
+TypeInfo MonoCustomAttrs_t1393_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MonoCustomAttrs"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &MonoCustomAttrs_t1391_il2cpp_TypeInfo/* element_class */
+	, &MonoCustomAttrs_t1393_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &MonoCustomAttrs_t1391_0_0_0/* byval_arg */
-	, &MonoCustomAttrs_t1391_1_0_0/* this_arg */
-	, &MonoCustomAttrs_t1391_DefinitionMetadata/* definitionMetadata */
+	, &MonoCustomAttrs_t1393_0_0_0/* byval_arg */
+	, &MonoCustomAttrs_t1393_1_0_0/* this_arg */
+	, &MonoCustomAttrs_t1393_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -6781,11 +6781,11 @@ TypeInfo MonoCustomAttrs_t1391_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MonoCustomAttrs_t1391)/* instance_size */
-	, sizeof (MonoCustomAttrs_t1391)/* actualSize */
+	, sizeof (MonoCustomAttrs_t1393)/* instance_size */
+	, sizeof (MonoCustomAttrs_t1393)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(MonoCustomAttrs_t1391_StaticFields)/* static_fields_size */
+	, sizeof(MonoCustomAttrs_t1393_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -6814,10 +6814,10 @@ TypeInfo MonoCustomAttrs_t1391_il2cpp_TypeInfo =
 // System.MonoCustomAttrs/AttributeInfo
 #include "mscorlib_System_MonoCustomAttrs_AttributeInfo.h"
 // Metadata Definition System.MonoCustomAttrs/AttributeInfo
-extern TypeInfo AttributeInfo_t1390_il2cpp_TypeInfo;
+extern TypeInfo AttributeInfo_t1392_il2cpp_TypeInfo;
 // System.MonoCustomAttrs/AttributeInfo
 #include "mscorlib_System_MonoCustomAttrs_AttributeInfoMethodDeclarations.h"
-static const EncodedMethodIndex AttributeInfo_t1390_VTable[4] = 
+static const EncodedMethodIndex AttributeInfo_t1392_VTable[4] = 
 {
 	198,
 	148,
@@ -6825,36 +6825,36 @@ static const EncodedMethodIndex AttributeInfo_t1390_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType AttributeInfo_t1390_1_0_0;
-struct AttributeInfo_t1390;
-const Il2CppTypeDefinitionMetadata AttributeInfo_t1390_DefinitionMetadata = 
+extern const Il2CppType AttributeInfo_t1392_1_0_0;
+struct AttributeInfo_t1392;
+const Il2CppTypeDefinitionMetadata AttributeInfo_t1392_DefinitionMetadata = 
 {
-	&MonoCustomAttrs_t1391_0_0_0/* declaringType */
+	&MonoCustomAttrs_t1393_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, AttributeInfo_t1390_VTable/* vtableMethods */
+	, AttributeInfo_t1392_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5439/* fieldStart */
-	, 8843/* methodStart */
+	, 5451/* fieldStart */
+	, 8854/* methodStart */
 	, -1/* eventStart */
-	, 1697/* propertyStart */
+	, 1698/* propertyStart */
 
 };
-TypeInfo AttributeInfo_t1390_il2cpp_TypeInfo = 
+TypeInfo AttributeInfo_t1392_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "AttributeInfo"/* name */
 	, ""/* namespaze */
 	, NULL/* methods */
-	, &AttributeInfo_t1390_il2cpp_TypeInfo/* element_class */
+	, &AttributeInfo_t1392_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &AttributeInfo_t1390_0_0_0/* byval_arg */
-	, &AttributeInfo_t1390_1_0_0/* this_arg */
-	, &AttributeInfo_t1390_DefinitionMetadata/* definitionMetadata */
+	, &AttributeInfo_t1392_0_0_0/* byval_arg */
+	, &AttributeInfo_t1392_1_0_0/* this_arg */
+	, &AttributeInfo_t1392_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -6864,8 +6864,8 @@ TypeInfo AttributeInfo_t1390_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (AttributeInfo_t1390)/* instance_size */
-	, sizeof (AttributeInfo_t1390)/* actualSize */
+	, sizeof (AttributeInfo_t1392)/* instance_size */
+	, sizeof (AttributeInfo_t1392)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6897,10 +6897,10 @@ TypeInfo AttributeInfo_t1390_il2cpp_TypeInfo =
 // System.MonoTouchAOTHelper
 #include "mscorlib_System_MonoTouchAOTHelper.h"
 // Metadata Definition System.MonoTouchAOTHelper
-extern TypeInfo MonoTouchAOTHelper_t1392_il2cpp_TypeInfo;
+extern TypeInfo MonoTouchAOTHelper_t1394_il2cpp_TypeInfo;
 // System.MonoTouchAOTHelper
 #include "mscorlib_System_MonoTouchAOTHelperMethodDeclarations.h"
-static const EncodedMethodIndex MonoTouchAOTHelper_t1392_VTable[4] = 
+static const EncodedMethodIndex MonoTouchAOTHelper_t1394_VTable[4] = 
 {
 	198,
 	148,
@@ -6908,37 +6908,37 @@ static const EncodedMethodIndex MonoTouchAOTHelper_t1392_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MonoTouchAOTHelper_t1392_0_0_0;
-extern const Il2CppType MonoTouchAOTHelper_t1392_1_0_0;
-struct MonoTouchAOTHelper_t1392;
-const Il2CppTypeDefinitionMetadata MonoTouchAOTHelper_t1392_DefinitionMetadata = 
+extern const Il2CppType MonoTouchAOTHelper_t1394_0_0_0;
+extern const Il2CppType MonoTouchAOTHelper_t1394_1_0_0;
+struct MonoTouchAOTHelper_t1394;
+const Il2CppTypeDefinitionMetadata MonoTouchAOTHelper_t1394_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, MonoTouchAOTHelper_t1392_VTable/* vtableMethods */
+	, MonoTouchAOTHelper_t1394_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5441/* fieldStart */
-	, 8846/* methodStart */
+	, 5453/* fieldStart */
+	, 8857/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo MonoTouchAOTHelper_t1392_il2cpp_TypeInfo = 
+TypeInfo MonoTouchAOTHelper_t1394_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MonoTouchAOTHelper"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &MonoTouchAOTHelper_t1392_il2cpp_TypeInfo/* element_class */
+	, &MonoTouchAOTHelper_t1394_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &MonoTouchAOTHelper_t1392_0_0_0/* byval_arg */
-	, &MonoTouchAOTHelper_t1392_1_0_0/* this_arg */
-	, &MonoTouchAOTHelper_t1392_DefinitionMetadata/* definitionMetadata */
+	, &MonoTouchAOTHelper_t1394_0_0_0/* byval_arg */
+	, &MonoTouchAOTHelper_t1394_1_0_0/* this_arg */
+	, &MonoTouchAOTHelper_t1394_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -6948,11 +6948,11 @@ TypeInfo MonoTouchAOTHelper_t1392_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MonoTouchAOTHelper_t1392)/* instance_size */
-	, sizeof (MonoTouchAOTHelper_t1392)/* actualSize */
+	, sizeof (MonoTouchAOTHelper_t1394)/* instance_size */
+	, sizeof (MonoTouchAOTHelper_t1394)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(MonoTouchAOTHelper_t1392_StaticFields)/* static_fields_size */
+	, sizeof(MonoTouchAOTHelper_t1394_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -6981,10 +6981,10 @@ TypeInfo MonoTouchAOTHelper_t1392_il2cpp_TypeInfo =
 // System.MonoTypeInfo
 #include "mscorlib_System_MonoTypeInfo.h"
 // Metadata Definition System.MonoTypeInfo
-extern TypeInfo MonoTypeInfo_t1393_il2cpp_TypeInfo;
+extern TypeInfo MonoTypeInfo_t1395_il2cpp_TypeInfo;
 // System.MonoTypeInfo
 #include "mscorlib_System_MonoTypeInfoMethodDeclarations.h"
-static const EncodedMethodIndex MonoTypeInfo_t1393_VTable[4] = 
+static const EncodedMethodIndex MonoTypeInfo_t1395_VTable[4] = 
 {
 	198,
 	148,
@@ -6992,37 +6992,37 @@ static const EncodedMethodIndex MonoTypeInfo_t1393_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MonoTypeInfo_t1393_0_0_0;
-extern const Il2CppType MonoTypeInfo_t1393_1_0_0;
-struct MonoTypeInfo_t1393;
-const Il2CppTypeDefinitionMetadata MonoTypeInfo_t1393_DefinitionMetadata = 
+extern const Il2CppType MonoTypeInfo_t1395_0_0_0;
+extern const Il2CppType MonoTypeInfo_t1395_1_0_0;
+struct MonoTypeInfo_t1395;
+const Il2CppTypeDefinitionMetadata MonoTypeInfo_t1395_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, MonoTypeInfo_t1393_VTable/* vtableMethods */
+	, MonoTypeInfo_t1395_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5442/* fieldStart */
-	, 8847/* methodStart */
+	, 5454/* fieldStart */
+	, 8858/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo MonoTypeInfo_t1393_il2cpp_TypeInfo = 
+TypeInfo MonoTypeInfo_t1395_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MonoTypeInfo"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &MonoTypeInfo_t1393_il2cpp_TypeInfo/* element_class */
+	, &MonoTypeInfo_t1395_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &MonoTypeInfo_t1393_0_0_0/* byval_arg */
-	, &MonoTypeInfo_t1393_1_0_0/* this_arg */
-	, &MonoTypeInfo_t1393_DefinitionMetadata/* definitionMetadata */
+	, &MonoTypeInfo_t1395_0_0_0/* byval_arg */
+	, &MonoTypeInfo_t1395_1_0_0/* this_arg */
+	, &MonoTypeInfo_t1395_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -7032,8 +7032,8 @@ TypeInfo MonoTypeInfo_t1393_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MonoTypeInfo_t1393)/* instance_size */
-	, sizeof (MonoTypeInfo_t1393)/* actualSize */
+	, sizeof (MonoTypeInfo_t1395)/* instance_size */
+	, sizeof (MonoTypeInfo_t1395)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7155,19 +7155,19 @@ static const EncodedMethodIndex MonoType_t_VTable[82] =
 };
 static const Il2CppType* MonoType_t_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t1482_0_0_0,
+	&ISerializable_t1484_0_0_0,
 };
-extern const Il2CppType IReflect_t2147_0_0_0;
-extern const Il2CppType _Type_t2145_0_0_0;
-extern const Il2CppType ICustomAttributeProvider_t1460_0_0_0;
-extern const Il2CppType _MemberInfo_t2146_0_0_0;
+extern const Il2CppType IReflect_t2149_0_0_0;
+extern const Il2CppType _Type_t2147_0_0_0;
+extern const Il2CppType ICustomAttributeProvider_t1462_0_0_0;
+extern const Il2CppType _MemberInfo_t2148_0_0_0;
 static Il2CppInterfaceOffsetPair MonoType_t_InterfacesOffsets[] = 
 {
-	{ &IReflect_t2147_0_0_0, 14},
-	{ &_Type_t2145_0_0_0, 14},
-	{ &ICustomAttributeProvider_t1460_0_0_0, 4},
-	{ &_MemberInfo_t2146_0_0_0, 6},
-	{ &ISerializable_t1482_0_0_0, 81},
+	{ &IReflect_t2149_0_0_0, 14},
+	{ &_Type_t2147_0_0_0, 14},
+	{ &ICustomAttributeProvider_t1462_0_0_0, 4},
+	{ &_MemberInfo_t2148_0_0_0, 6},
+	{ &ISerializable_t1484_0_0_0, 81},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType MonoType_t_0_0_0;
@@ -7183,10 +7183,10 @@ const Il2CppTypeDefinitionMetadata MonoType_t_DefinitionMetadata =
 	, &Type_t_0_0_0/* parent */
 	, MonoType_t_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5444/* fieldStart */
-	, 8848/* methodStart */
+	, 5456/* fieldStart */
+	, 8859/* methodStart */
 	, -1/* eventStart */
-	, 1699/* propertyStart */
+	, 1700/* propertyStart */
 
 };
 TypeInfo MonoType_t_il2cpp_TypeInfo = 
@@ -7244,10 +7244,10 @@ TypeInfo MonoType_t_il2cpp_TypeInfo =
 // System.MulticastNotSupportedException
 #include "mscorlib_System_MulticastNotSupportedException.h"
 // Metadata Definition System.MulticastNotSupportedException
-extern TypeInfo MulticastNotSupportedException_t1394_il2cpp_TypeInfo;
+extern TypeInfo MulticastNotSupportedException_t1396_il2cpp_TypeInfo;
 // System.MulticastNotSupportedException
 #include "mscorlib_System_MulticastNotSupportedExceptionMethodDeclarations.h"
-static const EncodedMethodIndex MulticastNotSupportedException_t1394_VTable[11] = 
+static const EncodedMethodIndex MulticastNotSupportedException_t1396_VTable[11] = 
 {
 	198,
 	148,
@@ -7261,43 +7261,43 @@ static const EncodedMethodIndex MulticastNotSupportedException_t1394_VTable[11] 
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair MulticastNotSupportedException_t1394_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair MulticastNotSupportedException_t1396_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MulticastNotSupportedException_t1394_0_0_0;
-extern const Il2CppType MulticastNotSupportedException_t1394_1_0_0;
-struct MulticastNotSupportedException_t1394;
-const Il2CppTypeDefinitionMetadata MulticastNotSupportedException_t1394_DefinitionMetadata = 
+extern const Il2CppType MulticastNotSupportedException_t1396_0_0_0;
+extern const Il2CppType MulticastNotSupportedException_t1396_1_0_0;
+struct MulticastNotSupportedException_t1396;
+const Il2CppTypeDefinitionMetadata MulticastNotSupportedException_t1396_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, MulticastNotSupportedException_t1394_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, MulticastNotSupportedException_t1394_VTable/* vtableMethods */
+	, MulticastNotSupportedException_t1396_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, MulticastNotSupportedException_t1396_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8898/* methodStart */
+	, 8909/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo MulticastNotSupportedException_t1394_il2cpp_TypeInfo = 
+TypeInfo MulticastNotSupportedException_t1396_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MulticastNotSupportedException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &MulticastNotSupportedException_t1394_il2cpp_TypeInfo/* element_class */
+	, &MulticastNotSupportedException_t1396_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1587/* custom_attributes_cache */
-	, &MulticastNotSupportedException_t1394_0_0_0/* byval_arg */
-	, &MulticastNotSupportedException_t1394_1_0_0/* this_arg */
-	, &MulticastNotSupportedException_t1394_DefinitionMetadata/* definitionMetadata */
+	, 1589/* custom_attributes_cache */
+	, &MulticastNotSupportedException_t1396_0_0_0/* byval_arg */
+	, &MulticastNotSupportedException_t1396_1_0_0/* this_arg */
+	, &MulticastNotSupportedException_t1396_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -7307,8 +7307,8 @@ TypeInfo MulticastNotSupportedException_t1394_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MulticastNotSupportedException_t1394)/* instance_size */
-	, sizeof (MulticastNotSupportedException_t1394)/* actualSize */
+	, sizeof (MulticastNotSupportedException_t1396)/* instance_size */
+	, sizeof (MulticastNotSupportedException_t1396)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7340,52 +7340,52 @@ TypeInfo MulticastNotSupportedException_t1394_il2cpp_TypeInfo =
 // System.NonSerializedAttribute
 #include "mscorlib_System_NonSerializedAttribute.h"
 // Metadata Definition System.NonSerializedAttribute
-extern TypeInfo NonSerializedAttribute_t1395_il2cpp_TypeInfo;
+extern TypeInfo NonSerializedAttribute_t1397_il2cpp_TypeInfo;
 // System.NonSerializedAttribute
 #include "mscorlib_System_NonSerializedAttributeMethodDeclarations.h"
-static const EncodedMethodIndex NonSerializedAttribute_t1395_VTable[4] = 
+static const EncodedMethodIndex NonSerializedAttribute_t1397_VTable[4] = 
 {
 	399,
 	148,
 	400,
 	200,
 };
-static Il2CppInterfaceOffsetPair NonSerializedAttribute_t1395_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair NonSerializedAttribute_t1397_InterfacesOffsets[] = 
 {
-	{ &_Attribute_t2134_0_0_0, 4},
+	{ &_Attribute_t2136_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType NonSerializedAttribute_t1395_0_0_0;
-extern const Il2CppType NonSerializedAttribute_t1395_1_0_0;
-struct NonSerializedAttribute_t1395;
-const Il2CppTypeDefinitionMetadata NonSerializedAttribute_t1395_DefinitionMetadata = 
+extern const Il2CppType NonSerializedAttribute_t1397_0_0_0;
+extern const Il2CppType NonSerializedAttribute_t1397_1_0_0;
+struct NonSerializedAttribute_t1397;
+const Il2CppTypeDefinitionMetadata NonSerializedAttribute_t1397_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, NonSerializedAttribute_t1395_InterfacesOffsets/* interfaceOffsets */
-	, &Attribute_t166_0_0_0/* parent */
-	, NonSerializedAttribute_t1395_VTable/* vtableMethods */
+	, NonSerializedAttribute_t1397_InterfacesOffsets/* interfaceOffsets */
+	, &Attribute_t169_0_0_0/* parent */
+	, NonSerializedAttribute_t1397_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8901/* methodStart */
+	, 8912/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo NonSerializedAttribute_t1395_il2cpp_TypeInfo = 
+TypeInfo NonSerializedAttribute_t1397_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "NonSerializedAttribute"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &NonSerializedAttribute_t1395_il2cpp_TypeInfo/* element_class */
+	, &NonSerializedAttribute_t1397_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1588/* custom_attributes_cache */
-	, &NonSerializedAttribute_t1395_0_0_0/* byval_arg */
-	, &NonSerializedAttribute_t1395_1_0_0/* this_arg */
-	, &NonSerializedAttribute_t1395_DefinitionMetadata/* definitionMetadata */
+	, 1590/* custom_attributes_cache */
+	, &NonSerializedAttribute_t1397_0_0_0/* byval_arg */
+	, &NonSerializedAttribute_t1397_1_0_0/* this_arg */
+	, &NonSerializedAttribute_t1397_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -7395,8 +7395,8 @@ TypeInfo NonSerializedAttribute_t1395_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (NonSerializedAttribute_t1395)/* instance_size */
-	, sizeof (NonSerializedAttribute_t1395)/* actualSize */
+	, sizeof (NonSerializedAttribute_t1397)/* instance_size */
+	, sizeof (NonSerializedAttribute_t1397)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7428,10 +7428,10 @@ TypeInfo NonSerializedAttribute_t1395_il2cpp_TypeInfo =
 // System.NotImplementedException
 #include "mscorlib_System_NotImplementedException.h"
 // Metadata Definition System.NotImplementedException
-extern TypeInfo NotImplementedException_t639_il2cpp_TypeInfo;
+extern TypeInfo NotImplementedException_t641_il2cpp_TypeInfo;
 // System.NotImplementedException
 #include "mscorlib_System_NotImplementedExceptionMethodDeclarations.h"
-static const EncodedMethodIndex NotImplementedException_t639_VTable[11] = 
+static const EncodedMethodIndex NotImplementedException_t641_VTable[11] = 
 {
 	198,
 	148,
@@ -7445,43 +7445,43 @@ static const EncodedMethodIndex NotImplementedException_t639_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair NotImplementedException_t639_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair NotImplementedException_t641_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType NotImplementedException_t639_0_0_0;
-extern const Il2CppType NotImplementedException_t639_1_0_0;
-struct NotImplementedException_t639;
-const Il2CppTypeDefinitionMetadata NotImplementedException_t639_DefinitionMetadata = 
+extern const Il2CppType NotImplementedException_t641_0_0_0;
+extern const Il2CppType NotImplementedException_t641_1_0_0;
+struct NotImplementedException_t641;
+const Il2CppTypeDefinitionMetadata NotImplementedException_t641_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, NotImplementedException_t639_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, NotImplementedException_t639_VTable/* vtableMethods */
+	, NotImplementedException_t641_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, NotImplementedException_t641_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 8902/* methodStart */
+	, 8913/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo NotImplementedException_t639_il2cpp_TypeInfo = 
+TypeInfo NotImplementedException_t641_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "NotImplementedException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &NotImplementedException_t639_il2cpp_TypeInfo/* element_class */
+	, &NotImplementedException_t641_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1589/* custom_attributes_cache */
-	, &NotImplementedException_t639_0_0_0/* byval_arg */
-	, &NotImplementedException_t639_1_0_0/* this_arg */
-	, &NotImplementedException_t639_DefinitionMetadata/* definitionMetadata */
+	, 1591/* custom_attributes_cache */
+	, &NotImplementedException_t641_0_0_0/* byval_arg */
+	, &NotImplementedException_t641_1_0_0/* this_arg */
+	, &NotImplementedException_t641_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -7491,8 +7491,8 @@ TypeInfo NotImplementedException_t639_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (NotImplementedException_t639)/* instance_size */
-	, sizeof (NotImplementedException_t639)/* actualSize */
+	, sizeof (NotImplementedException_t641)/* instance_size */
+	, sizeof (NotImplementedException_t641)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7543,8 +7543,8 @@ static const EncodedMethodIndex NotSupportedException_t26_VTable[11] =
 };
 static Il2CppInterfaceOffsetPair NotSupportedException_t26_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType NotSupportedException_t26_0_0_0;
@@ -7556,11 +7556,11 @@ const Il2CppTypeDefinitionMetadata NotSupportedException_t26_DefinitionMetadata 
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NotSupportedException_t26_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
+	, &SystemException_t657_0_0_0/* parent */
 	, NotSupportedException_t26_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5445/* fieldStart */
-	, 8905/* methodStart */
+	, 5457/* fieldStart */
+	, 8916/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
@@ -7574,7 +7574,7 @@ TypeInfo NotSupportedException_t26_il2cpp_TypeInfo =
 	, NULL/* methods */
 	, &NotSupportedException_t26_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1590/* custom_attributes_cache */
+	, 1592/* custom_attributes_cache */
 	, &NotSupportedException_t26_0_0_0/* byval_arg */
 	, &NotSupportedException_t26_1_0_0/* this_arg */
 	, &NotSupportedException_t26_DefinitionMetadata/* definitionMetadata */
@@ -7620,10 +7620,10 @@ TypeInfo NotSupportedException_t26_il2cpp_TypeInfo =
 // System.NullReferenceException
 #include "mscorlib_System_NullReferenceException.h"
 // Metadata Definition System.NullReferenceException
-extern TypeInfo NullReferenceException_t379_il2cpp_TypeInfo;
+extern TypeInfo NullReferenceException_t381_il2cpp_TypeInfo;
 // System.NullReferenceException
 #include "mscorlib_System_NullReferenceExceptionMethodDeclarations.h"
-static const EncodedMethodIndex NullReferenceException_t379_VTable[11] = 
+static const EncodedMethodIndex NullReferenceException_t381_VTable[11] = 
 {
 	198,
 	148,
@@ -7637,43 +7637,43 @@ static const EncodedMethodIndex NullReferenceException_t379_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair NullReferenceException_t379_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair NullReferenceException_t381_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType NullReferenceException_t379_0_0_0;
-extern const Il2CppType NullReferenceException_t379_1_0_0;
-struct NullReferenceException_t379;
-const Il2CppTypeDefinitionMetadata NullReferenceException_t379_DefinitionMetadata = 
+extern const Il2CppType NullReferenceException_t381_0_0_0;
+extern const Il2CppType NullReferenceException_t381_1_0_0;
+struct NullReferenceException_t381;
+const Il2CppTypeDefinitionMetadata NullReferenceException_t381_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, NullReferenceException_t379_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, NullReferenceException_t379_VTable/* vtableMethods */
+	, NullReferenceException_t381_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, NullReferenceException_t381_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5446/* fieldStart */
-	, 8908/* methodStart */
+	, 5458/* fieldStart */
+	, 8919/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo NullReferenceException_t379_il2cpp_TypeInfo = 
+TypeInfo NullReferenceException_t381_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "NullReferenceException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &NullReferenceException_t379_il2cpp_TypeInfo/* element_class */
+	, &NullReferenceException_t381_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1591/* custom_attributes_cache */
-	, &NullReferenceException_t379_0_0_0/* byval_arg */
-	, &NullReferenceException_t379_1_0_0/* this_arg */
-	, &NullReferenceException_t379_DefinitionMetadata/* definitionMetadata */
+	, 1593/* custom_attributes_cache */
+	, &NullReferenceException_t381_0_0_0/* byval_arg */
+	, &NullReferenceException_t381_1_0_0/* this_arg */
+	, &NullReferenceException_t381_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -7683,8 +7683,8 @@ TypeInfo NullReferenceException_t379_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (NullReferenceException_t379)/* instance_size */
-	, sizeof (NullReferenceException_t379)/* actualSize */
+	, sizeof (NullReferenceException_t381)/* instance_size */
+	, sizeof (NullReferenceException_t381)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7716,15 +7716,15 @@ TypeInfo NullReferenceException_t379_il2cpp_TypeInfo =
 // System.NumberFormatter
 #include "mscorlib_System_NumberFormatter.h"
 // Metadata Definition System.NumberFormatter
-extern TypeInfo NumberFormatter_t1397_il2cpp_TypeInfo;
+extern TypeInfo NumberFormatter_t1399_il2cpp_TypeInfo;
 // System.NumberFormatter
 #include "mscorlib_System_NumberFormatterMethodDeclarations.h"
-extern const Il2CppType CustomInfo_t1396_0_0_0;
-static const Il2CppType* NumberFormatter_t1397_il2cpp_TypeInfo__nestedTypes[1] =
+extern const Il2CppType CustomInfo_t1398_0_0_0;
+static const Il2CppType* NumberFormatter_t1399_il2cpp_TypeInfo__nestedTypes[1] =
 {
-	&CustomInfo_t1396_0_0_0,
+	&CustomInfo_t1398_0_0_0,
 };
-static const EncodedMethodIndex NumberFormatter_t1397_VTable[4] = 
+static const EncodedMethodIndex NumberFormatter_t1399_VTable[4] = 
 {
 	198,
 	148,
@@ -7732,37 +7732,37 @@ static const EncodedMethodIndex NumberFormatter_t1397_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType NumberFormatter_t1397_0_0_0;
-extern const Il2CppType NumberFormatter_t1397_1_0_0;
-struct NumberFormatter_t1397;
-const Il2CppTypeDefinitionMetadata NumberFormatter_t1397_DefinitionMetadata = 
+extern const Il2CppType NumberFormatter_t1399_0_0_0;
+extern const Il2CppType NumberFormatter_t1399_1_0_0;
+struct NumberFormatter_t1399;
+const Il2CppTypeDefinitionMetadata NumberFormatter_t1399_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, NumberFormatter_t1397_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, NumberFormatter_t1399_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, NumberFormatter_t1397_VTable/* vtableMethods */
+	, NumberFormatter_t1399_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5447/* fieldStart */
-	, 8911/* methodStart */
+	, 5459/* fieldStart */
+	, 8922/* methodStart */
 	, -1/* eventStart */
-	, 1713/* propertyStart */
+	, 1714/* propertyStart */
 
 };
-TypeInfo NumberFormatter_t1397_il2cpp_TypeInfo = 
+TypeInfo NumberFormatter_t1399_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "NumberFormatter"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &NumberFormatter_t1397_il2cpp_TypeInfo/* element_class */
+	, &NumberFormatter_t1399_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &NumberFormatter_t1397_0_0_0/* byval_arg */
-	, &NumberFormatter_t1397_1_0_0/* this_arg */
-	, &NumberFormatter_t1397_DefinitionMetadata/* definitionMetadata */
+	, &NumberFormatter_t1399_0_0_0/* byval_arg */
+	, &NumberFormatter_t1399_1_0_0/* this_arg */
+	, &NumberFormatter_t1399_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -7772,12 +7772,12 @@ TypeInfo NumberFormatter_t1397_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (NumberFormatter_t1397)/* instance_size */
-	, sizeof (NumberFormatter_t1397)/* actualSize */
+	, sizeof (NumberFormatter_t1399)/* instance_size */
+	, sizeof (NumberFormatter_t1399)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(NumberFormatter_t1397_StaticFields)/* static_fields_size */
-	, sizeof(NumberFormatter_t1397_ThreadStaticFields)/* thread_static_fields_size */
+	, sizeof(NumberFormatter_t1399_StaticFields)/* static_fields_size */
+	, sizeof(NumberFormatter_t1399_ThreadStaticFields)/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 256/* flags */
 	, 0/* rank */
@@ -7805,10 +7805,10 @@ TypeInfo NumberFormatter_t1397_il2cpp_TypeInfo =
 // System.NumberFormatter/CustomInfo
 #include "mscorlib_System_NumberFormatter_CustomInfo.h"
 // Metadata Definition System.NumberFormatter/CustomInfo
-extern TypeInfo CustomInfo_t1396_il2cpp_TypeInfo;
+extern TypeInfo CustomInfo_t1398_il2cpp_TypeInfo;
 // System.NumberFormatter/CustomInfo
 #include "mscorlib_System_NumberFormatter_CustomInfoMethodDeclarations.h"
-static const EncodedMethodIndex CustomInfo_t1396_VTable[4] = 
+static const EncodedMethodIndex CustomInfo_t1398_VTable[4] = 
 {
 	198,
 	148,
@@ -7816,36 +7816,36 @@ static const EncodedMethodIndex CustomInfo_t1396_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType CustomInfo_t1396_1_0_0;
-struct CustomInfo_t1396;
-const Il2CppTypeDefinitionMetadata CustomInfo_t1396_DefinitionMetadata = 
+extern const Il2CppType CustomInfo_t1398_1_0_0;
+struct CustomInfo_t1398;
+const Il2CppTypeDefinitionMetadata CustomInfo_t1398_DefinitionMetadata = 
 {
-	&NumberFormatter_t1397_0_0_0/* declaringType */
+	&NumberFormatter_t1399_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, CustomInfo_t1396_VTable/* vtableMethods */
+	, CustomInfo_t1398_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5473/* fieldStart */
-	, 9005/* methodStart */
+	, 5485/* fieldStart */
+	, 9016/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo CustomInfo_t1396_il2cpp_TypeInfo = 
+TypeInfo CustomInfo_t1398_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "CustomInfo"/* name */
 	, ""/* namespaze */
 	, NULL/* methods */
-	, &CustomInfo_t1396_il2cpp_TypeInfo/* element_class */
+	, &CustomInfo_t1398_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &CustomInfo_t1396_0_0_0/* byval_arg */
-	, &CustomInfo_t1396_1_0_0/* this_arg */
-	, &CustomInfo_t1396_DefinitionMetadata/* definitionMetadata */
+	, &CustomInfo_t1398_0_0_0/* byval_arg */
+	, &CustomInfo_t1398_1_0_0/* this_arg */
+	, &CustomInfo_t1398_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -7855,8 +7855,8 @@ TypeInfo CustomInfo_t1396_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (CustomInfo_t1396)/* instance_size */
-	, sizeof (CustomInfo_t1396)/* actualSize */
+	, sizeof (CustomInfo_t1398)/* instance_size */
+	, sizeof (CustomInfo_t1398)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7888,10 +7888,10 @@ TypeInfo CustomInfo_t1396_il2cpp_TypeInfo =
 // System.ObjectDisposedException
 #include "mscorlib_System_ObjectDisposedException.h"
 // Metadata Definition System.ObjectDisposedException
-extern TypeInfo ObjectDisposedException_t678_il2cpp_TypeInfo;
+extern TypeInfo ObjectDisposedException_t680_il2cpp_TypeInfo;
 // System.ObjectDisposedException
 #include "mscorlib_System_ObjectDisposedExceptionMethodDeclarations.h"
-static const EncodedMethodIndex ObjectDisposedException_t678_VTable[11] = 
+static const EncodedMethodIndex ObjectDisposedException_t680_VTable[11] = 
 {
 	198,
 	148,
@@ -7905,43 +7905,43 @@ static const EncodedMethodIndex ObjectDisposedException_t678_VTable[11] =
 	3283,
 	354,
 };
-static Il2CppInterfaceOffsetPair ObjectDisposedException_t678_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ObjectDisposedException_t680_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ObjectDisposedException_t678_0_0_0;
-extern const Il2CppType ObjectDisposedException_t678_1_0_0;
-struct ObjectDisposedException_t678;
-const Il2CppTypeDefinitionMetadata ObjectDisposedException_t678_DefinitionMetadata = 
+extern const Il2CppType ObjectDisposedException_t680_0_0_0;
+extern const Il2CppType ObjectDisposedException_t680_1_0_0;
+struct ObjectDisposedException_t680;
+const Il2CppTypeDefinitionMetadata ObjectDisposedException_t680_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ObjectDisposedException_t678_InterfacesOffsets/* interfaceOffsets */
-	, &InvalidOperationException_t633_0_0_0/* parent */
-	, ObjectDisposedException_t678_VTable/* vtableMethods */
+	, ObjectDisposedException_t680_InterfacesOffsets/* interfaceOffsets */
+	, &InvalidOperationException_t635_0_0_0/* parent */
+	, ObjectDisposedException_t680_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5487/* fieldStart */
-	, 9009/* methodStart */
+	, 5499/* fieldStart */
+	, 9020/* methodStart */
 	, -1/* eventStart */
-	, 1719/* propertyStart */
+	, 1720/* propertyStart */
 
 };
-TypeInfo ObjectDisposedException_t678_il2cpp_TypeInfo = 
+TypeInfo ObjectDisposedException_t680_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ObjectDisposedException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &ObjectDisposedException_t678_il2cpp_TypeInfo/* element_class */
+	, &ObjectDisposedException_t680_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1593/* custom_attributes_cache */
-	, &ObjectDisposedException_t678_0_0_0/* byval_arg */
-	, &ObjectDisposedException_t678_1_0_0/* this_arg */
-	, &ObjectDisposedException_t678_DefinitionMetadata/* definitionMetadata */
+	, 1595/* custom_attributes_cache */
+	, &ObjectDisposedException_t680_0_0_0/* byval_arg */
+	, &ObjectDisposedException_t680_1_0_0/* this_arg */
+	, &ObjectDisposedException_t680_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -7951,8 +7951,8 @@ TypeInfo ObjectDisposedException_t678_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ObjectDisposedException_t678)/* instance_size */
-	, sizeof (ObjectDisposedException_t678)/* actualSize */
+	, sizeof (ObjectDisposedException_t680)/* instance_size */
+	, sizeof (ObjectDisposedException_t680)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7984,10 +7984,10 @@ TypeInfo ObjectDisposedException_t678_il2cpp_TypeInfo =
 // System.OperatingSystem
 #include "mscorlib_System_OperatingSystem.h"
 // Metadata Definition System.OperatingSystem
-extern TypeInfo OperatingSystem_t1375_il2cpp_TypeInfo;
+extern TypeInfo OperatingSystem_t1377_il2cpp_TypeInfo;
 // System.OperatingSystem
 #include "mscorlib_System_OperatingSystemMethodDeclarations.h"
-static const EncodedMethodIndex OperatingSystem_t1375_VTable[5] = 
+static const EncodedMethodIndex OperatingSystem_t1377_VTable[5] = 
 {
 	198,
 	148,
@@ -7995,48 +7995,48 @@ static const EncodedMethodIndex OperatingSystem_t1375_VTable[5] =
 	3285,
 	3286,
 };
-static const Il2CppType* OperatingSystem_t1375_InterfacesTypeInfos[] = 
+static const Il2CppType* OperatingSystem_t1377_InterfacesTypeInfos[] = 
 {
-	&ICloneable_t2138_0_0_0,
-	&ISerializable_t1482_0_0_0,
+	&ICloneable_t2140_0_0_0,
+	&ISerializable_t1484_0_0_0,
 };
-static Il2CppInterfaceOffsetPair OperatingSystem_t1375_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair OperatingSystem_t1377_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t2138_0_0_0, 4},
-	{ &ISerializable_t1482_0_0_0, 4},
+	{ &ICloneable_t2140_0_0_0, 4},
+	{ &ISerializable_t1484_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType OperatingSystem_t1375_0_0_0;
-extern const Il2CppType OperatingSystem_t1375_1_0_0;
-struct OperatingSystem_t1375;
-const Il2CppTypeDefinitionMetadata OperatingSystem_t1375_DefinitionMetadata = 
+extern const Il2CppType OperatingSystem_t1377_0_0_0;
+extern const Il2CppType OperatingSystem_t1377_1_0_0;
+struct OperatingSystem_t1377;
+const Il2CppTypeDefinitionMetadata OperatingSystem_t1377_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, OperatingSystem_t1375_InterfacesTypeInfos/* implementedInterfaces */
-	, OperatingSystem_t1375_InterfacesOffsets/* interfaceOffsets */
+	, OperatingSystem_t1377_InterfacesTypeInfos/* implementedInterfaces */
+	, OperatingSystem_t1377_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, OperatingSystem_t1375_VTable/* vtableMethods */
+	, OperatingSystem_t1377_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5489/* fieldStart */
-	, 9014/* methodStart */
+	, 5501/* fieldStart */
+	, 9025/* methodStart */
 	, -1/* eventStart */
-	, 1720/* propertyStart */
+	, 1721/* propertyStart */
 
 };
-TypeInfo OperatingSystem_t1375_il2cpp_TypeInfo = 
+TypeInfo OperatingSystem_t1377_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "OperatingSystem"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &OperatingSystem_t1375_il2cpp_TypeInfo/* element_class */
+	, &OperatingSystem_t1377_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1594/* custom_attributes_cache */
-	, &OperatingSystem_t1375_0_0_0/* byval_arg */
-	, &OperatingSystem_t1375_1_0_0/* this_arg */
-	, &OperatingSystem_t1375_DefinitionMetadata/* definitionMetadata */
+	, 1596/* custom_attributes_cache */
+	, &OperatingSystem_t1377_0_0_0/* byval_arg */
+	, &OperatingSystem_t1377_1_0_0/* this_arg */
+	, &OperatingSystem_t1377_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -8046,8 +8046,8 @@ TypeInfo OperatingSystem_t1375_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (OperatingSystem_t1375)/* instance_size */
-	, sizeof (OperatingSystem_t1375)/* actualSize */
+	, sizeof (OperatingSystem_t1377)/* instance_size */
+	, sizeof (OperatingSystem_t1377)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8079,10 +8079,10 @@ TypeInfo OperatingSystem_t1375_il2cpp_TypeInfo =
 // System.OutOfMemoryException
 #include "mscorlib_System_OutOfMemoryException.h"
 // Metadata Definition System.OutOfMemoryException
-extern TypeInfo OutOfMemoryException_t1398_il2cpp_TypeInfo;
+extern TypeInfo OutOfMemoryException_t1400_il2cpp_TypeInfo;
 // System.OutOfMemoryException
 #include "mscorlib_System_OutOfMemoryExceptionMethodDeclarations.h"
-static const EncodedMethodIndex OutOfMemoryException_t1398_VTable[11] = 
+static const EncodedMethodIndex OutOfMemoryException_t1400_VTable[11] = 
 {
 	198,
 	148,
@@ -8096,43 +8096,43 @@ static const EncodedMethodIndex OutOfMemoryException_t1398_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair OutOfMemoryException_t1398_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair OutOfMemoryException_t1400_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType OutOfMemoryException_t1398_0_0_0;
-extern const Il2CppType OutOfMemoryException_t1398_1_0_0;
-struct OutOfMemoryException_t1398;
-const Il2CppTypeDefinitionMetadata OutOfMemoryException_t1398_DefinitionMetadata = 
+extern const Il2CppType OutOfMemoryException_t1400_0_0_0;
+extern const Il2CppType OutOfMemoryException_t1400_1_0_0;
+struct OutOfMemoryException_t1400;
+const Il2CppTypeDefinitionMetadata OutOfMemoryException_t1400_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, OutOfMemoryException_t1398_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, OutOfMemoryException_t1398_VTable/* vtableMethods */
+	, OutOfMemoryException_t1400_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, OutOfMemoryException_t1400_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5492/* fieldStart */
-	, 9018/* methodStart */
+	, 5504/* fieldStart */
+	, 9029/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo OutOfMemoryException_t1398_il2cpp_TypeInfo = 
+TypeInfo OutOfMemoryException_t1400_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "OutOfMemoryException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &OutOfMemoryException_t1398_il2cpp_TypeInfo/* element_class */
+	, &OutOfMemoryException_t1400_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1595/* custom_attributes_cache */
-	, &OutOfMemoryException_t1398_0_0_0/* byval_arg */
-	, &OutOfMemoryException_t1398_1_0_0/* this_arg */
-	, &OutOfMemoryException_t1398_DefinitionMetadata/* definitionMetadata */
+	, 1597/* custom_attributes_cache */
+	, &OutOfMemoryException_t1400_0_0_0/* byval_arg */
+	, &OutOfMemoryException_t1400_1_0_0/* this_arg */
+	, &OutOfMemoryException_t1400_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -8142,8 +8142,8 @@ TypeInfo OutOfMemoryException_t1398_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (OutOfMemoryException_t1398)/* instance_size */
-	, sizeof (OutOfMemoryException_t1398)/* actualSize */
+	, sizeof (OutOfMemoryException_t1400)/* instance_size */
+	, sizeof (OutOfMemoryException_t1400)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8175,10 +8175,10 @@ TypeInfo OutOfMemoryException_t1398_il2cpp_TypeInfo =
 // System.OverflowException
 #include "mscorlib_System_OverflowException.h"
 // Metadata Definition System.OverflowException
-extern TypeInfo OverflowException_t1399_il2cpp_TypeInfo;
+extern TypeInfo OverflowException_t1401_il2cpp_TypeInfo;
 // System.OverflowException
 #include "mscorlib_System_OverflowExceptionMethodDeclarations.h"
-static const EncodedMethodIndex OverflowException_t1399_VTable[11] = 
+static const EncodedMethodIndex OverflowException_t1401_VTable[11] = 
 {
 	198,
 	148,
@@ -8192,43 +8192,43 @@ static const EncodedMethodIndex OverflowException_t1399_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair OverflowException_t1399_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair OverflowException_t1401_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType OverflowException_t1399_0_0_0;
-extern const Il2CppType OverflowException_t1399_1_0_0;
-struct OverflowException_t1399;
-const Il2CppTypeDefinitionMetadata OverflowException_t1399_DefinitionMetadata = 
+extern const Il2CppType OverflowException_t1401_0_0_0;
+extern const Il2CppType OverflowException_t1401_1_0_0;
+struct OverflowException_t1401;
+const Il2CppTypeDefinitionMetadata OverflowException_t1401_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, OverflowException_t1399_InterfacesOffsets/* interfaceOffsets */
-	, &ArithmeticException_t798_0_0_0/* parent */
-	, OverflowException_t1399_VTable/* vtableMethods */
+	, OverflowException_t1401_InterfacesOffsets/* interfaceOffsets */
+	, &ArithmeticException_t800_0_0_0/* parent */
+	, OverflowException_t1401_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5493/* fieldStart */
-	, 9020/* methodStart */
+	, 5505/* fieldStart */
+	, 9031/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo OverflowException_t1399_il2cpp_TypeInfo = 
+TypeInfo OverflowException_t1401_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "OverflowException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &OverflowException_t1399_il2cpp_TypeInfo/* element_class */
+	, &OverflowException_t1401_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1596/* custom_attributes_cache */
-	, &OverflowException_t1399_0_0_0/* byval_arg */
-	, &OverflowException_t1399_1_0_0/* this_arg */
-	, &OverflowException_t1399_DefinitionMetadata/* definitionMetadata */
+	, 1598/* custom_attributes_cache */
+	, &OverflowException_t1401_0_0_0/* byval_arg */
+	, &OverflowException_t1401_1_0_0/* this_arg */
+	, &OverflowException_t1401_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -8238,8 +8238,8 @@ TypeInfo OverflowException_t1399_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (OverflowException_t1399)/* instance_size */
-	, sizeof (OverflowException_t1399)/* actualSize */
+	, sizeof (OverflowException_t1401)/* instance_size */
+	, sizeof (OverflowException_t1401)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8271,10 +8271,10 @@ TypeInfo OverflowException_t1399_il2cpp_TypeInfo =
 // System.PlatformID
 #include "mscorlib_System_PlatformID.h"
 // Metadata Definition System.PlatformID
-extern TypeInfo PlatformID_t1400_il2cpp_TypeInfo;
+extern TypeInfo PlatformID_t1402_il2cpp_TypeInfo;
 // System.PlatformID
 #include "mscorlib_System_PlatformIDMethodDeclarations.h"
-static const EncodedMethodIndex PlatformID_t1400_VTable[23] = 
+static const EncodedMethodIndex PlatformID_t1402_VTable[23] = 
 {
 	147,
 	148,
@@ -8300,43 +8300,43 @@ static const EncodedMethodIndex PlatformID_t1400_VTable[23] =
 	168,
 	169,
 };
-static Il2CppInterfaceOffsetPair PlatformID_t1400_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair PlatformID_t1402_InterfacesOffsets[] = 
 {
-	{ &IFormattable_t1462_0_0_0, 4},
-	{ &IConvertible_t1465_0_0_0, 5},
-	{ &IComparable_t1464_0_0_0, 21},
+	{ &IFormattable_t1464_0_0_0, 4},
+	{ &IConvertible_t1467_0_0_0, 5},
+	{ &IComparable_t1466_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType PlatformID_t1400_0_0_0;
-extern const Il2CppType PlatformID_t1400_1_0_0;
-const Il2CppTypeDefinitionMetadata PlatformID_t1400_DefinitionMetadata = 
+extern const Il2CppType PlatformID_t1402_0_0_0;
+extern const Il2CppType PlatformID_t1402_1_0_0;
+const Il2CppTypeDefinitionMetadata PlatformID_t1402_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, PlatformID_t1400_InterfacesOffsets/* interfaceOffsets */
-	, &Enum_t372_0_0_0/* parent */
-	, PlatformID_t1400_VTable/* vtableMethods */
+	, PlatformID_t1402_InterfacesOffsets/* interfaceOffsets */
+	, &Enum_t374_0_0_0/* parent */
+	, PlatformID_t1402_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5494/* fieldStart */
+	, 5506/* fieldStart */
 	, -1/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo PlatformID_t1400_il2cpp_TypeInfo = 
+TypeInfo PlatformID_t1402_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "PlatformID"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &Int32_t67_il2cpp_TypeInfo/* element_class */
+	, &Int32_t72_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1597/* custom_attributes_cache */
-	, &PlatformID_t1400_0_0_0/* byval_arg */
-	, &PlatformID_t1400_1_0_0/* this_arg */
-	, &PlatformID_t1400_DefinitionMetadata/* definitionMetadata */
+	, 1599/* custom_attributes_cache */
+	, &PlatformID_t1402_0_0_0/* byval_arg */
+	, &PlatformID_t1402_1_0_0/* this_arg */
+	, &PlatformID_t1402_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -8346,8 +8346,8 @@ TypeInfo PlatformID_t1400_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (PlatformID_t1400)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (PlatformID_t1400)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (PlatformID_t1402)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (PlatformID_t1402)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -8379,10 +8379,10 @@ TypeInfo PlatformID_t1400_il2cpp_TypeInfo =
 // System.Random
 #include "mscorlib_System_Random.h"
 // Metadata Definition System.Random
-extern TypeInfo Random_t250_il2cpp_TypeInfo;
+extern TypeInfo Random_t252_il2cpp_TypeInfo;
 // System.Random
 #include "mscorlib_System_RandomMethodDeclarations.h"
-static const EncodedMethodIndex Random_t250_VTable[4] = 
+static const EncodedMethodIndex Random_t252_VTable[4] = 
 {
 	198,
 	148,
@@ -8390,37 +8390,37 @@ static const EncodedMethodIndex Random_t250_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType Random_t250_0_0_0;
-extern const Il2CppType Random_t250_1_0_0;
-struct Random_t250;
-const Il2CppTypeDefinitionMetadata Random_t250_DefinitionMetadata = 
+extern const Il2CppType Random_t252_0_0_0;
+extern const Il2CppType Random_t252_1_0_0;
+struct Random_t252;
+const Il2CppTypeDefinitionMetadata Random_t252_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, Random_t250_VTable/* vtableMethods */
+	, Random_t252_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5502/* fieldStart */
-	, 9023/* methodStart */
+	, 5514/* fieldStart */
+	, 9034/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo Random_t250_il2cpp_TypeInfo = 
+TypeInfo Random_t252_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Random"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &Random_t250_il2cpp_TypeInfo/* element_class */
+	, &Random_t252_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1598/* custom_attributes_cache */
-	, &Random_t250_0_0_0/* byval_arg */
-	, &Random_t250_1_0_0/* this_arg */
-	, &Random_t250_DefinitionMetadata/* definitionMetadata */
+	, 1600/* custom_attributes_cache */
+	, &Random_t252_0_0_0/* byval_arg */
+	, &Random_t252_1_0_0/* this_arg */
+	, &Random_t252_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -8430,8 +8430,8 @@ TypeInfo Random_t250_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Random_t250)/* instance_size */
-	, sizeof (Random_t250)/* actualSize */
+	, sizeof (Random_t252)/* instance_size */
+	, sizeof (Random_t252)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8463,10 +8463,10 @@ TypeInfo Random_t250_il2cpp_TypeInfo =
 // System.RankException
 #include "mscorlib_System_RankException.h"
 // Metadata Definition System.RankException
-extern TypeInfo RankException_t1401_il2cpp_TypeInfo;
+extern TypeInfo RankException_t1403_il2cpp_TypeInfo;
 // System.RankException
 #include "mscorlib_System_RankExceptionMethodDeclarations.h"
-static const EncodedMethodIndex RankException_t1401_VTable[11] = 
+static const EncodedMethodIndex RankException_t1403_VTable[11] = 
 {
 	198,
 	148,
@@ -8480,43 +8480,43 @@ static const EncodedMethodIndex RankException_t1401_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair RankException_t1401_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair RankException_t1403_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType RankException_t1401_0_0_0;
-extern const Il2CppType RankException_t1401_1_0_0;
-struct RankException_t1401;
-const Il2CppTypeDefinitionMetadata RankException_t1401_DefinitionMetadata = 
+extern const Il2CppType RankException_t1403_0_0_0;
+extern const Il2CppType RankException_t1403_1_0_0;
+struct RankException_t1403;
+const Il2CppTypeDefinitionMetadata RankException_t1403_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, RankException_t1401_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t655_0_0_0/* parent */
-	, RankException_t1401_VTable/* vtableMethods */
+	, RankException_t1403_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t657_0_0_0/* parent */
+	, RankException_t1403_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 9025/* methodStart */
+	, 9036/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo RankException_t1401_il2cpp_TypeInfo = 
+TypeInfo RankException_t1403_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "RankException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &RankException_t1401_il2cpp_TypeInfo/* element_class */
+	, &RankException_t1403_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1599/* custom_attributes_cache */
-	, &RankException_t1401_0_0_0/* byval_arg */
-	, &RankException_t1401_1_0_0/* this_arg */
-	, &RankException_t1401_DefinitionMetadata/* definitionMetadata */
+	, 1601/* custom_attributes_cache */
+	, &RankException_t1403_0_0_0/* byval_arg */
+	, &RankException_t1403_1_0_0/* this_arg */
+	, &RankException_t1403_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -8526,8 +8526,8 @@ TypeInfo RankException_t1401_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (RankException_t1401)/* instance_size */
-	, sizeof (RankException_t1401)/* actualSize */
+	, sizeof (RankException_t1403)/* instance_size */
+	, sizeof (RankException_t1403)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8559,10 +8559,10 @@ TypeInfo RankException_t1401_il2cpp_TypeInfo =
 // System.ResolveEventArgs
 #include "mscorlib_System_ResolveEventArgs.h"
 // Metadata Definition System.ResolveEventArgs
-extern TypeInfo ResolveEventArgs_t1402_il2cpp_TypeInfo;
+extern TypeInfo ResolveEventArgs_t1404_il2cpp_TypeInfo;
 // System.ResolveEventArgs
 #include "mscorlib_System_ResolveEventArgsMethodDeclarations.h"
-static const EncodedMethodIndex ResolveEventArgs_t1402_VTable[4] = 
+static const EncodedMethodIndex ResolveEventArgs_t1404_VTable[4] = 
 {
 	198,
 	148,
@@ -8570,37 +8570,37 @@ static const EncodedMethodIndex ResolveEventArgs_t1402_VTable[4] =
 	200,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ResolveEventArgs_t1402_0_0_0;
-extern const Il2CppType ResolveEventArgs_t1402_1_0_0;
-struct ResolveEventArgs_t1402;
-const Il2CppTypeDefinitionMetadata ResolveEventArgs_t1402_DefinitionMetadata = 
+extern const Il2CppType ResolveEventArgs_t1404_0_0_0;
+extern const Il2CppType ResolveEventArgs_t1404_1_0_0;
+struct ResolveEventArgs_t1404;
+const Il2CppTypeDefinitionMetadata ResolveEventArgs_t1404_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &EventArgs_t708_0_0_0/* parent */
-	, ResolveEventArgs_t1402_VTable/* vtableMethods */
+	, &EventArgs_t710_0_0_0/* parent */
+	, ResolveEventArgs_t1404_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5505/* fieldStart */
-	, 9028/* methodStart */
+	, 5517/* fieldStart */
+	, 9039/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ResolveEventArgs_t1402_il2cpp_TypeInfo = 
+TypeInfo ResolveEventArgs_t1404_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ResolveEventArgs"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &ResolveEventArgs_t1402_il2cpp_TypeInfo/* element_class */
+	, &ResolveEventArgs_t1404_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1600/* custom_attributes_cache */
-	, &ResolveEventArgs_t1402_0_0_0/* byval_arg */
-	, &ResolveEventArgs_t1402_1_0_0/* this_arg */
-	, &ResolveEventArgs_t1402_DefinitionMetadata/* definitionMetadata */
+	, 1602/* custom_attributes_cache */
+	, &ResolveEventArgs_t1404_0_0_0/* byval_arg */
+	, &ResolveEventArgs_t1404_1_0_0/* this_arg */
+	, &ResolveEventArgs_t1404_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -8610,8 +8610,8 @@ TypeInfo ResolveEventArgs_t1402_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ResolveEventArgs_t1402)/* instance_size */
-	, sizeof (ResolveEventArgs_t1402)/* actualSize */
+	, sizeof (ResolveEventArgs_t1404)/* instance_size */
+	, sizeof (ResolveEventArgs_t1404)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8643,10 +8643,10 @@ TypeInfo ResolveEventArgs_t1402_il2cpp_TypeInfo =
 // System.RuntimeMethodHandle
 #include "mscorlib_System_RuntimeMethodHandle.h"
 // Metadata Definition System.RuntimeMethodHandle
-extern TypeInfo RuntimeMethodHandle_t1403_il2cpp_TypeInfo;
+extern TypeInfo RuntimeMethodHandle_t1405_il2cpp_TypeInfo;
 // System.RuntimeMethodHandle
 #include "mscorlib_System_RuntimeMethodHandleMethodDeclarations.h"
-static const EncodedMethodIndex RuntimeMethodHandle_t1403_VTable[5] = 
+static const EncodedMethodIndex RuntimeMethodHandle_t1405_VTable[5] = 
 {
 	3287,
 	148,
@@ -8654,45 +8654,45 @@ static const EncodedMethodIndex RuntimeMethodHandle_t1403_VTable[5] =
 	297,
 	3289,
 };
-static const Il2CppType* RuntimeMethodHandle_t1403_InterfacesTypeInfos[] = 
+static const Il2CppType* RuntimeMethodHandle_t1405_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t1482_0_0_0,
+	&ISerializable_t1484_0_0_0,
 };
-static Il2CppInterfaceOffsetPair RuntimeMethodHandle_t1403_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair RuntimeMethodHandle_t1405_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
+	{ &ISerializable_t1484_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType RuntimeMethodHandle_t1403_0_0_0;
-extern const Il2CppType RuntimeMethodHandle_t1403_1_0_0;
-const Il2CppTypeDefinitionMetadata RuntimeMethodHandle_t1403_DefinitionMetadata = 
+extern const Il2CppType RuntimeMethodHandle_t1405_0_0_0;
+extern const Il2CppType RuntimeMethodHandle_t1405_1_0_0;
+const Il2CppTypeDefinitionMetadata RuntimeMethodHandle_t1405_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, RuntimeMethodHandle_t1403_InterfacesTypeInfos/* implementedInterfaces */
-	, RuntimeMethodHandle_t1403_InterfacesOffsets/* interfaceOffsets */
-	, &ValueType_t815_0_0_0/* parent */
-	, RuntimeMethodHandle_t1403_VTable/* vtableMethods */
+	, RuntimeMethodHandle_t1405_InterfacesTypeInfos/* implementedInterfaces */
+	, RuntimeMethodHandle_t1405_InterfacesOffsets/* interfaceOffsets */
+	, &ValueType_t817_0_0_0/* parent */
+	, RuntimeMethodHandle_t1405_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5506/* fieldStart */
-	, 9029/* methodStart */
+	, 5518/* fieldStart */
+	, 9040/* methodStart */
 	, -1/* eventStart */
-	, 1721/* propertyStart */
+	, 1722/* propertyStart */
 
 };
-TypeInfo RuntimeMethodHandle_t1403_il2cpp_TypeInfo = 
+TypeInfo RuntimeMethodHandle_t1405_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "RuntimeMethodHandle"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &RuntimeMethodHandle_t1403_il2cpp_TypeInfo/* element_class */
+	, &RuntimeMethodHandle_t1405_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1601/* custom_attributes_cache */
-	, &RuntimeMethodHandle_t1403_0_0_0/* byval_arg */
-	, &RuntimeMethodHandle_t1403_1_0_0/* this_arg */
-	, &RuntimeMethodHandle_t1403_DefinitionMetadata/* definitionMetadata */
+	, 1603/* custom_attributes_cache */
+	, &RuntimeMethodHandle_t1405_0_0_0/* byval_arg */
+	, &RuntimeMethodHandle_t1405_1_0_0/* this_arg */
+	, &RuntimeMethodHandle_t1405_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -8702,10 +8702,10 @@ TypeInfo RuntimeMethodHandle_t1403_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (RuntimeMethodHandle_t1403)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (RuntimeMethodHandle_t1403)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (RuntimeMethodHandle_t1405)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (RuntimeMethodHandle_t1405)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
-	, sizeof(RuntimeMethodHandle_t1403 )/* native_size */
+	, sizeof(RuntimeMethodHandle_t1405 )/* native_size */
 	, 0/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
@@ -8735,10 +8735,10 @@ TypeInfo RuntimeMethodHandle_t1403_il2cpp_TypeInfo =
 // System.StringComparer
 #include "mscorlib_System_StringComparer.h"
 // Metadata Definition System.StringComparer
-extern TypeInfo StringComparer_t387_il2cpp_TypeInfo;
+extern TypeInfo StringComparer_t389_il2cpp_TypeInfo;
 // System.StringComparer
 #include "mscorlib_System_StringComparerMethodDeclarations.h"
-static const EncodedMethodIndex StringComparer_t387_VTable[13] = 
+static const EncodedMethodIndex StringComparer_t389_VTable[13] = 
 {
 	198,
 	148,
@@ -8754,55 +8754,55 @@ static const EncodedMethodIndex StringComparer_t387_VTable[13] =
 	0,
 	0,
 };
-extern const Il2CppType IComparer_1_t2481_0_0_0;
-extern const Il2CppType IEqualityComparer_1_t1506_0_0_0;
-extern const Il2CppType IEqualityComparer_t457_0_0_0;
-static const Il2CppType* StringComparer_t387_InterfacesTypeInfos[] = 
+extern const Il2CppType IComparer_1_t2483_0_0_0;
+extern const Il2CppType IEqualityComparer_1_t1508_0_0_0;
+extern const Il2CppType IEqualityComparer_t459_0_0_0;
+static const Il2CppType* StringComparer_t389_InterfacesTypeInfos[] = 
 {
-	&IComparer_1_t2481_0_0_0,
-	&IEqualityComparer_1_t1506_0_0_0,
-	&IComparer_t450_0_0_0,
-	&IEqualityComparer_t457_0_0_0,
+	&IComparer_1_t2483_0_0_0,
+	&IEqualityComparer_1_t1508_0_0_0,
+	&IComparer_t452_0_0_0,
+	&IEqualityComparer_t459_0_0_0,
 };
-static Il2CppInterfaceOffsetPair StringComparer_t387_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair StringComparer_t389_InterfacesOffsets[] = 
 {
-	{ &IComparer_1_t2481_0_0_0, 4},
-	{ &IEqualityComparer_1_t1506_0_0_0, 5},
-	{ &IComparer_t450_0_0_0, 7},
-	{ &IEqualityComparer_t457_0_0_0, 8},
+	{ &IComparer_1_t2483_0_0_0, 4},
+	{ &IEqualityComparer_1_t1508_0_0_0, 5},
+	{ &IComparer_t452_0_0_0, 7},
+	{ &IEqualityComparer_t459_0_0_0, 8},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType StringComparer_t387_0_0_0;
-extern const Il2CppType StringComparer_t387_1_0_0;
-struct StringComparer_t387;
-const Il2CppTypeDefinitionMetadata StringComparer_t387_DefinitionMetadata = 
+extern const Il2CppType StringComparer_t389_0_0_0;
+extern const Il2CppType StringComparer_t389_1_0_0;
+struct StringComparer_t389;
+const Il2CppTypeDefinitionMetadata StringComparer_t389_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, StringComparer_t387_InterfacesTypeInfos/* implementedInterfaces */
-	, StringComparer_t387_InterfacesOffsets/* interfaceOffsets */
+	, StringComparer_t389_InterfacesTypeInfos/* implementedInterfaces */
+	, StringComparer_t389_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, StringComparer_t387_VTable/* vtableMethods */
+	, StringComparer_t389_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5507/* fieldStart */
-	, 9035/* methodStart */
+	, 5519/* fieldStart */
+	, 9046/* methodStart */
 	, -1/* eventStart */
-	, 1722/* propertyStart */
+	, 1723/* propertyStart */
 
 };
-TypeInfo StringComparer_t387_il2cpp_TypeInfo = 
+TypeInfo StringComparer_t389_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "StringComparer"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &StringComparer_t387_il2cpp_TypeInfo/* element_class */
+	, &StringComparer_t389_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1603/* custom_attributes_cache */
-	, &StringComparer_t387_0_0_0/* byval_arg */
-	, &StringComparer_t387_1_0_0/* this_arg */
-	, &StringComparer_t387_DefinitionMetadata/* definitionMetadata */
+	, 1605/* custom_attributes_cache */
+	, &StringComparer_t389_0_0_0/* byval_arg */
+	, &StringComparer_t389_1_0_0/* this_arg */
+	, &StringComparer_t389_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -8812,11 +8812,11 @@ TypeInfo StringComparer_t387_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (StringComparer_t387)/* instance_size */
-	, sizeof (StringComparer_t387)/* actualSize */
+	, sizeof (StringComparer_t389)/* instance_size */
+	, sizeof (StringComparer_t389)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(StringComparer_t387_StaticFields)/* static_fields_size */
+	, sizeof(StringComparer_t389_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1056897/* flags */
@@ -8845,10 +8845,10 @@ TypeInfo StringComparer_t387_il2cpp_TypeInfo =
 // System.CultureAwareComparer
 #include "mscorlib_System_CultureAwareComparer.h"
 // Metadata Definition System.CultureAwareComparer
-extern TypeInfo CultureAwareComparer_t1404_il2cpp_TypeInfo;
+extern TypeInfo CultureAwareComparer_t1406_il2cpp_TypeInfo;
 // System.CultureAwareComparer
 #include "mscorlib_System_CultureAwareComparerMethodDeclarations.h"
-static const EncodedMethodIndex CultureAwareComparer_t1404_VTable[13] = 
+static const EncodedMethodIndex CultureAwareComparer_t1406_VTable[13] = 
 {
 	198,
 	148,
@@ -8864,45 +8864,45 @@ static const EncodedMethodIndex CultureAwareComparer_t1404_VTable[13] =
 	3297,
 	3298,
 };
-static Il2CppInterfaceOffsetPair CultureAwareComparer_t1404_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair CultureAwareComparer_t1406_InterfacesOffsets[] = 
 {
-	{ &IComparer_1_t2481_0_0_0, 4},
-	{ &IEqualityComparer_1_t1506_0_0_0, 5},
-	{ &IComparer_t450_0_0_0, 7},
-	{ &IEqualityComparer_t457_0_0_0, 8},
+	{ &IComparer_1_t2483_0_0_0, 4},
+	{ &IEqualityComparer_1_t1508_0_0_0, 5},
+	{ &IComparer_t452_0_0_0, 7},
+	{ &IEqualityComparer_t459_0_0_0, 8},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType CultureAwareComparer_t1404_0_0_0;
-extern const Il2CppType CultureAwareComparer_t1404_1_0_0;
-struct CultureAwareComparer_t1404;
-const Il2CppTypeDefinitionMetadata CultureAwareComparer_t1404_DefinitionMetadata = 
+extern const Il2CppType CultureAwareComparer_t1406_0_0_0;
+extern const Il2CppType CultureAwareComparer_t1406_1_0_0;
+struct CultureAwareComparer_t1406;
+const Il2CppTypeDefinitionMetadata CultureAwareComparer_t1406_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, CultureAwareComparer_t1404_InterfacesOffsets/* interfaceOffsets */
-	, &StringComparer_t387_0_0_0/* parent */
-	, CultureAwareComparer_t1404_VTable/* vtableMethods */
+	, CultureAwareComparer_t1406_InterfacesOffsets/* interfaceOffsets */
+	, &StringComparer_t389_0_0_0/* parent */
+	, CultureAwareComparer_t1406_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5511/* fieldStart */
-	, 9045/* methodStart */
+	, 5523/* fieldStart */
+	, 9056/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo CultureAwareComparer_t1404_il2cpp_TypeInfo = 
+TypeInfo CultureAwareComparer_t1406_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "CultureAwareComparer"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &CultureAwareComparer_t1404_il2cpp_TypeInfo/* element_class */
+	, &CultureAwareComparer_t1406_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &CultureAwareComparer_t1404_0_0_0/* byval_arg */
-	, &CultureAwareComparer_t1404_1_0_0/* this_arg */
-	, &CultureAwareComparer_t1404_DefinitionMetadata/* definitionMetadata */
+	, &CultureAwareComparer_t1406_0_0_0/* byval_arg */
+	, &CultureAwareComparer_t1406_1_0_0/* this_arg */
+	, &CultureAwareComparer_t1406_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -8912,8 +8912,8 @@ TypeInfo CultureAwareComparer_t1404_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (CultureAwareComparer_t1404)/* instance_size */
-	, sizeof (CultureAwareComparer_t1404)/* actualSize */
+	, sizeof (CultureAwareComparer_t1406)/* instance_size */
+	, sizeof (CultureAwareComparer_t1406)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8945,10 +8945,10 @@ TypeInfo CultureAwareComparer_t1404_il2cpp_TypeInfo =
 // System.OrdinalComparer
 #include "mscorlib_System_OrdinalComparer.h"
 // Metadata Definition System.OrdinalComparer
-extern TypeInfo OrdinalComparer_t1405_il2cpp_TypeInfo;
+extern TypeInfo OrdinalComparer_t1407_il2cpp_TypeInfo;
 // System.OrdinalComparer
 #include "mscorlib_System_OrdinalComparerMethodDeclarations.h"
-static const EncodedMethodIndex OrdinalComparer_t1405_VTable[13] = 
+static const EncodedMethodIndex OrdinalComparer_t1407_VTable[13] = 
 {
 	198,
 	148,
@@ -8964,45 +8964,45 @@ static const EncodedMethodIndex OrdinalComparer_t1405_VTable[13] =
 	3300,
 	3301,
 };
-static Il2CppInterfaceOffsetPair OrdinalComparer_t1405_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair OrdinalComparer_t1407_InterfacesOffsets[] = 
 {
-	{ &IComparer_1_t2481_0_0_0, 4},
-	{ &IEqualityComparer_1_t1506_0_0_0, 5},
-	{ &IComparer_t450_0_0_0, 7},
-	{ &IEqualityComparer_t457_0_0_0, 8},
+	{ &IComparer_1_t2483_0_0_0, 4},
+	{ &IEqualityComparer_1_t1508_0_0_0, 5},
+	{ &IComparer_t452_0_0_0, 7},
+	{ &IEqualityComparer_t459_0_0_0, 8},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType OrdinalComparer_t1405_0_0_0;
-extern const Il2CppType OrdinalComparer_t1405_1_0_0;
-struct OrdinalComparer_t1405;
-const Il2CppTypeDefinitionMetadata OrdinalComparer_t1405_DefinitionMetadata = 
+extern const Il2CppType OrdinalComparer_t1407_0_0_0;
+extern const Il2CppType OrdinalComparer_t1407_1_0_0;
+struct OrdinalComparer_t1407;
+const Il2CppTypeDefinitionMetadata OrdinalComparer_t1407_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, OrdinalComparer_t1405_InterfacesOffsets/* interfaceOffsets */
-	, &StringComparer_t387_0_0_0/* parent */
-	, OrdinalComparer_t1405_VTable/* vtableMethods */
+	, OrdinalComparer_t1407_InterfacesOffsets/* interfaceOffsets */
+	, &StringComparer_t389_0_0_0/* parent */
+	, OrdinalComparer_t1407_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5513/* fieldStart */
-	, 9049/* methodStart */
+	, 5525/* fieldStart */
+	, 9060/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo OrdinalComparer_t1405_il2cpp_TypeInfo = 
+TypeInfo OrdinalComparer_t1407_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "OrdinalComparer"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &OrdinalComparer_t1405_il2cpp_TypeInfo/* element_class */
+	, &OrdinalComparer_t1407_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &OrdinalComparer_t1405_0_0_0/* byval_arg */
-	, &OrdinalComparer_t1405_1_0_0/* this_arg */
-	, &OrdinalComparer_t1405_DefinitionMetadata/* definitionMetadata */
+	, &OrdinalComparer_t1407_0_0_0/* byval_arg */
+	, &OrdinalComparer_t1407_1_0_0/* this_arg */
+	, &OrdinalComparer_t1407_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -9012,8 +9012,8 @@ TypeInfo OrdinalComparer_t1405_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (OrdinalComparer_t1405)/* instance_size */
-	, sizeof (OrdinalComparer_t1405)/* actualSize */
+	, sizeof (OrdinalComparer_t1407)/* instance_size */
+	, sizeof (OrdinalComparer_t1407)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9045,10 +9045,10 @@ TypeInfo OrdinalComparer_t1405_il2cpp_TypeInfo =
 // System.StringComparison
 #include "mscorlib_System_StringComparison.h"
 // Metadata Definition System.StringComparison
-extern TypeInfo StringComparison_t1406_il2cpp_TypeInfo;
+extern TypeInfo StringComparison_t1408_il2cpp_TypeInfo;
 // System.StringComparison
 #include "mscorlib_System_StringComparisonMethodDeclarations.h"
-static const EncodedMethodIndex StringComparison_t1406_VTable[23] = 
+static const EncodedMethodIndex StringComparison_t1408_VTable[23] = 
 {
 	147,
 	148,
@@ -9074,43 +9074,43 @@ static const EncodedMethodIndex StringComparison_t1406_VTable[23] =
 	168,
 	169,
 };
-static Il2CppInterfaceOffsetPair StringComparison_t1406_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair StringComparison_t1408_InterfacesOffsets[] = 
 {
-	{ &IFormattable_t1462_0_0_0, 4},
-	{ &IConvertible_t1465_0_0_0, 5},
-	{ &IComparable_t1464_0_0_0, 21},
+	{ &IFormattable_t1464_0_0_0, 4},
+	{ &IConvertible_t1467_0_0_0, 5},
+	{ &IComparable_t1466_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType StringComparison_t1406_0_0_0;
-extern const Il2CppType StringComparison_t1406_1_0_0;
-const Il2CppTypeDefinitionMetadata StringComparison_t1406_DefinitionMetadata = 
+extern const Il2CppType StringComparison_t1408_0_0_0;
+extern const Il2CppType StringComparison_t1408_1_0_0;
+const Il2CppTypeDefinitionMetadata StringComparison_t1408_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, StringComparison_t1406_InterfacesOffsets/* interfaceOffsets */
-	, &Enum_t372_0_0_0/* parent */
-	, StringComparison_t1406_VTable/* vtableMethods */
+	, StringComparison_t1408_InterfacesOffsets/* interfaceOffsets */
+	, &Enum_t374_0_0_0/* parent */
+	, StringComparison_t1408_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5514/* fieldStart */
+	, 5526/* fieldStart */
 	, -1/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo StringComparison_t1406_il2cpp_TypeInfo = 
+TypeInfo StringComparison_t1408_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "StringComparison"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &Int32_t67_il2cpp_TypeInfo/* element_class */
+	, &Int32_t72_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1604/* custom_attributes_cache */
-	, &StringComparison_t1406_0_0_0/* byval_arg */
-	, &StringComparison_t1406_1_0_0/* this_arg */
-	, &StringComparison_t1406_DefinitionMetadata/* definitionMetadata */
+	, 1606/* custom_attributes_cache */
+	, &StringComparison_t1408_0_0_0/* byval_arg */
+	, &StringComparison_t1408_1_0_0/* this_arg */
+	, &StringComparison_t1408_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -9120,8 +9120,8 @@ TypeInfo StringComparison_t1406_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (StringComparison_t1406)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (StringComparison_t1406)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (StringComparison_t1408)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (StringComparison_t1408)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -9153,10 +9153,10 @@ TypeInfo StringComparison_t1406_il2cpp_TypeInfo =
 // System.StringSplitOptions
 #include "mscorlib_System_StringSplitOptions.h"
 // Metadata Definition System.StringSplitOptions
-extern TypeInfo StringSplitOptions_t1407_il2cpp_TypeInfo;
+extern TypeInfo StringSplitOptions_t1409_il2cpp_TypeInfo;
 // System.StringSplitOptions
 #include "mscorlib_System_StringSplitOptionsMethodDeclarations.h"
-static const EncodedMethodIndex StringSplitOptions_t1407_VTable[23] = 
+static const EncodedMethodIndex StringSplitOptions_t1409_VTable[23] = 
 {
 	147,
 	148,
@@ -9182,43 +9182,43 @@ static const EncodedMethodIndex StringSplitOptions_t1407_VTable[23] =
 	168,
 	169,
 };
-static Il2CppInterfaceOffsetPair StringSplitOptions_t1407_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair StringSplitOptions_t1409_InterfacesOffsets[] = 
 {
-	{ &IFormattable_t1462_0_0_0, 4},
-	{ &IConvertible_t1465_0_0_0, 5},
-	{ &IComparable_t1464_0_0_0, 21},
+	{ &IFormattable_t1464_0_0_0, 4},
+	{ &IConvertible_t1467_0_0_0, 5},
+	{ &IComparable_t1466_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType StringSplitOptions_t1407_0_0_0;
-extern const Il2CppType StringSplitOptions_t1407_1_0_0;
-const Il2CppTypeDefinitionMetadata StringSplitOptions_t1407_DefinitionMetadata = 
+extern const Il2CppType StringSplitOptions_t1409_0_0_0;
+extern const Il2CppType StringSplitOptions_t1409_1_0_0;
+const Il2CppTypeDefinitionMetadata StringSplitOptions_t1409_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, StringSplitOptions_t1407_InterfacesOffsets/* interfaceOffsets */
-	, &Enum_t372_0_0_0/* parent */
-	, StringSplitOptions_t1407_VTable/* vtableMethods */
+	, StringSplitOptions_t1409_InterfacesOffsets/* interfaceOffsets */
+	, &Enum_t374_0_0_0/* parent */
+	, StringSplitOptions_t1409_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5521/* fieldStart */
+	, 5533/* fieldStart */
 	, -1/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo StringSplitOptions_t1407_il2cpp_TypeInfo = 
+TypeInfo StringSplitOptions_t1409_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "StringSplitOptions"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &Int32_t67_il2cpp_TypeInfo/* element_class */
+	, &Int32_t72_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1605/* custom_attributes_cache */
-	, &StringSplitOptions_t1407_0_0_0/* byval_arg */
-	, &StringSplitOptions_t1407_1_0_0/* this_arg */
-	, &StringSplitOptions_t1407_DefinitionMetadata/* definitionMetadata */
+	, 1607/* custom_attributes_cache */
+	, &StringSplitOptions_t1409_0_0_0/* byval_arg */
+	, &StringSplitOptions_t1409_1_0_0/* this_arg */
+	, &StringSplitOptions_t1409_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -9228,8 +9228,8 @@ TypeInfo StringSplitOptions_t1407_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (StringSplitOptions_t1407)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (StringSplitOptions_t1407)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (StringSplitOptions_t1409)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (StringSplitOptions_t1409)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -9261,10 +9261,10 @@ TypeInfo StringSplitOptions_t1407_il2cpp_TypeInfo =
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // Metadata Definition System.SystemException
-extern TypeInfo SystemException_t655_il2cpp_TypeInfo;
+extern TypeInfo SystemException_t657_il2cpp_TypeInfo;
 // System.SystemException
 #include "mscorlib_System_SystemExceptionMethodDeclarations.h"
-static const EncodedMethodIndex SystemException_t655_VTable[11] = 
+static const EncodedMethodIndex SystemException_t657_VTable[11] = 
 {
 	198,
 	148,
@@ -9278,42 +9278,42 @@ static const EncodedMethodIndex SystemException_t655_VTable[11] =
 	349,
 	354,
 };
-static Il2CppInterfaceOffsetPair SystemException_t655_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair SystemException_t657_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t1482_0_0_0, 4},
-	{ &_Exception_t2148_0_0_0, 5},
+	{ &ISerializable_t1484_0_0_0, 4},
+	{ &_Exception_t2150_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType SystemException_t655_1_0_0;
-struct SystemException_t655;
-const Il2CppTypeDefinitionMetadata SystemException_t655_DefinitionMetadata = 
+extern const Il2CppType SystemException_t657_1_0_0;
+struct SystemException_t657;
+const Il2CppTypeDefinitionMetadata SystemException_t657_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, SystemException_t655_InterfacesOffsets/* interfaceOffsets */
+	, SystemException_t657_InterfacesOffsets/* interfaceOffsets */
 	, &Exception_t27_0_0_0/* parent */
-	, SystemException_t655_VTable/* vtableMethods */
+	, SystemException_t657_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 9053/* methodStart */
+	, 9064/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo SystemException_t655_il2cpp_TypeInfo = 
+TypeInfo SystemException_t657_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "SystemException"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &SystemException_t655_il2cpp_TypeInfo/* element_class */
+	, &SystemException_t657_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1606/* custom_attributes_cache */
-	, &SystemException_t655_0_0_0/* byval_arg */
-	, &SystemException_t655_1_0_0/* this_arg */
-	, &SystemException_t655_DefinitionMetadata/* definitionMetadata */
+	, 1608/* custom_attributes_cache */
+	, &SystemException_t657_0_0_0/* byval_arg */
+	, &SystemException_t657_1_0_0/* this_arg */
+	, &SystemException_t657_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -9323,8 +9323,8 @@ TypeInfo SystemException_t655_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (SystemException_t655)/* instance_size */
-	, sizeof (SystemException_t655)/* actualSize */
+	, sizeof (SystemException_t657)/* instance_size */
+	, sizeof (SystemException_t657)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9356,52 +9356,52 @@ TypeInfo SystemException_t655_il2cpp_TypeInfo =
 // System.ThreadStaticAttribute
 #include "mscorlib_System_ThreadStaticAttribute.h"
 // Metadata Definition System.ThreadStaticAttribute
-extern TypeInfo ThreadStaticAttribute_t1408_il2cpp_TypeInfo;
+extern TypeInfo ThreadStaticAttribute_t1410_il2cpp_TypeInfo;
 // System.ThreadStaticAttribute
 #include "mscorlib_System_ThreadStaticAttributeMethodDeclarations.h"
-static const EncodedMethodIndex ThreadStaticAttribute_t1408_VTable[4] = 
+static const EncodedMethodIndex ThreadStaticAttribute_t1410_VTable[4] = 
 {
 	399,
 	148,
 	400,
 	200,
 };
-static Il2CppInterfaceOffsetPair ThreadStaticAttribute_t1408_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ThreadStaticAttribute_t1410_InterfacesOffsets[] = 
 {
-	{ &_Attribute_t2134_0_0_0, 4},
+	{ &_Attribute_t2136_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ThreadStaticAttribute_t1408_0_0_0;
-extern const Il2CppType ThreadStaticAttribute_t1408_1_0_0;
-struct ThreadStaticAttribute_t1408;
-const Il2CppTypeDefinitionMetadata ThreadStaticAttribute_t1408_DefinitionMetadata = 
+extern const Il2CppType ThreadStaticAttribute_t1410_0_0_0;
+extern const Il2CppType ThreadStaticAttribute_t1410_1_0_0;
+struct ThreadStaticAttribute_t1410;
+const Il2CppTypeDefinitionMetadata ThreadStaticAttribute_t1410_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ThreadStaticAttribute_t1408_InterfacesOffsets/* interfaceOffsets */
-	, &Attribute_t166_0_0_0/* parent */
-	, ThreadStaticAttribute_t1408_VTable/* vtableMethods */
+	, ThreadStaticAttribute_t1410_InterfacesOffsets/* interfaceOffsets */
+	, &Attribute_t169_0_0_0/* parent */
+	, ThreadStaticAttribute_t1410_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
-	, 9057/* methodStart */
+	, 9068/* methodStart */
 	, -1/* eventStart */
 	, -1/* propertyStart */
 
 };
-TypeInfo ThreadStaticAttribute_t1408_il2cpp_TypeInfo = 
+TypeInfo ThreadStaticAttribute_t1410_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ThreadStaticAttribute"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &ThreadStaticAttribute_t1408_il2cpp_TypeInfo/* element_class */
+	, &ThreadStaticAttribute_t1410_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1607/* custom_attributes_cache */
-	, &ThreadStaticAttribute_t1408_0_0_0/* byval_arg */
-	, &ThreadStaticAttribute_t1408_1_0_0/* this_arg */
-	, &ThreadStaticAttribute_t1408_DefinitionMetadata/* definitionMetadata */
+	, 1609/* custom_attributes_cache */
+	, &ThreadStaticAttribute_t1410_0_0_0/* byval_arg */
+	, &ThreadStaticAttribute_t1410_1_0_0/* this_arg */
+	, &ThreadStaticAttribute_t1410_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -9411,8 +9411,8 @@ TypeInfo ThreadStaticAttribute_t1408_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ThreadStaticAttribute_t1408)/* instance_size */
-	, sizeof (ThreadStaticAttribute_t1408)/* actualSize */
+	, sizeof (ThreadStaticAttribute_t1410)/* instance_size */
+	, sizeof (ThreadStaticAttribute_t1410)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9444,10 +9444,10 @@ TypeInfo ThreadStaticAttribute_t1408_il2cpp_TypeInfo =
 // System.TimeSpan
 #include "mscorlib_System_TimeSpan.h"
 // Metadata Definition System.TimeSpan
-extern TypeInfo TimeSpan_t523_il2cpp_TypeInfo;
+extern TypeInfo TimeSpan_t525_il2cpp_TypeInfo;
 // System.TimeSpan
 #include "mscorlib_System_TimeSpanMethodDeclarations.h"
-static const EncodedMethodIndex TimeSpan_t523_VTable[7] = 
+static const EncodedMethodIndex TimeSpan_t525_VTable[7] = 
 {
 	3302,
 	148,
@@ -9457,51 +9457,51 @@ static const EncodedMethodIndex TimeSpan_t523_VTable[7] =
 	3306,
 	3307,
 };
-extern const Il2CppType IComparable_1_t2482_0_0_0;
-extern const Il2CppType IEquatable_1_t2483_0_0_0;
-static const Il2CppType* TimeSpan_t523_InterfacesTypeInfos[] = 
+extern const Il2CppType IComparable_1_t2484_0_0_0;
+extern const Il2CppType IEquatable_1_t2485_0_0_0;
+static const Il2CppType* TimeSpan_t525_InterfacesTypeInfos[] = 
 {
-	&IComparable_t1464_0_0_0,
-	&IComparable_1_t2482_0_0_0,
-	&IEquatable_1_t2483_0_0_0,
+	&IComparable_t1466_0_0_0,
+	&IComparable_1_t2484_0_0_0,
+	&IEquatable_1_t2485_0_0_0,
 };
-static Il2CppInterfaceOffsetPair TimeSpan_t523_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair TimeSpan_t525_InterfacesOffsets[] = 
 {
-	{ &IComparable_t1464_0_0_0, 4},
-	{ &IComparable_1_t2482_0_0_0, 5},
-	{ &IEquatable_1_t2483_0_0_0, 6},
+	{ &IComparable_t1466_0_0_0, 4},
+	{ &IComparable_1_t2484_0_0_0, 5},
+	{ &IEquatable_1_t2485_0_0_0, 6},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType TimeSpan_t523_0_0_0;
-extern const Il2CppType TimeSpan_t523_1_0_0;
-const Il2CppTypeDefinitionMetadata TimeSpan_t523_DefinitionMetadata = 
+extern const Il2CppType TimeSpan_t525_0_0_0;
+extern const Il2CppType TimeSpan_t525_1_0_0;
+const Il2CppTypeDefinitionMetadata TimeSpan_t525_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, TimeSpan_t523_InterfacesTypeInfos/* implementedInterfaces */
-	, TimeSpan_t523_InterfacesOffsets/* interfaceOffsets */
-	, &ValueType_t815_0_0_0/* parent */
-	, TimeSpan_t523_VTable/* vtableMethods */
+	, TimeSpan_t525_InterfacesTypeInfos/* implementedInterfaces */
+	, TimeSpan_t525_InterfacesOffsets/* interfaceOffsets */
+	, &ValueType_t817_0_0_0/* parent */
+	, TimeSpan_t525_VTable/* vtableMethods */
 	, NULL/* rgctxDefinition */
-	, 5524/* fieldStart */
-	, 9058/* methodStart */
+	, 5536/* fieldStart */
+	, 9069/* methodStart */
 	, -1/* eventStart */
-	, 1724/* propertyStart */
+	, 1725/* propertyStart */
 
 };
-TypeInfo TimeSpan_t523_il2cpp_TypeInfo = 
+TypeInfo TimeSpan_t525_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "TimeSpan"/* name */
 	, "System"/* namespaze */
 	, NULL/* methods */
-	, &TimeSpan_t523_il2cpp_TypeInfo/* element_class */
+	, &TimeSpan_t525_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 1608/* custom_attributes_cache */
-	, &TimeSpan_t523_0_0_0/* byval_arg */
-	, &TimeSpan_t523_1_0_0/* this_arg */
-	, &TimeSpan_t523_DefinitionMetadata/* definitionMetadata */
+	, 1610/* custom_attributes_cache */
+	, &TimeSpan_t525_0_0_0/* byval_arg */
+	, &TimeSpan_t525_1_0_0/* this_arg */
+	, &TimeSpan_t525_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, -1/* generic_container */
@@ -9511,11 +9511,11 @@ TypeInfo TimeSpan_t523_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (TimeSpan_t523)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (TimeSpan_t523)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (TimeSpan_t525)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (TimeSpan_t525)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
-	, sizeof(TimeSpan_t523 )/* native_size */
-	, sizeof(TimeSpan_t523_StaticFields)/* static_fields_size */
+	, sizeof(TimeSpan_t525 )/* native_size */
+	, sizeof(TimeSpan_t525_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 8457/* flags */

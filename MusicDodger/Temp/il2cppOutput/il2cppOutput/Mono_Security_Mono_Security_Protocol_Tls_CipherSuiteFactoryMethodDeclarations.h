@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.CipherSuiteFactory
-struct CipherSuiteFactory_t733;
+struct CipherSuiteFactory_t735;
 // Mono.Security.Protocol.Tls.CipherSuiteCollection
-struct CipherSuiteCollection_t732;
+struct CipherSuiteCollection_t734;
 // Mono.Security.Protocol.Tls.SecurityProtocolType
 #include "Mono_Security_Mono_Security_Protocol_Tls_SecurityProtocolTyp.h"
 
 // Mono.Security.Protocol.Tls.CipherSuiteCollection Mono.Security.Protocol.Tls.CipherSuiteFactory::GetSupportedCiphers(Mono.Security.Protocol.Tls.SecurityProtocolType)
-extern "C" CipherSuiteCollection_t732 * CipherSuiteFactory_GetSupportedCiphers_m3124 (Object_t * __this /* static, unused */, int32_t ___protocol, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CipherSuiteCollection_t734 * CipherSuiteFactory_GetSupportedCiphers_m3135 (Object_t * __this /* static, unused */, int32_t ___protocol, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.CipherSuiteCollection Mono.Security.Protocol.Tls.CipherSuiteFactory::GetTls1SupportedCiphers()
-extern "C" CipherSuiteCollection_t732 * CipherSuiteFactory_GetTls1SupportedCiphers_m3125 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CipherSuiteCollection_t734 * CipherSuiteFactory_GetTls1SupportedCiphers_m3136 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.CipherSuiteCollection Mono.Security.Protocol.Tls.CipherSuiteFactory::GetSsl3SupportedCiphers()
-extern "C" CipherSuiteCollection_t732 * CipherSuiteFactory_GetSsl3SupportedCiphers_m3126 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CipherSuiteCollection_t734 * CipherSuiteFactory_GetSsl3SupportedCiphers_m3137 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

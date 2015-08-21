@@ -3,28 +3,28 @@
 // System.Object
 struct Object_t;
 // System.AsyncCallback
-struct AsyncCallback_t119;
+struct AsyncCallback_t123;
 // System.Exception
 struct Exception_t27;
 // System.Threading.ManualResetEvent
-struct ManualResetEvent_t751;
+struct ManualResetEvent_t753;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Protocol.Tls.SslStreamBase/InternalAsyncResult
-struct  InternalAsyncResult_t768  : public Object_t
+struct  InternalAsyncResult_t770  : public Object_t
 {
 	// System.Object Mono.Security.Protocol.Tls.SslStreamBase/InternalAsyncResult::locker
 	Object_t * ___locker_0;
 	// System.AsyncCallback Mono.Security.Protocol.Tls.SslStreamBase/InternalAsyncResult::_userCallback
-	AsyncCallback_t119 * ____userCallback_1;
+	AsyncCallback_t123 * ____userCallback_1;
 	// System.Object Mono.Security.Protocol.Tls.SslStreamBase/InternalAsyncResult::_userState
 	Object_t * ____userState_2;
 	// System.Exception Mono.Security.Protocol.Tls.SslStreamBase/InternalAsyncResult::_asyncException
 	Exception_t27 * ____asyncException_3;
 	// System.Threading.ManualResetEvent Mono.Security.Protocol.Tls.SslStreamBase/InternalAsyncResult::handle
-	ManualResetEvent_t751 * ___handle_4;
+	ManualResetEvent_t753 * ___handle_4;
 	// System.Boolean Mono.Security.Protocol.Tls.SslStreamBase/InternalAsyncResult::completed
 	bool ___completed_5;
 	// System.Int32 Mono.Security.Protocol.Tls.SslStreamBase/InternalAsyncResult::_bytesRead

@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Globalization.Unicode.CodePointIndexer
-struct CodePointIndexer_t857;
+struct CodePointIndexer_t859;
 // System.Int32[]
-struct Int32U5BU5D_t554;
+struct Int32U5BU5D_t556;
 
 // System.Void Mono.Globalization.Unicode.CodePointIndexer::.ctor(System.Int32[],System.Int32[],System.Int32,System.Int32)
-extern "C" void CodePointIndexer__ctor_m4485 (CodePointIndexer_t857 * __this, Int32U5BU5D_t554* ___starts, Int32U5BU5D_t554* ___ends, int32_t ___defaultIndex, int32_t ___defaultCP, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CodePointIndexer__ctor_m4496 (CodePointIndexer_t859 * __this, Int32U5BU5D_t556* ___starts, Int32U5BU5D_t556* ___ends, int32_t ___defaultIndex, int32_t ___defaultCP, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Globalization.Unicode.CodePointIndexer::ToIndex(System.Int32)
-extern "C" int32_t CodePointIndexer_ToIndex_m4486 (CodePointIndexer_t857 * __this, int32_t ___cp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CodePointIndexer_ToIndex_m4497 (CodePointIndexer_t859 * __this, int32_t ___cp, const MethodInfo* method) IL2CPP_METHOD_ATTR;

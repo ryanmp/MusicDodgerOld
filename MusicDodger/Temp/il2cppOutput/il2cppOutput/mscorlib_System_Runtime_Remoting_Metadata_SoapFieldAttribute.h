@@ -5,7 +5,7 @@ struct String_t;
 // System.Runtime.Remoting.Metadata.SoapAttribute
 #include "mscorlib_System_Runtime_Remoting_Metadata_SoapAttribute.h"
 // System.Runtime.Remoting.Metadata.SoapFieldAttribute
-struct  SoapFieldAttribute_t1160  : public SoapAttribute_t1159
+struct  SoapFieldAttribute_t1162  : public SoapAttribute_t1161
 {
 	// System.String System.Runtime.Remoting.Metadata.SoapFieldAttribute::_elementName
 	String_t* ____elementName_3;

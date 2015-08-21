@@ -1,32 +1,32 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.ASN1
-struct ASN1_t898;
+struct ASN1_t900;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.String
 struct String_t;
 // System.Security.Cryptography.DSA
-struct DSA_t621;
+struct DSA_t623;
 // Mono.Security.X509.X509ExtensionCollection
-struct X509ExtensionCollection_t904;
+struct X509ExtensionCollection_t906;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // Mono.Security.X509.X509Certificate
-struct  X509Certificate_t905  : public Object_t
+struct  X509Certificate_t907  : public Object_t
 {
 	// Mono.Security.ASN1 Mono.Security.X509.X509Certificate::decoder
-	ASN1_t898 * ___decoder_0;
+	ASN1_t900 * ___decoder_0;
 	// System.Byte[] Mono.Security.X509.X509Certificate::m_encodedcert
 	ByteU5BU5D_t36* ___m_encodedcert_1;
 	// System.DateTime Mono.Security.X509.X509Certificate::m_from
-	DateTime_t125  ___m_from_2;
+	DateTime_t129  ___m_from_2;
 	// System.DateTime Mono.Security.X509.X509Certificate::m_until
-	DateTime_t125  ___m_until_3;
+	DateTime_t129  ___m_until_3;
 	// Mono.Security.ASN1 Mono.Security.X509.X509Certificate::issuer
-	ASN1_t898 * ___issuer_4;
+	ASN1_t900 * ___issuer_4;
 	// System.String Mono.Security.X509.X509Certificate::m_issuername
 	String_t* ___m_issuername_5;
 	// System.String Mono.Security.X509.X509Certificate::m_keyalgo
@@ -34,7 +34,7 @@ struct  X509Certificate_t905  : public Object_t
 	// System.Byte[] Mono.Security.X509.X509Certificate::m_keyalgoparams
 	ByteU5BU5D_t36* ___m_keyalgoparams_7;
 	// Mono.Security.ASN1 Mono.Security.X509.X509Certificate::subject
-	ASN1_t898 * ___subject_8;
+	ASN1_t900 * ___subject_8;
 	// System.String Mono.Security.X509.X509Certificate::m_subject
 	String_t* ___m_subject_9;
 	// System.Byte[] Mono.Security.X509.X509Certificate::m_publickey
@@ -46,7 +46,7 @@ struct  X509Certificate_t905  : public Object_t
 	// System.Byte[] Mono.Security.X509.X509Certificate::m_signaturealgoparams
 	ByteU5BU5D_t36* ___m_signaturealgoparams_13;
 	// System.Security.Cryptography.DSA Mono.Security.X509.X509Certificate::_dsa
-	DSA_t621 * ____dsa_14;
+	DSA_t623 * ____dsa_14;
 	// System.Int32 Mono.Security.X509.X509Certificate::version
 	int32_t ___version_15;
 	// System.Byte[] Mono.Security.X509.X509Certificate::serialnumber
@@ -56,9 +56,9 @@ struct  X509Certificate_t905  : public Object_t
 	// System.Byte[] Mono.Security.X509.X509Certificate::subjectUniqueID
 	ByteU5BU5D_t36* ___subjectUniqueID_18;
 	// Mono.Security.X509.X509ExtensionCollection Mono.Security.X509.X509Certificate::extensions
-	X509ExtensionCollection_t904 * ___extensions_19;
+	X509ExtensionCollection_t906 * ___extensions_19;
 };
-struct X509Certificate_t905_StaticFields{
+struct X509Certificate_t907_StaticFields{
 	// System.String Mono.Security.X509.X509Certificate::encoding_error
 	String_t* ___encoding_error_20;
 };

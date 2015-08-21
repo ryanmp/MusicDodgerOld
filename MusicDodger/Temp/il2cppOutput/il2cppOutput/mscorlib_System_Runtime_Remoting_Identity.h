@@ -3,13 +3,13 @@
 // System.String
 struct String_t;
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t1168;
+struct IMessageSink_t1170;
 // System.Runtime.Remoting.ObjRef
-struct ObjRef_t1175;
+struct ObjRef_t1177;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Identity
-struct  Identity_t1167  : public Object_t
+struct  Identity_t1169  : public Object_t
 {
 	// System.String System.Runtime.Remoting.Identity::_objectUri
 	String_t* ____objectUri_0;
@@ -18,7 +18,7 @@ struct  Identity_t1167  : public Object_t
 	// System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.Identity::_envoySink
 	Object_t * ____envoySink_2;
 	// System.Runtime.Remoting.ObjRef System.Runtime.Remoting.Identity::_objRef
-	ObjRef_t1175 * ____objRef_3;
+	ObjRef_t1177 * ____objRef_3;
 	// System.Boolean System.Runtime.Remoting.Identity::_disposed
 	bool ____disposed_4;
 };

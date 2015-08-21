@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Emit.StackBehaviour
-struct StackBehaviour_t1033;
+struct StackBehaviour_t1035;
 

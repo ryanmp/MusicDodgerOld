@@ -7,7 +7,7 @@ struct Object_t;
 // UnityEngine.TextEditor/TextEditOp
 #include "UnityEngine_UnityEngine_TextEditor_TextEditOp.h"
 // System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.TextEditor/TextEditOp>
-struct  KeyValuePair_2_t1731 
+struct  KeyValuePair_2_t1733 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.TextEditor/TextEditOp>::key
 	Object_t * ___key_0;

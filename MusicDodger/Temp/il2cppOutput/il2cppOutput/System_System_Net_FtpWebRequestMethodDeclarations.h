@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.FtpWebRequest
-struct FtpWebRequest_t475;
+struct FtpWebRequest_t477;
 // System.Uri
-struct Uri_t253;
+struct Uri_t255;
 // System.Object
 struct Object_t;
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct X509Certificate_t509;
+struct X509Certificate_t511;
 // System.Security.Cryptography.X509Certificates.X509Chain
-struct X509Chain_t520;
+struct X509Chain_t522;
 // System.Net.Security.SslPolicyErrors
 #include "System_System_Net_Security_SslPolicyErrors.h"
 
 // System.Void System.Net.FtpWebRequest::.ctor(System.Uri)
-extern "C" void FtpWebRequest__ctor_m1704 (FtpWebRequest_t475 * __this, Uri_t253 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpWebRequest__ctor_m1715 (FtpWebRequest_t477 * __this, Uri_t255 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpWebRequest::.cctor()
-extern "C" void FtpWebRequest__cctor_m1705 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpWebRequest__cctor_m1716 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.FtpWebRequest::<callback>m__B(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
-extern "C" bool FtpWebRequest_U3CcallbackU3Em__B_m1706 (Object_t * __this /* static, unused */, Object_t * ___sender, X509Certificate_t509 * ___certificate, X509Chain_t520 * ___chain, int32_t ___sslPolicyErrors, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FtpWebRequest_U3CcallbackU3Em__B_m1717 (Object_t * __this /* static, unused */, Object_t * ___sender, X509Certificate_t511 * ___certificate, X509Chain_t522 * ___chain, int32_t ___sslPolicyErrors, const MethodInfo* method) IL2CPP_METHOD_ATTR;

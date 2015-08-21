@@ -3,7 +3,7 @@
 // System.Text.Decoder
 #include "mscorlib_System_Text_Decoder.h"
 // System.Text.UTF8Encoding/UTF8Decoder
-struct  UTF8Decoder_t1321  : public Decoder_t970
+struct  UTF8Decoder_t1323  : public Decoder_t972
 {
 	// System.UInt32 System.Text.UTF8Encoding/UTF8Decoder::leftOverBits
 	uint32_t ___leftOverBits_2;

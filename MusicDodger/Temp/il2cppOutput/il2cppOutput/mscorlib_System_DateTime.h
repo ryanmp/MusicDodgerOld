@@ -3,7 +3,7 @@
 // System.String[]
 struct StringU5BU5D_t45;
 // System.Int32[]
-struct Int32U5BU5D_t554;
+struct Int32U5BU5D_t556;
 // System.Object
 struct Object_t;
 // System.ValueType
@@ -15,18 +15,18 @@ struct Object_t;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.DateTime
-struct  DateTime_t125 
+struct  DateTime_t129 
 {
 	// System.TimeSpan System.DateTime::ticks
-	TimeSpan_t523  ___ticks_0;
+	TimeSpan_t525  ___ticks_0;
 	// System.DateTimeKind System.DateTime::kind
 	int32_t ___kind_1;
 };
-struct DateTime_t125_StaticFields{
+struct DateTime_t129_StaticFields{
 	// System.DateTime System.DateTime::MaxValue
-	DateTime_t125  ___MaxValue_2;
+	DateTime_t129  ___MaxValue_2;
 	// System.DateTime System.DateTime::MinValue
-	DateTime_t125  ___MinValue_3;
+	DateTime_t129  ___MinValue_3;
 	// System.String[] System.DateTime::ParseTimeFormats
 	StringU5BU5D_t45* ___ParseTimeFormats_4;
 	// System.String[] System.DateTime::ParseYearDayMonthFormats
@@ -42,9 +42,9 @@ struct DateTime_t125_StaticFields{
 	// System.String[] System.DateTime::DayMonthShortFormats
 	StringU5BU5D_t45* ___DayMonthShortFormats_10;
 	// System.Int32[] System.DateTime::daysmonth
-	Int32U5BU5D_t554* ___daysmonth_11;
+	Int32U5BU5D_t556* ___daysmonth_11;
 	// System.Int32[] System.DateTime::daysmonthleap
-	Int32U5BU5D_t554* ___daysmonthleap_12;
+	Int32U5BU5D_t556* ___daysmonthleap_12;
 	// System.Object System.DateTime::to_local_time_span_object
 	Object_t * ___to_local_time_span_object_13;
 	// System.Int64 System.DateTime::last_now

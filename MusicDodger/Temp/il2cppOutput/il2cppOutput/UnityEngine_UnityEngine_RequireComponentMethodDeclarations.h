@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.RequireComponent
-struct RequireComponent_t284;
+struct RequireComponent_t286;
 

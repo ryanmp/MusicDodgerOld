@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.RenderBuffer
-struct RenderBuffer_t295;
+struct RenderBuffer_t297;
 

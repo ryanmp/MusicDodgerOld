@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.Cryptography.KeyPairPersistence
-struct KeyPairPersistence_t889;
+struct KeyPairPersistence_t891;
 // Mono.Security.Cryptography.RSAManaged
-struct RSAManaged_t896;
+struct RSAManaged_t898;
 // System.Security.Cryptography.RSA
 #include "mscorlib_System_Security_Cryptography_RSA.h"
 // System.Security.Cryptography.RSACryptoServiceProvider
-struct  RSACryptoServiceProvider_t640  : public RSA_t622
+struct  RSACryptoServiceProvider_t642  : public RSA_t624
 {
 	// Mono.Security.Cryptography.KeyPairPersistence System.Security.Cryptography.RSACryptoServiceProvider::store
-	KeyPairPersistence_t889 * ___store_2;
+	KeyPairPersistence_t891 * ___store_2;
 	// System.Boolean System.Security.Cryptography.RSACryptoServiceProvider::persistKey
 	bool ___persistKey_3;
 	// System.Boolean System.Security.Cryptography.RSACryptoServiceProvider::persisted
@@ -20,9 +20,9 @@ struct  RSACryptoServiceProvider_t640  : public RSA_t622
 	// System.Boolean System.Security.Cryptography.RSACryptoServiceProvider::m_disposed
 	bool ___m_disposed_6;
 	// Mono.Security.Cryptography.RSAManaged System.Security.Cryptography.RSACryptoServiceProvider::rsa
-	RSAManaged_t896 * ___rsa_7;
+	RSAManaged_t898 * ___rsa_7;
 };
-struct RSACryptoServiceProvider_t640_StaticFields{
+struct RSACryptoServiceProvider_t642_StaticFields{
 	// System.Boolean System.Security.Cryptography.RSACryptoServiceProvider::useMachineKeyStore
 	bool ___useMachineKeyStore_8;
 };

@@ -3,6 +3,6 @@
 // System.Collections.ArrayList/ArrayListWrapper
 #include "mscorlib_System_Collections_ArrayList_ArrayListWrapper.h"
 // System.Collections.ArrayList/FixedSizeArrayListWrapper
-struct  FixedSizeArrayListWrapper_t927  : public ArrayListWrapper_t925
+struct  FixedSizeArrayListWrapper_t929  : public ArrayListWrapper_t927
 {
 };

@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Reflection.AssemblyDefaultAliasAttribute
-struct  AssemblyDefaultAliasAttribute_t1044  : public Attribute_t166
+struct  AssemblyDefaultAliasAttribute_t1046  : public Attribute_t169
 {
 	// System.String System.Reflection.AssemblyDefaultAliasAttribute::name
 	String_t* ___name_0;

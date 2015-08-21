@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.PersistentCallGroup
-struct PersistentCallGroup_t328;
+struct PersistentCallGroup_t330;
 
 // System.Void UnityEngine.Events.PersistentCallGroup::.ctor()
-extern "C" void PersistentCallGroup__ctor_m1418 (PersistentCallGroup_t328 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PersistentCallGroup__ctor_m1429 (PersistentCallGroup_t330 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.GameObject[]
-struct GameObjectU5BU5D_t51;
+struct GameObjectU5BU5D_t53;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.GameObject>
-struct  List_1_t59  : public Object_t
+struct  List_1_t63  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.GameObject>::_items
-	GameObjectU5BU5D_t51* ____items_1;
+	GameObjectU5BU5D_t53* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::_version
 	int32_t ____version_3;
 };
-struct List_1_t59_StaticFields{
+struct List_1_t63_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.GameObject>::EmptyArray
-	GameObjectU5BU5D_t51* ___EmptyArray_4;
+	GameObjectU5BU5D_t53* ___EmptyArray_4;
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Hashtable/EnumeratorMode
-struct EnumeratorMode_t934;
+struct EnumeratorMode_t936;
 

@@ -5,7 +5,7 @@ struct ByteU5BU5D_t36;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Security.Cryptography.RSAParameters
-struct  RSAParameters_t642 
+struct  RSAParameters_t644 
 {
 	// System.Byte[] System.Security.Cryptography.RSAParameters::P
 	ByteU5BU5D_t36* ___P_0;
@@ -25,7 +25,7 @@ struct  RSAParameters_t642
 	ByteU5BU5D_t36* ___Exponent_7;
 };
 // Native definition for marshalling of: System.Security.Cryptography.RSAParameters
-struct RSAParameters_t642_marshaled
+struct RSAParameters_t644_marshaled
 {
 	uint8_t* ___P_0;
 	uint8_t* ___Q_1;

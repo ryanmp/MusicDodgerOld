@@ -7,7 +7,7 @@ struct Object_t;
 // UnityEngine.Networking.Types.NetworkID
 #include "UnityEngine_UnityEngine_Networking_Types_NetworkID.h"
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.Networking.Types.NetworkID,System.Object>
-struct  KeyValuePair_2_t1652 
+struct  KeyValuePair_2_t1654 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Networking.Types.NetworkID,System.Object>::key
 	uint64_t ___key_0;

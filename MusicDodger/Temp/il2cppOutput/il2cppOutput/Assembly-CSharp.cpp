@@ -28,7 +28,7 @@ Il2CppImage g_AssemblyU2DCSharp_dll_Image =
 	 "Assembly-CSharp.dll" ,
 	&g_AssemblyU2DCSharp_Assembly,
 	15,
-	3,
+	4,
 	NULL,
 	0,
 };

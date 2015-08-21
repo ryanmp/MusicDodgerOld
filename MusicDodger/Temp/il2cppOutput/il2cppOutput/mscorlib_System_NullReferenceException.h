@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.NullReferenceException
-struct  NullReferenceException_t379  : public SystemException_t655
+struct  NullReferenceException_t381  : public SystemException_t657
 {
 };

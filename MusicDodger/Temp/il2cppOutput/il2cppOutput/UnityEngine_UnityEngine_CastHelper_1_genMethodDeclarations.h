@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.CastHelper`1<System.Object>
-struct CastHelper_1_t1605;
+struct CastHelper_1_t1607;
 

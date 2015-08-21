@@ -1,4 +1,4 @@
-//Generated on : 8/19/2015 2:59:23 PM
+//Generated on : 8/21/2015 2:59:55 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -138,10 +138,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Camera::INTERNAL_get_pixelRect(UnityEngine.Rect&)
 		void Register_UnityEngine_Camera_INTERNAL_get_pixelRect();
 		Register_UnityEngine_Camera_INTERNAL_get_pixelRect();
-
-		//System.Void UnityEngine.Camera::INTERNAL_set_backgroundColor(UnityEngine.Color&)
-		void Register_UnityEngine_Camera_INTERNAL_set_backgroundColor();
-		Register_UnityEngine_Camera_INTERNAL_set_backgroundColor();
 
 		//UnityEngine.CameraClearFlags UnityEngine.Camera::get_clearFlags()
 		void Register_UnityEngine_Camera_get_clearFlags();
@@ -523,15 +519,19 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Object_get_name();
 		Register_UnityEngine_Object_get_name();
 
-		//System.Void UnityEngine.Object::Destroy(UnityEngine.Object,System.Single)
-		void Register_UnityEngine_Object_Destroy();
-		Register_UnityEngine_Object_Destroy();
-
 		//UnityEngine.Object UnityEngine.Object::INTERNAL_CALL_Internal_InstantiateSingle(UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&)
 		void Register_UnityEngine_Object_INTERNAL_CALL_Internal_InstantiateSingle();
 		Register_UnityEngine_Object_INTERNAL_CALL_Internal_InstantiateSingle();
 
 	//End Registrations for type : UnityEngine.Object
+
+	//Start Registrations for type : UnityEngine.ParticleSystem
+
+		//System.Void UnityEngine.ParticleSystem::INTERNAL_set_startColor(UnityEngine.Color&)
+		void Register_UnityEngine_ParticleSystem_INTERNAL_set_startColor();
+		Register_UnityEngine_ParticleSystem_INTERNAL_set_startColor();
+
+	//End Registrations for type : UnityEngine.ParticleSystem
 
 	//Start Registrations for type : UnityEngine.PlayerPrefs
 
@@ -546,6 +546,14 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.Random::RandomRangeInt(System.Int32,System.Int32)
 		void Register_UnityEngine_Random_RandomRangeInt();
 		Register_UnityEngine_Random_RandomRangeInt();
+
+		//System.Single UnityEngine.Random::Range(System.Single,System.Single)
+		void Register_UnityEngine_Random_Range();
+		Register_UnityEngine_Random_Range();
+
+		//System.Void UnityEngine.Random::set_seed(System.Int32)
+		void Register_UnityEngine_Random_set_seed();
+		Register_UnityEngine_Random_set_seed();
 
 	//End Registrations for type : UnityEngine.Random
 
@@ -601,14 +609,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.RectOffset
 
-	//Start Registrations for type : UnityEngine.Renderer
-
-		//System.Boolean UnityEngine.Renderer::get_isVisible()
-		void Register_UnityEngine_Renderer_get_isVisible();
-		Register_UnityEngine_Renderer_get_isVisible();
-
-	//End Registrations for type : UnityEngine.Renderer
-
 	//Start Registrations for type : UnityEngine.Rendering.SphericalHarmonicsL2
 
 		//System.Void UnityEngine.Rendering.SphericalHarmonicsL2::INTERNAL_CALL_AddAmbientLightInternal(UnityEngine.Color&,UnityEngine.Rendering.SphericalHarmonicsL2&)
@@ -638,6 +638,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Rigidbody2D::INTERNAL_set_velocity(UnityEngine.Vector2&)
 		void Register_UnityEngine_Rigidbody2D_INTERNAL_set_velocity();
 		Register_UnityEngine_Rigidbody2D_INTERNAL_set_velocity();
+
+		//System.Void UnityEngine.Rigidbody2D::set_angularVelocity(System.Single)
+		void Register_UnityEngine_Rigidbody2D_set_angularVelocity();
+		Register_UnityEngine_Rigidbody2D_set_angularVelocity();
 
 	//End Registrations for type : UnityEngine.Rigidbody2D
 
@@ -767,6 +771,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.SpriteRenderer
 
+		//System.Void UnityEngine.SpriteRenderer::INTERNAL_get_color(UnityEngine.Color&)
+		void Register_UnityEngine_SpriteRenderer_INTERNAL_get_color();
+		Register_UnityEngine_SpriteRenderer_INTERNAL_get_color();
+
 		//System.Void UnityEngine.SpriteRenderer::INTERNAL_set_color(UnityEngine.Color&)
 		void Register_UnityEngine_SpriteRenderer_INTERNAL_set_color();
 		Register_UnityEngine_SpriteRenderer_INTERNAL_set_color();
@@ -879,6 +887,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Transform_get_childCount();
 		Register_UnityEngine_Transform_get_childCount();
 
+		//System.Void UnityEngine.Transform::INTERNAL_get_localScale(UnityEngine.Vector3&)
+		void Register_UnityEngine_Transform_INTERNAL_get_localScale();
+		Register_UnityEngine_Transform_INTERNAL_get_localScale();
+
 		//System.Void UnityEngine.Transform::INTERNAL_get_position(UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_INTERNAL_get_position();
 		Register_UnityEngine_Transform_INTERNAL_get_position();
@@ -886,6 +898,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Transform::INTERNAL_set_localScale(UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_INTERNAL_set_localScale();
 		Register_UnityEngine_Transform_INTERNAL_set_localScale();
+
+		//System.Void UnityEngine.Transform::INTERNAL_set_position(UnityEngine.Vector3&)
+		void Register_UnityEngine_Transform_INTERNAL_set_position();
+		Register_UnityEngine_Transform_INTERNAL_set_position();
 
 		//UnityEngine.Transform UnityEngine.Transform::GetChild(System.Int32)
 		void Register_UnityEngine_Transform_GetChild();

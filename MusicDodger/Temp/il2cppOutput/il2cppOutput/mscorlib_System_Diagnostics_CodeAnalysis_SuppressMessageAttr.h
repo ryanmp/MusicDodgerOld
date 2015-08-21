@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
-struct  SuppressMessageAttribute_t946  : public Attribute_t166
+struct  SuppressMessageAttribute_t948  : public Attribute_t169
 {
 	// System.String System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::category
 	String_t* ___category_0;

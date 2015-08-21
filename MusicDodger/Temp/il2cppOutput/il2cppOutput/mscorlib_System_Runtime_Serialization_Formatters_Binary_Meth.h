@@ -5,7 +5,7 @@
 // System.Runtime.Serialization.Formatters.Binary.MethodFlags
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Meth.h"
 // System.Runtime.Serialization.Formatters.Binary.MethodFlags
-struct  MethodFlags_t1202 
+struct  MethodFlags_t1204 
 {
 	// System.Int32 System.Runtime.Serialization.Formatters.Binary.MethodFlags::value__
 	int32_t ___value___1;

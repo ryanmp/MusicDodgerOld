@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.DisallowMultipleComponent
-struct DisallowMultipleComponent_t283;
+struct DisallowMultipleComponent_t285;
 

@@ -5,7 +5,7 @@
 // System.Runtime.ConstrainedExecution.Cer
 #include "mscorlib_System_Runtime_ConstrainedExecution_Cer.h"
 // System.Runtime.ConstrainedExecution.Cer
-struct  Cer_t1092 
+struct  Cer_t1094 
 {
 	// System.Int32 System.Runtime.ConstrainedExecution.Cer::value__
 	int32_t ___value___1;

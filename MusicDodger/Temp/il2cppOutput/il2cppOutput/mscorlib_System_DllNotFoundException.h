@@ -3,6 +3,6 @@
 // System.TypeLoadException
 #include "mscorlib_System_TypeLoadException.h"
 // System.DllNotFoundException
-struct  DllNotFoundException_t1366  : public TypeLoadException_t1367
+struct  DllNotFoundException_t1368  : public TypeLoadException_t1369
 {
 };

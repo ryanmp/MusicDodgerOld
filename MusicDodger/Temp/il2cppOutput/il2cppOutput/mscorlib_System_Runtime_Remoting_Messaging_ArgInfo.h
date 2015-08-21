@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t554;
+struct Int32U5BU5D_t556;
 // System.Reflection.MethodBase
-struct MethodBase_t439;
+struct MethodBase_t441;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Messaging.ArgInfo
-struct  ArgInfo_t1136  : public Object_t
+struct  ArgInfo_t1138  : public Object_t
 {
 	// System.Int32[] System.Runtime.Remoting.Messaging.ArgInfo::_paramMap
-	Int32U5BU5D_t554* ____paramMap_0;
+	Int32U5BU5D_t556* ____paramMap_0;
 	// System.Int32 System.Runtime.Remoting.Messaging.ArgInfo::_inoutArgCount
 	int32_t ____inoutArgCount_1;
 	// System.Reflection.MethodBase System.Runtime.Remoting.Messaging.ArgInfo::_method
-	MethodBase_t439 * ____method_2;
+	MethodBase_t441 * ____method_2;
 };

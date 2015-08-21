@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.SecurityProtocolType
-struct SecurityProtocolType_t486;
+struct SecurityProtocolType_t488;
 

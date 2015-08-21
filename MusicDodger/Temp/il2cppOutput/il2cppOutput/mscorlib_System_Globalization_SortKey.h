@@ -9,7 +9,7 @@ struct ByteU5BU5D_t36;
 // System.Globalization.CompareOptions
 #include "mscorlib_System_Globalization_CompareOptions.h"
 // System.Globalization.SortKey
-struct  SortKey_t874  : public Object_t
+struct  SortKey_t876  : public Object_t
 {
 	// System.String System.Globalization.SortKey::source
 	String_t* ___source_0;

@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // UnityEngine.Internal.ExcludeFromDocsAttribute
-struct  ExcludeFromDocsAttribute_t335  : public Attribute_t166
+struct  ExcludeFromDocsAttribute_t337  : public Attribute_t169
 {
 };

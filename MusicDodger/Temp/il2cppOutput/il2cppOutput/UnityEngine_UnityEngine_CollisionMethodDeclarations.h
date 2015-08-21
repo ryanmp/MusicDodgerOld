@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Collision
-struct Collision_t64;
+struct Collision_t68;
 

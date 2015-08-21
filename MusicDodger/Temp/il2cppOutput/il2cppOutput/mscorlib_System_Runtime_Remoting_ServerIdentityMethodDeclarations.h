@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.ServerIdentity
-struct ServerIdentity_t847;
+struct ServerIdentity_t849;
 // System.Type
 struct Type_t;
 // System.String
 struct String_t;
 // System.Runtime.Remoting.Contexts.Context
-struct Context_t1128;
+struct Context_t1130;
 // System.Runtime.Remoting.ObjRef
-struct ObjRef_t1175;
+struct ObjRef_t1177;
 
 // System.Void System.Runtime.Remoting.ServerIdentity::.ctor(System.String,System.Runtime.Remoting.Contexts.Context,System.Type)
-extern "C" void ServerIdentity__ctor_m6750 (ServerIdentity_t847 * __this, String_t* ___objectUri, Context_t1128 * ___context, Type_t * ___objectType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ServerIdentity__ctor_m6761 (ServerIdentity_t849 * __this, String_t* ___objectUri, Context_t1130 * ___context, Type_t * ___objectType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Remoting.ServerIdentity::get_ObjectType()
-extern "C" Type_t * ServerIdentity_get_ObjectType_m6751 (ServerIdentity_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * ServerIdentity_get_ObjectType_m6762 (ServerIdentity_t849 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.ObjRef System.Runtime.Remoting.ServerIdentity::CreateObjRef(System.Type)
-extern "C" ObjRef_t1175 * ServerIdentity_CreateObjRef_m6752 (ServerIdentity_t847 * __this, Type_t * ___requestedType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjRef_t1177 * ServerIdentity_CreateObjRef_m6763 (ServerIdentity_t849 * __this, Type_t * ___requestedType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

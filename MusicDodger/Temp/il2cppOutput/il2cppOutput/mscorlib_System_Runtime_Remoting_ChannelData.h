@@ -3,13 +3,13 @@
 // System.String
 struct String_t;
 // System.Collections.ArrayList
-struct ArrayList_t455;
+struct ArrayList_t457;
 // System.Collections.Hashtable
-struct Hashtable_t445;
+struct Hashtable_t447;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.ChannelData
-struct  ChannelData_t1183  : public Object_t
+struct  ChannelData_t1185  : public Object_t
 {
 	// System.String System.Runtime.Remoting.ChannelData::Ref
 	String_t* ___Ref_0;
@@ -20,9 +20,9 @@ struct  ChannelData_t1183  : public Object_t
 	// System.String System.Runtime.Remoting.ChannelData::DelayLoadAsClientChannel
 	String_t* ___DelayLoadAsClientChannel_3;
 	// System.Collections.ArrayList System.Runtime.Remoting.ChannelData::_serverProviders
-	ArrayList_t455 * ____serverProviders_4;
+	ArrayList_t457 * ____serverProviders_4;
 	// System.Collections.ArrayList System.Runtime.Remoting.ChannelData::_clientProviders
-	ArrayList_t455 * ____clientProviders_5;
+	ArrayList_t457 * ____clientProviders_5;
 	// System.Collections.Hashtable System.Runtime.Remoting.ChannelData::_customProperties
-	Hashtable_t445 * ____customProperties_6;
+	Hashtable_t447 * ____customProperties_6;
 };

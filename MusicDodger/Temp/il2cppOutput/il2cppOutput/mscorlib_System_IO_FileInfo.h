@@ -3,7 +3,7 @@
 // System.IO.FileSystemInfo
 #include "mscorlib_System_IO_FileSystemInfo.h"
 // System.IO.FileInfo
-struct  FileInfo_t33  : public FileSystemInfo_t972
+struct  FileInfo_t33  : public FileSystemInfo_t974
 {
 	// System.Boolean System.IO.FileInfo::exists
 	bool ___exists_5;

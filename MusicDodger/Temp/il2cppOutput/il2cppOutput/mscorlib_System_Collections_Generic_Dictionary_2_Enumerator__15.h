@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.Dictionary`2<System.Object,UnityEngine.TextEditor/TextEditOp>
-struct Dictionary_2_t1730;
+struct Dictionary_2_t1732;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.TextEditor/TextEditOp>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_19.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,UnityEngine.TextEditor/TextEditOp>
-struct  Enumerator_t1736 
+struct  Enumerator_t1738 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,UnityEngine.TextEditor/TextEditOp>::dictionary
-	Dictionary_2_t1730 * ___dictionary_0;
+	Dictionary_2_t1732 * ___dictionary_0;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Object,UnityEngine.TextEditor/TextEditOp>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Object,UnityEngine.TextEditor/TextEditOp>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,UnityEngine.TextEditor/TextEditOp>::current
-	KeyValuePair_2_t1731  ___current_3;
+	KeyValuePair_2_t1733  ___current_3;
 };

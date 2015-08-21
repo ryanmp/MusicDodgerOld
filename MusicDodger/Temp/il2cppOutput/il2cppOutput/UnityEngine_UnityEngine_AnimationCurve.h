@@ -5,13 +5,13 @@
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.AnimationCurve
-struct  AnimationCurve_t205  : public Object_t
+struct  AnimationCurve_t207  : public Object_t
 {
 	// System.IntPtr UnityEngine.AnimationCurve::m_Ptr
 	IntPtr_t ___m_Ptr_0;
 };
 // Native definition for marshalling of: UnityEngine.AnimationCurve
-struct AnimationCurve_t205_marshaled
+struct AnimationCurve_t207_marshaled
 {
 	intptr_t ___m_Ptr_0;
 };

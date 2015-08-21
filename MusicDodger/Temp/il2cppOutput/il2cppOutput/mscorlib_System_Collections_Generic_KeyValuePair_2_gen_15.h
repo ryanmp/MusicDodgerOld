@@ -3,14 +3,14 @@
 // System.Type
 struct Type_t;
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate
-struct ConstructorDelegate_t269;
+struct ConstructorDelegate_t271;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-struct  KeyValuePair_2_t1680 
+struct  KeyValuePair_2_t1682 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::key
 	Type_t * ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::value
-	ConstructorDelegate_t269 * ___value_1;
+	ConstructorDelegate_t271 * ___value_1;
 };

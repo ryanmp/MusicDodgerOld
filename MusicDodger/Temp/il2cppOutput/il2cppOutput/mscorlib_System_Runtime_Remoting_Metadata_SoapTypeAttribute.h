@@ -5,7 +5,7 @@ struct String_t;
 // System.Runtime.Remoting.Metadata.SoapAttribute
 #include "mscorlib_System_Runtime_Remoting_Metadata_SoapAttribute.h"
 // System.Runtime.Remoting.Metadata.SoapTypeAttribute
-struct  SoapTypeAttribute_t1163  : public SoapAttribute_t1159
+struct  SoapTypeAttribute_t1165  : public SoapAttribute_t1161
 {
 	// System.Boolean System.Runtime.Remoting.Metadata.SoapTypeAttribute::_useAttribute
 	bool ____useAttribute_3;

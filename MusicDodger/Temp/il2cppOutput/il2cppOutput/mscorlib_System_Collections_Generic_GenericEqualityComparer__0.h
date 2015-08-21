@@ -3,6 +3,6 @@
 // System.Collections.Generic.EqualityComparer`1<System.DateTimeOffset>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_11.h"
 // System.Collections.Generic.GenericEqualityComparer`1<System.DateTimeOffset>
-struct  GenericEqualityComparer_1_t1490  : public EqualityComparer_1_t1868
+struct  GenericEqualityComparer_1_t1492  : public EqualityComparer_1_t1870
 {
 };

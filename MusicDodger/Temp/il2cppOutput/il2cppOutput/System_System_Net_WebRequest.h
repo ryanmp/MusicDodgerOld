@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Specialized.HybridDictionary
-struct HybridDictionary_t447;
+struct HybridDictionary_t449;
 // System.Net.IWebProxy
-struct IWebProxy_t469;
+struct IWebProxy_t471;
 // System.Object
 struct Object_t;
 // System.MarshalByRefObject
@@ -11,14 +11,14 @@ struct Object_t;
 // System.Net.Security.AuthenticationLevel
 #include "System_System_Net_Security_AuthenticationLevel.h"
 // System.Net.WebRequest
-struct  WebRequest_t471  : public MarshalByRefObject_t494
+struct  WebRequest_t473  : public MarshalByRefObject_t496
 {
 	// System.Net.Security.AuthenticationLevel System.Net.WebRequest::authentication_level
 	int32_t ___authentication_level_4;
 };
-struct WebRequest_t471_StaticFields{
+struct WebRequest_t473_StaticFields{
 	// System.Collections.Specialized.HybridDictionary System.Net.WebRequest::prefixes
-	HybridDictionary_t447 * ___prefixes_1;
+	HybridDictionary_t449 * ___prefixes_1;
 	// System.Boolean System.Net.WebRequest::isDefaultWebProxySet
 	bool ___isDefaultWebProxySet_2;
 	// System.Net.IWebProxy System.Net.WebRequest::defaultWebProxy

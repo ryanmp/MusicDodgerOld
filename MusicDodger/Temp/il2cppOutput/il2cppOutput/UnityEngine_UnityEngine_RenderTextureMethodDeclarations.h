@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.RenderTexture
-struct RenderTexture_t108;
+struct RenderTexture_t112;
 

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.MRUList/Node
-struct Node_t562;
+struct Node_t564;
 // System.Object
 struct Object_t;
 
 // System.Void System.Text.RegularExpressions.MRUList/Node::.ctor(System.Object)
-extern "C" void Node__ctor_m2127 (Node_t562 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Node__ctor_m2138 (Node_t564 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

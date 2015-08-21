@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.PreserveSigAttribute
-struct PreserveSigAttribute_t1109;
+struct PreserveSigAttribute_t1111;
 
 // System.Void System.Runtime.InteropServices.PreserveSigAttribute::.ctor()
-extern "C" void PreserveSigAttribute__ctor_m6384 (PreserveSigAttribute_t1109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PreserveSigAttribute__ctor_m6395 (PreserveSigAttribute_t1111 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

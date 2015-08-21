@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.RegexOptions
-struct RegexOptions_t556;
+struct RegexOptions_t558;
 

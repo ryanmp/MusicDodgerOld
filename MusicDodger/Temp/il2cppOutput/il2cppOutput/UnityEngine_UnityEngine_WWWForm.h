@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<System.Byte[]>
-struct List_1_t170;
+struct List_1_t173;
 // System.Collections.Generic.List`1<System.String>
-struct List_1_t171;
+struct List_1_t174;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.WWWForm
-struct  WWWForm_t172  : public Object_t
+struct  WWWForm_t175  : public Object_t
 {
 	// System.Collections.Generic.List`1<System.Byte[]> UnityEngine.WWWForm::formData
-	List_1_t170 * ___formData_0;
+	List_1_t173 * ___formData_0;
 	// System.Collections.Generic.List`1<System.String> UnityEngine.WWWForm::fieldNames
-	List_1_t171 * ___fieldNames_1;
+	List_1_t174 * ___fieldNames_1;
 	// System.Collections.Generic.List`1<System.String> UnityEngine.WWWForm::fileNames
-	List_1_t171 * ___fileNames_2;
+	List_1_t174 * ___fileNames_2;
 	// System.Collections.Generic.List`1<System.String> UnityEngine.WWWForm::types
-	List_1_t171 * ___types_3;
+	List_1_t174 * ___types_3;
 	// System.Byte[] UnityEngine.WWWForm::boundary
 	ByteU5BU5D_t36* ___boundary_4;
 	// System.Boolean UnityEngine.WWWForm::containsFiles

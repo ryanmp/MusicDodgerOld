@@ -7,7 +7,7 @@ struct Object_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.Remoting.Metadata.SoapAttribute
-struct  SoapAttribute_t1159  : public Attribute_t166
+struct  SoapAttribute_t1161  : public Attribute_t169
 {
 	// System.Boolean System.Runtime.Remoting.Metadata.SoapAttribute::_useAttribute
 	bool ____useAttribute_0;

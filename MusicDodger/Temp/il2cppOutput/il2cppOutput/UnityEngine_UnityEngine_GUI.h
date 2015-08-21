@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.GUISkin
-struct GUISkin_t122;
+struct GUISkin_t126;
 // UnityEngineInternal.GenericStack
-struct GenericStack_t123;
+struct GenericStack_t127;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Rect
@@ -11,10 +11,10 @@ struct GenericStack_t123;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // UnityEngine.GUI
-struct  GUI_t124  : public Object_t
+struct  GUI_t128  : public Object_t
 {
 };
-struct GUI_t124_StaticFields{
+struct GUI_t128_StaticFields{
 	// System.Single UnityEngine.GUI::scrollStepSize
 	float ___scrollStepSize_0;
 	// System.Int32 UnityEngine.GUI::scrollControlID
@@ -22,9 +22,9 @@ struct GUI_t124_StaticFields{
 	// System.Int32 UnityEngine.GUI::hotTextField
 	int32_t ___hotTextField_2;
 	// UnityEngine.GUISkin UnityEngine.GUI::s_Skin
-	GUISkin_t122 * ___s_Skin_3;
+	GUISkin_t126 * ___s_Skin_3;
 	// UnityEngine.Rect UnityEngine.GUI::s_ToolTipRect
-	Rect_t117  ___s_ToolTipRect_4;
+	Rect_t121  ___s_ToolTipRect_4;
 	// System.Int32 UnityEngine.GUI::boxHash
 	int32_t ___boxHash_5;
 	// System.Int32 UnityEngine.GUI::repeatButtonHash
@@ -40,9 +40,9 @@ struct GUI_t124_StaticFields{
 	// System.Int32 UnityEngine.GUI::scrollviewHash
 	int32_t ___scrollviewHash_11;
 	// UnityEngineInternal.GenericStack UnityEngine.GUI::s_ScrollViewStates
-	GenericStack_t123 * ___s_ScrollViewStates_12;
+	GenericStack_t127 * ___s_ScrollViewStates_12;
 	// System.DateTime UnityEngine.GUI::<nextScrollStepTime>k__BackingField
-	DateTime_t125  ___U3CnextScrollStepTimeU3Ek__BackingField_13;
+	DateTime_t129  ___U3CnextScrollStepTimeU3Ek__BackingField_13;
 	// System.Int32 UnityEngine.GUI::<scrollTroughSide>k__BackingField
 	int32_t ___U3CscrollTroughSideU3Ek__BackingField_14;
 };

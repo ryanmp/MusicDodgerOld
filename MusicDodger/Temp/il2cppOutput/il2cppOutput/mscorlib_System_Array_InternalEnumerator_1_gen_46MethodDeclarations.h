@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>
-struct InternalEnumerator_1_t1724;
+struct InternalEnumerator_1_t1726;
 // System.Object
 struct Object_t;
 // System.Array
@@ -14,17 +14,17 @@ struct Array_t;
 #include "UnityEngine_UnityEngine_SendMouseEvents_HitInfo.h"
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m11497_gshared (InternalEnumerator_1_t1724 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m11497(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1724 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m11497_gshared)(__this, ___array, method)
+extern "C" void InternalEnumerator_1__ctor_m11508_gshared (InternalEnumerator_1_t1726 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m11508(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1726 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m11508_gshared)(__this, ___array, method)
 // System.Object System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11498_gshared (InternalEnumerator_1_t1724 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11498(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1724 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11498_gshared)(__this, method)
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11509_gshared (InternalEnumerator_1_t1726 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11509(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1726 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11509_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m11499_gshared (InternalEnumerator_1_t1724 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m11499(__this, method) (( void (*) (InternalEnumerator_1_t1724 *, const MethodInfo*))InternalEnumerator_1_Dispose_m11499_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_Dispose_m11510_gshared (InternalEnumerator_1_t1726 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m11510(__this, method) (( void (*) (InternalEnumerator_1_t1726 *, const MethodInfo*))InternalEnumerator_1_Dispose_m11510_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m11500_gshared (InternalEnumerator_1_t1724 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m11500(__this, method) (( bool (*) (InternalEnumerator_1_t1724 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m11500_gshared)(__this, method)
+extern "C" bool InternalEnumerator_1_MoveNext_m11511_gshared (InternalEnumerator_1_t1726 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m11511(__this, method) (( bool (*) (InternalEnumerator_1_t1726 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m11511_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::get_Current()
-extern "C" HitInfo_t307  InternalEnumerator_1_get_Current_m11501_gshared (InternalEnumerator_1_t1724 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m11501(__this, method) (( HitInfo_t307  (*) (InternalEnumerator_1_t1724 *, const MethodInfo*))InternalEnumerator_1_get_Current_m11501_gshared)(__this, method)
+extern "C" HitInfo_t309  InternalEnumerator_1_get_Current_m11512_gshared (InternalEnumerator_1_t1726 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m11512(__this, method) (( HitInfo_t309  (*) (InternalEnumerator_1_t1726 *, const MethodInfo*))InternalEnumerator_1_get_Current_m11512_gshared)(__this, method)

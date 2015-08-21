@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.HttpVersion
-struct HttpVersion_t479;
+struct HttpVersion_t481;
 
 // System.Void System.Net.HttpVersion::.cctor()
-extern "C" void HttpVersion__cctor_m1710 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HttpVersion__cctor_m1721 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

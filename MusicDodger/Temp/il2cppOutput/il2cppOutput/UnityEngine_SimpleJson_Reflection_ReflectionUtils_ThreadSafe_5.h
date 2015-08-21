@@ -3,12 +3,12 @@
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t118;
+struct IAsyncResult_t122;
 // System.AsyncCallback
-struct AsyncCallback_t119;
+struct AsyncCallback_t123;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Object,System.Object>
-struct  ThreadSafeDictionaryValueFactory_2_t1674  : public MulticastDelegate_t121
+struct  ThreadSafeDictionaryValueFactory_2_t1676  : public MulticastDelegate_t125
 {
 };

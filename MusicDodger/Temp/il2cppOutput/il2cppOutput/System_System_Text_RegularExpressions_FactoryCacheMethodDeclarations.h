@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.FactoryCache
-struct FactoryCache_t551;
+struct FactoryCache_t553;
 // System.String
 struct String_t;
 // System.Text.RegularExpressions.IMachineFactory
-struct IMachineFactory_t552;
+struct IMachineFactory_t554;
 // System.Text.RegularExpressions.RegexOptions
 #include "System_System_Text_RegularExpressions_RegexOptions.h"
 
 // System.Void System.Text.RegularExpressions.FactoryCache::.ctor(System.Int32)
-extern "C" void FactoryCache__ctor_m2123 (FactoryCache_t551 * __this, int32_t ___capacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FactoryCache__ctor_m2134 (FactoryCache_t553 * __this, int32_t ___capacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.FactoryCache::Add(System.String,System.Text.RegularExpressions.RegexOptions,System.Text.RegularExpressions.IMachineFactory)
-extern "C" void FactoryCache_Add_m2124 (FactoryCache_t551 * __this, String_t* ___pattern, int32_t ___options, Object_t * ___factory, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FactoryCache_Add_m2135 (FactoryCache_t553 * __this, String_t* ___pattern, int32_t ___options, Object_t * ___factory, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.FactoryCache::Cleanup()
-extern "C" void FactoryCache_Cleanup_m2125 (FactoryCache_t551 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FactoryCache_Cleanup_m2136 (FactoryCache_t553 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.IMachineFactory System.Text.RegularExpressions.FactoryCache::Lookup(System.String,System.Text.RegularExpressions.RegexOptions)
-extern "C" Object_t * FactoryCache_Lookup_m2126 (FactoryCache_t551 * __this, String_t* ___pattern, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * FactoryCache_Lookup_m2137 (FactoryCache_t553 * __this, String_t* ___pattern, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;

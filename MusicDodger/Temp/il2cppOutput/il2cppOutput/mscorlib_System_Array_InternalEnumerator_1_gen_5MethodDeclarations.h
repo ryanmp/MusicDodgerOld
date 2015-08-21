@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<System.Collections.Generic.Link>
-struct InternalEnumerator_1_t1514;
+struct InternalEnumerator_1_t1516;
 // System.Object
 struct Object_t;
 // System.Array
@@ -14,17 +14,17 @@ struct Array_t;
 #include "mscorlib_System_Collections_Generic_Link.h"
 
 // System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.Link>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m8813_gshared (InternalEnumerator_1_t1514 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m8813(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1514 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m8813_gshared)(__this, ___array, method)
+extern "C" void InternalEnumerator_1__ctor_m8824_gshared (InternalEnumerator_1_t1516 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m8824(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1516 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m8824_gshared)(__this, ___array, method)
 // System.Object System.Array/InternalEnumerator`1<System.Collections.Generic.Link>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m8814_gshared (InternalEnumerator_1_t1514 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m8814(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1514 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m8814_gshared)(__this, method)
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m8825_gshared (InternalEnumerator_1_t1516 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m8825(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1516 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m8825_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.Link>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m8815_gshared (InternalEnumerator_1_t1514 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m8815(__this, method) (( void (*) (InternalEnumerator_1_t1514 *, const MethodInfo*))InternalEnumerator_1_Dispose_m8815_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_Dispose_m8826_gshared (InternalEnumerator_1_t1516 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m8826(__this, method) (( void (*) (InternalEnumerator_1_t1516 *, const MethodInfo*))InternalEnumerator_1_Dispose_m8826_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<System.Collections.Generic.Link>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m8816_gshared (InternalEnumerator_1_t1514 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m8816(__this, method) (( bool (*) (InternalEnumerator_1_t1514 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m8816_gshared)(__this, method)
+extern "C" bool InternalEnumerator_1_MoveNext_m8827_gshared (InternalEnumerator_1_t1516 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m8827(__this, method) (( bool (*) (InternalEnumerator_1_t1516 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m8827_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<System.Collections.Generic.Link>::get_Current()
-extern "C" Link_t922  InternalEnumerator_1_get_Current_m8817_gshared (InternalEnumerator_1_t1514 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m8817(__this, method) (( Link_t922  (*) (InternalEnumerator_1_t1514 *, const MethodInfo*))InternalEnumerator_1_get_Current_m8817_gshared)(__this, method)
+extern "C" Link_t924  InternalEnumerator_1_get_Current_m8828_gshared (InternalEnumerator_1_t1516 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m8828(__this, method) (( Link_t924  (*) (InternalEnumerator_1_t1516 *, const MethodInfo*))InternalEnumerator_1_get_Current_m8828_gshared)(__this, method)

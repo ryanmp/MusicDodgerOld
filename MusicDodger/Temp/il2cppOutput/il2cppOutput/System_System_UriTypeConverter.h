@@ -3,6 +3,6 @@
 // System.ComponentModel.TypeConverter
 #include "System_System_ComponentModel_TypeConverter.h"
 // System.UriTypeConverter
-struct  UriTypeConverter_t614  : public TypeConverter_t462
+struct  UriTypeConverter_t616  : public TypeConverter_t464
 {
 };

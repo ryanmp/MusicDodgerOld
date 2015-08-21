@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t455;
+struct ArrayList_t457;
 // System.Runtime.Remoting.ChannelData
-struct ChannelData_t1183;
+struct ChannelData_t1185;
 // System.Collections.Stack
-struct Stack_t339;
+struct Stack_t341;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t150;
+struct Dictionary_2_t154;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.ConfigHandler
-struct  ConfigHandler_t1184  : public Object_t
+struct  ConfigHandler_t1186  : public Object_t
 {
 	// System.Collections.ArrayList System.Runtime.Remoting.ConfigHandler::typeEntries
-	ArrayList_t455 * ___typeEntries_0;
+	ArrayList_t457 * ___typeEntries_0;
 	// System.Collections.ArrayList System.Runtime.Remoting.ConfigHandler::channelInstances
-	ArrayList_t455 * ___channelInstances_1;
+	ArrayList_t457 * ___channelInstances_1;
 	// System.Runtime.Remoting.ChannelData System.Runtime.Remoting.ConfigHandler::currentChannel
-	ChannelData_t1183 * ___currentChannel_2;
+	ChannelData_t1185 * ___currentChannel_2;
 	// System.Collections.Stack System.Runtime.Remoting.ConfigHandler::currentProviderData
-	Stack_t339 * ___currentProviderData_3;
+	Stack_t341 * ___currentProviderData_3;
 	// System.String System.Runtime.Remoting.ConfigHandler::currentClientUrl
 	String_t* ___currentClientUrl_4;
 	// System.String System.Runtime.Remoting.ConfigHandler::appName
@@ -32,9 +32,9 @@ struct  ConfigHandler_t1184  : public Object_t
 	// System.Boolean System.Runtime.Remoting.ConfigHandler::onlyDelayedChannels
 	bool ___onlyDelayedChannels_7;
 };
-struct ConfigHandler_t1184_StaticFields{
+struct ConfigHandler_t1186_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Remoting.ConfigHandler::<>f__switch$map27
-	Dictionary_2_t150 * ___U3CU3Ef__switchU24map27_8;
+	Dictionary_2_t154 * ___U3CU3Ef__switchU24map27_8;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Remoting.ConfigHandler::<>f__switch$map28
-	Dictionary_2_t150 * ___U3CU3Ef__switchU24map28_9;
+	Dictionary_2_t154 * ___U3CU3Ef__switchU24map28_9;
 };

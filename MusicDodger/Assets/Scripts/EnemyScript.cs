@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy : MonoBehaviour
+public class EnemyScript : MonoBehaviour
 {
 
 	ParticleSystem ps;
 	SpriteRenderer sr;
+
+	public bool does_wall_bounce;
 
 	// Use this for initialization
 	void Start ()

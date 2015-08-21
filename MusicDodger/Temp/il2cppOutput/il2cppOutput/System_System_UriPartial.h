@@ -5,7 +5,7 @@
 // System.UriPartial
 #include "System_System_UriPartial.h"
 // System.UriPartial
-struct  UriPartial_t613 
+struct  UriPartial_t615 
 {
 	// System.Int32 System.UriPartial::value__
 	int32_t ___value___1;

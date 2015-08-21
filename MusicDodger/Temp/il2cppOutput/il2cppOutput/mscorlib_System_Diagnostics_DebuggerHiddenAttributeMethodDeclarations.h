@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Diagnostics.DebuggerHiddenAttribute
-struct DebuggerHiddenAttribute_t840;
+struct DebuggerHiddenAttribute_t842;
 
 // System.Void System.Diagnostics.DebuggerHiddenAttribute::.ctor()
-extern "C" void DebuggerHiddenAttribute__ctor_m4462 (DebuggerHiddenAttribute_t840 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DebuggerHiddenAttribute__ctor_m4473 (DebuggerHiddenAttribute_t842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

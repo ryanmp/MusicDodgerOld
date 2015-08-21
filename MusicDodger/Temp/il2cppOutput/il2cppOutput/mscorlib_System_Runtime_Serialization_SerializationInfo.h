@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Hashtable
-struct Hashtable_t445;
+struct Hashtable_t447;
 // System.Collections.ArrayList
-struct ArrayList_t455;
+struct ArrayList_t457;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.IFormatterConverter
-struct IFormatterConverter_t1231;
+struct IFormatterConverter_t1233;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.SerializationInfo
-struct  SerializationInfo_t377  : public Object_t
+struct  SerializationInfo_t379  : public Object_t
 {
 	// System.Collections.Hashtable System.Runtime.Serialization.SerializationInfo::serialized
-	Hashtable_t445 * ___serialized_0;
+	Hashtable_t447 * ___serialized_0;
 	// System.Collections.ArrayList System.Runtime.Serialization.SerializationInfo::values
-	ArrayList_t455 * ___values_1;
+	ArrayList_t457 * ___values_1;
 	// System.String System.Runtime.Serialization.SerializationInfo::assemblyName
 	String_t* ___assemblyName_2;
 	// System.String System.Runtime.Serialization.SerializationInfo::fullTypeName

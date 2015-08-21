@@ -7,7 +7,7 @@ struct String_t;
 // System.Runtime.Remoting.TypeEntry
 #include "mscorlib_System_Runtime_Remoting_TypeEntry.h"
 // System.Runtime.Remoting.WellKnownClientTypeEntry
-struct  WellKnownClientTypeEntry_t1196  : public TypeEntry_t1172
+struct  WellKnownClientTypeEntry_t1198  : public TypeEntry_t1174
 {
 	// System.Type System.Runtime.Remoting.WellKnownClientTypeEntry::obj_type
 	Type_t * ___obj_type_2;

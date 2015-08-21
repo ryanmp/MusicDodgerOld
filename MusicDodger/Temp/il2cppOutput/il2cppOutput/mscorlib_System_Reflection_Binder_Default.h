@@ -3,6 +3,6 @@
 // System.Reflection.Binder
 #include "mscorlib_System_Reflection_Binder.h"
 // System.Reflection.Binder/Default
-struct  Default_t1055  : public Binder_t436
+struct  Default_t1057  : public Binder_t438
 {
 };

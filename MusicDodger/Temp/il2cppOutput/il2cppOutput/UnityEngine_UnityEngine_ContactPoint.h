@@ -5,12 +5,12 @@
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // UnityEngine.ContactPoint
-struct  ContactPoint_t191 
+struct  ContactPoint_t194 
 {
 	// UnityEngine.Vector3 UnityEngine.ContactPoint::m_Point
-	Vector3_t65  ___m_Point_0;
+	Vector3_t70  ___m_Point_0;
 	// UnityEngine.Vector3 UnityEngine.ContactPoint::m_Normal
-	Vector3_t65  ___m_Normal_1;
+	Vector3_t70  ___m_Normal_1;
 	// System.Int32 UnityEngine.ContactPoint::m_ThisColliderInstanceID
 	int32_t ___m_ThisColliderInstanceID_2;
 	// System.Int32 UnityEngine.ContactPoint::m_OtherColliderInstanceID

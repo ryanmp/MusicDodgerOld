@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.BaseInvokableCall
-struct BaseInvokableCall_t324;
+struct BaseInvokableCall_t326;
 

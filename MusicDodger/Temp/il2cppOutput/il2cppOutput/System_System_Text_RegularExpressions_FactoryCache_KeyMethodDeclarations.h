@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.FactoryCache/Key
-struct Key_t560;
+struct Key_t562;
 // System.String
 struct String_t;
 // System.Object
@@ -14,10 +14,10 @@ struct Object_t;
 #include "System_System_Text_RegularExpressions_RegexOptions.h"
 
 // System.Void System.Text.RegularExpressions.FactoryCache/Key::.ctor(System.String,System.Text.RegularExpressions.RegexOptions)
-extern "C" void Key__ctor_m2119 (Key_t560 * __this, String_t* ___pattern, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Key__ctor_m2130 (Key_t562 * __this, String_t* ___pattern, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.FactoryCache/Key::GetHashCode()
-extern "C" int32_t Key_GetHashCode_m2120 (Key_t560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Key_GetHashCode_m2131 (Key_t562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.FactoryCache/Key::Equals(System.Object)
-extern "C" bool Key_Equals_m2121 (Key_t560 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Key_Equals_m2132 (Key_t562 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.FactoryCache/Key::ToString()
-extern "C" String_t* Key_ToString_m2122 (Key_t560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Key_ToString_m2133 (Key_t562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

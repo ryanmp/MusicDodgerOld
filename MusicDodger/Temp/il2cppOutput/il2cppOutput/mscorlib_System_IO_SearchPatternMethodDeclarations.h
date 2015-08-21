@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.SearchPattern
-struct SearchPattern_t989;
+struct SearchPattern_t991;
 
 // System.Void System.IO.SearchPattern::.cctor()
-extern "C" void SearchPattern__cctor_m5645 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SearchPattern__cctor_m5656 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

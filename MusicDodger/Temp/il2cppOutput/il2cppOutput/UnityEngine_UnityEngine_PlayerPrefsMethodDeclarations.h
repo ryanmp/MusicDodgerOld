@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.PlayerPrefs
-struct PlayerPrefs_t187;
+struct PlayerPrefs_t190;
 // System.String
 struct String_t;
 
 // System.String UnityEngine.PlayerPrefs::GetString(System.String,System.String)
-extern "C" String_t* PlayerPrefs_GetString_m914 (Object_t * __this /* static, unused */, String_t* ___key, String_t* ___defaultValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* PlayerPrefs_GetString_m924 (Object_t * __this /* static, unused */, String_t* ___key, String_t* ___defaultValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.PlayerPrefs::GetString(System.String)
-extern "C" String_t* PlayerPrefs_GetString_m915 (Object_t * __this /* static, unused */, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* PlayerPrefs_GetString_m925 (Object_t * __this /* static, unused */, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;

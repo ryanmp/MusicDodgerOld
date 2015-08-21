@@ -3,7 +3,7 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.InteropServices.ComVisibleAttribute
-struct  ComVisibleAttribute_t818  : public Attribute_t166
+struct  ComVisibleAttribute_t820  : public Attribute_t169
 {
 	// System.Boolean System.Runtime.InteropServices.ComVisibleAttribute::Visible
 	bool ___Visible_0;

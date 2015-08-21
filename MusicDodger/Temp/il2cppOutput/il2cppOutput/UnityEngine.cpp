@@ -27,8 +27,8 @@ Il2CppImage g_UnityEngine_dll_Image =
 {
 	 "UnityEngine.dll" ,
 	&g_UnityEngine_Assembly,
-	18,
-	247,
+	19,
+	248,
 	NULL,
 	0,
 };

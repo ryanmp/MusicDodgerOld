@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.RuntimeArgumentHandle
-struct RuntimeArgumentHandle_t844;
+struct RuntimeArgumentHandle_t846;
 

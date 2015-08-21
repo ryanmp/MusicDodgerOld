@@ -3,6 +3,6 @@
 // System.Collections.Generic.EqualityComparer`1<System.TimeSpan>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_13.h"
 // System.Collections.Generic.GenericEqualityComparer`1<System.TimeSpan>
-struct  GenericEqualityComparer_1_t1494  : public EqualityComparer_1_t1876
+struct  GenericEqualityComparer_1_t1496  : public EqualityComparer_1_t1878
 {
 };

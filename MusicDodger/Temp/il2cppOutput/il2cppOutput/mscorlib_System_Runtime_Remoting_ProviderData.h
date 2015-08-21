@@ -3,13 +3,13 @@
 // System.String
 struct String_t;
 // System.Collections.Hashtable
-struct Hashtable_t445;
+struct Hashtable_t447;
 // System.Collections.IList
-struct IList_t579;
+struct IList_t581;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.ProviderData
-struct  ProviderData_t1185  : public Object_t
+struct  ProviderData_t1187  : public Object_t
 {
 	// System.String System.Runtime.Remoting.ProviderData::Ref
 	String_t* ___Ref_0;
@@ -18,7 +18,7 @@ struct  ProviderData_t1185  : public Object_t
 	// System.String System.Runtime.Remoting.ProviderData::Id
 	String_t* ___Id_2;
 	// System.Collections.Hashtable System.Runtime.Remoting.ProviderData::CustomProperties
-	Hashtable_t445 * ___CustomProperties_3;
+	Hashtable_t447 * ___CustomProperties_3;
 	// System.Collections.IList System.Runtime.Remoting.ProviderData::CustomData
 	Object_t * ___CustomData_4;
 };

@@ -5,7 +5,7 @@ struct MemberInfo_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Reflection.Emit.ILTokenInfo
-struct  ILTokenInfo_t1015 
+struct  ILTokenInfo_t1017 
 {
 	// System.Reflection.MemberInfo System.Reflection.Emit.ILTokenInfo::member
 	MemberInfo_t * ___member_0;

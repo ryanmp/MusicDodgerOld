@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags
-struct X500DistinguishedNameFlags_t503;
+struct X500DistinguishedNameFlags_t505;
 

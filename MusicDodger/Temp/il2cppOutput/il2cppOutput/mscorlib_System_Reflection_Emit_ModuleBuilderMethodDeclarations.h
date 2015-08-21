@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Emit.ModuleBuilder
-struct ModuleBuilder_t1027;
+struct ModuleBuilder_t1029;
 // System.Object
 struct Object_t;
 // System.Type[]
-struct TypeU5BU5D_t265;
+struct TypeU5BU5D_t267;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 // System.Reflection.Emit.TokenGenerator
-struct TokenGenerator_t1022;
+struct TokenGenerator_t1024;
 
 // System.Void System.Reflection.Emit.ModuleBuilder::.cctor()
-extern "C" void ModuleBuilder__cctor_m5952 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ModuleBuilder__cctor_m5963 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.Emit.ModuleBuilder::get_next_table_index(System.Object,System.Int32,System.Boolean)
-extern "C" int32_t ModuleBuilder_get_next_table_index_m5953 (ModuleBuilder_t1027 * __this, Object_t * ___obj, int32_t ___table, bool ___inc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ModuleBuilder_get_next_table_index_m5964 (ModuleBuilder_t1029 * __this, Object_t * ___obj, int32_t ___table, bool ___inc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type[] System.Reflection.Emit.ModuleBuilder::GetTypes()
-extern "C" TypeU5BU5D_t265* ModuleBuilder_GetTypes_m5954 (ModuleBuilder_t1027 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TypeU5BU5D_t267* ModuleBuilder_GetTypes_m5965 (ModuleBuilder_t1029 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.Emit.ModuleBuilder::getToken(System.Reflection.Emit.ModuleBuilder,System.Object)
-extern "C" int32_t ModuleBuilder_getToken_m5955 (Object_t * __this /* static, unused */, ModuleBuilder_t1027 * ___mb, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ModuleBuilder_getToken_m5966 (Object_t * __this /* static, unused */, ModuleBuilder_t1029 * ___mb, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.Emit.ModuleBuilder::GetToken(System.Reflection.MemberInfo)
-extern "C" int32_t ModuleBuilder_GetToken_m5956 (ModuleBuilder_t1027 * __this, MemberInfo_t * ___member, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ModuleBuilder_GetToken_m5967 (ModuleBuilder_t1029 * __this, MemberInfo_t * ___member, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.Emit.ModuleBuilder::RegisterToken(System.Object,System.Int32)
-extern "C" void ModuleBuilder_RegisterToken_m5957 (ModuleBuilder_t1027 * __this, Object_t * ___obj, int32_t ___token, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ModuleBuilder_RegisterToken_m5968 (ModuleBuilder_t1029 * __this, Object_t * ___obj, int32_t ___token, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Emit.TokenGenerator System.Reflection.Emit.ModuleBuilder::GetTokenGenerator()
-extern "C" Object_t * ModuleBuilder_GetTokenGenerator_m5958 (ModuleBuilder_t1027 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ModuleBuilder_GetTokenGenerator_m5969 (ModuleBuilder_t1029 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

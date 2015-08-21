@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Runtime.Serialization.ObjectRecord
-struct ObjectRecord_t1216;
+struct ObjectRecord_t1218;
 // System.Runtime.Serialization.BaseFixupRecord
-struct BaseFixupRecord_t1217;
+struct BaseFixupRecord_t1219;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.BaseFixupRecord
-struct  BaseFixupRecord_t1217  : public Object_t
+struct  BaseFixupRecord_t1219  : public Object_t
 {
 	// System.Runtime.Serialization.ObjectRecord System.Runtime.Serialization.BaseFixupRecord::ObjectToBeFixed
-	ObjectRecord_t1216 * ___ObjectToBeFixed_0;
+	ObjectRecord_t1218 * ___ObjectToBeFixed_0;
 	// System.Runtime.Serialization.ObjectRecord System.Runtime.Serialization.BaseFixupRecord::ObjectRequired
-	ObjectRecord_t1216 * ___ObjectRequired_1;
+	ObjectRecord_t1218 * ___ObjectRequired_1;
 	// System.Runtime.Serialization.BaseFixupRecord System.Runtime.Serialization.BaseFixupRecord::NextSameContainer
-	BaseFixupRecord_t1217 * ___NextSameContainer_2;
+	BaseFixupRecord_t1219 * ___NextSameContainer_2;
 	// System.Runtime.Serialization.BaseFixupRecord System.Runtime.Serialization.BaseFixupRecord::NextSameRequired
-	BaseFixupRecord_t1217 * ___NextSameRequired_3;
+	BaseFixupRecord_t1219 * ___NextSameRequired_3;
 };

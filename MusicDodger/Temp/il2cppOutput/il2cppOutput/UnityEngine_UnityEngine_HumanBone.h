@@ -7,19 +7,19 @@ struct String_t;
 // UnityEngine.HumanLimit
 #include "UnityEngine_UnityEngine_HumanLimit.h"
 // UnityEngine.HumanBone
-struct  HumanBone_t211 
+struct  HumanBone_t213 
 {
 	// System.String UnityEngine.HumanBone::m_BoneName
 	String_t* ___m_BoneName_0;
 	// System.String UnityEngine.HumanBone::m_HumanName
 	String_t* ___m_HumanName_1;
 	// UnityEngine.HumanLimit UnityEngine.HumanBone::limit
-	HumanLimit_t210  ___limit_2;
+	HumanLimit_t212  ___limit_2;
 };
 // Native definition for marshalling of: UnityEngine.HumanBone
-struct HumanBone_t211_marshaled
+struct HumanBone_t213_marshaled
 {
 	char* ___m_BoneName_0;
 	char* ___m_HumanName_1;
-	HumanLimit_t210  ___limit_2;
+	HumanLimit_t212  ___limit_2;
 };

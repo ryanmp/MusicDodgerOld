@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // UnityEngine.WritableAttribute
-struct  WritableAttribute_t288  : public Attribute_t166
+struct  WritableAttribute_t290  : public Attribute_t169
 {
 };

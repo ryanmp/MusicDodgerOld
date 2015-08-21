@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Channels.CrossAppDomainData
-struct CrossAppDomainData_t1124;
+struct CrossAppDomainData_t1126;
 // System.String
 struct String_t;
 
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainData::.ctor(System.Int32)
-extern "C" void CrossAppDomainData__ctor_m6419 (CrossAppDomainData_t1124 * __this, int32_t ___domainId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CrossAppDomainData__ctor_m6430 (CrossAppDomainData_t1126 * __this, int32_t ___domainId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.Remoting.Channels.CrossAppDomainData::get_DomainID()
-extern "C" int32_t CrossAppDomainData_get_DomainID_m6420 (CrossAppDomainData_t1124 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CrossAppDomainData_get_DomainID_m6431 (CrossAppDomainData_t1126 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.Channels.CrossAppDomainData::get_ProcessID()
-extern "C" String_t* CrossAppDomainData_get_ProcessID_m6421 (CrossAppDomainData_t1124 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* CrossAppDomainData_get_ProcessID_m6432 (CrossAppDomainData_t1126 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

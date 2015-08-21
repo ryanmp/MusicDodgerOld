@@ -5,7 +5,7 @@ struct Stack_1_t31;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.Stack`1/Enumerator<SimpleJSON.JSONNode>
-struct  Enumerator_t1499 
+struct  Enumerator_t1501 
 {
 	// System.Collections.Generic.Stack`1<T> System.Collections.Generic.Stack`1/Enumerator<SimpleJSON.JSONNode>::parent
 	Stack_1_t31 * ___parent_0;

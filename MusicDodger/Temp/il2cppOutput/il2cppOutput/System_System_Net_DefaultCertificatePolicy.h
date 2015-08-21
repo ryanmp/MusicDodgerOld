@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.DefaultCertificatePolicy
-struct  DefaultCertificatePolicy_t467  : public Object_t
+struct  DefaultCertificatePolicy_t469  : public Object_t
 {
 };

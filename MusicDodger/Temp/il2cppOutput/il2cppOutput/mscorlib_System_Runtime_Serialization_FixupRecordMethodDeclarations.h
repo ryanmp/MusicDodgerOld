@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.FixupRecord
-struct FixupRecord_t1220;
+struct FixupRecord_t1222;
 // System.Runtime.Serialization.ObjectRecord
-struct ObjectRecord_t1216;
+struct ObjectRecord_t1218;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 // System.Runtime.Serialization.ObjectManager
-struct ObjectManager_t1209;
+struct ObjectManager_t1211;
 
 // System.Void System.Runtime.Serialization.FixupRecord::.ctor(System.Runtime.Serialization.ObjectRecord,System.Reflection.MemberInfo,System.Runtime.Serialization.ObjectRecord)
-extern "C" void FixupRecord__ctor_m6865 (FixupRecord_t1220 * __this, ObjectRecord_t1216 * ___objectToBeFixed, MemberInfo_t * ___member, ObjectRecord_t1216 * ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FixupRecord__ctor_m6876 (FixupRecord_t1222 * __this, ObjectRecord_t1218 * ___objectToBeFixed, MemberInfo_t * ___member, ObjectRecord_t1218 * ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.FixupRecord::FixupImpl(System.Runtime.Serialization.ObjectManager)
-extern "C" void FixupRecord_FixupImpl_m6866 (FixupRecord_t1220 * __this, ObjectManager_t1209 * ___manager, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FixupRecord_FixupImpl_m6877 (FixupRecord_t1222 * __this, ObjectManager_t1211 * ___manager, const MethodInfo* method) IL2CPP_METHOD_ATTR;

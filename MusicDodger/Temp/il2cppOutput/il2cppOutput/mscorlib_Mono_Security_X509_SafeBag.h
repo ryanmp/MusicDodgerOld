@@ -3,14 +3,14 @@
 // System.String
 struct String_t;
 // Mono.Security.ASN1
-struct ASN1_t898;
+struct ASN1_t900;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.X509.SafeBag
-struct  SafeBag_t899  : public Object_t
+struct  SafeBag_t901  : public Object_t
 {
 	// System.String Mono.Security.X509.SafeBag::_bagOID
 	String_t* ____bagOID_0;
 	// Mono.Security.ASN1 Mono.Security.X509.SafeBag::_asn1
-	ASN1_t898 * ____asn1_1;
+	ASN1_t900 * ____asn1_1;
 };

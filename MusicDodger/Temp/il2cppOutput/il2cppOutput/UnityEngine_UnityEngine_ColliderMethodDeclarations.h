@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Collider
-struct Collider_t190;
+struct Collider_t193;
 

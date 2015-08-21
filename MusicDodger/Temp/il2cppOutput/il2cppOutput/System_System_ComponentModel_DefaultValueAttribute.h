@@ -5,7 +5,7 @@ struct Object_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.ComponentModel.DefaultValueAttribute
-struct  DefaultValueAttribute_t459  : public Attribute_t166
+struct  DefaultValueAttribute_t461  : public Attribute_t169
 {
 	// System.Object System.ComponentModel.DefaultValueAttribute::DefaultValue
 	Object_t * ___DefaultValue_0;

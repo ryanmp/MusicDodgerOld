@@ -7,16 +7,16 @@
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.GUI/ScrollViewState
-struct  ScrollViewState_t116  : public Object_t
+struct  ScrollViewState_t120  : public Object_t
 {
 	// UnityEngine.Rect UnityEngine.GUI/ScrollViewState::position
-	Rect_t117  ___position_0;
+	Rect_t121  ___position_0;
 	// UnityEngine.Rect UnityEngine.GUI/ScrollViewState::visibleRect
-	Rect_t117  ___visibleRect_1;
+	Rect_t121  ___visibleRect_1;
 	// UnityEngine.Rect UnityEngine.GUI/ScrollViewState::viewRect
-	Rect_t117  ___viewRect_2;
+	Rect_t121  ___viewRect_2;
 	// UnityEngine.Vector2 UnityEngine.GUI/ScrollViewState::scrollPosition
-	Vector2_t63  ___scrollPosition_3;
+	Vector2_t66  ___scrollPosition_3;
 	// System.Boolean UnityEngine.GUI/ScrollViewState::apply
 	bool ___apply_4;
 	// System.Boolean UnityEngine.GUI/ScrollViewState::hasScrollTo

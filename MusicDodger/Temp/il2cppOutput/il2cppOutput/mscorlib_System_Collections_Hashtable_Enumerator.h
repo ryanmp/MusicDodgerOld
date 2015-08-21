@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Hashtable
-struct Hashtable_t445;
+struct Hashtable_t447;
 // System.Object
 struct Object_t;
 // System.String
@@ -11,10 +11,10 @@ struct String_t;
 // System.Collections.Hashtable/EnumeratorMode
 #include "mscorlib_System_Collections_Hashtable_EnumeratorMode.h"
 // System.Collections.Hashtable/Enumerator
-struct  Enumerator_t935  : public Object_t
+struct  Enumerator_t937  : public Object_t
 {
 	// System.Collections.Hashtable System.Collections.Hashtable/Enumerator::host
-	Hashtable_t445 * ___host_0;
+	Hashtable_t447 * ___host_0;
 	// System.Int32 System.Collections.Hashtable/Enumerator::stamp
 	int32_t ___stamp_1;
 	// System.Int32 System.Collections.Hashtable/Enumerator::pos
@@ -28,7 +28,7 @@ struct  Enumerator_t935  : public Object_t
 	// System.Object System.Collections.Hashtable/Enumerator::currentValue
 	Object_t * ___currentValue_6;
 };
-struct Enumerator_t935_StaticFields{
+struct Enumerator_t937_StaticFields{
 	// System.String System.Collections.Hashtable/Enumerator::xstr
 	String_t* ___xstr_7;
 };

@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int64>
-struct Dictionary_2_t232;
+struct Dictionary_2_t234;
 // UnityEngine.Networking.Match.Request
 #include "UnityEngine_UnityEngine_Networking_Match_Request.h"
 // UnityEngine.Networking.Match.ListMatchRequest
-struct  ListMatchRequest_t239  : public Request_t228
+struct  ListMatchRequest_t241  : public Request_t230
 {
 	// System.Int32 UnityEngine.Networking.Match.ListMatchRequest::<pageSize>k__BackingField
 	int32_t ___U3CpageSizeU3Ek__BackingField_4;
@@ -18,7 +18,7 @@ struct  ListMatchRequest_t239  : public Request_t228
 	// System.Boolean UnityEngine.Networking.Match.ListMatchRequest::<includePasswordMatches>k__BackingField
 	bool ___U3CincludePasswordMatchesU3Ek__BackingField_7;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int64> UnityEngine.Networking.Match.ListMatchRequest::<matchAttributeFilterLessThan>k__BackingField
-	Dictionary_2_t232 * ___U3CmatchAttributeFilterLessThanU3Ek__BackingField_8;
+	Dictionary_2_t234 * ___U3CmatchAttributeFilterLessThanU3Ek__BackingField_8;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int64> UnityEngine.Networking.Match.ListMatchRequest::<matchAttributeFilterGreaterThan>k__BackingField
-	Dictionary_2_t232 * ___U3CmatchAttributeFilterGreaterThanU3Ek__BackingField_9;
+	Dictionary_2_t234 * ___U3CmatchAttributeFilterGreaterThanU3Ek__BackingField_9;
 };

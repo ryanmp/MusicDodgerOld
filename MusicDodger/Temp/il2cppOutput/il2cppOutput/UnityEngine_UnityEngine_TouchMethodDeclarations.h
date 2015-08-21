@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Touch
-struct Touch_t73;
-struct Touch_t73_marshaled;
+struct Touch_t76;
+struct Touch_t76_marshaled;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.TouchPhase
 #include "UnityEngine_UnityEngine_TouchPhase.h"
 
 // UnityEngine.Vector2 UnityEngine.Touch::get_position()
-extern "C" Vector2_t63  Touch_get_position_m270 (Touch_t73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t66  Touch_get_position_m279 (Touch_t76 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TouchPhase UnityEngine.Touch::get_phase()
-extern "C" int32_t Touch_get_phase_m272 (Touch_t73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-void Touch_t73_marshal(const Touch_t73& unmarshaled, Touch_t73_marshaled& marshaled);
-void Touch_t73_marshal_back(const Touch_t73_marshaled& marshaled, Touch_t73& unmarshaled);
-void Touch_t73_marshal_cleanup(Touch_t73_marshaled& marshaled);
+extern "C" int32_t Touch_get_phase_m281 (Touch_t76 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+void Touch_t76_marshal(const Touch_t76& unmarshaled, Touch_t76_marshaled& marshaled);
+void Touch_t76_marshal_back(const Touch_t76_marshaled& marshaled, Touch_t76& unmarshaled);
+void Touch_t76_marshal_cleanup(Touch_t76_marshaled& marshaled);

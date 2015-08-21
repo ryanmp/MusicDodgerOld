@@ -3,18 +3,18 @@
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // Mono.Security.X509.X509ExtensionCollection
-struct X509ExtensionCollection_t651;
+struct X509ExtensionCollection_t653;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // Mono.Security.X509.X509Crl/X509CrlEntry
-struct  X509CrlEntry_t627  : public Object_t
+struct  X509CrlEntry_t629  : public Object_t
 {
 	// System.Byte[] Mono.Security.X509.X509Crl/X509CrlEntry::sn
 	ByteU5BU5D_t36* ___sn_0;
 	// System.DateTime Mono.Security.X509.X509Crl/X509CrlEntry::revocationDate
-	DateTime_t125  ___revocationDate_1;
+	DateTime_t129  ___revocationDate_1;
 	// Mono.Security.X509.X509ExtensionCollection Mono.Security.X509.X509Crl/X509CrlEntry::extensions
-	X509ExtensionCollection_t651 * ___extensions_2;
+	X509ExtensionCollection_t653 * ___extensions_2;
 };

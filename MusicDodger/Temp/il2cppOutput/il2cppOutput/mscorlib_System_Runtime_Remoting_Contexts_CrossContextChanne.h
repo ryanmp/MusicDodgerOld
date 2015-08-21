@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Contexts.CrossContextChannel
-struct  CrossContextChannel_t1122  : public Object_t
+struct  CrossContextChannel_t1124  : public Object_t
 {
 };

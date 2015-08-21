@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // System.Type[]
-struct TypeU5BU5D_t265;
+struct TypeU5BU5D_t267;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Convert
@@ -14,5 +14,5 @@ struct Convert_t37_StaticFields{
 	// System.Object System.Convert::DBNull
 	Object_t * ___DBNull_0;
 	// System.Type[] System.Convert::conversionTable
-	TypeU5BU5D_t265* ___conversionTable_1;
+	TypeU5BU5D_t267* ___conversionTable_1;
 };

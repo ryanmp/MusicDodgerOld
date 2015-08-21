@@ -7,6 +7,10 @@ using System.Linq;
 /*
  * todo:
  * 
+ * add in text for UI in level
+ * start the title screen and level select screen
+ * 
+ * 
  * add in possibility of collision of walls for some enemy types (probably just the circle!)
  * add in color change of enemies on song transitions
  * 
@@ -26,7 +30,6 @@ public class LevelSettings : MonoBehaviour
 	public string[] enemy_rotation_params;
 	public float[] enemy_size_params;
 	public float[] enemy_y_v_params;
-
 	public string[] enemy_x_v_params;
 	public float[] enemy_x_v_add_rand;
 
@@ -35,45 +38,33 @@ public class LevelSettings : MonoBehaviour
 	public static TextAsset filejson;
 	public static string fileNamejson = "Music/Levels/";
 	public string songName = "demo1";
-
-
-
-	public Camera main_camera;
-
-	public float initial_delay = 2.0f;
-
-	
-	public Color[] enemy_colors; // should have as many as enemy types perhaps? ... 
-
-
 	public AudioClip song_audio;
-
-
-
+	
+	public Camera main_camera;
+	public float initial_delay;
+	public float end_loop_multiplier;
 
 	//public int[] active_tracks = new int[]{0,1,2,3};
-	
-
-
 
 	public GameObject player;
-
-
 	public GameObject bg_container;
-
 	public GameObject[] bgs;
 	
 	public float[] transition_times = {5.0f,10.0f,20.0f};
 	public float transition_duration = 1.0f;
+	// should have as many as enemy types perhaps? ... 
+	// no --- setting color just based on current song phase now
+	public Color[] enemy_colors; 
+	private int color_idx = 0;
+	public static Color current_enemy_color;
 
-	public float end_loop_multiplier;
 
-
-
+	
 	private static List<int> track_idxs = new List<int> ();
 	private static Vector2 bounds;
 	private AudioSource audio_source;
 	private float player_movement_dir = 0; // 0 = no movement, -1 = left, 1 = right
+
 	private List<GameObject> clones = new List<GameObject> ();
 	private List<float> fade_in_list = new List<float> ();
 
@@ -83,8 +74,7 @@ public class LevelSettings : MonoBehaviour
 	{
 		Application.targetFrameRate = 300;
 	}
-	
-	// Use this for initialization
+
 	void Start ()
 	{
 	
@@ -113,12 +103,9 @@ public class LevelSettings : MonoBehaviour
 		audio_source.volume = 0.1f;
 		audio_source.PlayScheduled (AudioSettings.dspTime + initial_delay); // 2 second delay
 
+		bg_container.transform.localScale = new Vector3 (bounds.x / 5.6f, bounds.y / 5.6f, 1.0f); // set background size to fill screen
 
-		// set background size to fill screen
-
-		bg_container.transform.localScale = new Vector3 (bounds.x / 5.6f, bounds.y / 5.6f, 1.0f);
-
-
+		current_enemy_color = enemy_colors [0];
 
 	}
 
@@ -143,7 +130,9 @@ public class LevelSettings : MonoBehaviour
 
 
 
-
+		// set wall bounce param
+		//EnemyScript e = clone.GetComponent ("EnemyScript") as EnemyScript;
+		//e.does_wall_bounce = true;
 
 
 
@@ -175,11 +164,13 @@ public class LevelSettings : MonoBehaviour
 		// set color
 		SpriteRenderer sr = clone.GetComponent ("SpriteRenderer") as SpriteRenderer;
 		//int color_idx = i%enemy_colors.Length;
-		int color_idx = 0;
-		//sr.color = enemy_colors[color_idx];
+
+		//sr.color = enemy_colors [color_idx];
+
+		current_enemy_color = enemy_colors [color_idx];
 
 		//sr.color = Color.Lerp(new Color(0.0f,0.0f,0.0f), new Color(0.0f,0.0f,0.0f), 2.0f);
-		Color c = enemy_colors [color_idx];
+		Color c = current_enemy_color;
 		sr.color = new Color (c.r, c.g, c.b, 0.7f);
 
 		return clone;
@@ -219,18 +210,11 @@ public class LevelSettings : MonoBehaviour
 			}
 		}
 
-
 		// phase 2 --- loop through all existant enemies
-		for (int i = 0; i < clones.Count; i++) {
-			// destroy off screen ones
-			/*
-			SpriteRenderer sr = clones[i].GetComponent ("SpriteRenderer") as SpriteRenderer;
-			if (!sr.isVisible) {
-				Destroy(clones[i]);
-				clones.RemoveAt(i);
-			}
-			*/
-		}
+		UpdateEnemies ();
+
+
+
 
 
 		// phase 3 -- get input and move player
@@ -254,7 +238,12 @@ public class LevelSettings : MonoBehaviour
 	}
 
 
+	void UpdateEnemies ()
+	{
+		for (int i = 0; i < clones.Count; i++) {
 
+		}
+	}
 
 	void ColorFades ()
 	{
@@ -263,6 +252,9 @@ public class LevelSettings : MonoBehaviour
 		float start_fade_at = transition_times [0] + initial_delay;
 		float end_fade_at = transition_times [0] + initial_delay + transition_duration;
 		if (Time.timeSinceLevelLoad > start_fade_at && Time.timeSinceLevelLoad < end_fade_at) {
+
+			color_idx = 1;
+
 			float this_t = (Time.timeSinceLevelLoad - start_fade_at) / transition_duration;
 			Debug.Log (this_t);
 			// fade in bg2
@@ -275,6 +267,9 @@ public class LevelSettings : MonoBehaviour
 		start_fade_at = transition_times [1] + initial_delay;
 		end_fade_at = transition_times [1] + initial_delay + transition_duration;
 		if (Time.timeSinceLevelLoad > start_fade_at && Time.timeSinceLevelLoad < end_fade_at) {
+
+			color_idx = 2;
+
 			float this_t = (Time.timeSinceLevelLoad - start_fade_at) / transition_duration;
 			Debug.Log (this_t);
 			// fade in bg2

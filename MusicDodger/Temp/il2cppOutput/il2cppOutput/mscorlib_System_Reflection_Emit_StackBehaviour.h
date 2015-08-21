@@ -5,7 +5,7 @@
 // System.Reflection.Emit.StackBehaviour
 #include "mscorlib_System_Reflection_Emit_StackBehaviour.h"
 // System.Reflection.Emit.StackBehaviour
-struct  StackBehaviour_t1033 
+struct  StackBehaviour_t1035 
 {
 	// System.Int32 System.Reflection.Emit.StackBehaviour::value__
 	int32_t ___value___1;

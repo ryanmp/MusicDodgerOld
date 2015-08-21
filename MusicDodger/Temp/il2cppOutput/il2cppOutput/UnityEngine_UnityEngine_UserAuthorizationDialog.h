@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Texture
-struct Texture_t106;
+struct Texture_t110;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.UserAuthorizationDialog
-struct  UserAuthorizationDialog_t333  : public MonoBehaviour_t50
+struct  UserAuthorizationDialog_t335  : public MonoBehaviour_t52
 {
 	// UnityEngine.Rect UnityEngine.UserAuthorizationDialog::windowRect
-	Rect_t117  ___windowRect_4;
+	Rect_t121  ___windowRect_4;
 	// UnityEngine.Texture UnityEngine.UserAuthorizationDialog::warningIcon
-	Texture_t106 * ___warningIcon_5;
+	Texture_t110 * ___warningIcon_5;
 };

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Diagnostics.ConditionalAttribute
-struct ConditionalAttribute_t833;
+struct ConditionalAttribute_t835;
 // System.String
 struct String_t;
 
 // System.Void System.Diagnostics.ConditionalAttribute::.ctor(System.String)
-extern "C" void ConditionalAttribute__ctor_m4454 (ConditionalAttribute_t833 * __this, String_t* ___conditionString, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConditionalAttribute__ctor_m4465 (ConditionalAttribute_t835 * __this, String_t* ___conditionString, const MethodInfo* method) IL2CPP_METHOD_ATTR;

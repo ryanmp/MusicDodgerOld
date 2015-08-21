@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.BitArray
-struct BitArray_t602;
+struct BitArray_t604;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.BitArray/BitArrayEnumerator
-struct  BitArrayEnumerator_t929  : public Object_t
+struct  BitArrayEnumerator_t931  : public Object_t
 {
 	// System.Collections.BitArray System.Collections.BitArray/BitArrayEnumerator::_bitArray
-	BitArray_t602 * ____bitArray_0;
+	BitArray_t604 * ____bitArray_0;
 	// System.Boolean System.Collections.BitArray/BitArrayEnumerator::_current
 	bool ____current_1;
 	// System.Int32 System.Collections.BitArray/BitArrayEnumerator::_index

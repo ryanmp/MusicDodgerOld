@@ -3,6 +3,6 @@
 // System.Collections.Generic.Comparer`1<System.Int32>
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen.h"
 // System.Collections.Generic.GenericComparer`1<System.Int32>
-struct  GenericComparer_1_t1796  : public Comparer_1_t1795
+struct  GenericComparer_1_t1798  : public Comparer_1_t1797
 {
 };

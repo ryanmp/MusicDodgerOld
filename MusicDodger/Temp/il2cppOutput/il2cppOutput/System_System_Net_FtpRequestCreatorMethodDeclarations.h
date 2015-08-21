@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.FtpRequestCreator
-struct FtpRequestCreator_t473;
+struct FtpRequestCreator_t475;
 // System.Net.WebRequest
-struct WebRequest_t471;
+struct WebRequest_t473;
 // System.Uri
-struct Uri_t253;
+struct Uri_t255;
 
 // System.Void System.Net.FtpRequestCreator::.ctor()
-extern "C" void FtpRequestCreator__ctor_m1702 (FtpRequestCreator_t473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpRequestCreator__ctor_m1713 (FtpRequestCreator_t475 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebRequest System.Net.FtpRequestCreator::Create(System.Uri)
-extern "C" WebRequest_t471 * FtpRequestCreator_Create_m1703 (FtpRequestCreator_t473 * __this, Uri_t253 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebRequest_t473 * FtpRequestCreator_Create_m1714 (FtpRequestCreator_t475 * __this, Uri_t255 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;

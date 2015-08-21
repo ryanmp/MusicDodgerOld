@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Diagnostics.ConditionalAttribute
-struct  ConditionalAttribute_t833  : public Attribute_t166
+struct  ConditionalAttribute_t835  : public Attribute_t169
 {
 	// System.String System.Diagnostics.ConditionalAttribute::myCondition
 	String_t* ___myCondition_0;

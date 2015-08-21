@@ -5,8 +5,8 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.UnityEvent`1<System.Object>
-struct UnityEvent_1_t1753;
+struct UnityEvent_1_t1755;
 
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::.ctor()
-extern "C" void UnityEvent_1__ctor_m11818_gshared (UnityEvent_1_t1753 * __this, const MethodInfo* method);
-#define UnityEvent_1__ctor_m11818(__this, method) (( void (*) (UnityEvent_1_t1753 *, const MethodInfo*))UnityEvent_1__ctor_m11818_gshared)(__this, method)
+extern "C" void UnityEvent_1__ctor_m11829_gshared (UnityEvent_1_t1755 * __this, const MethodInfo* method);
+#define UnityEvent_1__ctor_m11829(__this, method) (( void (*) (UnityEvent_1_t1755 *, const MethodInfo*))UnityEvent_1__ctor_m11829_gshared)(__this, method)

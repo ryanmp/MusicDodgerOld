@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.MethodBase
-struct MethodBase_t439;
+struct MethodBase_t441;
 // System.String
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Diagnostics.StackFrame
-struct  StackFrame_t438  : public Object_t
+struct  StackFrame_t440  : public Object_t
 {
 	// System.Int32 System.Diagnostics.StackFrame::ilOffset
 	int32_t ___ilOffset_1;
 	// System.Int32 System.Diagnostics.StackFrame::nativeOffset
 	int32_t ___nativeOffset_2;
 	// System.Reflection.MethodBase System.Diagnostics.StackFrame::methodBase
-	MethodBase_t439 * ___methodBase_3;
+	MethodBase_t441 * ___methodBase_3;
 	// System.String System.Diagnostics.StackFrame::fileName
 	String_t* ___fileName_4;
 	// System.Int32 System.Diagnostics.StackFrame::lineNumber

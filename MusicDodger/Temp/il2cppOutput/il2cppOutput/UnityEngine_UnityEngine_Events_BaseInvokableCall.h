@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Events.BaseInvokableCall
-struct  BaseInvokableCall_t324  : public Object_t
+struct  BaseInvokableCall_t326  : public Object_t
 {
 };

@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.SynchronizedReader
-struct SynchronizedReader_t997;
+struct SynchronizedReader_t999;
 // System.IO.TextReader
-struct TextReader_t919;
+struct TextReader_t921;
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t367;
+struct CharU5BU5D_t369;
 
 // System.Void System.IO.SynchronizedReader::.ctor(System.IO.TextReader)
-extern "C" void SynchronizedReader__ctor_m5736 (SynchronizedReader_t997 * __this, TextReader_t919 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SynchronizedReader__ctor_m5747 (SynchronizedReader_t999 * __this, TextReader_t921 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.SynchronizedReader::Peek()
-extern "C" int32_t SynchronizedReader_Peek_m5737 (SynchronizedReader_t997 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SynchronizedReader_Peek_m5748 (SynchronizedReader_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.SynchronizedReader::ReadLine()
-extern "C" String_t* SynchronizedReader_ReadLine_m5738 (SynchronizedReader_t997 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SynchronizedReader_ReadLine_m5749 (SynchronizedReader_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.SynchronizedReader::ReadToEnd()
-extern "C" String_t* SynchronizedReader_ReadToEnd_m5739 (SynchronizedReader_t997 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SynchronizedReader_ReadToEnd_m5750 (SynchronizedReader_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.SynchronizedReader::Read()
-extern "C" int32_t SynchronizedReader_Read_m5740 (SynchronizedReader_t997 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SynchronizedReader_Read_m5751 (SynchronizedReader_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.SynchronizedReader::Read(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t SynchronizedReader_Read_m5741 (SynchronizedReader_t997 * __this, CharU5BU5D_t367* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SynchronizedReader_Read_m5752 (SynchronizedReader_t999 * __this, CharU5BU5D_t369* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.QuickSearch
-struct QuickSearch_t575;
+struct QuickSearch_t577;
 // System.String
 struct String_t;
 
 // System.Void System.Text.RegularExpressions.QuickSearch::.ctor(System.String,System.Boolean,System.Boolean)
-extern "C" void QuickSearch__ctor_m2294 (QuickSearch_t575 * __this, String_t* ___str, bool ___ignore, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void QuickSearch__ctor_m2305 (QuickSearch_t577 * __this, String_t* ___str, bool ___ignore, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.QuickSearch::.cctor()
-extern "C" void QuickSearch__cctor_m2295 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void QuickSearch__cctor_m2306 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.QuickSearch::get_Length()
-extern "C" int32_t QuickSearch_get_Length_m2296 (QuickSearch_t575 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t QuickSearch_get_Length_m2307 (QuickSearch_t577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.QuickSearch::Search(System.String,System.Int32,System.Int32)
-extern "C" int32_t QuickSearch_Search_m2297 (QuickSearch_t575 * __this, String_t* ___text, int32_t ___start, int32_t ___end, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t QuickSearch_Search_m2308 (QuickSearch_t577 * __this, String_t* ___text, int32_t ___start, int32_t ___end, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.QuickSearch::SetupShiftTable()
-extern "C" void QuickSearch_SetupShiftTable_m2298 (QuickSearch_t575 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void QuickSearch_SetupShiftTable_m2309 (QuickSearch_t577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.QuickSearch::GetShiftDistance(System.Char)
-extern "C" int32_t QuickSearch_GetShiftDistance_m2299 (QuickSearch_t575 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t QuickSearch_GetShiftDistance_m2310 (QuickSearch_t577 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Text.RegularExpressions.QuickSearch::GetChar(System.Char)
-extern "C" uint16_t QuickSearch_GetChar_m2300 (QuickSearch_t575 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t QuickSearch_GetChar_m2311 (QuickSearch_t577 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;

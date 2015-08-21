@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.CharSet
-struct CharSet_t1098;
+struct CharSet_t1100;
 

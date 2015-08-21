@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AnimationState
-struct AnimationState_t200;
+struct AnimationState_t202;
 

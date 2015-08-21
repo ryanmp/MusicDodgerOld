@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.GUILayer
-struct GUILayer_t112;
+struct GUILayer_t116;
 // UnityEngine.GUIElement
-struct GUIElement_t111;
+struct GUIElement_t115;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // UnityEngine.GUIElement UnityEngine.GUILayer::HitTest(UnityEngine.Vector3)
-extern "C" GUIElement_t111 * GUILayer_HitTest_m398 (GUILayer_t112 * __this, Vector3_t65  ___screenPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GUIElement_t115 * GUILayer_HitTest_m408 (GUILayer_t116 * __this, Vector3_t70  ___screenPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GUIElement UnityEngine.GUILayer::INTERNAL_CALL_HitTest(UnityEngine.GUILayer,UnityEngine.Vector3&)
-extern "C" GUIElement_t111 * GUILayer_INTERNAL_CALL_HitTest_m399 (Object_t * __this /* static, unused */, GUILayer_t112 * ___self, Vector3_t65 * ___screenPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GUIElement_t115 * GUILayer_INTERNAL_CALL_HitTest_m409 (Object_t * __this /* static, unused */, GUILayer_t116 * ___self, Vector3_t70 * ___screenPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
