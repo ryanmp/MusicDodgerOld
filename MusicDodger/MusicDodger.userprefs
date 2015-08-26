@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelSettings.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LevelSets_btn.cs">
     <Files>
-      <File FileName="Assets/Scripts/LevelSettings.cs" Line="130" Column="53" />
+      <File FileName="Assets/Scripts/LevelSettings.cs" Line="11" Column="50" />
+      <File FileName="Assets/Scripts/EnemyScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/LevelSets_btn.cs" Line="16" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
