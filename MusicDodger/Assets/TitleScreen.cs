@@ -6,51 +6,95 @@ public class TitleScreen : MonoBehaviour
 {
 
 	public Camera c;
-	public float cam_speed = 10f;
+	public float cam_transition_time = 0.5f;
+
+
+
 
 	private Vector3 initial_pos = new Vector3 (0f, 0f, -450f); 
-	private Vector3 target_pos = new Vector3 ();
+	private static Vector3 target_pos = new Vector3 ();
+
+	private static float startTime = 0.0f;
+
 	
 	// Use this for initialization
 	void Start ()
 	{
 		c.transform.position = new Vector3 (0, 0, -2000f);
 		target_pos = initial_pos;
+		startTime = Time.time;
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-		c.transform.position = Vector3.Lerp (c.transform.position, target_pos, cam_speed * Time.deltaTime);
+
+
+		float t = (Time.time - startTime) / cam_transition_time;
+		t *= t; // linear -> easeinout
+
+
+		//Debug.Log ("cam pos " + c.transform.position + " target pos " + target_pos + "start time " + startTime + " t " + t);
+
+		if (t >= 0 && t <= 1) {
+			c.transform.position = Vector3.Lerp (c.transform.position, target_pos, t);
+		}
 
 
 	}
 
 
 
-	public void LevelSets_btn ()
+	public void ToLevelSets ()
 	{
-		Debug.Log ("LevelSets_btn");
-
-		target_pos = new Vector3 (640.0f, 0.0f, -450f);
+		startTime = Time.time;
+		target_pos = new Vector3 (320f, 0f, -450f);
 	}
 
-	public void Options_btn ()
+	public void ToOptions ()
 	{
-		Debug.Log ("Options_btn");
+		startTime = Time.time;
+		target_pos = new Vector3 (-320f, 0f, -450f);
 	}
 
-	public void Buy_btn ()
+	public void ToBuy ()
 	{
-		Debug.Log ("Buy_btn");
+		startTime = Time.time;
+		target_pos = new Vector3 (0f, -568f, -450f);
 	}
 
-	public void LevelSetsScreen_back_btn ()
+	public void ToTitle ()
 	{
-		Debug.Log ("LevelSetsScreen_back_btn");
-
-		target_pos = new Vector3 (0.0f, 0.0f, -450f);
+		startTime = Time.time;
+		target_pos = new Vector3 (0f, 0f, -450f);
 	}
+	
+	public void ToDualColor ()
+	{
+		startTime = Time.time;
+		target_pos = new Vector3 (640f, 568f, -450f);
+	}
+	
+	public void ToLevelOrangeBlue ()
+	{
+		Application.LoadLevel ("OrangeBlue");
+	}
+
+	public void ToLevelPurpleGreen ()
+	{
+		Debug.Log ("loading ToLevelPurpleGreen");
+	}
+
+	public void ToLevelRedYellow ()
+	{
+		Debug.Log ("loading ToLevelRedYellow");
+	}
+
+
+
+
+
+
 
 
 }
