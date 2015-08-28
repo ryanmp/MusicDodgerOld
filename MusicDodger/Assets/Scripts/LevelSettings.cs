@@ -68,8 +68,14 @@ public class LevelSettings : MonoBehaviour
 	private List<GameObject> clones = new List<GameObject> ();
 	private List<float> fade_in_list = new List<float> ();
 
-
-
+	// player movement params
+	public float player_max_v = 0.5f;
+	private float grav_dir = 0f;
+	public float grav_strength = 0.4f;
+	public float player_input_scalar = 0.0015f;
+	public float bounce_dampening = 0.7f;
+	public float air_drag = 0.01f;
+	
 	void Awake ()
 	{
 		Application.targetFrameRate = 300;
@@ -97,6 +103,7 @@ public class LevelSettings : MonoBehaviour
 		//Vector3 bottom_left = main_camera.ScreenToWorldPoint(new Vector3(Screen.width,Screen.height,camera_distance));
 
 		bounds = new Vector2 (upper_right.x, upper_right.y);
+		Debug.Log ("world coordinates boundaries " + bounds);
 
 		audio_source = gameObject.AddComponent<AudioSource> ();
 		audio_source.clip = song_audio;
@@ -112,10 +119,6 @@ public class LevelSettings : MonoBehaviour
 	GameObject GenEnemy (int i, float velocity, float note)
 	{
 
-
-
-
-
 		// pick prefab -> set size & position
 		GameObject clone = Instantiate (enemy_prefabs [i], new Vector3 (0, 0, 0), Quaternion.identity) as GameObject;
 		clone.transform.localScale = Vector3.one * (velocity + enemy_size_params [i]);
@@ -127,15 +130,9 @@ public class LevelSettings : MonoBehaviour
 
 		clone.transform.position = new Vector3 (x_pos, y_pos, 0);
 
-
-
-
 		// set wall bounce param
 		//EnemyScript e = clone.GetComponent ("EnemyScript") as EnemyScript;
 		//e.does_wall_bounce = true;
-
-
-
 
 		// set velocity
 		float x_vel = 0.0f;
@@ -158,9 +155,6 @@ public class LevelSettings : MonoBehaviour
 			rb.angularVelocity = 0.0f;
 		}
 
-
-
-
 		// set color
 		SpriteRenderer sr = clone.GetComponent ("SpriteRenderer") as SpriteRenderer;
 		//int color_idx = i%enemy_colors.Length;
@@ -175,21 +169,13 @@ public class LevelSettings : MonoBehaviour
 
 		return clone;
 	
-
 	}
-
-
-
 
 
 	void Update ()
 	{
 
 		ColorFades ();
-
-
-
-
 
 		// phase 1 --- spawn enemies
 		for (int i = 0; i < testData.Count; i++) { //loop through all tracks
@@ -213,27 +199,8 @@ public class LevelSettings : MonoBehaviour
 		// phase 2 --- loop through all existant enemies
 		UpdateEnemies ();
 
-
-
-
-
 		// phase 3 -- get input and move player
-		for (var i = 0; i < Input.touchCount; ++i) {
-
-			if (Input.GetTouch (i).position.x < Screen.width / 2.0f) {
-				player_movement_dir = -1.0f;
-			} else {
-				player_movement_dir = 1.0f;
-			}
-
-			if (Input.GetTouch (i).phase == TouchPhase.Ended) {
-				//Debug.Log ("ended at: " + Input.GetTouch(i).position);
-				player_movement_dir = 0;
-			}
-		}
-
-		//Debug.Log (player_movement_dir);
-		//Debug.Log (Input.GetAxis("Horizontal"));
+		PlayerMovement ();
 
 	}
 
@@ -256,7 +223,7 @@ public class LevelSettings : MonoBehaviour
 			color_idx = 1;
 
 			float this_t = (Time.timeSinceLevelLoad - start_fade_at) / transition_duration;
-			Debug.Log (this_t);
+			//Debug.Log (this_t);
 			// fade in bg2
 			float alpha = Mathf.Lerp (0, 1, this_t);
 			bg2_sr.color = new Color (1.0f, 1.0f, 1.0f, alpha);
@@ -271,7 +238,7 @@ public class LevelSettings : MonoBehaviour
 			color_idx = 2;
 
 			float this_t = (Time.timeSinceLevelLoad - start_fade_at) / transition_duration;
-			Debug.Log (this_t);
+			//Debug.Log (this_t);
 			// fade in bg2
 			float alpha = Mathf.Lerp (0, 1, this_t);
 			bg3_sr.color = new Color (1.0f, 1.0f, 1.0f, alpha);
@@ -280,6 +247,75 @@ public class LevelSettings : MonoBehaviour
 		
 	}
 
+	void PlayerMovement ()
+	{
+		Rigidbody2D player_rb = player.GetComponent<Rigidbody2D> ();
+		float r = player.GetComponent<CircleCollider2D> ().radius * 5.0f; // random 5? this object is scaled by 5x argh that's annoying
 
+		// touch input (mobile devices)
+		for (var i = 0; i < Input.touchCount; ++i) {
+			if (Input.GetTouch (i).position.x < Screen.width / 2.0f) {
+				player_movement_dir = -1.0f;
+			} else {
+				player_movement_dir = 1.0f;
+			}
+			if (Input.GetTouch (i).phase == TouchPhase.Ended) {
+				Debug.Log ("ended at: " + Input.GetTouch (i).position);
+				player_movement_dir = 0;
+			}
+		}
+		// keyboard/controller input
+		/*
+		if (Application.platform == RuntimePlatform.OSXEditor) {
+			if (Input.GetAxis ("Horizontal") > 0) {
+				player_movement_dir = 1.0f;
+			} else if (Input.GetAxis ("Horizontal") < 0) {
+				player_movement_dir = -1.0f;
+			} else {
+				player_movement_dir = 0.0f;
+			}
+		}*/
+
+		// always apply gravity 
+		//player.v.y = player.v.y + player.a.y * grav_dir * delta - player.v.y * delta * AIR_DRAG;
+
+		float v_x = player_rb.velocity.x + grav_dir * grav_strength - player_rb.velocity.x * air_drag;
+		player_rb.velocity = new Vector2 (v_x, player_rb.velocity.y);
+
+		// update gravity direction
+		if (player.transform.position.x > 0) {
+			grav_dir = -1;
+		} else if (player.transform.position.x < 0) {
+			grav_dir = 1;
+		} else {
+			grav_dir = 0;
+		}
+
+		// apply player input to player object
+
+		if (player_movement_dir == 1 && player_rb.velocity.x < player_max_v) {
+			//player.v.y += -1*INPUT_SCALAR;
+			player_rb.velocity = new Vector2 (player_rb.velocity.x + (player_input_scalar), player_rb.velocity.y);
+		}
+
+		if (player_movement_dir == -1 && player_rb.velocity.x > player_max_v * -1) {
+			//player.v.y += INPUT_SCALAR;
+			player_rb.velocity = new Vector2 (player_rb.velocity.x + (-1 * player_input_scalar), player_rb.velocity.y);
+		}
+
+		//basic wall collision
+		if (player.transform.position.x + r >= bounds.x) {
+			player.transform.position = new Vector2 (player.transform.position.x - .1f, player.transform.position.y);
+			player_rb.velocity = new Vector2 (-1 * bounce_dampening * player_rb.velocity.x, player_rb.velocity.y);
+
+		}
+		if (player.transform.position.x - r <= -bounds.x) {
+			player.transform.position = new Vector2 (player.transform.position.x + .1f, player.transform.position.y);
+			player_rb.velocity = new Vector2 (-1 * bounce_dampening * player_rb.velocity.x, player_rb.velocity.y);
+		}
+			
+		//Debug.Log (player_rb.velocity);
+		//Debug.Log (player_movement_dir);
+	}
 
 }
